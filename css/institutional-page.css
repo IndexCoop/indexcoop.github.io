@@ -325,6 +325,7 @@ h2 {
 
 .grid.main {
   padding: 0px;
+  grid-row-gap: 16px;
 }
 
 .grid.boxes {
