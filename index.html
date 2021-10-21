@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Oct 14 2021 04:50:13 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Oct 21 2021 20:41:32 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6108c4981c303c1dff7f2027" data-wf-site="60d237b6ea65be721ff4bbfa">
 <head>
   <meta charset="utf-8">
@@ -103,6 +103,9 @@ color: #433BCE
 #content.dark-mode > .gray_bg{
   background-color: #1D1B16;
 }
+#content.dark-mode .maincontainer.investors.w-container {
+    background: #1D1B16;
+}
 #content.dark-mode a.w--current {
  color: #707AFF;
 }
@@ -129,8 +132,7 @@ color: #433BCE
 	border-bottom: 1px solid #fff;
 }
 #content.dark-mode .eco-grid {
-	background-color: #0F0E0B;
-  border: 1px solid white;
+	background-color: #1D1B16;
 } 
 #content.dark-mode .dark_mode_investico{
 	display: block;
@@ -187,7 +189,7 @@ color: #433BCE
               <a href="mvi.html" class="dropdown-text w-dropdown-link">MVI</a>
               <a href="bankless-bed-index.html" class="dropdown-text w-dropdown-link">BED</a>
               <a href="eth-2x-fli.html" class="dropdown-text w-dropdown-link">FLI-ETH</a>
-              <a href="btc-2x-fli.html" class="dropdown-text w-dropdown-link">BTC-ETH</a>
+              <a href="btc-2x-fli.html" class="dropdown-text w-dropdown-link">FLI-BTC</a>
             </nav>
           </div>
           <div data-delay="3" data-hover="false" class="w-dropdown">
@@ -283,7 +285,7 @@ input:checked+.toggleTheme:before {
                 <path d="M16 0C12.8355 0 9.74207 0.938384 7.11088 2.69649C4.4797 4.45459 2.42894 6.95345 1.21793 9.87707C0.00693253 12.8007 -0.309921 16.0177 0.307443 19.1214C0.924806 22.2251 2.44866 25.0761 4.6863 27.3137C6.92394 29.5513 9.77487 31.0752 12.8786 31.6926C15.9823 32.3099 19.1993 31.9931 22.1229 30.7821C25.0466 29.5711 27.5454 27.5203 29.3035 24.8891C31.0616 22.2579 32 19.1645 32 16C31.9952 11.758 30.308 7.69112 27.3084 4.69157C24.3089 1.69202 20.242 0.00477931 16 0ZM2.30858 16.4503L3.83818 16.9598L5.71429 19.7745V21.2409C5.7143 21.544 5.83471 21.8347 6.04903 22.049L9.14286 25.1429V27.8589C7.12912 26.6935 5.44513 25.0348 4.24949 23.0389C3.05385 21.043 2.38591 18.7756 2.30858 16.4503ZM16 29.7143C15.0114 29.7124 14.0259 29.6033 13.0608 29.3889L13.7143 27.4286L15.7767 22.2725C15.8455 22.1003 15.8715 21.914 15.8523 21.7297C15.8331 21.5453 15.7693 21.3683 15.6665 21.2141L14.0536 18.7946C13.9492 18.6381 13.8078 18.5097 13.6419 18.4209C13.476 18.3322 13.2908 18.2857 13.1026 18.2857H7.46835L6.04183 16.1456L8.47326 13.7143H10.2857V16H12.5714V12.875L16.9922 5.1384L15.0078 4.00446L14.0307 5.71429H10.8974L9.65623 3.85269C11.3224 2.97334 13.1536 2.45097 15.033 2.31891C16.9124 2.18686 18.7986 2.44801 20.5714 3.08571V6.85714C20.5714 7.16025 20.6918 7.45094 20.9062 7.66527C21.1205 7.87959 21.4112 8 21.7143 8H23.3883C23.5765 8.00001 23.7617 7.95356 23.9276 7.86478C24.0935 7.77601 24.2349 7.64764 24.3393 7.49109L25.3415 5.98777C26.6471 7.20505 27.7032 8.66485 28.4509 10.2857H23.7943C23.5301 10.2857 23.274 10.3772 23.0697 10.5448C22.8654 10.7123 22.7254 10.9454 22.6736 11.2045L21.8483 16.3139C21.8095 16.5543 21.8485 16.8007 21.9595 17.0173C22.0705 17.234 22.2478 17.4095 22.4655 17.5184L26.2857 19.4286L27.0687 24.0637C25.8003 25.8119 24.1362 27.2352 22.2124 28.2173C20.2887 29.1993 18.1599 29.7123 16 29.7143Z"></path>
               </svg></div>
           </div>
-          <a href="indexcoop.com" class="app-button w-button">APP</a>
+          <a href="#" class="app-button w-button">APP</a>
         </nav>
         <div class="w-nav-button">
           <div class="w-icon-nav-menu"></div>
@@ -410,7 +412,7 @@ input:checked+.toggleTheme:before {
       </div>
     </div>
     <div class="investors gray_bg wf-section">
-      <div class="maincontainer w-container">
+      <div class="maincontainer investors w-container">
         <h2 class="allh2 investors_head">Investors</h2>
         <div class="companies">
           <div class="partner-logos"><img src="images/1confirmation_alt_black.svg" loading="lazy" alt="" class="light_mode_investico">
@@ -474,7 +476,7 @@ input:checked+.toggleTheme:before {
     </div>
     <div class="reviews-section gray_bg wf-section">
       <div class="maincontainer w-container">
-        <div data-animation="slide" data-nav-spacing="8" data-duration="500" data-infinite="1" class="slider-2 w-slider">
+        <div data-delay="4000" data-animation="slide" class="slider-2 w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="8" data-duration="500" data-infinite="true">
           <div class="w-slider-mask">
             <div class="w-slide">
               <div class="slider_column w-row">
@@ -494,7 +496,7 @@ input:checked+.toggleTheme:before {
             </div>
             <div class="w-slide">
               <div class="slider_column w-row">
-                <div class="slider_image w-col w-col-6"><img src="images/Kevin-Su.jpeg" loading="lazy" sizes="(max-width: 479px) 89vw, (max-width: 767px) 74vw, (max-width: 991px) 44vw, 355px" width="355" srcset="images/Kevin-Su-p-500.jpeg 500w, images/Kevin-Su.jpeg 800w" alt=""></div>
+                <div class="slider_image w-col w-col-6"><img src="images/Kevin-Su.jpeg" loading="lazy" sizes="(max-width: 479px) 89vw, (max-width: 767px) 355px, (max-width: 991px) 335px, 355px" width="355" srcset="images/Kevin-Su-p-500.jpeg 500w, images/Kevin-Su.jpeg 800w" alt=""></div>
                 <div class="slider_content w-col w-col-6">
                   <div class="slider_description">“@IndexCoop presents a clear solution with their index products, which de-risk investors, are easy to buy/sell, and are low cost, low maintenance, and tax efficient.”<strong><br></strong><br><span class="text-span-18">Kevin Su/ Messari </span></div>
                 </div>
@@ -502,7 +504,7 @@ input:checked+.toggleTheme:before {
             </div>
             <div class="w-slide">
               <div class="slider_column w-row">
-                <div class="slider_image w-col w-col-6"><img src="images/Lasse-Clausen.jpeg" loading="lazy" sizes="(max-width: 479px) 89vw, (max-width: 767px) 79vw, (max-width: 991px) 44vw, 377.98828125px" width="378" srcset="images/Lasse-Clausen-p-500.jpeg 500w, images/Lasse-Clausen.jpeg 800w" alt=""></div>
+                <div class="slider_image w-col w-col-6"><img src="images/Lasse-Clausen.jpeg" loading="lazy" sizes="(max-width: 479px) 89vw, (max-width: 767px) 378px, (max-width: 991px) 335px, 378px" width="378" srcset="images/Lasse-Clausen-p-500.jpeg 500w, images/Lasse-Clausen.jpeg 800w" alt=""></div>
                 <div class="slider_content w-col w-col-6">
                   <div class="slider_description">“Index is the market leader for on-chain ETF-like products and enables any DeFi user to get complex exposure that would be difficult to manually replicate,”<br><span class="text-span-18">Lasse Clausen/ Founding Partner at 1kx</span></div>
                 </div>
@@ -525,7 +527,7 @@ input:checked+.toggleTheme:before {
         <p class="allparagraph underh1 center">Explore apps and services you can use with Index Coop products</p>
         <h3 class="allh3">Earn Yield</h3>
         <div class="w-layout-grid maingrid dex">
-          <div class="eco-grid _1inch">
+          <div class="eco-grid indexcoop">
             <div class="product-title">
               <div class="ecoprodimg w-embed"><svg width="57" height="57" viewbox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M28.5 56C43.6878 56 56 43.6878 56 28.5C56 13.3122 43.6878 1 28.5 1C13.3122 1 1 13.3122 1 28.5C1 43.6878 13.3122 56 28.5 56Z" stroke="#BFBFBF" stroke-miterlimit="10" fill="white"></path>
