@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Oct 21 2021 20:41:32 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Oct 28 2021 22:04:12 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6142172faa2c1600732e5b4d" data-wf-site="60d237b6ea65be721ff4bbfa">
 <head>
   <meta charset="utf-8">
@@ -12,11 +12,11 @@
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/homepage-22c36f.webflow.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["IBM Plex Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic:cyrillic,cyrillic-ext,greek,latin,latin-ext,vietnamese","IBM Plex Mono:regular"]  }});</script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["IBM Plex Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic:cyrillic,cyrillic-ext,greek,latin,latin-ext,vietnamese","IBM Plex Mono:regular,500,600"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <link href="images/webclip.png" rel="apple-touch-icon">
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.ico" rel="apple-touch-icon">
   <style>
   .mainnavbar {
   backdrop-filter: blur(5px);
@@ -70,6 +70,9 @@ color: #433BCE
  #content.dark-mode a {
   color: #F7F6F2;
 }
+#content.dark-mode .accordion_header, #content.dark-mode .allparagraph2 {
+  color: #F7F1E4
+  }
 </style>
   <style>
 .w-slider-dot {
@@ -113,9 +116,6 @@ color: #433BCE
 #content.dark-mode .index_logo path {
   fill: #ffffff;
 }
-#content.dark-mode .language path {
-  fill: #ffffff;
-}
 #content.dark-mode .app-button {
   border: 2px solid #fff;
   background-color: transparent;
@@ -125,7 +125,6 @@ color: #433BCE
 }
 #content.dark-mode .eco-grid {
 	background-color: #0F0E0B;
-  border: 1px solid white;
 } 
 #content.dark-mode .dark_mode_investico{
 	display: block;
@@ -152,11 +151,69 @@ color: #433BCE
     color:    #000000;
     opacity: .5;
 }
+.no-scroll {overflow:hidden;}
+.w-nav-button.w--open{
+	background-color: transparent;
+}
+#content.dark-mode .w-nav-button.w--open{
+	background-color: black;
+}
+#content.dark-mode .close{
+	color: white;
+}
+#content.dark-mode .menu{
+	color: white;
+}
+#content.dark-mode .nav-menu-2{
+	background-color: black;
+}
+#content.dark-mode .menu_title .menu_gov{
+	color: white;
+}
+#content.dark-mode .menu_titlecont{
+  border-bottom: 2px solid #ffffff;
+}
+#content.dark-mode .language_icon.black{
+	display: none;
+}
+#content.dark-mode .language_icon.white{
+	display: block;
+}
+#content.dark-mode .toggle-theme2{
+	display: none;
+}
+#content.dark-mode .togglethemefooter {
+	display: block;
+}
+@media screen and (max-width: 991px){
+	#content.dark-mode .stickytoggles {
+		background-color: white;
+	}
+  #content.dark-mode .app-button {
+  	border: 2px solid black;
+    color: black;
+  }
+  #content.dark-mode .toggle-theme2{
+		display: block;
+	}
+	#content.dark-mode .togglethemefooter {
+		display: none;
+	}
+  #content.dark-mode .language_icon.black{
+		display: block;
+	}
+	#content.dark-mode .language_icon.white{
+		display: none;
+	}
+}
+label {
+	margin-bottom: 0px;
+}
 </style>
 </head>
 <body class="body">
   <div id="content" class="light-mode">
-    <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="mainnavbar w-nav">
+    <div data-collapse="medium" data-animation="default" data-duration="600" data-easing="ease" data-easing2="ease" data-doc-height="1" role="banner" class="mainnavbar w-nav">
       <div class="maincontainer nav w-container">
         <a href="index.html" class="brand-2 w-nav-brand">
           <div class="index_logo w-embed"><svg width="150%" height="150%" viewbox="0 0 175 40" xmlns="http://www.w3.org/2000/svg">
@@ -170,118 +227,272 @@ color: #433BCE
             </svg></div>
         </a>
         <nav role="navigation" class="nav-menu-2 w-nav-menu">
-          <a href="index.html" class="link-block nav-link w-inline-block">
-            <div>Home</div>
-          </a>
-          <div data-delay="3" data-hover="false" class="w-dropdown">
-            <div class="dropdown-nav nav-link w-dropdown-toggle">
-              <div>Products</div>
+          <div class="menu_container mobilenav">
+            <div class="menu_titlecont">
+              <div class="menu_title">Products</div>
             </div>
-            <nav class="dropdown-list-2 w-dropdown-list">
-              <a href="dpi.html" class="dropdown-text w-dropdown-link">DPI</a>
-              <a href="mvi.html" class="dropdown-text w-dropdown-link">MVI</a>
-              <a href="bankless-bed-index.html" class="dropdown-text w-dropdown-link">BED</a>
-              <a href="eth-2x-fli.html" class="dropdown-text w-dropdown-link">FLI-ETH</a>
-              <a href="btc-2x-fli.html" class="dropdown-text w-dropdown-link">FLI-BTC</a>
-            </nav>
-          </div>
-          <div data-delay="3" data-hover="false" class="w-dropdown">
-            <div class="dropdown-nav nav-link w-dropdown-toggle">
-              <div>Resources</div>
+            <div class="menu_prodscontainer">
+              <div class="menu_prods">
+                <a href="dpi.html" class="menu_producttitle">DPI</a>
+                <div class="menu_productdesc">No 1. DeFi Index</div>
+              </div>
+              <div class="menu_prods">
+                <a href="mvi.html" class="menu_producttitle">MVI</a>
+                <div class="menu_productdesc">Welcome to the Metaverse</div>
+              </div>
+              <div class="menu_prods">
+                <a href="bankless-bed-index.html" class="menu_producttitle">BED</a>
+                <div class="menu_productdesc">It&#x27;s time for bed</div>
+              </div>
+              <div class="menu_prods">
+                <a href="eth-2x-fli.html" class="menu_producttitle">ETH2x-FLI</a>
+                <div class="menu_productdesc">Fly me to the stars</div>
+              </div>
+              <div class="menu_prods">
+                <a href="btc-2x-fli.html" class="menu_producttitle">BTC2x-FLI</a>
+                <div class="menu_productdesc">Fly me to the moon</div>
+              </div>
+              <div class="menu_prods">
+                <a href="index-coop-data-index.html" class="menu_producttitle">DATA</a>
+                <div class="menu_productdesc">Data Centric, Chain Agnostic.</div>
+              </div>
             </div>
-            <nav class="dropdown-list-2 w-dropdown-list">
-              <a href="#" class="dropdown-text w-dropdown-link">Gitbook</a>
-              <a href="#" class="dropdown-text w-dropdown-link">Blog</a>
-              <a href="#" class="dropdown-text w-dropdown-link">Research</a>
-              <a href="methodologist.html" class="dropdown-text w-dropdown-link">Methodologist</a>
-              <a href="institution.html" class="dropdown-text w-dropdown-link">Institutions</a>
-            </nav>
           </div>
-          <div data-delay="3" data-hover="false" class="w-dropdown">
-            <div class="dropdown-nav nav-link w-dropdown-toggle">
-              <div>Community</div>
+          <div class="menu_container mobilenav">
+            <div class="menu_titlecont">
+              <div class="menu_title">Governance</div>
             </div>
-            <nav class="dropdown-list-2 w-dropdown-list">
-              <a href="https://gov.indexcoop.com/" target="_blank" class="dropdown-text w-dropdown-link">Forum</a>
-              <a href="https://twitter.com/indexcoop" target="_blank" class="dropdown-text w-dropdown-link">Twitter</a>
-              <a href="https://discord.gg/BcqYxdNC3R" target="_blank" class="dropdown-text w-dropdown-link">Discord</a>
-              <a href="#" class="dropdown-text w-dropdown-link">Guides</a>
-              <a href="#" class="dropdown-text w-dropdown-link">Merch Store</a>
-            </nav>
-          </div>
-          <div data-delay="3" data-hover="false" class="w-dropdown">
-            <div class="dropdown-nav nav-link w-dropdown-toggle">
-              <div>Token</div>
+            <div class="menu_gov">
+              <a href="index-token.html" class="menu_govlink">INDEX Token</a>
             </div>
-            <nav class="dropdown-list-2 w-dropdown-list">
-              <a href="index-token.html" class="dropdown-text w-dropdown-link">$Index</a>
-              <a href="#" class="dropdown-text w-dropdown-link">Vote</a>
-              <a href="#" class="dropdown-text w-dropdown-link">Rewards</a>
-              <a href="#" class="dropdown-text w-dropdown-link">Farm</a>
-              <a href="#" class="dropdown-text w-dropdown-link">Liquidity Mining</a>
-            </nav>
-          </div>
-          <div data-delay="3" data-hover="false" class="w-dropdown">
-            <div class="dropdown-nav nav-link w-dropdown-toggle">
-              <div>About </div>
+            <div class="menu_gov">
+              <a href="https://snapshot.org/#/index-coop.eth" class="menu_govlink">Voting Portal <span class="text-span-27">snapshot</span></a>
             </div>
-            <nav class="dropdown-list-2 w-dropdown-list">
-              <a href="about-index-coop.html" class="dropdown-text w-dropdown-link">About Us</a>
-              <a href="https://www.figma.com/file/In9xiyZbo5F3MzNT7C3KwS/Index-Coop---Brand-Framework?node-id=0%3A1" target="_blank" class="dropdown-text w-dropdown-link">Brand Guidelines</a>
-              <a href="#" class="dropdown-text w-dropdown-link">Contact</a>
-            </nav>
+            <div class="menu_gov">
+              <a href="#" class="menu_govlink">Farm</a>
+            </div>
+            <div class="menu_gov">
+              <a href="#" class="menu_govlink">Rewards</a>
+            </div>
           </div>
-          <div class="toggle">
-            <div class="toggle-theme2 w-embed"><label for="toggleTheme" title="Toggle theme">
-                <input id="toggleTheme" name="theme" type="checkbox">
-                <div class="toggleTheme toggleThemeIcon"></div>
-              </label>
-              <style>
+          <div class="menu_container mobilenav">
+            <div class="menu_titlecont">
+              <div class="menu_title">Resources</div>
+            </div>
+            <div class="menu_gov">
+              <a href="https://docs.indexcoop.com/" class="menu_govlink">Gitbook</a>
+            </div>
+            <div class="menu_gov">
+              <a href="#" class="menu_govlink">Blog</a>
+            </div>
+            <div class="menu_gov">
+              <a href="methodologist.html" class="menu_govlink">Methodologist</a>
+            </div>
+            <div class="menu_gov">
+              <a href="institution.html" class="menu_govlink">Institutions</a>
+            </div>
+          </div>
+          <div class="menu_container mobilenav">
+            <div class="menu_titlecont">
+              <div class="menu_title">Community</div>
+            </div>
+            <div class="menu_gov">
+              <a href="https://gov.indexcoop.com" target="_blank" class="menu_govlink">Forum</a>
+            </div>
+            <div class="menu_gov">
+              <a href="https://twitter.com/indexcoop" class="menu_govlink">Twitter</a>
+            </div>
+            <div class="menu_gov">
+              <a href="https://discord.com/invite/BcqYxdNC3R" class="menu_govlink">Discord</a>
+            </div>
+          </div>
+          <div class="menu_container mobilenav">
+            <div class="menu_titlecont">
+              <div class="menu_title">Token</div>
+            </div>
+            <div class="menu_gov">
+              <a href="index-token.html" class="menu_govlink">$Index</a>
+            </div>
+            <div class="menu_gov">
+              <a href="https://snapshot.org/#/index-coop.eth" class="menu_govlink">Vote</a>
+            </div>
+            <div class="menu_gov">
+              <a href="#" class="menu_govlink">Rewards</a>
+            </div>
+            <div class="menu_gov">
+              <a href="#" class="menu_govlink">Farm</a>
+            </div>
+            <div class="menu_gov">
+              <a href="#" class="menu_govlink">Liquidity Mining</a>
+            </div>
+          </div>
+          <div class="menu_container mobilenav">
+            <div class="menu_titlecont">
+              <div class="menu_title">About</div>
+            </div>
+            <div class="menu_gov">
+              <a href="about-index-coop.html" class="menu_govlink">About Us</a>
+            </div>
+            <div class="menu_gov">
+              <a href="index-coop-style-guide.html" class="menu_govlink">Brand Guidelines</a>
+            </div>
+          </div>
+          <div class="div-block-93">
+            <a href="index.html" class="link-block nav-link w-inline-block">
+              <div>Home</div>
+            </a>
+            <div data-delay="3" data-hover="false" class="w-dropdown">
+              <div class="dropdown-nav nav-link w-dropdown-toggle">
+                <div>Products</div>
+              </div>
+              <nav class="dropdown-list-2 w-dropdown-list">
+                <a href="dpi.html" class="dropdown-text w-dropdown-link">DPI</a>
+                <a href="mvi.html" class="dropdown-text w-dropdown-link">MVI</a>
+                <a href="bankless-bed-index.html" class="dropdown-text w-dropdown-link">BED</a>
+                <a href="eth-2x-fli.html" class="dropdown-text w-dropdown-link">FLI-ETH</a>
+                <a href="btc-2x-fli.html" class="dropdown-text w-dropdown-link">FLI-BTC</a>
+                <a href="index-coop-data-index.html" class="dropdown-text w-dropdown-link">DATA</a>
+              </nav>
+            </div>
+            <div data-delay="3" data-hover="false" class="w-dropdown">
+              <div class="dropdown-nav nav-link w-dropdown-toggle">
+                <div>Resources</div>
+              </div>
+              <nav class="dropdown-list-2 w-dropdown-list">
+                <a href="https://docs.indexcoop.com/" class="dropdown-text w-dropdown-link">Gitbook</a>
+                <a href="#" class="dropdown-text w-dropdown-link">Blog</a>
+                <a href="methodologist.html" class="dropdown-text w-dropdown-link">Methodologist</a>
+                <a href="institution.html" class="dropdown-text w-dropdown-link">Institutions</a>
+              </nav>
+            </div>
+            <div data-delay="3" data-hover="false" class="w-dropdown">
+              <div class="dropdown-nav nav-link w-dropdown-toggle">
+                <div>Community</div>
+              </div>
+              <nav class="dropdown-list-2 w-dropdown-list">
+                <a href="https://gov.indexcoop.com/" target="_blank" class="dropdown-text w-dropdown-link">Forum</a>
+                <a href="https://twitter.com/indexcoop" target="_blank" class="dropdown-text w-dropdown-link">Twitter</a>
+                <a href="https://discord.gg/BcqYxdNC3R" target="_blank" class="dropdown-text w-dropdown-link">Discord</a>
+              </nav>
+            </div>
+            <div data-delay="3" data-hover="false" class="w-dropdown">
+              <div class="dropdown-nav nav-link w-dropdown-toggle">
+                <div>Token</div>
+              </div>
+              <nav class="dropdown-list-2 w-dropdown-list">
+                <a href="index-token.html" class="dropdown-text w-dropdown-link">$Index</a>
+                <a href="https://snapshot.org/#/index-coop.eth" target="_blank" class="dropdown-text w-dropdown-link">Vote</a>
+                <a href="#" class="dropdown-text w-dropdown-link">Rewards</a>
+                <a href="#" class="dropdown-text w-dropdown-link">Farm</a>
+                <a href="#" class="dropdown-text w-dropdown-link">Liquidity Mining</a>
+              </nav>
+            </div>
+            <div data-delay="3" data-hover="false" class="w-dropdown">
+              <div class="dropdown-nav nav-link w-dropdown-toggle">
+                <div>About </div>
+              </div>
+              <nav class="dropdown-list-2 w-dropdown-list">
+                <a href="about-index-coop.html" class="dropdown-text w-dropdown-link">About Us</a>
+                <a href="index-coop-style-guide.html" class="dropdown-text w-dropdown-link">Brand Guidelines</a>
+              </nav>
+            </div>
+          </div>
+          <div class="stickytoggles">
+            <div class="div-block-95">
+              <div class="toggle">
+                <div class="toggle-theme2 w-embed"><label for="toggleTheme" title="Toggle theme">
+                    <input id="toggleTheme" name="theme" type="checkbox">
+                    <div class="toggleTheme toggleThemeIcon"></div>
+                  </label>
+                  <style>
 .toggleTheme {
 		text-align: left;
+    margin: auto;
     right: 0;
     top: 0;
     bottom: 0;
     cursor: pointer;
     height: 2.4rem;
-    background-color: #E8E8E8;
-    transition: .4s;
     border-radius: 8rem;
+    width: 2.4rem;
+    padding: .2rem;
 }
 .toggleTheme:before {
-		text-align: left;
+    position: absolute;
     content: '';
     height: 2rem;
-    background-color: #fff;
-    transition: .4s;
+    width: 2rem;
     border-radius: 4rem;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
 		background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
 }
 input[type="checkbox"] {
 	display: none;
 }
-input:checked+.toggleTheme {
-    background-color: #8150E6;
-}
-input:checked+.toggleTheme:before {
+input[type="checkbox"]:checked+.toggleTheme:before {
     content: '';
-    transform: translateX(calc(3.8rem - 1.6rem - 0.2rem));
-    background-color: #000;
-    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"%3E%3Cpath fill="%23fff" d="M25.955 16.163a8 8 0 01-10.91-10.91C9.97 5.732 6 10.005 6 15.206c0 5.523 4.477 10 10 10 5.2 0 9.474-3.97 9.955-9.044z"/%3E%3C/svg%3E%0A');
+    background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
 }
 </style>
+                </div>
+                <div class="togglethemefooter w-embed"><label for="toggleTheme" title="Toggle theme">
+                    <input id="toggleTheme" name="theme" type="checkbox">
+                    <div class="toggleThemefooter toggleThemeIcon"></div>
+                  </label>
+                  <style>
+.toggleThemefooter {
+		text-align: left;
+    margin: auto;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    height: 2rem;
+    border-radius: 8rem;
+    width: 2rem;
+    padding: .2rem;
+}
+.toggleThemefooter:before {
+    position: absolute;
+    content: '';
+    height: 2rem;
+    width: 2rem;
+    border-radius: 4rem;
+		background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
+}
+input[type="checkbox"] {
+	display: none;
+}
+input[type="checkbox"]:checked+.toggleThemefooter:before {
+    content: '';
+    background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
+}
+</style>
+                </div>
+              </div>
+              <div class="language">
+                <div class="language_icon black w-embed"><svg width="100%" height="100%" fill="black" viewbox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 0C12.8355 0 9.74207 0.938384 7.11088 2.69649C4.4797 4.45459 2.42894 6.95345 1.21793 9.87707C0.00693253 12.8007 -0.309921 16.0177 0.307443 19.1214C0.924806 22.2251 2.44866 25.0761 4.6863 27.3137C6.92394 29.5513 9.77487 31.0752 12.8786 31.6926C15.9823 32.3099 19.1993 31.9931 22.1229 30.7821C25.0466 29.5711 27.5454 27.5203 29.3035 24.8891C31.0616 22.2579 32 19.1645 32 16C31.9952 11.758 30.308 7.69112 27.3084 4.69157C24.3089 1.69202 20.242 0.00477931 16 0ZM2.30858 16.4503L3.83818 16.9598L5.71429 19.7745V21.2409C5.7143 21.544 5.83471 21.8347 6.04903 22.049L9.14286 25.1429V27.8589C7.12912 26.6935 5.44513 25.0348 4.24949 23.0389C3.05385 21.043 2.38591 18.7756 2.30858 16.4503ZM16 29.7143C15.0114 29.7124 14.0259 29.6033 13.0608 29.3889L13.7143 27.4286L15.7767 22.2725C15.8455 22.1003 15.8715 21.914 15.8523 21.7297C15.8331 21.5453 15.7693 21.3683 15.6665 21.2141L14.0536 18.7946C13.9492 18.6381 13.8078 18.5097 13.6419 18.4209C13.476 18.3322 13.2908 18.2857 13.1026 18.2857H7.46835L6.04183 16.1456L8.47326 13.7143H10.2857V16H12.5714V12.875L16.9922 5.1384L15.0078 4.00446L14.0307 5.71429H10.8974L9.65623 3.85269C11.3224 2.97334 13.1536 2.45097 15.033 2.31891C16.9124 2.18686 18.7986 2.44801 20.5714 3.08571V6.85714C20.5714 7.16025 20.6918 7.45094 20.9062 7.66527C21.1205 7.87959 21.4112 8 21.7143 8H23.3883C23.5765 8.00001 23.7617 7.95356 23.9276 7.86478C24.0935 7.77601 24.2349 7.64764 24.3393 7.49109L25.3415 5.98777C26.6471 7.20505 27.7032 8.66485 28.4509 10.2857H23.7943C23.5301 10.2857 23.274 10.3772 23.0697 10.5448C22.8654 10.7123 22.7254 10.9454 22.6736 11.2045L21.8483 16.3139C21.8095 16.5543 21.8485 16.8007 21.9595 17.0173C22.0705 17.234 22.2478 17.4095 22.4655 17.5184L26.2857 19.4286L27.0687 24.0637C25.8003 25.8119 24.1362 27.2352 22.2124 28.2173C20.2887 29.1993 18.1599 29.7123 16 29.7143Z"></path>
+                  </svg></div>
+                <div class="language_icon white w-embed"><svg width="100%" height="100%" fill="white" viewbox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 0C12.8355 0 9.74207 0.938384 7.11088 2.69649C4.4797 4.45459 2.42894 6.95345 1.21793 9.87707C0.00693253 12.8007 -0.309921 16.0177 0.307443 19.1214C0.924806 22.2251 2.44866 25.0761 4.6863 27.3137C6.92394 29.5513 9.77487 31.0752 12.8786 31.6926C15.9823 32.3099 19.1993 31.9931 22.1229 30.7821C25.0466 29.5711 27.5454 27.5203 29.3035 24.8891C31.0616 22.2579 32 19.1645 32 16C31.9952 11.758 30.308 7.69112 27.3084 4.69157C24.3089 1.69202 20.242 0.00477931 16 0ZM2.30858 16.4503L3.83818 16.9598L5.71429 19.7745V21.2409C5.7143 21.544 5.83471 21.8347 6.04903 22.049L9.14286 25.1429V27.8589C7.12912 26.6935 5.44513 25.0348 4.24949 23.0389C3.05385 21.043 2.38591 18.7756 2.30858 16.4503ZM16 29.7143C15.0114 29.7124 14.0259 29.6033 13.0608 29.3889L13.7143 27.4286L15.7767 22.2725C15.8455 22.1003 15.8715 21.914 15.8523 21.7297C15.8331 21.5453 15.7693 21.3683 15.6665 21.2141L14.0536 18.7946C13.9492 18.6381 13.8078 18.5097 13.6419 18.4209C13.476 18.3322 13.2908 18.2857 13.1026 18.2857H7.46835L6.04183 16.1456L8.47326 13.7143H10.2857V16H12.5714V12.875L16.9922 5.1384L15.0078 4.00446L14.0307 5.71429H10.8974L9.65623 3.85269C11.3224 2.97334 13.1536 2.45097 15.033 2.31891C16.9124 2.18686 18.7986 2.44801 20.5714 3.08571V6.85714C20.5714 7.16025 20.6918 7.45094 20.9062 7.66527C21.1205 7.87959 21.4112 8 21.7143 8H23.3883C23.5765 8.00001 23.7617 7.95356 23.9276 7.86478C24.0935 7.77601 24.2349 7.64764 24.3393 7.49109L25.3415 5.98777C26.6471 7.20505 27.7032 8.66485 28.4509 10.2857H23.7943C23.5301 10.2857 23.274 10.3772 23.0697 10.5448C22.8654 10.7123 22.7254 10.9454 22.6736 11.2045L21.8483 16.3139C21.8095 16.5543 21.8485 16.8007 21.9595 17.0173C22.0705 17.234 22.2478 17.4095 22.4655 17.5184L26.2857 19.4286L27.0687 24.0637C25.8003 25.8119 24.1362 27.2352 22.2124 28.2173C20.2887 29.1993 18.1599 29.7123 16 29.7143Z"></path>
+                  </svg></div>
+              </div>
+            </div>
+            <div class="div-block-96">
+              <a href="http://www.indexcoop.com" class="app-button w-button">APP</a>
             </div>
           </div>
-          <div class="language">
-            <div class="html-embed-15 w-embed"><svg width="100%" height="100%" viewbox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                <path d="M16 0C12.8355 0 9.74207 0.938384 7.11088 2.69649C4.4797 4.45459 2.42894 6.95345 1.21793 9.87707C0.00693253 12.8007 -0.309921 16.0177 0.307443 19.1214C0.924806 22.2251 2.44866 25.0761 4.6863 27.3137C6.92394 29.5513 9.77487 31.0752 12.8786 31.6926C15.9823 32.3099 19.1993 31.9931 22.1229 30.7821C25.0466 29.5711 27.5454 27.5203 29.3035 24.8891C31.0616 22.2579 32 19.1645 32 16C31.9952 11.758 30.308 7.69112 27.3084 4.69157C24.3089 1.69202 20.242 0.00477931 16 0ZM2.30858 16.4503L3.83818 16.9598L5.71429 19.7745V21.2409C5.7143 21.544 5.83471 21.8347 6.04903 22.049L9.14286 25.1429V27.8589C7.12912 26.6935 5.44513 25.0348 4.24949 23.0389C3.05385 21.043 2.38591 18.7756 2.30858 16.4503ZM16 29.7143C15.0114 29.7124 14.0259 29.6033 13.0608 29.3889L13.7143 27.4286L15.7767 22.2725C15.8455 22.1003 15.8715 21.914 15.8523 21.7297C15.8331 21.5453 15.7693 21.3683 15.6665 21.2141L14.0536 18.7946C13.9492 18.6381 13.8078 18.5097 13.6419 18.4209C13.476 18.3322 13.2908 18.2857 13.1026 18.2857H7.46835L6.04183 16.1456L8.47326 13.7143H10.2857V16H12.5714V12.875L16.9922 5.1384L15.0078 4.00446L14.0307 5.71429H10.8974L9.65623 3.85269C11.3224 2.97334 13.1536 2.45097 15.033 2.31891C16.9124 2.18686 18.7986 2.44801 20.5714 3.08571V6.85714C20.5714 7.16025 20.6918 7.45094 20.9062 7.66527C21.1205 7.87959 21.4112 8 21.7143 8H23.3883C23.5765 8.00001 23.7617 7.95356 23.9276 7.86478C24.0935 7.77601 24.2349 7.64764 24.3393 7.49109L25.3415 5.98777C26.6471 7.20505 27.7032 8.66485 28.4509 10.2857H23.7943C23.5301 10.2857 23.274 10.3772 23.0697 10.5448C22.8654 10.7123 22.7254 10.9454 22.6736 11.2045L21.8483 16.3139C21.8095 16.5543 21.8485 16.8007 21.9595 17.0173C22.0705 17.234 22.2478 17.4095 22.4655 17.5184L26.2857 19.4286L27.0687 24.0637C25.8003 25.8119 24.1362 27.2352 22.2124 28.2173C20.2887 29.1993 18.1599 29.7123 16 29.7143Z"></path>
-              </svg></div>
-          </div>
-          <a href="#" class="app-button w-button">APP</a>
         </nav>
-        <div class="w-nav-button">
-          <div class="w-icon-nav-menu"></div>
+        <div data-w-id="4110e30f-a7e2-f0f1-e7c6-ccbb35b8779b" class="menu-button-2 w-nav-button">
+          <div class="menu w-embed"><svg viewbox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line y1="1" x2="24" y2="1" stroke="currentColor" stroke-width="2"></line>
+              <line y1="7" x2="24" y2="7" stroke="currentColor" stroke-width="2"></line>
+              <line y1="13" x2="24" y2="13" stroke="currentColor" stroke-width="2"></line>
+            </svg></div>
+          <div class="close w-embed"><svg viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21.41 23L16 17.591L10.59 23L9 21.41L14.409 16L9 10.591L10.591 9L16 14.409L21.409 9L23 10.591L17.591 16L23 21.41L21.41 23Z" fill="currentColor"></path>
+              <path d="M16 4C18.3734 4 20.6935 4.70379 22.6668 6.02236C24.6402 7.34094 26.1783 9.21509 27.0866 11.4078C27.9948 13.6005 28.2325 16.0133 27.7694 18.3411C27.3064 20.6689 26.1635 22.8071 24.4853 24.4853C22.8071 26.1635 20.6689 27.3064 18.3411 27.7694C16.0133 28.2324 13.6005 27.9948 11.4078 27.0866C9.21509 26.1783 7.34095 24.6402 6.02237 22.6668C4.70379 20.6935 4.00001 18.3734 4.00001 16C4.00371 12.8185 5.26918 9.76844 7.51882 7.51881C9.76845 5.26918 12.8185 4.00371 16 4ZM16 2C13.2311 2 10.5243 2.82109 8.22202 4.35943C5.91973 5.89777 4.12532 8.08427 3.06569 10.6424C2.00607 13.2006 1.72882 16.0155 2.26901 18.7313C2.80921 21.447 4.14258 23.9416 6.10051 25.8995C8.05845 27.8574 10.553 29.1908 13.2687 29.731C15.9845 30.2712 18.7994 29.9939 21.3576 28.9343C23.9157 27.8747 26.1022 26.0803 27.6406 23.778C29.1789 21.4757 30 18.7689 30 16C30 12.287 28.525 8.72601 25.8995 6.1005C23.274 3.475 19.713 2 16 2Z" fill="currentColor"></path>
+            </svg></div>
         </div>
       </div>
     </div>
@@ -300,7 +511,7 @@ input:checked+.toggleTheme:before {
     </div>
     <div class="ecosystem-section wf-section">
       <div class="maincontainer w-container">
-        <h3 class="allh3">Decentralized Exhanges</h3>
+        <h3 class="allh3 patners">Decentralized Exhanges</h3>
         <div class="w-layout-grid maingrid dex">
           <div class="eco-grid uniswap">
             <div class="product-title"><img src="images/uni-1.svg" loading="lazy" width="64" alt="" class="ecoprodimg">
@@ -342,9 +553,9 @@ input:checked+.toggleTheme:before {
             </a>
           </div>
         </div>
-        <h3 class="allh3">Wallets</h3>
+        <h3 class="allh3 patners">Wallets</h3>
         <div class="w-layout-grid maingrid">
-          <div class="eco-grid wallets zerion">
+          <div class="eco-grid wallets zerion margin_partners">
             <div class="product-title"><img src="images/Zerion.svg" loading="lazy" width="45" alt="" class="ecoprodimg">
               <h3 class="prodh3">Zerion</h3>
             </div>
@@ -357,7 +568,7 @@ input:checked+.toggleTheme:before {
               <div class="learn_more explore">Explore Zerion</div>
             </a>
           </div>
-          <div class="eco-grid wallets argent">
+          <div class="eco-grid wallets argent margin_partners">
             <div class="product-title"><img src="images/Argent.svg" loading="lazy" width="45" alt="" class="ecoprodimg">
               <h3 class="prodh3">Argent</h3>
             </div>
@@ -370,7 +581,7 @@ input:checked+.toggleTheme:before {
               <div class="learn_more explore">Explore Argent</div>
             </a>
           </div>
-          <div class="eco-grid wallets dharma">
+          <div class="eco-grid wallets dharma margin_partners">
             <div class="product-title"><img src="images/Dharma.svg" loading="lazy" width="45" alt="" class="ecoprodimg">
               <h3 class="prodh3">Dharma</h3>
             </div>
@@ -409,7 +620,7 @@ input:checked+.toggleTheme:before {
               <div class="learn_more explore">Explore Trust Wallet</div>
             </a>
           </div>
-          <div id="w-node-_269694d3-3888-3dc2-81f0-e0f48897e567-732e5b4d" class="eco-grid wallets dharma">
+          <div id="w-node-_269694d3-3888-3dc2-81f0-e0f48897e567-732e5b4d" class="eco-grid wallets dharma margin_partners">
             <div id="w-node-_269694d3-3888-3dc2-81f0-e0f48897e568-732e5b4d" class="product-title rainbow"><img src="images/image-103.svg" loading="lazy" width="96" alt="" class="ecoprodimg rainbow">
               <h3 class="prodh3 rainbow">Rainbow</h3>
             </div>
@@ -441,16 +652,16 @@ input:checked+.toggleTheme:before {
     <div class="inthemedia gray_bg wf-section">
       <div class="maincontainer w-container">
         <h2 class="allh2 investors_head">Methodologists</h2>
-        <div class="companies">
-          <div class="partner-logos"><img src="images/image-80.svg" loading="lazy" width="226" alt="" class="light_mode_investico"><img src="images/Group-185.png" loading="lazy" alt="" class="dark_mode_investico"></div>
-          <div class="partner-logos"><img src="images/DeFi_Pulse_logo-1.svg" loading="lazy" width="226" alt="" class="light_mode_investico"><img src="images/DeFi_Pulse_logo-1.svg" loading="lazy" width="226" alt="" class="dark_mode_investico"></div>
-          <div class="partner-logos"><img src="images/Vector.svg" loading="lazy" width="227" alt="" class="light_mode_investico"><img src="images/Vector.svg" loading="lazy" width="227" alt="" class="dark_mode_investico"></div>
+        <div class="companies partners">
+          <div class="partner-logos"><img src="images/image-80.svg" loading="lazy" width="226" alt="" class="light_mode_investico"><img src="images/Group-185.png" loading="lazy" width="226" alt="" class="dark_mode_investico"></div>
+          <div class="partner-logos"><img src="images/DeFi_Pulse_logo-1.svg" loading="lazy" width="226" alt="" class="light_mode_investico"><img src="images/Defi-Pulse-Logo---White.png" loading="lazy" width="226" alt="" class="dark_mode_investico"></div>
+          <div class="partner-logos"><img src="images/Vector.svg" loading="lazy" width="227" alt="" class="light_mode_investico"><img src="images/Coinshares-white.png" loading="lazy" width="227" alt="" class="dark_mode_investico"></div>
         </div>
       </div>
     </div>
     <div class="yield-and-lending wf-section">
       <div class="maincontainer w-container">
-        <h3 class="allh3">Yield and Lending</h3>
+        <h3 class="allh3 patners">Yield and Lending</h3>
         <div class="w-layout-grid maingrid dex">
           <div class="eco-grid compound">
             <div class="product-title"><img src="images/compound-comp-logo.svg" loading="lazy" width="64" alt="" class="ecoprodimg">
@@ -478,12 +689,12 @@ input:checked+.toggleTheme:before {
               <div class="learn_more explore">Explore Cream</div>
             </a>
           </div>
-          <div id="w-node-_0e019a8c-8bc2-4784-5e2b-2b3c863339e9-732e5b4d" class="eco-grid alpha">
+          <div id="w-node-_0e019a8c-8bc2-4784-5e2b-2b3c863339e9-732e5b4d" class="eco-grid alpha margin_partners">
             <div class="product-title"><img src="images/image-23.svg" loading="lazy" width="54" alpha_homora="Alpha_Homora" alt="" class="ecoprodimg">
               <h3 class="prodh3 alphahomora">Alpha Homora</h3>
             </div>
             <p class="allparagraph">Earn leveraged yield in the ETH/DPI Pool by Alpha Homora.</p>
-            <a href="https://homora.alphafinance.io/" target="_blank" class="learnmore w-inline-block">
+            <a href="https://homora.alphafinance.io/" target="_blank" class="learnmore partners_btn w-inline-block">
               <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
                   <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
@@ -491,7 +702,7 @@ input:checked+.toggleTheme:before {
               <div class="learn_more explore">Explore Alpha Homora</div>
             </a>
           </div>
-          <div id="w-node-_0e019a8c-8bc2-4784-5e2b-2b3c863339f4-732e5b4d" class="eco-grid moon">
+          <div id="w-node-_0e019a8c-8bc2-4784-5e2b-2b3c863339f4-732e5b4d" class="eco-grid moon margin_partners">
             <div class="product-title"><img src="images/moonswap-1.svg" loading="lazy" width="45" alt="" class="ecoprodimg">
               <h3 class="prodh3">Moonswap</h3>
             </div>
@@ -509,7 +720,7 @@ input:checked+.toggleTheme:before {
     </div>
     <div class="governance-section wf-section">
       <div class="maincontainer w-container">
-        <h3 class="allh3">Governance</h3>
+        <h3 class="allh3 patners">Governance</h3>
         <div class="w-layout-grid maingrid dex">
           <div id="w-node-db4e6b7e-38f8-aebc-cc82-b26329814c64-732e5b4d" class="eco-grid snapshot">
             <div class="product-title"><img src="images/snapshot-logo.jpeg" loading="lazy" width="54" alt="" class="ecoprodimg">
@@ -525,11 +736,11 @@ input:checked+.toggleTheme:before {
             </a>
           </div>
           <div class="eco-grid index-forum">
-            <div class="product-title"><img src="images/index-logo-owl-Webclip.png" loading="lazy" width="64" alt="" class="ecoprodimg">
+            <div class="product-title"><img src="images/Index-owl-Web.png" loading="lazy" width="64" alt="" class="ecoprodimg light_mode_investico"><img src="images/Index-coop-logo-web-light.png" loading="lazy" width="64" alt="" class="ecoprodimg dark_mode_investico">
               <h3 class="prodh3">Index Forum</h3>
             </div>
             <p class="allparagraph"><br>Discuss and update Index Coop culture, processes, &amp; meetings.</p>
-            <a href="https://gov.indexcoop.com/" class="learnmore w-inline-block">
+            <a href="https://gov.indexcoop.com/" class="learnmore partners_btn w-inline-block">
               <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
                   <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
@@ -540,12 +751,12 @@ input:checked+.toggleTheme:before {
         </div>
       </div>
     </div>
-    <div class="investors gray_bg wf-section">
+    <div class="investors gray_bg margin wf-section">
       <div class="maincontainer w-container">
         <h2 class="allh2 investors_head">Investors</h2>
-        <div class="companies">
+        <div class="companies partners partners-width">
           <div class="partner-logos"><img src="images/1confirmation_alt_black.svg" loading="lazy" alt="" class="light_mode_investico">
-            <div class="dark_mode_investico w-embed"><svg width="181" height="45" viewbox="0 0 181 45" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <div class="dark_mode_investico w-embed"><svg width="182" height="46" viewbox="0 0 181 45" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <rect width="180.804" height="45" fill="url(#pattern0)"></rect>
                 <defs>
                   <pattern id="pattern0" patterncontentunits="objectBoundingBox" width="1" height="1">
@@ -569,7 +780,7 @@ input:checked+.toggleTheme:before {
     </div>
     <div class="infrastructure wf-section">
       <div class="maincontainer w-container">
-        <h3 class="allh3">Infrastructure</h3>
+        <h3 class="allh3 patners">Infrastructure</h3>
         <div class="w-layout-grid maingrid dex">
           <div id="w-node-_537741e4-0afa-da38-d3a4-52be93212500-732e5b4d" class="eco-grid balancer">
             <div class="product-title"><img src="images/balancer-bal-logo.svg" loading="lazy" width="54" alt="" class="ecoprodimg">
@@ -602,7 +813,7 @@ input:checked+.toggleTheme:before {
     </div>
     <div class="price-and-analytics wf-section">
       <div class="maincontainer w-container">
-        <h3 class="allh3">Price &amp; Analytics</h3>
+        <h3 class="allh3 patners">Price &amp; Analytics</h3>
         <div class="w-layout-grid maingrid dex">
           <div id="w-node-_81016414-cc7c-0f0d-4057-73d1424d39ab-732e5b4d" class="eco-grid dune-analytics">
             <div class="product-title"><img src="images/dune-analytics.png" loading="lazy" width="54" alt="" class="ecoprodimg">
@@ -631,7 +842,7 @@ input:checked+.toggleTheme:before {
             </a>
           </div>
           <div class="eco-grid coimarketcap">
-            <div id="w-node-_5ce14e7f-1fb1-22a2-355d-dc40e6770d3e-732e5b4d" class="product-title"><img src="images/coinmarketcap-1.svg" loading="lazy" width="64" alt="" class="ecoprodimg">
+            <div id="w-node-_5ce14e7f-1fb1-22a2-355d-dc40e6770d3e-732e5b4d" class="product-title"><img src="images/coinmarketcap-1.svg" loading="lazy" width="64" alt="" class="ecoprodimg light_mode_investico"><img src="images/Coinmarketcap-light.png" loading="lazy" width="64" sizes="100vw" srcset="images/Coinmarketcap-light-p-500.png 500w, images/Coinmarketcap-light-p-800.png 800w, images/Coinmarketcap-light.png 820w" alt="" class="ecoprodimg dark_mode_investico">
               <h3 class="prodh3 tokensets">CoinMarketCap</h3>
             </div>
             <p class="allparagraph">Compare DeFi Pulse Index with the wider crypto market.</p>
@@ -665,92 +876,77 @@ input:checked+.toggleTheme:before {
     <div id="Footer" class="footer wf-section">
       <div class="maincontainer w-container">
         <div class="div-block-15">
-          <div class="columns-3 w-row">
-            <div class="column-8 w-col w-col-4">
-              <div>
-                <div class="footitem foottitle">Products</div>
-                <a href="dpi.html" class="footitem footlink">DeFi Pulse Index</a>
-                <a href="mvi.html" class="footitem footlink">Metaverse Index</a>
-                <a href="eth-2x-fli.html" class="footitem footlink">ETH2x-FLI</a>
-                <a href="btc-2x-fli.html" class="footitem footlink">BTC2x-FLI</a>
-              </div>
+          <div class="footerlinkscontainer">
+            <div class="productsfooter">
+              <div class="footlinktitle">Products</div>
+              <a href="dpi.html" class="footitem footlink _1st">DeFi Pulse Index</a>
+              <a href="mvi.html" class="footitem footlink">Metaverse Index</a>
+              <a href="eth-2x-fli.html" class="footitem footlink">ETH2x-FLI</a>
+              <a href="btc-2x-fli.html" class="footitem footlink">BTC2x-FLI</a>
+              <a href="index-coop-data-index.html" class="footitem footlink">DATA Index</a>
             </div>
-            <div class="column-9 w-col w-col-4">
-              <div>
-                <div class="footitem foottitle">Resources</div>
-                <a href="institution.html" class="footitem footlink">For institutions</a>
-                <a href="methodologist.html" class="footitem footlink">For methodologists</a>
-                <a href="https://www.indexcoop.com/news" class="footitem footlink">News</a>
-                <a href="https://docs.indexcoop.com/" target="_blank" class="footitem footlink">Docs &amp; Guides</a>
-              </div>
+            <div class="resourcesfooter">
+              <div class="footlinktitle">Resources</div>
+              <a href="institution.html" class="footitem footlink _1st">For institutions</a>
+              <a href="methodologist.html" class="footitem footlink">For methodologists</a>
+              <a href="https://www.indexcoop.com/news" class="footitem footlink">News</a>
+              <a href="https://docs.indexcoop.com/" target="_blank" class="footitem footlink">Docs &amp; Guides</a>
             </div>
-            <div class="w-col w-col-4">
-              <div>
-                <div class="footitem foottitle">Connect with us</div>
-                <a href="https://twitter.com/home" class="footitem footlink"><span class="text-span-7"></span> Twitter</a>
-                <a href="https://www.instagram.com/indexcoop/" target="_blank" class="footitem footlink"><span class="text-span-8">instagram</span> Instagram</a>
-                <a href="https://discord.gg/BcqYxdNC3R" target="_blank" class="footitem footlink"><span class="text-span-9">discord</span> Discord</a>
-                <a href="#" class="footitem footlink"><span class="text-span-10">envelope </span>Email</a>
-              </div>
+            <div class="connectfooter">
+              <div class="footlinktitle">Connect with us</div>
+              <a href="https://twitter.com/home" class="footitem footlink _1st"><span class="text-span-7"></span> Twitter</a>
+              <a href="https://www.instagram.com/indexcoop/" target="_blank" class="footitem footlink"><span class="text-span-8">instagram</span> Instagram</a>
+              <a href="https://discord.gg/BcqYxdNC3R" target="_blank" class="footitem footlink"><span class="text-span-9">discord</span> Discord</a>
+              <a href="#" class="footitem footlink"><span class="text-span-10">envelope </span>Email</a>
             </div>
           </div>
           <div class="div-block-16">
-            <div class="div-block-78"><img src="images/Group.svg" loading="lazy" width="86" alt=""></div>
+            <div class="div-block-78"><img src="images/Group.svg" loading="lazy" width="116" alt=""></div>
             <div class="div-block-79">
               <div class="toggle">
-                <div class="toggle-theme2 w-embed"><label for="toggleTheme" title="Toggle theme">
+                <div class="togglethemefooter footer w-embed"><label for="toggleTheme" title="Toggle theme">
                     <input id="toggleTheme" name="theme" type="checkbox">
-                    <div class="toggleTheme toggleThemeIcon"></div>
+                    <div class="toggleThemefooter toggleThemeIcon footer"></div>
                   </label>
                   <style>
-.toggleTheme {
+.toggleThemefooter {
+		text-align: left;
     margin: auto;
     right: 0;
     top: 0;
     bottom: 0;
     cursor: pointer;
     height: 2.4rem;
-    background-color: #E8E8E8;
-    transition: .4s;
     border-radius: 8rem;
-    width: 4.4rem;
+    width: 2.4rem;
     padding: .2rem;
 }
-.toggleTheme:before {
+.toggleThemefooter:before {
     position: absolute;
     content: '';
     height: 2rem;
     width: 2rem;
-    background-color: #fff;
-    text-align: center;
-    transition: .4s;
     border-radius: 4rem;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
-		background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
+		background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
 }
 input[type="checkbox"] {
 	display: none;
 }
-input[type="checkbox"]:checked+.toggleTheme {
-    background-color: #8150E6;
-}
-input[type="checkbox"]:checked+.toggleTheme:before {
+input[type="checkbox"]:checked+.toggleThemefooter:before {
     content: '';
-    transform: translateX(calc(3.8rem - 1.6rem - 0.2rem));
-    background-color: #000;
-    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"%3E%3Cpath fill="%23fff" d="M25.955 16.163a8 8 0 01-10.91-10.91C9.97 5.732 6 10.005 6 15.206c0 5.523 4.477 10 10 10 5.2 0 9.474-3.97 9.955-9.044z"/%3E%3C/svg%3E%0A');
+    background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
 }
 </style>
                 </div>
               </div>
               <div class="language">
-                <div class="html-embed-15 language w-embed"><svg width="100%" height="100%" viewbox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <div class="language_icon language w-embed"><svg width="100%" height="100%" viewbox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16 0C12.8355 0 9.74207 0.938384 7.11088 2.69649C4.4797 4.45459 2.42894 6.95345 1.21793 9.87707C0.00693253 12.8007 -0.309921 16.0177 0.307443 19.1214C0.924806 22.2251 2.44866 25.0761 4.6863 27.3137C6.92394 29.5513 9.77487 31.0752 12.8786 31.6926C15.9823 32.3099 19.1993 31.9931 22.1229 30.7821C25.0466 29.5711 27.5454 27.5203 29.3035 24.8891C31.0616 22.2579 32 19.1645 32 16C31.9952 11.758 30.308 7.69112 27.3084 4.69157C24.3089 1.69202 20.242 0.00477931 16 0ZM2.30858 16.4503L3.83818 16.9598L5.71429 19.7745V21.2409C5.7143 21.544 5.83471 21.8347 6.04903 22.049L9.14286 25.1429V27.8589C7.12912 26.6935 5.44513 25.0348 4.24949 23.0389C3.05385 21.043 2.38591 18.7756 2.30858 16.4503ZM16 29.7143C15.0114 29.7124 14.0259 29.6033 13.0608 29.3889L13.7143 27.4286L15.7767 22.2725C15.8455 22.1003 15.8715 21.914 15.8523 21.7297C15.8331 21.5453 15.7693 21.3683 15.6665 21.2141L14.0536 18.7946C13.9492 18.6381 13.8078 18.5097 13.6419 18.4209C13.476 18.3322 13.2908 18.2857 13.1026 18.2857H7.46835L6.04183 16.1456L8.47326 13.7143H10.2857V16H12.5714V12.875L16.9922 5.1384L15.0078 4.00446L14.0307 5.71429H10.8974L9.65623 3.85269C11.3224 2.97334 13.1536 2.45097 15.033 2.31891C16.9124 2.18686 18.7986 2.44801 20.5714 3.08571V6.85714C20.5714 7.16025 20.6918 7.45094 20.9062 7.66527C21.1205 7.87959 21.4112 8 21.7143 8H23.3883C23.5765 8.00001 23.7617 7.95356 23.9276 7.86478C24.0935 7.77601 24.2349 7.64764 24.3393 7.49109L25.3415 5.98777C26.6471 7.20505 27.7032 8.66485 28.4509 10.2857H23.7943C23.5301 10.2857 23.274 10.3772 23.0697 10.5448C22.8654 10.7123 22.7254 10.9454 22.6736 11.2045L21.8483 16.3139C21.8095 16.5543 21.8485 16.8007 21.9595 17.0173C22.0705 17.234 22.2478 17.4095 22.4655 17.5184L26.2857 19.4286L27.0687 24.0637C25.8003 25.8119 24.1362 27.2352 22.2124 28.2173C20.2887 29.1993 18.1599 29.7123 16 29.7143Z" fill="#fff"></path>
                   </svg></div>
               </div>
             </div>
           </div>
-          <p class="paragraph-11">Information is for educational and illustrative purposes only. The Index Cooperative is not engaged in the business of the offer, sale or trading of securities and does not provide legal, tax, or investment advice.<br><br>Cryptocurrencies and other digital assets are speculative and involve a substantial degree of risk, including the risk of complete loss. There can be no assurance that any cryptocurrency, token, coin, or other crypto asset will be viable, liquid, or solvent.<br><br>No Index Cooperative communication is intended to imply that any digital assets are low-risk or risk-free. The Index Cooperative works hard to provide accurate information on this website, but cannot guarantee all content is correct, complete, or updated.<br></p>
+          <p class="paragraph-11">Information is for educational and illustrative purposes only. The Index Cooperative is not engaged in the business of the offer, sale or trading of securities and does not provide legal, tax, or investment advice. Cryptocurrencies and other digital assets are speculative and involve a substantial degree of risk, including the risk of complete loss. There can be no assurance that any cryptocurrency, token, coin, or other crypto asset will be viable, liquid, or solvent.No Index Cooperative communication is intended to imply that any digital assets are low-risk or risk-free. The Index Cooperative works hard to provide accurate information on this website, but cannot guarantee all content is correct, complete, or updated.<br></p>
         </div>
       </div>
     </div>
@@ -822,6 +1018,12 @@ function toggleTheme() {
  setThemeSwitchState();
  document.getElementById('toggleTheme').onchange=toggleTheme;
 })();
+$('.menu').on('click', function(){
+  $('body').addClass('no-scroll');
+});
+$('.close').on('click', function(){
+  $('body').removeClass('no-scroll');
+});
 </script>
 </body>
 </html>
