@@ -1,6 +1,6 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Oct 28 2021 22:04:12 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="613f70170b78f37c870141d5" data-wf-site="60d237b6ea65be721ff4bbfa">
+<!--  Last Published: Sun Nov 07 2021 17:41:28 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="6187d6120f73f514ff2dc505" data-wf-site="60d237b6ea65be721ff4bbfa">
 <head>
   <meta charset="utf-8">
   <title>Index Coop | Data Index</title>
@@ -20,167 +20,68 @@
   <script type="text/javascript">WebFont.load({  google: {    families: ["IBM Plex Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic:cyrillic,cyrillic-ext,greek,latin,latin-ext,vietnamese","IBM Plex Mono:regular,500,600"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.ico" rel="apple-touch-icon">
   <style>
-  .mainnavbar {
-  backdrop-filter: blur(5px);
-  }
-  #content.dark-mode .mainnavbar{
-    background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(5px);
-	}
-  #content.dark-mode .nav-link {
-	color: #F7F6F2;
-  }
-  #content.dark-mode .nav-link:hover{
-    border-bottom: 2px solid #F7F6F2;
-  }
-  #content.dark-mode .dropdown-text:hover {
-    border-bottom: 1px solid #F7F6F2;
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-  #content.dark-mode .dropdown-list-2.w--open {
-    background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(5px);
-  }
-  #content.dark-mode .longline {
-    border-buttom: 1px solid #ffffff;
-}
-  #content.dark-mode .indexcooplinks {
-    color: #7289da;
-}
-.indexcooplinks {
-color: #433BCE
-}
-#content.dark-mode a.sell-button.buttons.w-button {
-    color: #09AA74;
-}
- #content.dark-mode a.buy-button.buttons.w-button {
-    color: black;
-  }
- #content.dark-mode .view_link{
-	color:#B9B6FC;
-  }
- #content.dark-mode {
-    background-color: #0F0E0B;
-    color: #F7F6F2;
-}
- #content.dark-mode .allh1, #content.dark-mode .allh2, #content.dark-mode .allh3{
-  color: #F7F6F2;
-}
- #content.dark-mode .prodh3, #content.dark-mode .grid_heading, #content.dark-mode .listtextblock, #content.dark-mode .slider_description{
-  color: #F7F6F2;
-}
- #content.dark-mode a {
-  color: #F7F6F2;
-}
-#content.dark-mode .accordion_header, #content.dark-mode .allparagraph2 {
-  color: #F7F1E4
-  }
-</style>
-  <style>
-.w-slider-dot {
-  background: #C4C4C4;
-}
-.w-slider-dot.w-active {
-  background: #327EE8;
-}
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}  
+.mainnavbar	{
+  	backdrop-filter: blur(5px);
 }
-#content.light-mode {
-  background-color: #ffffff;
-  color: #171717;
+.no-scroll {
+	overflow:hidden;  
 }
-#content.light-mode > .gray_bg{
-  background-color: #f8f8f8;
+input.inputfield::placeholder,
+textarea.inputfield::placeholder{
+	opacity: 0%;  
+}  
+/* 	Light Mode Styles	*/
+/*	Global Light Mode	*/  
+/* 	Dark Mode Styles	*/
+/*	Global Dark Mode	*/
+#content.dark-mode .nav-link {
+	color: #F7F6F2;
 }
-#contant.light-mode a {
-  color: #171717;
+#content.dark-mode .nav-link:hover {
+	border-bottom: 2px solid #F7F6F2;
 }
-#content.light-mode > .svg_icon path {
-  fill: #327EE8;
+#content.dark-mode{
+    background-color: #0F0E0B;
+    color: #F7F6F2;
 }
-#content.dark-mode > .gray_bg{
-  background-color: #1D1B16;
-}
-#content.dark-mode a.w--current {
- color: #707AFF;
-}
-#content.dark-mode > .svg_icon path {
-  fill: #327EE8;
-}
-#content.dark-mode .heroline {
-  border-top: 3px solid #ffffff;
-}
-#content.dark-mode .trigger, .longline {
-  border-top: 1px solid #ffffff;
-}
-#content.dark-mode .index_logo path {
-  fill: #ffffff;
-}
-#content.dark-mode .app-button {
-  border: 2px solid #fff;
-  background-color: transparent;
-}
-#content.dark-mode .nav-link:hover{
-	border-bottom: 1px solid #fff;
-}
-#content.dark-mode .eco-grid {
-	background-color: #0F0E0B;
-  border: 1px solid white;
-} 
-#content.dark-mode .dark_mode_investico{
-	display: block;
-}
-#content.dark-mode .light_mode_investico{
-	display: none;
+#content.dark-mode .accordion_header, #content.dark-mode .allparagraph2 {
+    color: #F7F1E4;
 }
 #content.dark-mode .mainnavbar{
-	background-color: rgba(0,0,0,.8);
+	background-color: rgba(15, 14, 11, 0.8);
 }
-#content.dark-mode .prod_subtitle{
-	color: #fff;
+#content.dark-mode .allh1,
+#content.dark-mode .allh2,
+#content.dark-mode .allh3{
+  	color: #F7F6F2;
 }
-.w-input::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #000000;
-    opacity: .5;
+#content.dark-mode a {
+  	color: #B9B6FC;
 }
-.w-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #000000;
-    opacity: .5;
+#content.dark-mode .gray_bg{
+  	background-color: #1D1B16;
 }
-.w-input::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #000000;
-    opacity: .5;
+#content.dark-mode .app-button {
+  	border: 2px solid #fff;
+  	background-color: transparent;
+  	color: #F7F6F2;
 }
-.w-input:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #000000;
-    opacity: .5;
-}
-.no-scroll {overflow:hidden;}
-.w-nav-button.w--open{
-	background-color: transparent;
-}
-#content.dark-mode .w-nav-button.w--open{
-	background-color: black;
-}
-#content.dark-mode .close{
-	color: white;
-}
-#content.dark-mode .menu{
-	color: white;
-}
-#content.dark-mode .nav-menu-2{
-	background-color: black;
+#content.dark-mode .app-button:hover {
+	background-color: #F7F6F2;
+  	color: #000000;
 }
 #content.dark-mode .menu_title .menu_gov{
-	color: white;
+	color: #F7F6F2;
 }
 #content.dark-mode .menu_titlecont{
-  border-bottom: 2px solid #ffffff;
+  	border-bottom: 2px solid #F7F6F2;
 }
 #content.dark-mode .language_icon.black{
 	display: none;
@@ -194,29 +95,202 @@ color: #433BCE
 #content.dark-mode .togglethemefooter {
 	display: block;
 }
-@media screen and (max-width: 991px){
-	#content.dark-mode .stickytoggles {
-		background-color: white;
-	}
-  #content.dark-mode .app-button {
-  	border: 2px solid black;
-    color: black;
-  }
-  #content.dark-mode .toggle-theme2{
-		display: block;
-	}
-	#content.dark-mode .togglethemefooter {
-		display: none;
-	}
-  #content.dark-mode .language_icon.black{
-		display: block;
-	}
-	#content.dark-mode .language_icon.white{
-		display: none;
-	}
+#content.dark-mode .heroline {
+  	border-top: 3px solid #F7F6F2;
 }
-label {
-	margin-bottom: 0px;
+#content.dark-mode .index_logo path {
+  	fill: #F7F6F2;
+}
+#content.dark-mode .dropdown-text:hover {
+    border-bottom: 1px solid #F7F6F2;
+}
+#content.dark-mode .dropdown-list-2.w-dropdown-list.w--open {
+    background: rgba(15, 14, 11, 0.95);
+  	border: 1px solid rgba(247, 246, 242, 0.12);
+}
+#content.dark-mode .eco-grid {
+	background-color: #0F0E0B;
+}
+#content.dark-mode .investors_icons {
+	filter: invert();
+}
+#content.dark-mode .accordion_maincontainer.trigger {
+	border-bottom: 1px solid #F7F6F2;
+  	border-top: 1px solid #F7F6F2;	
+}
+#content.dark-mode .prod_subtitle {
+  	color: #F7F6F2;
+}
+#content.dark-mode a.dropdown-text {
+	color: #F7F6F2;
+}
+#content.dark-mode .view_link {
+	color: #B9B6FC;  
+}
+#content.dark-mode  a.footitem.footlink {
+	color:  #F7F6F2; 
+}
+@media only screen and (max-width: 991px){
+  #content.dark-mode .nav-menu-2{
+      background-color: #0F0E0B;  
+  }
+  #content.dark-mode .close,
+  #content.dark-mode .menu,
+  #content.dark-mode .menu_prods a,
+  #content.dark-mode .menu_gov a{
+      color: #F7F6F2;
+  }
+  #content.dark-mode .stickytoggles {
+      filter: invert();
+  }
+}  
+/*	Home Page	*/
+#content.dark-mode .slider_description {
+  	color: #F7F6F2;
+}
+#content.dark-mode .w-slider-dot.w-active {
+  	background-color: #327EE8;
+}
+#content.dark-mode .prodh3,
+#content.dark-mode .listtextblock,
+#content.dark-mode .grid_heading{
+  	color: #F7F6F2;
+}
+#content.dark-mode .listico._3rd path,
+#content.dark-mode .listico._3rd circle {
+	stroke: #B9B6FC;  
+}
+#content.dark-mode .listico._2nd path,
+#content.dark-mode .listico._2nd circle {
+	stroke: #699BF7;  
+}  
+#content.dark-mode .listico._3rdtrinity path {
+	fill: #B9B6FC;  
+}
+#content.dark-mode .listico.lightmode {
+	display: none;  
+}
+#content.dark-mode .listico.darkmode {
+	display: block;  
+}  
+#content.dark-mode a.social_box.w-button {
+	color: #0F0E0B;  
+}
+/*	About Page	*/
+#content.dark-mode .dark_mode_tria {
+	display: block;  
+}
+#content.dark-mode .lightmode_triangle {
+	display: none;  
+}
+#content.dark-mode .social_box.aboutpage {
+	color: #00b9ff;  
+}
+#content.dark-mode .social_box.discord.aboutpage {
+	color: #7289da;  
+}
+#content.dark-mode .trinity_svg.darkmode {
+    display: block;
+}
+#content.dark-mode .trinity_svg.lightmode {
+    display: none;
+}
+/*	Partners Page	*/
+#content.dark-mode img.ecoprodimg.indexcoop {
+	filter:invert();  
+}
+/*	Institutions Page	*/
+input[type="text"].inputfield::-webkit-input-placeholder {
+	color: #737373;  
+}
+#content.dark-mode .sub_h2,
+#content.dark-mode .eventtable_header,
+#content.dark-mode .fieldtitle {
+	color: #F7F6F2;
+}
+#content.dark-mode .event_line {
+	border-top: 3px solid #F7F6F2;  
+}
+#content.dark-mode .inputfield{
+    background: rgba(221, 221, 221, 0.12);
+    border: none;
+    border-bottom: 3px solid #ffff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+#content.dark-mode .inputfield:hover {
+    border-style: none none solid;
+    border-width: 1px 1px 3px;
+    border-color: #000 #000 #327ee8;
+    background-color: rgba(50, 121, 232, 0.13);
+}
+#content.dark-mode .inputfield:focus {
+    border-style: none none solid;
+    border-width: 0px 0px 3px;
+    border-color: #000 #000 #fabf00;
+    background-color: rgba(250, 191, 0, 0.09);
+}
+#content.dark-mode .inputfield{
+	color: #F7F6F2;  
+}
+@media only screen and (max-width: 991px){
+    input.inputfield::placeholder,
+    textarea.inputfield::placeholder{
+        color: #rgba(0, 0, 0, 0.5) !important;
+        opacity: 100%;  
+    }
+  	#content.dark-mode input.inputfield::placeholder,
+    #content.dark-mode textarea.inputfield::placeholder{
+        color: rgba(247, 246, 242, 0.5) !important;
+        opacity: 100%;  
+    }
+}  
+/*	Methodologist Page	*/
+#content.dark-mode .link_underline {
+  	color: #B9B6FC;
+}
+#content.dark-mode .forum_box {
+	border: 3px solid #F7F6F2;  
+}
+#content.dark-mode .forum_box a {
+  	color: #F7F6F2;
+}
+#content.dark-mode .steps {
+	color: #000000;  
+}
+/*	Products Pages	*/
+#content.dark-mode .prod_icon.index path {
+  	fill: #F7F6F2;
+}
+#content.dark-mode .buy-button.buttons {
+	color: #F7F6F2;
+}
+#content.dark-mode .sell-button.buttons {
+	color: #09AA74;
+}
+#content.dark-mode .token_icon.lightdark {
+	filter: invert();  
+}
+#content.dark-mode .dpi-formula {
+  	filter: invert();
+}
+#content.dark-mode .bg-grey.lightdark,
+#content.dark-mode .allparagraph.quote,
+#content.dark-mode .allparagraph.quote.fli{
+	background-color: #0F0E0B;
+  	color: #F7F6F2;
+}
+/*	Contributors Page	*/  
+#content.dark-mode .flowchart {
+	filter: invert();  
+}
+/*	StyleGuide Page	*/   
+#content.dark-mode .token_textblock {
+	color:  #F7F6F2;
+}
+#content.dark-mode  .index_icon.w-embed path {
+	filter: invert();  
 }
 </style>
 </head>
@@ -269,23 +343,6 @@ label {
           </div>
           <div class="menu_container mobilenav">
             <div class="menu_titlecont">
-              <div class="menu_title">Governance</div>
-            </div>
-            <div class="menu_gov">
-              <a href="index-token.html" class="menu_govlink">INDEX Token</a>
-            </div>
-            <div class="menu_gov">
-              <a href="https://snapshot.org/#/index-coop.eth" class="menu_govlink">Voting Portal <span class="text-span-27">snapshot</span></a>
-            </div>
-            <div class="menu_gov">
-              <a href="#" class="menu_govlink">Farm</a>
-            </div>
-            <div class="menu_gov">
-              <a href="#" class="menu_govlink">Rewards</a>
-            </div>
-          </div>
-          <div class="menu_container mobilenav">
-            <div class="menu_titlecont">
               <div class="menu_title">Resources</div>
             </div>
             <div class="menu_gov">
@@ -295,10 +352,13 @@ label {
               <a href="#" class="menu_govlink">Blog</a>
             </div>
             <div class="menu_gov">
-              <a href="methodologist.html" class="menu_govlink">Methodologist</a>
+              <a href="methodologist.html" class="menu_govlink">Methodologists</a>
             </div>
             <div class="menu_gov">
               <a href="institution.html" class="menu_govlink">Institutions</a>
+            </div>
+            <div class="menu_gov">
+              <a href="contributor.html" class="menu_govlink">Contributors</a>
             </div>
           </div>
           <div class="menu_container mobilenav">
@@ -347,9 +407,6 @@ label {
             </div>
           </div>
           <div class="div-block-93">
-            <a href="index.html" class="link-block nav-link w-inline-block">
-              <div>Home</div>
-            </a>
             <div data-delay="3" data-hover="false" class="w-dropdown">
               <div class="dropdown-nav nav-link w-dropdown-toggle">
                 <div>Products</div>
@@ -370,8 +427,9 @@ label {
               <nav class="dropdown-list-2 w-dropdown-list">
                 <a href="https://docs.indexcoop.com/" class="dropdown-text w-dropdown-link">Gitbook</a>
                 <a href="#" class="dropdown-text w-dropdown-link">Blog</a>
-                <a href="methodologist.html" class="dropdown-text w-dropdown-link">Methodologist</a>
+                <a href="methodologist.html" class="dropdown-text w-dropdown-link">Methodologists</a>
                 <a href="institution.html" class="dropdown-text w-dropdown-link">Institutions</a>
+                <a href="contributor.html" class="dropdown-text w-dropdown-link">Contributors</a>
               </nav>
             </div>
             <div data-delay="3" data-hover="false" class="w-dropdown">
@@ -421,25 +479,23 @@ label {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2.4rem;
     border-radius: 8rem;
-    width: 2.4rem;
-    padding: .2rem;
+    height: 100%;
+    width: 100%;
 }
 .toggleTheme:before {
     position: absolute;
     content: '';
     height: 2rem;
     width: 2rem;
-    border-radius: 4rem;
-		background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
+		background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
 }
 input[type="checkbox"] {
 	display: none;
 }
 input[type="checkbox"]:checked+.toggleTheme:before {
     content: '';
-    background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
+    background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
 }
 </style>
                 </div>
@@ -455,10 +511,9 @@ input[type="checkbox"]:checked+.toggleTheme:before {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2rem;
+    height: 100%;
     border-radius: 8rem;
-    width: 2rem;
-    padding: .2rem;
+    width: 100%;
 }
 .toggleThemefooter:before {
     position: absolute;
@@ -508,23 +563,25 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
     <div class="hero-section wf-section">
       <div class="maincontainer product w-container">
         <div class="head_cont product data">
-          <div class="prod_icon w-embed"><svg width="100" height="100" viewbox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0)">
-                <path d="M101.36 -1.32001H-1.32031V101.36H101.36V-1.32001Z" fill="black"></path>
-                <path d="M60.8402 23.6H27.2002V28.4H60.8402V23.6Z" fill="#FF0037"></path>
-                <path d="M70.4402 33.2H27.2002V38H70.4402V33.2Z" fill="#FF0037"></path>
-                <path d="M80.0402 42.8H27.2002V47.6H80.0402V42.8Z" fill="#FF0037"></path>
-                <path d="M80.0402 52.4H27.2002V57.2H80.0402V52.4Z" fill="#FF0037"></path>
-                <path d="M70.4402 62H27.2002V66.8H70.4402V62Z" fill="#FF0037"></path>
-                <path d="M60.8402 71.6H27.2002V76.4H60.8402V71.6Z" fill="#FF0037"></path>
-              </g>
-              <defs>
-                <clippath id="clip0">
-                  <rect width="100" height="100" fill="white"></rect>
-                </clippath>
-              </defs>
-            </svg></div>
-          <h1 class="allh1 product data">Data Index</h1>
+          <div class="prod_icon_cont">
+            <div class="prod_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0)">
+                  <path d="M101.36 -1.32001H-1.32031V101.36H101.36V-1.32001Z" fill="black"></path>
+                  <path d="M60.8402 23.6H27.2002V28.4H60.8402V23.6Z" fill="#FF0037"></path>
+                  <path d="M70.4402 33.2H27.2002V38H70.4402V33.2Z" fill="#FF0037"></path>
+                  <path d="M80.0402 42.8H27.2002V47.6H80.0402V42.8Z" fill="#FF0037"></path>
+                  <path d="M80.0402 52.4H27.2002V57.2H80.0402V52.4Z" fill="#FF0037"></path>
+                  <path d="M70.4402 62H27.2002V66.8H70.4402V62Z" fill="#FF0037"></path>
+                  <path d="M60.8402 71.6H27.2002V76.4H60.8402V71.6Z" fill="#FF0037"></path>
+                </g>
+                <defs>
+                  <clippath id="clip0">
+                    <rect width="100" height="100" fill="white"></rect>
+                  </clippath>
+                </defs>
+              </svg></div>
+          </div>
+          <h1 class="allh1 product data">Data Economy Index</h1>
         </div>
         <div class="current_change_cont">
           <div class="btn_buysell mobile">
@@ -546,7 +603,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
             <a href="#" class="sell-button buttons w-button">Sell</a>
           </div>
         </div>
-        <p class="allparagraph product"><span class="text-span">The Data Economy is an ecosystem of data-based products and services. </span><br>Whereas Decentralized Finance (aka DeFi) is disrupting traditional banking and financial services, the Data Economy is disrupting the data monopolies built in Big Tech over the past 20 years.</p>
+        <p class="allparagraph product"><span class="text-span">The Data Economy is an ecosystem of data-based products and services. </span> Whereas Decentralized Finance (aka DeFi) is disrupting traditional banking and financial services, the Data Economy is disrupting the data monopolies built in Big Tech over the past 20 years.</p>
       </div>
     </div>
     <div class="stats-section wf-section">
@@ -579,70 +636,80 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         <div class="head_cont prod_stat">
           <h2 class="allh2 product">Underlying Tokens</h2>
         </div>
-        <div class="w-layout-grid allproducts">
-          <div id="w-node-_5672e89c-13c3-7d08-9187-dace4c33c413-870141d5" class="token_cont">
-            <div class="token_icon w-embed"><svg width="56" height="64" viewbox="0 0 56 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M27.8857 0L21.984 3.37615L5.90174 12.6239L0 16V48L5.90174 51.3761L22.1315 60.6239L28.0333 64L33.935 60.6239L49.8697 51.3761L55.7714 48V16L49.8697 12.6239L33.7875 3.37615L27.8857 0ZM11.8035 41.2477V22.7523L27.8857 13.5046L43.968 22.7523V41.2477L27.8857 50.4954L11.8035 41.2477Z" fill="#2A5ADA"></path>
-              </svg></div>
+        <div class="w-layout-grid allproducts dataindex">
+          <div id="w-node-_5672e89c-13c3-7d08-9187-dace4c33c413-ff2dc505" class="token_cont product">
+            <div class="token_icon_cont">
+              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 56 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M27.8857 0L21.984 3.37615L5.90174 12.6239L0 16V48L5.90174 51.3761L22.1315 60.6239L28.0333 64L33.935 60.6239L49.8697 51.3761L55.7714 48V16L49.8697 12.6239L33.7875 3.37615L27.8857 0ZM11.8035 41.2477V22.7523L27.8857 13.5046L43.968 22.7523V41.2477L27.8857 50.4954L11.8035 41.2477Z" fill="#2A5ADA"></path>
+                </svg></div>
+            </div>
             <div class="token_name">Chainlink</div>
           </div>
-          <div id="w-node-_8be72fe0-2ee0-7dd8-9043-60682b9e6f96-870141d5" class="token_cont">
-            <div class="token_icon w-embed"><svg width="64" height="64" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <mask id="mask0" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="64" height="64">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H64V64H0V0Z" fill="white"></path>
-                </mask>
-                <g mask="url(#mask0)">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M32 63.9991C14.4 63.9991 0 49.5991 0 31.8391C0.16 14.2391 14.4 -0.160877 32.16 -0.000876694C49.76 0.159123 64 14.3991 64 32.3191C63.84 49.7591 49.6 63.9991 32 63.9991Z" fill="#0090FF"></path>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M35.0406 28.16L34.0806 33.28L43.2006 34.56L42.5606 36.96L33.6006 35.68C32.9606 37.76 32.6406 40 31.8406 41.92C31.0406 44.16 30.2406 46.4 29.2806 48.48C28.0006 51.2 25.7606 53.12 22.7206 53.6C20.9606 53.92 19.0406 53.76 17.6006 52.64C17.1206 52.32 16.6406 51.68 16.6406 51.2C16.6406 50.56 16.9606 49.76 17.4406 49.44C17.7606 49.28 18.5606 49.44 19.0406 49.6C19.5206 50.08 20.0006 50.72 20.3206 51.36C21.2806 52.64 22.5606 52.8 23.8406 51.84C25.2806 50.56 26.0806 48.8 26.5606 47.04C27.5206 43.2 28.4806 39.52 29.2806 35.68V35.04L20.8006 33.76L21.1206 31.36L29.9206 32.64L31.0406 27.68L21.9206 26.24L22.2406 23.68L31.6806 24.96C32.0006 24 32.1606 23.2 32.4806 22.4C33.2806 19.52 34.0806 16.64 36.0006 14.08C37.9206 11.52 40.1606 9.91996 43.5206 10.08C44.9606 10.08 46.4006 10.56 47.3606 11.68C47.5206 11.84 47.8406 12.16 47.8406 12.48C47.8406 13.12 47.8406 13.92 47.3606 14.4C46.7206 14.88 45.9206 14.72 45.2806 14.08C44.8006 13.6 44.4806 13.12 44.0006 12.64C43.0406 11.36 41.6006 11.2 40.4806 12.32C39.6806 13.12 38.8806 14.24 38.4006 15.36C37.2806 18.72 36.4806 22.24 35.3606 25.76L44.1606 27.04L43.5206 29.44L35.0406 28.16Z" fill="white"></path>
-                </g>
-              </svg></div>
+          <div id="w-node-_8be72fe0-2ee0-7dd8-9043-60682b9e6f96-ff2dc505" class="token_cont product">
+            <div class="token_icon_cont">
+              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <mask id="mask0" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H64V64H0V0Z" fill="white"></path>
+                  </mask>
+                  <g mask="url(#mask0)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M32 63.9991C14.4 63.9991 0 49.5991 0 31.8391C0.16 14.2391 14.4 -0.160877 32.16 -0.000876694C49.76 0.159123 64 14.3991 64 32.3191C63.84 49.7591 49.6 63.9991 32 63.9991Z" fill="#0090FF"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M35.0406 28.16L34.0806 33.28L43.2006 34.56L42.5606 36.96L33.6006 35.68C32.9606 37.76 32.6406 40 31.8406 41.92C31.0406 44.16 30.2406 46.4 29.2806 48.48C28.0006 51.2 25.7606 53.12 22.7206 53.6C20.9606 53.92 19.0406 53.76 17.6006 52.64C17.1206 52.32 16.6406 51.68 16.6406 51.2C16.6406 50.56 16.9606 49.76 17.4406 49.44C17.7606 49.28 18.5606 49.44 19.0406 49.6C19.5206 50.08 20.0006 50.72 20.3206 51.36C21.2806 52.64 22.5606 52.8 23.8406 51.84C25.2806 50.56 26.0806 48.8 26.5606 47.04C27.5206 43.2 28.4806 39.52 29.2806 35.68V35.04L20.8006 33.76L21.1206 31.36L29.9206 32.64L31.0406 27.68L21.9206 26.24L22.2406 23.68L31.6806 24.96C32.0006 24 32.1606 23.2 32.4806 22.4C33.2806 19.52 34.0806 16.64 36.0006 14.08C37.9206 11.52 40.1606 9.91996 43.5206 10.08C44.9606 10.08 46.4006 10.56 47.3606 11.68C47.5206 11.84 47.8406 12.16 47.8406 12.48C47.8406 13.12 47.8406 13.92 47.3606 14.4C46.7206 14.88 45.9206 14.72 45.2806 14.08C44.8006 13.6 44.4806 13.12 44.0006 12.64C43.0406 11.36 41.6006 11.2 40.4806 12.32C39.6806 13.12 38.8806 14.24 38.4006 15.36C37.2806 18.72 36.4806 22.24 35.3606 25.76L44.1606 27.04L43.5206 29.44L35.0406 28.16Z" fill="white"></path>
+                  </g>
+                </svg></div>
+            </div>
             <div class="token_name">Filecoin</div>
           </div>
-          <div id="w-node-_716d9602-6eba-72c2-56aa-e51b55ec3f0e-870141d5" class="token_cont">
-            <div class="token_icon w-embed"><svg width="64" height="64" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M32 64C49.6731 64 64 49.6731 64 32C64 14.3269 49.6731 0 32 0C14.3269 0 0 14.3269 0 32C0 49.6731 14.3269 64 32 64Z" fill="#6747ED"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M31.5334 36.1334C26.8001 36.1334 23.0001 32.3334 23.0001 27.6001C23.0001 22.8667 26.8001 19.0667 31.5334 19.0667C36.2667 19.0667 40.0667 22.8667 40.0667 27.6001C40.0667 32.3334 36.2667 36.1334 31.5334 36.1334ZM31.5334 14.8C38.6001 14.8 44.3334 20.5334 44.3334 27.6001C44.3334 34.6667 38.6001 40.4001 31.5334 40.4001C24.4667 40.4001 18.7334 34.6667 18.7334 27.6001C18.7334 20.5334 24.4667 14.8 31.5334 14.8ZM43.7334 41.0667C44.6001 41.9334 44.6001 43.2667 43.7334 44.0667L35.2001 52.6C34.3334 53.4667 33.0001 53.4667 32.2001 52.6C31.3334 51.7334 31.3334 50.4001 32.2001 49.6001L40.7334 41.0667C41.5334 40.2001 42.9334 40.2001 43.7334 41.0667ZM48.6667 16.9334C48.6667 18.1334 47.7334 19.0667 46.5334 19.0667C45.3334 19.0667 44.4001 18.1334 44.4001 16.9334C44.4001 15.7334 45.3334 14.8 46.5334 14.8C47.6667 14.8 48.6667 15.7334 48.6667 16.9334Z" fill="white"></path>
-              </svg></div>
+          <div id="w-node-_716d9602-6eba-72c2-56aa-e51b55ec3f0e-ff2dc505" class="token_cont product">
+            <div class="token_icon_cont">
+              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M32 64C49.6731 64 64 49.6731 64 32C64 14.3269 49.6731 0 32 0C14.3269 0 0 14.3269 0 32C0 49.6731 14.3269 64 32 64Z" fill="#6747ED"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M31.5334 36.1334C26.8001 36.1334 23.0001 32.3334 23.0001 27.6001C23.0001 22.8667 26.8001 19.0667 31.5334 19.0667C36.2667 19.0667 40.0667 22.8667 40.0667 27.6001C40.0667 32.3334 36.2667 36.1334 31.5334 36.1334ZM31.5334 14.8C38.6001 14.8 44.3334 20.5334 44.3334 27.6001C44.3334 34.6667 38.6001 40.4001 31.5334 40.4001C24.4667 40.4001 18.7334 34.6667 18.7334 27.6001C18.7334 20.5334 24.4667 14.8 31.5334 14.8ZM43.7334 41.0667C44.6001 41.9334 44.6001 43.2667 43.7334 44.0667L35.2001 52.6C34.3334 53.4667 33.0001 53.4667 32.2001 52.6C31.3334 51.7334 31.3334 50.4001 32.2001 49.6001L40.7334 41.0667C41.5334 40.2001 42.9334 40.2001 43.7334 41.0667ZM48.6667 16.9334C48.6667 18.1334 47.7334 19.0667 46.5334 19.0667C45.3334 19.0667 44.4001 18.1334 44.4001 16.9334C44.4001 15.7334 45.3334 14.8 46.5334 14.8C47.6667 14.8 48.6667 15.7334 48.6667 16.9334Z" fill="white"></path>
+                </svg></div>
+            </div>
             <div class="token_name">The Graph</div>
           </div>
-          <div id="w-node-_0795fdf8-c7c1-ae63-1555-f1e537ac2d00-870141d5" class="token_cont">
-            <div class="token_cont double">
-              <div class="token_icon w-embed"><svg width="64" height="56" viewbox="0 0 64 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div class="token_cont product">
+            <div class="token_icon_cont">
+              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M64 54.9325L32.1533 36.697L0 55.0081L64 54.9325Z" fill="#662D91"></path>
                   <path d="M32.1636 0L32.1533 36.697L64 54.9325L32.1636 0Z" fill="#9E1F63"></path>
                   <path d="M0 55.008L32.1533 36.697L32.1635 0L0 55.008Z" fill="#FF5000"></path>
                   <path d="M32.0876 22.2615L18.9404 44.2215H45.2937L32.0876 22.2615Z" fill="white" stroke="#FF5000" stroke-width="0.8" stroke-miterlimit="10"></path>
                 </svg></div>
-              <div class="token_name double">Basic Attention <br>Token</div>
             </div>
+            <div class="token_name">Basic Attention Token</div>
           </div>
-          <div id="w-node-_7c61f085-1077-d4cd-d5d2-5e1a0ca1da56-870141d5" class="token_cont">
-            <div class="token_icon w-embed"><svg width="64" height="64" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 51.2V64H12.8V51.2H0ZM0 25.6V38.4H12.8V25.6H0ZM51.2 25.6V38.4H64V25.6H51.2ZM0 12.8V0H12.8V12.8H0ZM25.6 25.6V12.8H38.4V25.6H25.6ZM25.6 38.4V51.2H38.4V38.4H25.6Z" fill="#131418"></path>
-              </svg></div>
-            <div class="token_name">The Graph</div>
+          <div id="w-node-_7c61f085-1077-d4cd-d5d2-5e1a0ca1da56-ff2dc505" class="token_cont product">
+            <div class="token_icon_cont"><img src="images/livepeer.png" loading="lazy" alt="" class="token_icon lightdark"></div>
+            <div class="token_name">Livepeer</div>
           </div>
-          <div id="w-node-ee6fc8fa-52aa-2181-70bc-f84f8dda56bf-870141d5" class="token_cont double"><img src="images/Vector.png" loading="lazy" alt="" class="token_icon">
-            <div class="token_name double"><br>Ocean Protocol</div>
+          <div id="w-node-ee6fc8fa-52aa-2181-70bc-f84f8dda56bf-ff2dc505" class="token_cont product">
+            <div class="token_icon_cont"><img src="images/Vector.png" loading="lazy" height="" alt="" class="token_icon lightdark"></div>
+            <div class="token_name">Ocean Protocol</div>
           </div>
-          <div id="w-node-_14d992c2-c8a3-ec82-f5d3-981c39e9b4a8-870141d5" class="token_cont double"><img src="images/Layer-3.png" loading="lazy" alt="" class="token_icon">
+          <div id="w-node-_14d992c2-c8a3-ec82-f5d3-981c39e9b4a8-ff2dc505" class="token_cont product">
+            <div class="token_icon_cont"><img src="images/Layer-3.png" loading="lazy" width="35" height="35" alt="" class="token_icon lightdark"></div>
             <div class="token_name double">Numeraire</div>
           </div>
-          <div id="w-node-_7ccaf277-e237-8a7e-61c4-4cc768830294-870141d5" class="token_cont">
-            <div class="token_icon w-embed"><svg width="64" height="57" viewbox="0 0 64 57" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M17.1106 5.46367C16.0898 7.18043 13.8691 7.74629 12.1508 6.72647C10.4324 5.70664 9.86604 3.48796 10.8868 1.7712C11.9076 0.0544406 14.1283 -0.511419 15.8466 0.508407C17.565 1.52823 18.1314 3.74691 17.1106 5.46367Z" fill="#5F45BA"></path>
-                <path d="M4.75473 3.85912C4.03475 5.07077 2.4636 5.47039 1.25084 4.75107C0.0380842 4.03176 -0.361902 2.46526 0.358074 1.25042C1.07805 0.0355753 2.6492 -0.360846 3.86196 0.358467C5.07791 1.08098 5.4779 2.64748 4.75473 3.85912Z" fill="#5F45BA"></path>
-                <path d="M39.147 56.1927C52.4074 54.6358 63.0726 43.8045 63.943 30.0193C64.9222 14.5077 53.1274 1.14125 37.6015 0.166178C35.7807 0.0510876 33.9536 0.115027 32.1457 0.351601C28.4146 0.655311 25.2627 2.07795 25.2627 2.07795C22.7092 3.32476 21.0612 5.40917 21.0612 8.19691C21.0612 11.8222 24.0019 14.7634 27.6306 14.7634C28.2386 14.7634 30.3377 14.0985 30.8369 13.9258C32.7441 13.2609 34.7664 12.9859 36.7823 13.117C42.1453 13.4559 46.6796 16.5377 49.1083 20.908C50.5163 23.44 51.1658 26.3204 50.9802 29.2104C50.4523 37.5705 43.2429 43.9228 34.872 43.3953C29.9281 43.082 25.6883 40.4381 23.1508 36.605V36.6082V36.605C20.1173 32.6408 20.8181 26.3012 20.8149 26.2213C20.6901 22.6951 17.8006 19.8754 14.2423 19.8754C11.2024 19.8754 8.65206 21.9374 7.89369 24.7347C7.74649 25.2846 7.66969 26.8959 7.69209 27.11C7.06491 42.3531 18.7413 55.3743 34.056 56.3365C35.7552 56.442 37.4575 56.3941 39.147 56.1927Z" fill="#5F45BA"></path>
-                <path d="M13.3405 15.502C12.0157 17.7303 9.13582 18.4624 6.90869 17.1388C4.68157 15.8153 3.94559 12.9381 5.27035 10.713C6.59511 8.4879 9.47501 7.7526 11.7021 9.07614C13.9293 10.3997 14.662 13.2769 13.3405 15.502Z" fill="#5F45BA"></path>
-              </svg></div>
+          <div id="w-node-_7ccaf277-e237-8a7e-61c4-4cc768830294-ff2dc505" class="token_cont product">
+            <div class="token_icon_cont">
+              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 64 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.1106 5.46367C16.0898 7.18043 13.8691 7.74629 12.1508 6.72647C10.4324 5.70664 9.86604 3.48796 10.8868 1.7712C11.9076 0.0544406 14.1283 -0.511419 15.8466 0.508407C17.565 1.52823 18.1314 3.74691 17.1106 5.46367Z" fill="#5F45BA"></path>
+                  <path d="M4.75473 3.85912C4.03475 5.07077 2.4636 5.47039 1.25084 4.75107C0.0380842 4.03176 -0.361902 2.46526 0.358074 1.25042C1.07805 0.0355753 2.6492 -0.360846 3.86196 0.358467C5.07791 1.08098 5.4779 2.64748 4.75473 3.85912Z" fill="#5F45BA"></path>
+                  <path d="M39.147 56.1927C52.4074 54.6358 63.0726 43.8045 63.943 30.0193C64.9222 14.5077 53.1274 1.14125 37.6015 0.166178C35.7807 0.0510876 33.9536 0.115027 32.1457 0.351601C28.4146 0.655311 25.2627 2.07795 25.2627 2.07795C22.7092 3.32476 21.0612 5.40917 21.0612 8.19691C21.0612 11.8222 24.0019 14.7634 27.6306 14.7634C28.2386 14.7634 30.3377 14.0985 30.8369 13.9258C32.7441 13.2609 34.7664 12.9859 36.7823 13.117C42.1453 13.4559 46.6796 16.5377 49.1083 20.908C50.5163 23.44 51.1658 26.3204 50.9802 29.2104C50.4523 37.5705 43.2429 43.9228 34.872 43.3953C29.9281 43.082 25.6883 40.4381 23.1508 36.605V36.6082V36.605C20.1173 32.6408 20.8181 26.3012 20.8149 26.2213C20.6901 22.6951 17.8006 19.8754 14.2423 19.8754C11.2024 19.8754 8.65206 21.9374 7.89369 24.7347C7.74649 25.2846 7.66969 26.8959 7.69209 27.11C7.06491 42.3531 18.7413 55.3743 34.056 56.3365C35.7552 56.442 37.4575 56.3941 39.147 56.1927Z" fill="#5F45BA"></path>
+                  <path d="M13.3405 15.502C12.0157 17.7303 9.13582 18.4624 6.90869 17.1388C4.68157 15.8153 3.94559 12.9381 5.27035 10.713C6.59511 8.4879 9.47501 7.7526 11.7021 9.07614C13.9293 10.3997 14.662 13.2769 13.3405 15.502Z" fill="#5F45BA"></path>
+                </svg></div>
+            </div>
             <div class="token_name double">Orchid Protocol</div>
           </div>
-          <div id="w-node-_0c3fd7ca-0869-2748-eb27-733c951009a6-870141d5" class="token_cont">
-            <div class="token_icon w-embed"><svg width="64" height="64" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M32 64C49.6731 64 64 49.6731 64 32C64 14.3269 49.6731 0 32 0C14.3269 0 0 14.3269 0 32C0 49.6731 14.3269 64 32 64Z" fill="#0E0E21"></path>
-                <path d="M49.8668 39.4667L46.0668 33C45.9334 32.7333 45.6001 32.6667 45.4001 32.8667L42.9334 34.4667C42.7334 34.6 42.6668 34.9333 42.8001 35.1333L45.0001 38.8C45.0668 38.9333 45.0001 39.0667 44.9334 39.1333L32.1334 47.4C32.0668 47.4667 31.9334 47.4667 31.8668 47.4L19.2001 39.1333C19.0668 39.0667 19.0668 38.9333 19.1334 38.8L21.3334 35.1333C21.4668 34.9333 21.4001 34.6 21.2001 34.4667L18.7334 32.8667C18.4668 32.7333 18.2001 32.8 18.0668 33L14.2668 39.4667C14.0001 39.9333 14.1334 40.5333 14.6001 40.8L31.6001 51.8667C31.9334 52.0667 32.3334 52.0667 32.6668 51.8667L49.6668 40.8C50.0001 40.4667 50.1334 39.8667 49.8668 39.4667Z" fill="white"></path>
-                <path d="M20.6002 29.4L23.0668 31C23.3335 31.1333 23.6002 31.0667 23.7335 30.8667L31.7335 17.2667C31.8002 17.1333 32.0668 17.1333 32.1335 17.2667L40.1335 30.8667C40.2668 31.1333 40.6002 31.2 40.8002 31L43.2668 29.4C43.4668 29.2667 43.5335 28.9333 43.4002 28.7333L34.0002 12.4667C33.8002 12.1333 33.5335 12 33.1335 12H30.8668C30.5335 12 30.2002 12.2 30.0002 12.4667L20.4668 28.7333C20.3335 28.9333 20.4002 29.2667 20.6002 29.4Z" fill="#2AE7A8"></path>
-              </svg></div>
+          <div id="w-node-_0c3fd7ca-0869-2748-eb27-733c951009a6-ff2dc505" class="token_cont product">
+            <div class="token_icon_cont">
+              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M32 64C49.6731 64 64 49.6731 64 32C64 14.3269 49.6731 0 32 0C14.3269 0 0 14.3269 0 32C0 49.6731 14.3269 64 32 64Z" fill="#0E0E21"></path>
+                  <path d="M49.8668 39.4667L46.0668 33C45.9334 32.7333 45.6001 32.6667 45.4001 32.8667L42.9334 34.4667C42.7334 34.6 42.6668 34.9333 42.8001 35.1333L45.0001 38.8C45.0668 38.9333 45.0001 39.0667 44.9334 39.1333L32.1334 47.4C32.0668 47.4667 31.9334 47.4667 31.8668 47.4L19.2001 39.1333C19.0668 39.0667 19.0668 38.9333 19.1334 38.8L21.3334 35.1333C21.4668 34.9333 21.4001 34.6 21.2001 34.4667L18.7334 32.8667C18.4668 32.7333 18.2001 32.8 18.0668 33L14.2668 39.4667C14.0001 39.9333 14.1334 40.5333 14.6001 40.8L31.6001 51.8667C31.9334 52.0667 32.3334 52.0667 32.6668 51.8667L49.6668 40.8C50.0001 40.4667 50.1334 39.8667 49.8668 39.4667Z" fill="white"></path>
+                  <path d="M20.6002 29.4L23.0668 31C23.3335 31.1333 23.6002 31.0667 23.7335 30.8667L31.7335 17.2667C31.8002 17.1333 32.0668 17.1333 32.1335 17.2667L40.1335 30.8667C40.2668 31.1333 40.6002 31.2 40.8002 31L43.2668 29.4C43.4668 29.2667 43.5335 28.9333 43.4002 28.7333L34.0002 12.4667C33.8002 12.1333 33.5335 12 33.1335 12H30.8668C30.5335 12 30.2002 12.2 30.0002 12.4667L20.4668 28.7333C20.3335 28.9333 20.4002 29.2667 20.6002 29.4Z" fill="#2AE7A8"></path>
+                </svg></div>
+            </div>
             <div class="token_name">Augur</div>
           </div>
         </div>
@@ -656,16 +723,16 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         <div class="accordion_maincontainer trigger">
           <div data-w-id="2ea5f7f9-a09c-2442-73bc-1a203a16ebc7" class="accordion_container product objective data-index">
             <div class="accordion_trigger">
-              <div class="accordion_title">
+              <div class="accordion_title data">
                 <h3 class="accordion_header">Objective</h3>
-                <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="accordion_chevron">
+                <div class="accordion_chevron">
                   <div class="chevron w-embed"><svg viewbox="0 0 37 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M1.00909 0.999859L18.3066 17.9704L35.6042 0.99986" stroke="#433BCE" stroke-width="2"></path>
                     </svg></div>
                 </div>
               </div>
             </div>
-            <div style="height:0px;opacity:0;display:none" class="accordion_content">
+            <div style="display:block" class="accordion_content">
               <p class="allparagraph2">The Data Economy Index (DATA) is a digital asset index capturing the growth of data economies with significant economic activity. <br><br>The DATA index is <span class="text-span">data centric and chain agnostic</span>. DATA includes tokens from <span class="text-span">any</span> blockchain that provides data-based products or services.</p>
             </div>
           </div>
@@ -673,7 +740,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         <div class="accordion_maincontainer trigger">
           <div data-w-id="fceed15a-edc0-f0a8-ff5f-1c54dbf04ca9" style="display:block" class="accordion_container">
             <div class="accordion_trigger">
-              <div class="accordion_title">
+              <div class="accordion_title data">
                 <h3 class="accordion_header">Token Inclusion Criteria</h3>
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="accordion_chevron">
                   <div class="chevron w-embed"><svg viewbox="0 0 37 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -695,28 +762,28 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
                     </svg></div>
                 </div>
                 <div class="allparagraph2"><strong>Data-based Protocol: </strong>The protocol provides data-based services or products.<br></div>
-                <div id="w-node-_024aaad9-45b8-c502-7ed0-994d5cd9b821-870141d5" class="grid_icon">
+                <div id="w-node-_024aaad9-45b8-c502-7ed0-994d5cd9b821-ff2dc505" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                     </svg></div>
                 </div>
                 <div class="allparagraph2"><strong>Ethereum Token:</strong> The token must be available on the Ethereum blockchain. This will be revised if the Set Protocol infrastructure becomes multi-chain.</div>
-                <div id="w-node-_36ee49bb-87f7-0e04-66a7-334d6f84ea63-870141d5" class="grid_icon">
+                <div id="w-node-_36ee49bb-87f7-0e04-66a7-334d6f84ea63-ff2dc505" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                     </svg></div>
                 </div>
                 <div class="allparagraph2"><strong>Organic Network Activity or Usage:</strong> Protocol must have organic network activity or usage. On-chain transaction volume, Total Value Locked (TVL), and/or revenue paid to service providers are all examples of metrics that can be used to demonstrate organic network activity.</div>
-                <div id="w-node-_43b7e9fc-0987-605c-412c-7610fbb853af-870141d5" class="grid_icon">
+                <div id="w-node-_43b7e9fc-0987-605c-412c-7610fbb853af-ff2dc505" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                     </svg></div>
                 </div>
                 <div class="allparagraph2"><strong>Market Capitalization: </strong>Circulating market capitalization must be over $100m. Decentralized Exchange (DEX) Liquidity: Protocol token must have sufficient DEX liquidity to support inclusion. If a token has insufficient liquidity, it will be removed from the index during the determination phase.<br></div>
-                <div id="w-node-_96f2f1fc-90c9-53d8-abf9-92d2e9d28882-870141d5" class="grid_icon">
+                <div id="w-node-_96f2f1fc-90c9-53d8-abf9-92d2e9d28882-ff2dc505" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
@@ -739,28 +806,28 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
                 <h4 class="prod_subtitle">Project’s Traction Characteristics</h4>
               </div>
               <div class="w-layout-grid prodcont_grid2">
-                <div id="w-node-_8251b170-08f1-44e1-a074-871e6cb6d345-870141d5" class="grid_icon">
+                <div id="w-node-_8251b170-08f1-44e1-a074-871e6cb6d345-ff2dc505" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                     </svg></div>
                 </div>
                 <div class="allparagraph2">The project must be widely considered to be building a useful protocol or product. Projects focused on competitive trading/holding, having Ponzi characteristics, or projects that exist primarily for entertainment, will not be included.</div>
-                <div id="w-node-d07213f3-481b-e3fc-8eab-980117e506fa-870141d5" class="grid_icon">
+                <div id="w-node-d07213f3-481b-e3fc-8eab-980117e506fa-ff2dc505" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                     </svg></div>
                 </div>
                 <div class="allparagraph2">The project’s protocol must have significant usage.</div>
-                <div id="w-node-_90e6c8c2-74e0-76ab-68ad-5f1ac66d61f8-870141d5" class="grid_icon">
+                <div id="w-node-_90e6c8c2-74e0-76ab-68ad-5f1ac66d61f8-ff2dc505" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                     </svg></div>
                 </div>
                 <div class="allparagraph2">The protocol or product must have been launched at least 180 days before being able to qualify to be included in the index.</div>
-                <div id="w-node-cc292ae7-b775-836a-4993-d8409c52e29d-870141d5" class="grid_icon">
+                <div id="w-node-cc292ae7-b775-836a-4993-d8409c52e29d-ff2dc505" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
@@ -772,21 +839,21 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
                 <h4 class="prod_subtitle">Protocol’s User Safety Characteristics</h4>
               </div>
               <div class="w-layout-grid prodcont_grid3">
-                <div id="w-node-_64ad45bc-d172-1e05-1a45-d4410929d947-870141d5" class="grid_icon">
+                <div id="w-node-_64ad45bc-d172-1e05-1a45-d4410929d947-ff2dc505" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                     </svg></div>
                 </div>
                 <div class="allparagraph2">Security professionals must have reviewed the protocol to determine that security best practices have been followed to maintain user assets safe under different circumstances. Alternatively, the protocol must have been operating long enough to create a consensus about its safety in the decentralized finance community.</div>
-                <div id="w-node-fb525323-30d6-9f43-ff1f-133e683e7d55-870141d5" class="grid_icon">
+                <div id="w-node-fb525323-30d6-9f43-ff1f-133e683e7d55-ff2dc505" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                     </svg></div>
                 </div>
                 <div class="allparagraph2">In the event of a safety incident, the team must have responded promptly and addressed the incident responsibly in the aftermath, providing users of the protocol with a reliable solution and the decentralized finance community with adequate documentation to provide transparency about the incident.</div>
-                <div id="w-node-_9014cc2e-b12a-317a-6872-37e559c890c8-870141d5" class="grid_icon">
+                <div id="w-node-_9014cc2e-b12a-317a-6872-37e559c890c8-ff2dc505" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
@@ -800,7 +867,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         <div class="accordion_maincontainer trigger">
           <div data-w-id="12e3fc56-d060-89a3-fbb1-f2045bc2c100" style="display:block" class="accordion_container">
             <div class="accordion_trigger">
-              <div class="accordion_title">
+              <div class="accordion_title data">
                 <h3 class="accordion_header">Index Weight Calculation</h3>
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="accordion_chevron">
                   <div class="chevron w-embed"><svg viewbox="0 0 37 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -818,7 +885,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         <div class="accordion_maincontainer trigger bottom">
           <div data-w-id="248128f4-1f94-5577-2a78-d3918d5388a8" style="display:block" class="accordion_container">
             <div class="accordion_trigger">
-              <div class="accordion_title">
+              <div class="accordion_title data">
                 <h3 class="accordion_header">Index Maintenance</h3>
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="accordion_chevron">
                   <div class="chevron w-embed"><svg viewbox="0 0 37 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -877,12 +944,14 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
               <a href="mvi.html" class="footitem footlink">Metaverse Index</a>
               <a href="eth-2x-fli.html" class="footitem footlink">ETH2x-FLI</a>
               <a href="btc-2x-fli.html" class="footitem footlink">BTC2x-FLI</a>
+              <a href="bankless-bed-index.html" class="footitem footlink">BED Index</a>
               <a href="index-coop-data-index.html" aria-current="page" class="footitem footlink w--current">DATA Index</a>
             </div>
             <div class="resourcesfooter">
               <div class="footlinktitle">Resources</div>
-              <a href="institution.html" class="footitem footlink _1st">For institutions</a>
-              <a href="methodologist.html" class="footitem footlink">For methodologists</a>
+              <a href="methodologist.html" class="footitem footlink _1st">For methodologists</a>
+              <a href="institution.html" class="footitem footlink">For institutions</a>
+              <a href="contributor.html" class="footitem footlink">For contributors</a>
               <a href="https://www.indexcoop.com/news" class="footitem footlink">News</a>
               <a href="https://docs.indexcoop.com/" target="_blank" class="footitem footlink">Docs &amp; Guides</a>
             </div>
@@ -895,8 +964,8 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
             </div>
           </div>
           <div class="div-block-16">
-            <div class="div-block-78"><img src="images/Group.svg" loading="lazy" width="116" alt=""></div>
-            <div class="div-block-79">
+            <div class="index-logo-cont"><img src="images/Group.svg" loading="lazy" width="116" alt=""></div>
+            <div class="icon_wrapper">
               <div class="toggle">
                 <div class="togglethemefooter footer w-embed"><label for="toggleTheme" title="Toggle theme">
                     <input id="toggleTheme" name="theme" type="checkbox">
@@ -910,25 +979,24 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2.4rem;
+    height: 100%;
     border-radius: 8rem;
-    width: 2.4rem;
-    padding: .2rem;
+    width: 100%;
+    padding: 0;
 }
 .toggleThemefooter:before {
     position: absolute;
     content: '';
     height: 2rem;
     width: 2rem;
-    border-radius: 4rem;
-		background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
+		background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
 }
 input[type="checkbox"] {
 	display: none;
 }
 input[type="checkbox"]:checked+.toggleThemefooter:before {
     content: '';
-    background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
+    background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
 }
 </style>
                 </div>
@@ -949,32 +1017,6 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script>
-//DPE
-fetch('https://api.coingecko.com/api/v3/coins/data-economy-index')
-.then(response => response.json())
-.then(data => {
-  console.log(data) // Prints result from `response.json()` in getRequest
-  var currentpricenow = "$"+data.market_data.current_price.usd;
-  var pricechange = data.market_data.price_change_percentage_24h;
-  var marketcap = "$"+ Math.fround(data.market_data.market_cap.usd/1000000).toFixed(2)+"M";
-  var volume = Math.fround(data.market_data.total_volume.usd/1000000).toFixed(2)+"M";
-  var currentsupply = Math.floor(data.market_data.circulating_supply).toLocaleString('en');
-  $(".currentpricenow").append(currentpricenow);
- // $(".pricechange").append(pricechange);
-  $(".marketcap").append(marketcap);
-  $(".volume").append(volume);
-  $(".currentsupply").append(currentsupply);
-  if (pricechange >= 0) {
-    $(".pricechange").append((pricechange).toFixed(2)+"%");
-    $(".pricechange").css({'color':'#09AA74'});
- }
- else {
-    $(".pricechange").append((pricechange).toFixed(2)+"%");
-    $(".pricechange").css({'color':'#C32238'});
- }
-})
-.catch(error => console.error(error))
-//END
 function setThemeFromCookie() {
  const themeState = document.getElementById('content');
  themeState.className = isThemeSelected() ? 'dark-mode' : 'light-mode';
@@ -1003,6 +1045,34 @@ $('.menu').on('click', function(){
 $('.close').on('click', function(){
   $('body').removeClass('no-scroll');
 });
+</script>
+  <script>
+//DPE
+fetch('https://api.coingecko.com/api/v3/coins/data-economy-index')
+.then(response => response.json())
+.then(data => {
+  console.log(data) // Prints result from `response.json()` in getRequest
+  var currentpricenow = "$"+data.market_data.current_price.usd;
+  var pricechange = data.market_data.price_change_percentage_24h;
+  var marketcap = "$"+ Math.fround(data.market_data.market_cap.usd/1000000).toFixed(2)+"M";
+  var volume = Math.fround(data.market_data.total_volume.usd/1000000).toFixed(2)+"M";
+  var currentsupply = Math.floor(data.market_data.circulating_supply).toLocaleString('en');
+  $(".currentpricenow").append(currentpricenow);
+ // $(".pricechange").append(pricechange);
+  $(".marketcap").append(marketcap);
+  $(".volume").append(volume);
+  $(".currentsupply").append(currentsupply);
+  if (pricechange >= 0) {
+    $(".pricechange").append((pricechange).toFixed(2)+"%");
+    $(".pricechange").css({'color':'#09AA74'});
+ }
+ else {
+    $(".pricechange").append((pricechange).toFixed(2)+"%");
+    $(".pricechange").css({'color':'#C32238'});
+ }
+})
+.catch(error => console.error(error))
+//END
 </script>
 </body>
 </html>

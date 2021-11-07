@@ -1,6 +1,6 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Oct 28 2021 22:04:12 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="6108c4981c303c48607f2034" data-wf-site="60d237b6ea65be721ff4bbfa">
+<!--  Last Published: Sun Nov 07 2021 17:41:28 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="6187d6120f73f500802dc503" data-wf-site="60d237b6ea65be721ff4bbfa">
 <head>
   <meta charset="utf-8">
   <title>Index Coop | ETH2xFLI</title>
@@ -20,183 +20,68 @@
   <script type="text/javascript">WebFont.load({  google: {    families: ["IBM Plex Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic:cyrillic,cyrillic-ext,greek,latin,latin-ext,vietnamese","IBM Plex Mono:regular,500,600"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.ico" rel="apple-touch-icon">
   <style>
-  .mainnavbar {
-  backdrop-filter: blur(5px);
-  }
-  #content.dark-mode .mainnavbar{
-    background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(5px);
-	}
-  #content.dark-mode .nav-link {
-	color: #F7F6F2;
-  }
-  #content.dark-mode .nav-link:hover{
-    border-bottom: 2px solid #F7F6F2;
-  }
-  #content.dark-mode .dropdown-text:hover {
-    border-bottom: 1px solid #F7F6F2;
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-  #content.dark-mode .dropdown-list-2.w--open {
-    background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(5px);
-  }
-  #content.dark-mode .longline {
-    border-buttom: 1px solid #ffffff;
-}
-  #content.dark-mode .indexcooplinks {
-    color: #7289da;
-}
-.indexcooplinks {
-color: #433BCE
-}
-#content.dark-mode a.sell-button.buttons.w-button {
-    color: #09AA74;
-}
- #content.dark-mode a.buy-button.buttons.w-button {
-    color: black;
-  }
- #content.dark-mode .view_link{
-	color:#B9B6FC;
-  }
- #content.dark-mode {
-    background-color: #0F0E0B;
-    color: #F7F6F2;
-}
- #content.dark-mode .allh1, #content.dark-mode .allh2, #content.dark-mode .allh3{
-  color: #F7F6F2;
-}
- #content.dark-mode .prodh3, #content.dark-mode .grid_heading, #content.dark-mode .listtextblock, #content.dark-mode .slider_description{
-  color: #F7F6F2;
-}
- #content.dark-mode a {
-  color: #F7F6F2;
-}
-#content.dark-mode .accordion_header, #content.dark-mode .allparagraph2 {
-  color: #F7F1E4
-  }
-</style>
-  <style>
-.w-slider-dot {
-  background: #C4C4C4;
-}
-.w-slider-dot.w-active {
-  background: #327EE8;
-}
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}  
+.mainnavbar	{
+  	backdrop-filter: blur(5px);
 }
-#content.light-mode {
-  background-color: #ffffff;
-  color: #171717;
+.no-scroll {
+	overflow:hidden;  
 }
-#content.light-mode > .gray_bg{
-  background-color: #f8f8f8;
+input.inputfield::placeholder,
+textarea.inputfield::placeholder{
+	opacity: 0%;  
+}  
+/* 	Light Mode Styles	*/
+/*	Global Light Mode	*/  
+/* 	Dark Mode Styles	*/
+/*	Global Dark Mode	*/
+#content.dark-mode .nav-link {
+	color: #F7F6F2;
 }
-#contant.light-mode a {
-  color: #171717;
-}
-#content.light-mode > .svg_icon path {
-  fill: #327EE8;
+#content.dark-mode .nav-link:hover {
+	border-bottom: 2px solid #F7F6F2;
 }
 #content.dark-mode{
-  background-color: #0F0E0B;
-  color: #F7F6F2;
-}
-#content.dark-mode .allh1, #content.dark-mode .allh2, #content.dark-mode .allh3{
-  color: #F7F6F2;
-}
-#content.dark-mode .prodh3, #content.dark-mode .grid_heading, #content.dark-mode .listtextblock, #content.dark-mode .slider_description{
-  color: #F7F6F2;
-}
-#content.dark-mode a {
-  color: #ffffff;
-}
-#content.dark-mode > .gray_bg{
-  background-color: transparent;
-}
-#content.dark-mode a.w--current {
- color: #707AFF;
-}
-#content.dark-mode > .svg_icon path {
-  fill: #327EE8;
-}
-#content.dark-mode .heroline {
-  border-top: 3px solid #ffffff;
-}
-#content.dark-mode .trigger, .longline {
-  border-top: 1px solid #ffffff;
-}
-#content.dark-mode .index_logo path {
-  fill: #ffffff;
-}
-#content.dark-mode .app-button {
-  border: 2px solid #fff;
-  background-color: transparent;
-}
-#content.dark-mode .nav-link:hover{
-	border-bottom: 1px solid #fff;
-}
-#content.dark-mode .eco-grid {
-	background-color: #0F0E0B;
-  border: 1px solid white;
-} 
-#content.dark-mode .dark_mode_investico{
-	display: block;
-}
-#content.dark-mode .light_mode_investico{
-	display: none;
-}
-#content.dark-mode .mainnavbar{
-	background-color: rgba(0,0,0,.8);
-}
-#content.dark-mode .allparagraph2.quote.black {
+    background-color: #0F0E0B;
     color: #F7F6F2;
 }
-#content.dark-mode .bg-grey{
-		background: transparent;
+#content.dark-mode .accordion_header, #content.dark-mode .allparagraph2 {
+    color: #F7F1E4;
 }
-.w-input::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #000000;
-    opacity: .5;
+#content.dark-mode .mainnavbar{
+	background-color: rgba(15, 14, 11, 0.8);
 }
-.w-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #000000;
-    opacity: .5;
+#content.dark-mode .allh1,
+#content.dark-mode .allh2,
+#content.dark-mode .allh3{
+  	color: #F7F6F2;
 }
-.w-input::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #000000;
-    opacity: .5;
+#content.dark-mode a {
+  	color: #B9B6FC;
 }
-.w-input:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #000000;
-    opacity: .5;
+#content.dark-mode .gray_bg{
+  	background-color: #1D1B16;
 }
-.no-scroll {overflow:hidden;}
-.w-nav-button.w--open{
-	background-color: transparent;
+#content.dark-mode .app-button {
+  	border: 2px solid #fff;
+  	background-color: transparent;
+  	color: #F7F6F2;
 }
-#content.dark-mode .w-nav-button.w--open{
-	background-color: black;
-}
-#content.dark-mode .close{
-	color: white;
-}
-#content.dark-mode .menu{
-	color: white;
-}
-#content.dark-mode .nav-menu-2{
-	background-color: black;
+#content.dark-mode .app-button:hover {
+	background-color: #F7F6F2;
+  	color: #000000;
 }
 #content.dark-mode .menu_title .menu_gov{
-	color: white;
+	color: #F7F6F2;
 }
 #content.dark-mode .menu_titlecont{
-  border-bottom: 2px solid #ffffff;
+  	border-bottom: 2px solid #F7F6F2;
 }
 #content.dark-mode .language_icon.black{
 	display: none;
@@ -210,29 +95,202 @@ color: #433BCE
 #content.dark-mode .togglethemefooter {
 	display: block;
 }
-@media screen and (max-width: 991px){
-	#content.dark-mode .stickytoggles {
-		background-color: white;
-	}
-  #content.dark-mode .app-button {
-  	border: 2px solid black;
-    color: black;
-  }
-  #content.dark-mode .toggle-theme2{
-		display: block;
-	}
-	#content.dark-mode .togglethemefooter {
-		display: none;
-	}
-  #content.dark-mode .language_icon.black{
-		display: block;
-	}
-	#content.dark-mode .language_icon.white{
-		display: none;
-	}
+#content.dark-mode .heroline {
+  	border-top: 3px solid #F7F6F2;
 }
-label {
-	margin-bottom: 0px;
+#content.dark-mode .index_logo path {
+  	fill: #F7F6F2;
+}
+#content.dark-mode .dropdown-text:hover {
+    border-bottom: 1px solid #F7F6F2;
+}
+#content.dark-mode .dropdown-list-2.w-dropdown-list.w--open {
+    background: rgba(15, 14, 11, 0.95);
+  	border: 1px solid rgba(247, 246, 242, 0.12);
+}
+#content.dark-mode .eco-grid {
+	background-color: #0F0E0B;
+}
+#content.dark-mode .investors_icons {
+	filter: invert();
+}
+#content.dark-mode .accordion_maincontainer.trigger {
+	border-bottom: 1px solid #F7F6F2;
+  	border-top: 1px solid #F7F6F2;	
+}
+#content.dark-mode .prod_subtitle {
+  	color: #F7F6F2;
+}
+#content.dark-mode a.dropdown-text {
+	color: #F7F6F2;
+}
+#content.dark-mode .view_link {
+	color: #B9B6FC;  
+}
+#content.dark-mode  a.footitem.footlink {
+	color:  #F7F6F2; 
+}
+@media only screen and (max-width: 991px){
+  #content.dark-mode .nav-menu-2{
+      background-color: #0F0E0B;  
+  }
+  #content.dark-mode .close,
+  #content.dark-mode .menu,
+  #content.dark-mode .menu_prods a,
+  #content.dark-mode .menu_gov a{
+      color: #F7F6F2;
+  }
+  #content.dark-mode .stickytoggles {
+      filter: invert();
+  }
+}  
+/*	Home Page	*/
+#content.dark-mode .slider_description {
+  	color: #F7F6F2;
+}
+#content.dark-mode .w-slider-dot.w-active {
+  	background-color: #327EE8;
+}
+#content.dark-mode .prodh3,
+#content.dark-mode .listtextblock,
+#content.dark-mode .grid_heading{
+  	color: #F7F6F2;
+}
+#content.dark-mode .listico._3rd path,
+#content.dark-mode .listico._3rd circle {
+	stroke: #B9B6FC;  
+}
+#content.dark-mode .listico._2nd path,
+#content.dark-mode .listico._2nd circle {
+	stroke: #699BF7;  
+}  
+#content.dark-mode .listico._3rdtrinity path {
+	fill: #B9B6FC;  
+}
+#content.dark-mode .listico.lightmode {
+	display: none;  
+}
+#content.dark-mode .listico.darkmode {
+	display: block;  
+}  
+#content.dark-mode a.social_box.w-button {
+	color: #0F0E0B;  
+}
+/*	About Page	*/
+#content.dark-mode .dark_mode_tria {
+	display: block;  
+}
+#content.dark-mode .lightmode_triangle {
+	display: none;  
+}
+#content.dark-mode .social_box.aboutpage {
+	color: #00b9ff;  
+}
+#content.dark-mode .social_box.discord.aboutpage {
+	color: #7289da;  
+}
+#content.dark-mode .trinity_svg.darkmode {
+    display: block;
+}
+#content.dark-mode .trinity_svg.lightmode {
+    display: none;
+}
+/*	Partners Page	*/
+#content.dark-mode img.ecoprodimg.indexcoop {
+	filter:invert();  
+}
+/*	Institutions Page	*/
+input[type="text"].inputfield::-webkit-input-placeholder {
+	color: #737373;  
+}
+#content.dark-mode .sub_h2,
+#content.dark-mode .eventtable_header,
+#content.dark-mode .fieldtitle {
+	color: #F7F6F2;
+}
+#content.dark-mode .event_line {
+	border-top: 3px solid #F7F6F2;  
+}
+#content.dark-mode .inputfield{
+    background: rgba(221, 221, 221, 0.12);
+    border: none;
+    border-bottom: 3px solid #ffff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+#content.dark-mode .inputfield:hover {
+    border-style: none none solid;
+    border-width: 1px 1px 3px;
+    border-color: #000 #000 #327ee8;
+    background-color: rgba(50, 121, 232, 0.13);
+}
+#content.dark-mode .inputfield:focus {
+    border-style: none none solid;
+    border-width: 0px 0px 3px;
+    border-color: #000 #000 #fabf00;
+    background-color: rgba(250, 191, 0, 0.09);
+}
+#content.dark-mode .inputfield{
+	color: #F7F6F2;  
+}
+@media only screen and (max-width: 991px){
+    input.inputfield::placeholder,
+    textarea.inputfield::placeholder{
+        color: #rgba(0, 0, 0, 0.5) !important;
+        opacity: 100%;  
+    }
+  	#content.dark-mode input.inputfield::placeholder,
+    #content.dark-mode textarea.inputfield::placeholder{
+        color: rgba(247, 246, 242, 0.5) !important;
+        opacity: 100%;  
+    }
+}  
+/*	Methodologist Page	*/
+#content.dark-mode .link_underline {
+  	color: #B9B6FC;
+}
+#content.dark-mode .forum_box {
+	border: 3px solid #F7F6F2;  
+}
+#content.dark-mode .forum_box a {
+  	color: #F7F6F2;
+}
+#content.dark-mode .steps {
+	color: #000000;  
+}
+/*	Products Pages	*/
+#content.dark-mode .prod_icon.index path {
+  	fill: #F7F6F2;
+}
+#content.dark-mode .buy-button.buttons {
+	color: #F7F6F2;
+}
+#content.dark-mode .sell-button.buttons {
+	color: #09AA74;
+}
+#content.dark-mode .token_icon.lightdark {
+	filter: invert();  
+}
+#content.dark-mode .dpi-formula {
+  	filter: invert();
+}
+#content.dark-mode .bg-grey.lightdark,
+#content.dark-mode .allparagraph.quote,
+#content.dark-mode .allparagraph.quote.fli{
+	background-color: #0F0E0B;
+  	color: #F7F6F2;
+}
+/*	Contributors Page	*/  
+#content.dark-mode .flowchart {
+	filter: invert();  
+}
+/*	StyleGuide Page	*/   
+#content.dark-mode .token_textblock {
+	color:  #F7F6F2;
+}
+#content.dark-mode  .index_icon.w-embed path {
+	filter: invert();  
 }
 </style>
 </head>
@@ -285,23 +343,6 @@ label {
           </div>
           <div class="menu_container mobilenav">
             <div class="menu_titlecont">
-              <div class="menu_title">Governance</div>
-            </div>
-            <div class="menu_gov">
-              <a href="index-token.html" class="menu_govlink">INDEX Token</a>
-            </div>
-            <div class="menu_gov">
-              <a href="https://snapshot.org/#/index-coop.eth" class="menu_govlink">Voting Portal <span class="text-span-27">snapshot</span></a>
-            </div>
-            <div class="menu_gov">
-              <a href="#" class="menu_govlink">Farm</a>
-            </div>
-            <div class="menu_gov">
-              <a href="#" class="menu_govlink">Rewards</a>
-            </div>
-          </div>
-          <div class="menu_container mobilenav">
-            <div class="menu_titlecont">
               <div class="menu_title">Resources</div>
             </div>
             <div class="menu_gov">
@@ -311,10 +352,13 @@ label {
               <a href="#" class="menu_govlink">Blog</a>
             </div>
             <div class="menu_gov">
-              <a href="methodologist.html" class="menu_govlink">Methodologist</a>
+              <a href="methodologist.html" class="menu_govlink">Methodologists</a>
             </div>
             <div class="menu_gov">
               <a href="institution.html" class="menu_govlink">Institutions</a>
+            </div>
+            <div class="menu_gov">
+              <a href="contributor.html" class="menu_govlink">Contributors</a>
             </div>
           </div>
           <div class="menu_container mobilenav">
@@ -363,9 +407,6 @@ label {
             </div>
           </div>
           <div class="div-block-93">
-            <a href="index.html" class="link-block nav-link w-inline-block">
-              <div>Home</div>
-            </a>
             <div data-delay="3" data-hover="false" class="w-dropdown">
               <div class="dropdown-nav nav-link w-dropdown-toggle">
                 <div>Products</div>
@@ -386,8 +427,9 @@ label {
               <nav class="dropdown-list-2 w-dropdown-list">
                 <a href="https://docs.indexcoop.com/" class="dropdown-text w-dropdown-link">Gitbook</a>
                 <a href="#" class="dropdown-text w-dropdown-link">Blog</a>
-                <a href="methodologist.html" class="dropdown-text w-dropdown-link">Methodologist</a>
+                <a href="methodologist.html" class="dropdown-text w-dropdown-link">Methodologists</a>
                 <a href="institution.html" class="dropdown-text w-dropdown-link">Institutions</a>
+                <a href="contributor.html" class="dropdown-text w-dropdown-link">Contributors</a>
               </nav>
             </div>
             <div data-delay="3" data-hover="false" class="w-dropdown">
@@ -437,25 +479,23 @@ label {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2.4rem;
     border-radius: 8rem;
-    width: 2.4rem;
-    padding: .2rem;
+    height: 100%;
+    width: 100%;
 }
 .toggleTheme:before {
     position: absolute;
     content: '';
     height: 2rem;
     width: 2rem;
-    border-radius: 4rem;
-		background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
+		background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
 }
 input[type="checkbox"] {
 	display: none;
 }
 input[type="checkbox"]:checked+.toggleTheme:before {
     content: '';
-    background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
+    background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
 }
 </style>
                 </div>
@@ -471,10 +511,9 @@ input[type="checkbox"]:checked+.toggleTheme:before {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2rem;
+    height: 100%;
     border-radius: 8rem;
-    width: 2rem;
-    padding: .2rem;
+    width: 100%;
 }
 .toggleThemefooter:before {
     position: absolute;
@@ -523,23 +562,25 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
     </div>
     <div class="hero-section wf-section">
       <div class="maincontainer product w-container">
-        <div class="head_cont product">
-          <div class="prod_icon w-embed"><svg viewbox="0 0 106 106" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M53.0353 1.5C24.5433 1.5 1.5 24.5344 1.5 53.0176C1.5 81.5016 24.544 104.5 53 104.5C81.4567 104.5 104.5 81.4656 104.5 53.0176C104.5 24.571 81.4228 1.5 53.0353 1.5ZM70.1292 10.0397C92.4956 18.8636 104.199 43.7903 97.0681 66.4546L11.9033 32.7689C16.7299 22.6898 24.9867 14.8241 35.3411 10.4487C46.5164 5.73444 58.8127 5.59691 70.1292 10.0397Z" fill="url(#paint0_linear)" stroke="white" stroke-width="3"></path>
-              <path d="M9.88086 33.582C14.7503 22.4708 23.5718 13.7936 34.7574 9.06696C46.2958 4.19924 58.9987 4.05814 70.6783 8.64368C94.2845 17.9559 106.388 44.6225 97.9896 68.432L9.88086 33.582Z" fill="white"></path>
-              <path d="M42.5562 29.4198L52.7538 35.4516L62.9514 29.4198L52.7538 12.5239L42.5562 29.4198Z" fill="#460782"></path>
-              <path d="M42.5562 32.7357L52.7538 47.0919L62.9514 32.7357L52.7538 38.7674L42.5562 32.7357Z" fill="#460782"></path>
-              <path d="M30.8061 63.4233C30.0298 63.0706 29.3594 62.1182 29.3594 61.2716V56.6155L43.7913 62.7884L43.8618 80.284C43.8618 84.3051 43.8618 84.5168 46.7906 85.7866L55.4709 89.455V95.6984L41.039 89.5256C39.4511 88.8201 38.1103 86.8801 38.1103 85.1517V78.9083L35.1815 77.6737C33.5937 76.9683 32.2528 75.0282 32.2528 73.2998V70.1605L38.0044 72.5944V66.351L30.8061 63.4233Z" fill="white"></path>
-              <path d="M55.4004 83.2822L52.4717 82.0476C49.543 80.672 49.543 80.8836 49.543 77.6737V56.6155L52.4717 57.8501C54.0596 58.5556 55.4004 60.4956 55.4004 62.224V83.2822Z" fill="white"></path>
-              <path d="M67.2563 47.2329V44.5168L72.9374 38.9084C73.6431 38.2734 74.1018 37.6738 74.3841 37.1094C74.7369 36.5451 74.8781 35.9454 74.8781 35.3105C74.8781 34.6756 74.6664 34.217 74.3135 33.8643C73.9607 33.5115 73.2549 33.2999 72.3728 33.2999H67.5739V30.6544C68.3502 30.5133 69.0912 30.3722 70.0086 30.3017C70.9261 30.1606 71.8788 30.09 73.0079 30.09C74.3135 30.09 75.3721 30.3017 76.1484 30.6544C76.9247 31.0071 77.4539 31.5715 77.7362 32.2417C78.0891 32.9472 78.2302 33.7585 78.2302 34.7461C78.2302 35.9101 78.0185 36.8978 77.5245 37.7443C77.0305 38.5909 76.4307 39.4727 75.5132 40.3899L71.7729 44.1994H78.8654V47.2682H67.2563V47.2329ZM80.5238 47.2329L84.6875 40.919L80.5238 34.9578H83.9112L86.6283 38.8378L89.063 34.9578H92.521L88.3925 41.3422L92.5563 47.3034H89.0983L86.3813 43.4234L83.9465 47.3034H80.5591V47.2329H80.5238Z" fill="#460782"></path>
-              <defs>
-                <lineargradient id="paint0_linear" x1="53" y1="30.4773" x2="53" y2="102.974" gradientunits="userSpaceOnUse">
-                  <stop stop-color="#3A056C"></stop>
-                  <stop offset="1" stop-color="#4D078D"></stop>
-                </lineargradient>
-              </defs>
-            </svg></div>
-          <h1 class="allh1 product">Ethereum 2x Flexible Leverage Index</h1>
+        <div class="head_cont product ethfli">
+          <div class="prod_icon_cont ethfli">
+            <div class="prod_icon ethfli w-embed"><svg width="100%" height="100%" viewbox="0 0 106 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M53.0353 1.5C24.5433 1.5 1.5 24.5344 1.5 53.0176C1.5 81.5016 24.544 104.5 53 104.5C81.4567 104.5 104.5 81.4656 104.5 53.0176C104.5 24.571 81.4228 1.5 53.0353 1.5ZM70.1292 10.0397C92.4956 18.8636 104.199 43.7903 97.0681 66.4546L11.9033 32.7689C16.7299 22.6898 24.9867 14.8241 35.3411 10.4487C46.5164 5.73444 58.8127 5.59691 70.1292 10.0397Z" fill="url(#paint0_linear)" stroke="white" stroke-width="3"></path>
+                <path d="M9.88086 33.582C14.7503 22.4708 23.5718 13.7936 34.7574 9.06696C46.2958 4.19924 58.9987 4.05814 70.6783 8.64368C94.2845 17.9559 106.388 44.6225 97.9896 68.432L9.88086 33.582Z" fill="white"></path>
+                <path d="M42.5562 29.4198L52.7538 35.4516L62.9514 29.4198L52.7538 12.5239L42.5562 29.4198Z" fill="#460782"></path>
+                <path d="M42.5562 32.7357L52.7538 47.0919L62.9514 32.7357L52.7538 38.7674L42.5562 32.7357Z" fill="#460782"></path>
+                <path d="M30.8061 63.4233C30.0298 63.0706 29.3594 62.1182 29.3594 61.2716V56.6155L43.7913 62.7884L43.8618 80.284C43.8618 84.3051 43.8618 84.5168 46.7906 85.7866L55.4709 89.455V95.6984L41.039 89.5256C39.4511 88.8201 38.1103 86.8801 38.1103 85.1517V78.9083L35.1815 77.6737C33.5937 76.9683 32.2528 75.0282 32.2528 73.2998V70.1605L38.0044 72.5944V66.351L30.8061 63.4233Z" fill="white"></path>
+                <path d="M55.4004 83.2822L52.4717 82.0476C49.543 80.672 49.543 80.8836 49.543 77.6737V56.6155L52.4717 57.8501C54.0596 58.5556 55.4004 60.4956 55.4004 62.224V83.2822Z" fill="white"></path>
+                <path d="M67.2563 47.2329V44.5168L72.9374 38.9084C73.6431 38.2734 74.1018 37.6738 74.3841 37.1094C74.7369 36.5451 74.8781 35.9454 74.8781 35.3105C74.8781 34.6756 74.6664 34.217 74.3135 33.8643C73.9607 33.5115 73.2549 33.2999 72.3728 33.2999H67.5739V30.6544C68.3502 30.5133 69.0912 30.3722 70.0086 30.3017C70.9261 30.1606 71.8788 30.09 73.0079 30.09C74.3135 30.09 75.3721 30.3017 76.1484 30.6544C76.9247 31.0071 77.4539 31.5715 77.7362 32.2417C78.0891 32.9472 78.2302 33.7585 78.2302 34.7461C78.2302 35.9101 78.0185 36.8978 77.5245 37.7443C77.0305 38.5909 76.4307 39.4727 75.5132 40.3899L71.7729 44.1994H78.8654V47.2682H67.2563V47.2329ZM80.5238 47.2329L84.6875 40.919L80.5238 34.9578H83.9112L86.6283 38.8378L89.063 34.9578H92.521L88.3925 41.3422L92.5563 47.3034H89.0983L86.3813 43.4234L83.9465 47.3034H80.5591V47.2329H80.5238Z" fill="#460782"></path>
+                <defs>
+                  <lineargradient id="paint0_linear" x1="53" y1="30.4773" x2="53" y2="102.974" gradientunits="userSpaceOnUse">
+                    <stop stop-color="#3A056C"></stop>
+                    <stop offset="1" stop-color="#4D078D"></stop>
+                  </lineargradient>
+                </defs>
+              </svg></div>
+          </div>
+          <h1 class="allh1 product ethfli">ETH 2x Flexible Leverage Index</h1>
         </div>
         <div class="current_change_cont">
           <div class="btn_buysell mobile">
@@ -586,7 +627,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
             <div class="stat_title">Streaming Fee</div>
             <div class="stat_value2">1.95%</div>
           </div>
-          <div id="w-node-b28d43b1-40b7-54f7-b56d-19432dc78d7f-607f2034" class="stat_cont">
+          <div id="w-node-b28d43b1-40b7-54f7-b56d-19432dc78d7f-802dc503" class="stat_cont">
             <div class="stat_title">minting / Redeeming Fee</div>
             <div class="stat_value2">0.1%</div>
           </div>
@@ -600,14 +641,16 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         </div>
       </div>
       <div class="w-container">
-        <div class="w-layout-grid allproducts2">
-          <div id="w-node-_1857bb2e-0ff3-2e2f-0a08-54eec5b000b5-607f2034" class="token_cont"><img src="images/compound-ether-ceth-logo-1.svg" loading="lazy" width="64" alt="" class="token_icon">
+        <div class="w-layout-grid allproductseth">
+          <div id="w-node-_1857bb2e-0ff3-2e2f-0a08-54eec5b000b5-802dc503" class="token_cont">
+            <div class="token_icon_cont"><img src="images/compound-ether-ceth-logo-1.svg" loading="lazy" width="64" alt="" class="token_icon"></div>
             <div class="token_name">cETH</div>
           </div>
-          <div id="w-node-_35e0ce63-d26c-ffdf-cd8e-613216b966c2-607f2034" class="token_cont"><img src="images/usd-coin-usdc-logo-1.svg" loading="lazy" width="64" alt="" class="token_icon">
+          <div id="w-node-_35e0ce63-d26c-ffdf-cd8e-613216b966c2-802dc503" class="token_cont">
+            <div class="token_icon_cont"><img src="images/usd-coin-usdc-logo-1.svg" loading="lazy" width="64" alt="" class="token_icon"></div>
             <div class="token_name">USDC</div>
           </div>
-          <div id="w-node-ea686c67-1c6f-8494-730a-bf062dddf0d4-607f2034" class="token_cont debt">
+          <div id="w-node-ea686c67-1c6f-8494-730a-bf062dddf0d4-802dc503" class="token_cont debt">
             <div class="manage-text">Debt is created and managed by</div>
             <div class="html-embed-22 w-embed"><svg viewbox="0 0 188 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
@@ -634,37 +677,37 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
             <div data-w-id="2ea5f7f9-a09c-2442-73bc-1a203a16ebc7" class="accordion_trigger">
               <div class="accordion_title">
                 <h3 class="accordion_header">Objective</h3>
-                <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="accordion_chevron">
+                <div class="accordion_chevron">
                   <div class="chevron w-embed"><svg viewbox="0 0 37 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M1.00909 0.999859L18.3066 17.9704L35.6042 0.99986" stroke="#433BCE" stroke-width="2"></path>
                     </svg></div>
                 </div>
               </div>
-              <div style="height:0px;opacity:0;display:none" class="accordion_content">
+              <div style="display:block" class="accordion_content">
                 <p class="allparagraph2">The Ethereum Flexible Leverage Index (ETH2X-FLI) makes leverage effortless. The end user does not have to worry about:<br></p>
                 <div class="w-layout-grid prodcont_grid4">
-                  <div id="w-node-b06d51b1-c69a-ab7e-9112-665615f824e6-607f2034" class="grid_icon">
+                  <div id="w-node-b06d51b1-c69a-ab7e-9112-665615f824e6-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">Monitoring their leveraged loan 24/7, having to always be ready to act.</div>
-                  <div id="w-node-_889d2b5c-93e3-9321-ecb4-43e57d43dd8b-607f2034" class="grid_icon">
+                  <div id="w-node-_889d2b5c-93e3-9321-ecb4-43e57d43dd8b-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">High fees, transactions not being included fast enough or the relative UIs being unresponsive during times of high volatility.</div>
-                  <div id="w-node-ec4bb6f5-41f0-0396-9cac-202a80f34916-607f2034" class="grid_icon">
+                  <div id="w-node-ec4bb6f5-41f0-0396-9cac-202a80f34916-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">Users don&#x27;t have to manage their liquidation ratio since this is automatically managed by FLI, which drastically reduces liquidations, even during black swan events.</div>
-                  <div id="w-node-_8db032cb-410d-32d0-486f-65cdb4c3b9d6-607f2034" class="grid_icon">
+                  <div id="w-node-_8db032cb-410d-32d0-486f-65cdb4c3b9d6-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
@@ -674,28 +717,28 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
                 </div>
                 <p class="allparagraph2">ETH2X-FLI has several key advantages over Legacy Leveraged Tokens:<br></p>
                 <div class="w-layout-grid prodcont_grid4">
-                  <div id="w-node-_3e1838a8-99cf-a48d-74d7-e641115d5fd3-607f2034" class="grid_icon">
+                  <div id="w-node-_3e1838a8-99cf-a48d-74d7-e641115d5fd3-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">Zero slippage via composable entry and exit.</div>
-                  <div id="w-node-_3e1838a8-99cf-a48d-74d7-e641115d5fd7-607f2034" class="grid_icon">
+                  <div id="w-node-_3e1838a8-99cf-a48d-74d7-e641115d5fd7-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">Unique Index algorithm reduces rebalancing needs by an order of magnitude.</div>
-                  <div id="w-node-_3e1838a8-99cf-a48d-74d7-e641115d5fdb-607f2034" class="grid_icon">
+                  <div id="w-node-_3e1838a8-99cf-a48d-74d7-e641115d5fdb-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">Emergency deleveraging possible during Black Swan events for additional fund safety.</div>
-                  <div id="w-node-_3e1838a8-99cf-a48d-74d7-e641115d5fdf-607f2034" class="grid_icon">
+                  <div id="w-node-_3e1838a8-99cf-a48d-74d7-e641115d5fdf-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
@@ -720,42 +763,42 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
               </div>
               <div style="height:0px;opacity:0;display:none" class="accordion_content">
                 <div class="w-layout-grid prodcont_grid6">
-                  <div id="w-node-_4477281b-237f-ce9e-f5b5-d04162627d83-607f2034" class="grid_icon">
+                  <div id="w-node-_4477281b-237f-ce9e-f5b5-d04162627d83-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">Underlying Asset: ETH</div>
-                  <div id="w-node-c9afce6f-0ae7-fa94-25fa-c88ca57e71fd-607f2034" class="grid_icon">
+                  <div id="w-node-c9afce6f-0ae7-fa94-25fa-c88ca57e71fd-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">Target Leverage Ratio: 2</div>
-                  <div id="w-node-_24b5b6bb-fa96-4ef3-dad2-7f10a8e87f63-607f2034" class="grid_icon">
+                  <div id="w-node-_24b5b6bb-fa96-4ef3-dad2-7f10a8e87f63-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">DeFi Lending Protocol: Compound</div>
-                  <div id="w-node-_13bcbf6b-da2d-7433-7a20-91ea5f258cc5-607f2034" class="grid_icon">
+                  <div id="w-node-_13bcbf6b-da2d-7433-7a20-91ea5f258cc5-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">Maximum Leverage Ratio: 2.3</div>
-                  <div id="w-node-_1e78a3af-3145-101a-f9b2-4ff2f05c0fda-607f2034" class="grid_icon">
+                  <div id="w-node-_1e78a3af-3145-101a-f9b2-4ff2f05c0fda-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">Minimum Leverage Ratio: 1.7</div>
-                  <div id="w-node-_759aa321-65ee-fc9f-7c53-92526b4e1d53-607f2034" class="grid_icon">
+                  <div id="w-node-_759aa321-65ee-fc9f-7c53-92526b4e1d53-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
@@ -780,42 +823,42 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
               </div>
               <div style="height:0px;opacity:0;display:none" class="accordion_content">
                 <div class="w-layout-grid prodcont_grid6">
-                  <div id="w-node-ca4c1e6e-60aa-c003-1e19-af275f7ec782-607f2034" class="grid_icon">
+                  <div id="w-node-ca4c1e6e-60aa-c003-1e19-af275f7ec782-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">Borrow Rate — the cost to borrow the asset at the DeFi Lending Protocol over the most recent epoch.</div>
-                  <div id="w-node-_2913ea24-4c00-bccd-8529-cd66d5011bf1-607f2034" class="grid_icon">
+                  <div id="w-node-_2913ea24-4c00-bccd-8529-cd66d5011bf1-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">Epoch Length — the time between rebalances.</div>
-                  <div id="w-node-ed244db4-c1d7-8328-126f-e553b1f4e02c-607f2034" class="grid_icon">
+                  <div id="w-node-ed244db4-c1d7-8328-126f-e553b1f4e02c-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">Target Leverage Ratio (TLR) — the long term target for the value of the assets held by the index divided by the value of the debt held by the index.</div>
-                  <div id="w-node-_08046e75-ecb7-593b-3f7d-3e4afd35a968-607f2034" class="grid_icon">
+                  <div id="w-node-_08046e75-ecb7-593b-3f7d-3e4afd35a968-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">Current Leverage Ratio (CLR) — the value of the asset currently held by the index divided by the current value of the debt held by the index.</div>
-                  <div id="w-node-_9e14323b-a43c-57a4-91ab-bd17d2e1822a-607f2034" class="grid_icon">
+                  <div id="w-node-_9e14323b-a43c-57a4-91ab-bd17d2e1822a-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">Maximum Leverage Ratio (MAXLR) — the highest leverage ratio the index will ever have after a rebalance.</div>
-                  <div id="w-node-_46873c8b-ad90-1a7a-769c-958905bcf5aa-607f2034" class="grid_icon">
+                  <div id="w-node-_46873c8b-ad90-1a7a-769c-958905bcf5aa-802dc503" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
@@ -826,16 +869,14 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
                 <div class="acc_subhead">
                   <h4 class="acc_subheadtitle">Index Price:</h4>
                 </div>
-                <div class="bg-grey">
-                  <div class="allparagraph2 quote black">FLIt = FLIt-1 * (1 + ((Pricet/Pricet-1–1) * CLRt-1 — (BorrowRatet * (CLRt-1 -1)/CLRt-1)))</div>
+                <div class="bg-grey lightdark">
+                  <div class="allparagraph2 quote ethfli">FLIt = FLIt-1 * (1 + ((Pricet/Pricet-1–1) * CLRt-1 — (BorrowRatet * (CLRt-1 -1)/CLRt-1)))</div>
                 </div>
                 <div class="acc_subhead">
                   <h3 class="acc_subheadtitle">Calculation of the new Current Lever Ratio for the period:</h3>
                 </div>
-                <div class="bg-grey">
-                  <div>
-                    <div class="allparagraph2 quote black">FLIt = FLIt-1 * (1 + ((Pricet/Pricet-1–1) * CLRt-1 — (BorrowRatet * (CLRt-1 -1)/CLRt-1)))</div>
-                  </div>
+                <div class="bg-grey lightdark">
+                  <div class="allparagraph2 quote ethfli">FLIt = FLIt-1 * (1 + ((Pricet/Pricet-1–1) * CLRt-1 — (BorrowRatet * (CLRt-1 -1)/CLRt-1)))</div>
                 </div>
               </div>
             </div>
@@ -878,12 +919,14 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
               <a href="mvi.html" class="footitem footlink">Metaverse Index</a>
               <a href="eth-2x-fli.html" aria-current="page" class="footitem footlink w--current">ETH2x-FLI</a>
               <a href="btc-2x-fli.html" class="footitem footlink">BTC2x-FLI</a>
+              <a href="bankless-bed-index.html" class="footitem footlink">BED Index</a>
               <a href="index-coop-data-index.html" class="footitem footlink">DATA Index</a>
             </div>
             <div class="resourcesfooter">
               <div class="footlinktitle">Resources</div>
-              <a href="institution.html" class="footitem footlink _1st">For institutions</a>
-              <a href="methodologist.html" class="footitem footlink">For methodologists</a>
+              <a href="methodologist.html" class="footitem footlink _1st">For methodologists</a>
+              <a href="institution.html" class="footitem footlink">For institutions</a>
+              <a href="contributor.html" class="footitem footlink">For contributors</a>
               <a href="https://www.indexcoop.com/news" class="footitem footlink">News</a>
               <a href="https://docs.indexcoop.com/" target="_blank" class="footitem footlink">Docs &amp; Guides</a>
             </div>
@@ -896,8 +939,8 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
             </div>
           </div>
           <div class="div-block-16">
-            <div class="div-block-78"><img src="images/Group.svg" loading="lazy" width="116" alt=""></div>
-            <div class="div-block-79">
+            <div class="index-logo-cont"><img src="images/Group.svg" loading="lazy" width="116" alt=""></div>
+            <div class="icon_wrapper">
               <div class="toggle">
                 <div class="togglethemefooter footer w-embed"><label for="toggleTheme" title="Toggle theme">
                     <input id="toggleTheme" name="theme" type="checkbox">
@@ -911,25 +954,24 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2.4rem;
+    height: 100%;
     border-radius: 8rem;
-    width: 2.4rem;
-    padding: .2rem;
+    width: 100%;
+    padding: 0;
 }
 .toggleThemefooter:before {
     position: absolute;
     content: '';
     height: 2rem;
     width: 2rem;
-    border-radius: 4rem;
-		background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
+		background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
 }
 input[type="checkbox"] {
 	display: none;
 }
 input[type="checkbox"]:checked+.toggleThemefooter:before {
     content: '';
-    background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
+    background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
 }
 </style>
                 </div>
@@ -950,32 +992,6 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script>
-//DPE
-fetch('https://api.coingecko.com/api/v3/coins/eth-2x-flexible-leverage-index')
-.then(response => response.json())
-.then(data => {
-  console.log(data) // Prints result from `response.json()` in getRequest
-  var currentpricenow = "$"+data.market_data.current_price.usd;
-  var pricechange = data.market_data.price_change_percentage_24h;
-  var marketcap = "$"+ Math.fround(data.market_data.market_cap.usd/1000000).toFixed(2)+"M";
-  var volume = Math.fround(data.market_data.total_volume.usd/1000000).toFixed(2)+"M";
-  var currentsupply = Math.floor(data.market_data.circulating_supply).toLocaleString('en');
-  $(".currentpricenow").append(currentpricenow);
- // $(".pricechange").append(pricechange);
-  $(".marketcap").append(marketcap);
-  $(".volume").append(volume);
-  $(".currentsupply").append(currentsupply);
-  if (pricechange >= 0) {
-    $(".pricechange").append((pricechange).toFixed(2)+"%");
-    $(".pricechange").css({'color':'#09AA74'});
- }
- else {
-    $(".pricechange").append((pricechange).toFixed(2)+"%");
-    $(".pricechange").css({'color':'#C32238'});
- }
-})
-.catch(error => console.error(error))
-//END DPE
 function setThemeFromCookie() {
  const themeState = document.getElementById('content');
  themeState.className = isThemeSelected() ? 'dark-mode' : 'light-mode';
@@ -1004,6 +1020,33 @@ $('.menu').on('click', function(){
 $('.close').on('click', function(){
   $('body').removeClass('no-scroll');
 });
+</script>
+  <script>
+//DPE
+fetch('https://api.coingecko.com/api/v3/coins/eth-2x-flexible-leverage-index')
+.then(response => response.json())
+.then(data => {
+  console.log(data) // Prints result from `response.json()` in getRequest
+  var currentpricenow = "$"+data.market_data.current_price.usd;
+  var pricechange = data.market_data.price_change_percentage_24h;
+  var marketcap = "$"+ Math.fround(data.market_data.market_cap.usd/1000000).toFixed(2)+"M";
+  var volume = Math.fround(data.market_data.total_volume.usd/1000000).toFixed(2)+"M";
+  var currentsupply = Math.floor(data.market_data.circulating_supply).toLocaleString('en');
+  $(".currentpricenow").append(currentpricenow);
+ // $(".pricechange").append(pricechange);
+  $(".marketcap").append(marketcap);
+  $(".volume").append(volume);
+  $(".currentsupply").append(currentsupply);
+  if (pricechange >= 0) {
+    $(".pricechange").append((pricechange).toFixed(2)+"%");
+    $(".pricechange").css({'color':'#09AA74'});
+ }
+ else {
+    $(".pricechange").append((pricechange).toFixed(2)+"%");
+    $(".pricechange").css({'color':'#C32238'});
+ }
+})
+.catch(error => console.error(error))
 </script>
 </body>
 </html>

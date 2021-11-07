@@ -1,6 +1,6 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Oct 28 2021 22:04:12 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="6108c4981c303cbf087f2037" data-wf-site="60d237b6ea65be721ff4bbfa">
+<!--  Last Published: Sun Nov 07 2021 17:41:28 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="6187d6120f73f57de62dc509" data-wf-site="60d237b6ea65be721ff4bbfa">
 <head>
   <meta charset="utf-8">
   <title>Index Coop | For institutions</title>
@@ -20,207 +20,68 @@
   <script type="text/javascript">WebFont.load({  google: {    families: ["IBM Plex Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic:cyrillic,cyrillic-ext,greek,latin,latin-ext,vietnamese","IBM Plex Mono:regular,500,600"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.ico" rel="apple-touch-icon">
-  <style>
-  .mainnavbar {
-  backdrop-filter: blur(5px);
-  }
-  #content.dark-mode .mainnavbar{
-    background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(5px);
-	}
-  #content.dark-mode .nav-link {
-	color: #F7F6F2;
-  }
-  #content.dark-mode .nav-link:hover{
-    border-bottom: 2px solid #F7F6F2;
-  }
-  #content.dark-mode .dropdown-text:hover {
-    border-bottom: 1px solid #F7F6F2;
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-  #content.dark-mode .dropdown-list-2.w--open {
-    background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(5px);
-  }
-  #content.dark-mode .longline {
-    border-buttom: 1px solid #ffffff;
-}
-  #content.dark-mode .indexcooplinks {
-    color: #7289da;
-}
-.indexcooplinks {
-color: #433BCE
-}
-#content.dark-mode a.sell-button.buttons.w-button {
-    color: #09AA74;
-}
- #content.dark-mode a.buy-button.buttons.w-button {
-    color: black;
-  }
- #content.dark-mode .view_link{
-	color:#B9B6FC;
-  }
- #content.dark-mode {
-    background-color: #0F0E0B;
-    color: #F7F6F2;
-}
- #content.dark-mode .allh1, #content.dark-mode .allh2, #content.dark-mode .allh3{
-  color: #F7F6F2;
-}
- #content.dark-mode .prodh3, #content.dark-mode .grid_heading, #content.dark-mode .listtextblock, #content.dark-mode .slider_description{
-  color: #F7F6F2;
-}
- #content.dark-mode a {
-  color: #F7F6F2;
-}
-#content.dark-mode .accordion_header, #content.dark-mode .allparagraph2 {
-  color: #F7F1E4
-  }
-</style>
   <style>
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}  
+.mainnavbar	{
+  	backdrop-filter: blur(5px);
 }
-#content.light-mode {
-  background-color: #ffffff;
-  color: #171717;
+.no-scroll {
+	overflow:hidden;  
 }
-#content.light-mode > .gray_bg{
-  background-color: #f8f8f8;
+input.inputfield::placeholder,
+textarea.inputfield::placeholder{
+	opacity: 0%;  
+}  
+/* 	Light Mode Styles	*/
+/*	Global Light Mode	*/  
+/* 	Dark Mode Styles	*/
+/*	Global Dark Mode	*/
+#content.dark-mode .nav-link {
+	color: #F7F6F2;
 }
-#contant.light-mode a {
-  color: #171717;
+#content.dark-mode .nav-link:hover {
+	border-bottom: 2px solid #F7F6F2;
 }
-#content.light-mode > .svg_icon path {
-  fill: #327EE8;
+#content.dark-mode{
+    background-color: #0F0E0B;
+    color: #F7F6F2;
 }
-#content.dark-mode .allh1, #content.dark-mode .allh2, 
-#content.dark-mode .allh3, #content.dark-mode .sub_h2,
-#content.dark-mode .fieldtitle{
-  color: #F7F6F2;
-}
-#content.dark-mode .prodh3, #content.dark-mode .grid_heading, #content.dark-mode .listtextblock, #content.dark-mode .slider_description{
-  color: #F7F6F2;
-}
-#content.dark-mode > .gray_bg{
-  background-color: #1D1B16;
-}
-#content.dark-mode a.w--current {
- color: #707AFF;
-}
-#content.dark-mode > .svg_icon path {
-  fill: #327EE8;
-}
-#content.dark-mode .heroline {
-  border-top: 3px solid #ffffff;
-}
-#content.dark-mode .trigger, .longline {
-  border-top: 1px solid #ffffff;
-}
-#content.dark-mode .index_logo path {
-  fill: #ffffff;
-}
-#content.dark-mode .app-button {
-  border: 2px solid #fff;
-  background-color: transparent;
-}
-#content.dark-mode .nav-link:hover{
-	border-bottom: 1px solid #fff;
-}
-#content.dark-mode .eco-grid {
-	background-color: #0F0E0B;
-  border: 1px solid white;
-} 
-#content.dark-mode .dark_mode_investico{
-	display: block;
-}
-#content.dark-mode .light_mode_investico{
-	display: none;
-}
-#content.dark-mode .forum_box {
- border-color: #fff;
+#content.dark-mode .accordion_header, #content.dark-mode .allparagraph2 {
+    color: #F7F1E4;
 }
 #content.dark-mode .mainnavbar{
-	background-color: rgba(0,0,0,.8);
+	background-color: rgba(15, 14, 11, 0.8);
 }
-#content.dark-mode .eventtable_header{
-	color: #fff;
+#content.dark-mode .allh1,
+#content.dark-mode .allh2,
+#content.dark-mode .allh3{
+  	color: #F7F6F2;
 }
-#content.dark-mode .event_line{
-	border-color: #fff;
+#content.dark-mode a {
+  	color: #B9B6FC;
 }
-#content.dark-mode .inputfield {
-  background: rgba(221, 221, 221, 0.12);
-  border: none;
-  border-bottom: 3px solid #ffff;
-  position: static;
-  display: block;
-  width: 499px;
-  height: 57px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  padding-right: 0px;
-  padding-left: 12px;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  color: #ffff;
-  }
-  #content.dark-mode .inputfield:focus {
-	border-style: none none solid;
-	border-width: 0px 0px 3px;
-	border-color: #000 #000 #fabf00;
-	background-color: rgba(250, 191, 0, 0.09);
-  }
-#content.dark-mode .inputfield:hover {
-	border-style: none none solid;
-	border-width: 1px 1px 3px;
-	border-color: #000 #000 #327ee8;
-	background-color: rgba(50, 121, 232, 0.13);
-  }
-#content.dark-mode .w-input:focus, .w-select:focus {
-	outline: 0;
-  }
-.w-input::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #000000;
-    opacity: .5;
+#content.dark-mode .gray_bg{
+  	background-color: #1D1B16;
 }
-.w-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #000000;
-    opacity: .5;
+#content.dark-mode .app-button {
+  	border: 2px solid #fff;
+  	background-color: transparent;
+  	color: #F7F6F2;
 }
-.w-input::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #000000;
-    opacity: .5;
-}
-.w-input:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #000000;
-    opacity: .5;
-}
-.no-scroll {overflow:hidden;}
-.w-nav-button.w--open{
-	background-color: transparent;
-}
-#content.dark-mode .w-nav-button.w--open{
-	background-color: black;
-}
-#content.dark-mode .close{
-	color: white;
-}
-#content.dark-mode .menu{
-	color: white;
-}
-#content.dark-mode .nav-menu-2{
-	background-color: black;
+#content.dark-mode .app-button:hover {
+	background-color: #F7F6F2;
+  	color: #000000;
 }
 #content.dark-mode .menu_title .menu_gov{
-	color: white;
+	color: #F7F6F2;
 }
 #content.dark-mode .menu_titlecont{
-  border-bottom: 2px solid #ffffff;
+  	border-bottom: 2px solid #F7F6F2;
 }
 #content.dark-mode .language_icon.black{
 	display: none;
@@ -234,29 +95,219 @@ color: #433BCE
 #content.dark-mode .togglethemefooter {
 	display: block;
 }
-@media screen and (max-width: 991px){
-	#content.dark-mode .stickytoggles {
-		background-color: white;
-	}
-  #content.dark-mode .app-button {
-  	border: 2px solid black;
-    color: black;
-  }
-  #content.dark-mode .toggle-theme2{
-		display: block;
-	}
-	#content.dark-mode .togglethemefooter {
-		display: none;
-	}
-  #content.dark-mode .language_icon.black{
-		display: block;
-	}
-	#content.dark-mode .language_icon.white{
-		display: none;
-	}
+#content.dark-mode .heroline {
+  	border-top: 3px solid #F7F6F2;
 }
-label {
-	margin-bottom: 0px;
+#content.dark-mode .index_logo path {
+  	fill: #F7F6F2;
+}
+#content.dark-mode .dropdown-text:hover {
+    border-bottom: 1px solid #F7F6F2;
+}
+#content.dark-mode .dropdown-list-2.w-dropdown-list.w--open {
+    background: rgba(15, 14, 11, 0.95);
+  	border: 1px solid rgba(247, 246, 242, 0.12);
+}
+#content.dark-mode .eco-grid {
+	background-color: #0F0E0B;
+}
+#content.dark-mode .investors_icons {
+	filter: invert();
+}
+#content.dark-mode .accordion_maincontainer.trigger {
+	border-bottom: 1px solid #F7F6F2;
+  	border-top: 1px solid #F7F6F2;	
+}
+#content.dark-mode .prod_subtitle {
+  	color: #F7F6F2;
+}
+#content.dark-mode a.dropdown-text {
+	color: #F7F6F2;
+}
+#content.dark-mode .view_link {
+	color: #B9B6FC;  
+}
+#content.dark-mode  a.footitem.footlink {
+	color:  #F7F6F2; 
+}
+@media only screen and (max-width: 991px){
+  #content.dark-mode .nav-menu-2{
+      background-color: #0F0E0B;  
+  }
+  #content.dark-mode .close,
+  #content.dark-mode .menu,
+  #content.dark-mode .menu_prods a,
+  #content.dark-mode .menu_gov a{
+      color: #F7F6F2;
+  }
+  #content.dark-mode .stickytoggles {
+      filter: invert();
+  }
+}  
+/*	Home Page	*/
+#content.dark-mode .slider_description {
+  	color: #F7F6F2;
+}
+#content.dark-mode .w-slider-dot.w-active {
+  	background-color: #327EE8;
+}
+#content.dark-mode .prodh3,
+#content.dark-mode .listtextblock,
+#content.dark-mode .grid_heading{
+  	color: #F7F6F2;
+}
+#content.dark-mode .listico._3rd path,
+#content.dark-mode .listico._3rd circle {
+	stroke: #B9B6FC;  
+}
+#content.dark-mode .listico._2nd path,
+#content.dark-mode .listico._2nd circle {
+	stroke: #699BF7;  
+}  
+#content.dark-mode .listico._3rdtrinity path {
+	fill: #B9B6FC;  
+}
+#content.dark-mode .listico.lightmode {
+	display: none;  
+}
+#content.dark-mode .listico.darkmode {
+	display: block;  
+}  
+#content.dark-mode a.social_box.w-button {
+	color: #0F0E0B;  
+}
+/*	About Page	*/
+#content.dark-mode .dark_mode_tria {
+	display: block;  
+}
+#content.dark-mode .lightmode_triangle {
+	display: none;  
+}
+#content.dark-mode .social_box.aboutpage {
+	color: #00b9ff;  
+}
+#content.dark-mode .social_box.discord.aboutpage {
+	color: #7289da;  
+}
+#content.dark-mode .trinity_svg.darkmode {
+    display: block;
+}
+#content.dark-mode .trinity_svg.lightmode {
+    display: none;
+}
+/*	Partners Page	*/
+#content.dark-mode img.ecoprodimg.indexcoop {
+	filter:invert();  
+}
+/*	Institutions Page	*/
+input[type="text"].inputfield::-webkit-input-placeholder {
+	color: #737373;  
+}
+#content.dark-mode .sub_h2,
+#content.dark-mode .eventtable_header,
+#content.dark-mode .fieldtitle {
+	color: #F7F6F2;
+}
+#content.dark-mode .event_line {
+	border-top: 3px solid #F7F6F2;  
+}
+#content.dark-mode .inputfield{
+    background: rgba(221, 221, 221, 0.12);
+    border: none;
+    border-bottom: 3px solid #ffff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+#content.dark-mode .inputfield:hover {
+    border-style: none none solid;
+    border-width: 1px 1px 3px;
+    border-color: #000 #000 #327ee8;
+    background-color: rgba(50, 121, 232, 0.13);
+}
+#content.dark-mode .inputfield:focus {
+    border-style: none none solid;
+    border-width: 0px 0px 3px;
+    border-color: #000 #000 #fabf00;
+    background-color: rgba(250, 191, 0, 0.09);
+}
+#content.dark-mode .inputfield{
+	color: #F7F6F2;  
+}
+@media only screen and (max-width: 991px){
+    input.inputfield::placeholder,
+    textarea.inputfield::placeholder{
+        color: #rgba(0, 0, 0, 0.5) !important;
+        opacity: 100%;  
+    }
+  	#content.dark-mode input.inputfield::placeholder,
+    #content.dark-mode textarea.inputfield::placeholder{
+        color: rgba(247, 246, 242, 0.5) !important;
+        opacity: 100%;  
+    }
+}  
+/*	Methodologist Page	*/
+#content.dark-mode .link_underline {
+  	color: #B9B6FC;
+}
+#content.dark-mode .forum_box {
+	border: 3px solid #F7F6F2;  
+}
+#content.dark-mode .forum_box a {
+  	color: #F7F6F2;
+}
+#content.dark-mode .steps {
+	color: #000000;  
+}
+/*	Products Pages	*/
+#content.dark-mode .prod_icon.index path {
+  	fill: #F7F6F2;
+}
+#content.dark-mode .buy-button.buttons {
+	color: #F7F6F2;
+}
+#content.dark-mode .sell-button.buttons {
+	color: #09AA74;
+}
+#content.dark-mode .token_icon.lightdark {
+	filter: invert();  
+}
+#content.dark-mode .dpi-formula {
+  	filter: invert();
+}
+#content.dark-mode .bg-grey.lightdark,
+#content.dark-mode .allparagraph.quote,
+#content.dark-mode .allparagraph.quote.fli{
+	background-color: #0F0E0B;
+  	color: #F7F6F2;
+}
+/*	Contributors Page	*/  
+#content.dark-mode .flowchart {
+	filter: invert();  
+}
+/*	StyleGuide Page	*/   
+#content.dark-mode .token_textblock {
+	color:  #F7F6F2;
+}
+#content.dark-mode  .index_icon.w-embed path {
+	filter: invert();  
+}
+</style>
+  <style>
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #F7F6F2;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #F7F6F2;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #F7F6F2;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #F7F6F2;
+}
+input::placeholder {
+  color: #F7F6F2;
 }
 </style>
 </head>
@@ -309,23 +360,6 @@ label {
           </div>
           <div class="menu_container mobilenav">
             <div class="menu_titlecont">
-              <div class="menu_title">Governance</div>
-            </div>
-            <div class="menu_gov">
-              <a href="index-token.html" class="menu_govlink">INDEX Token</a>
-            </div>
-            <div class="menu_gov">
-              <a href="https://snapshot.org/#/index-coop.eth" class="menu_govlink">Voting Portal <span class="text-span-27">snapshot</span></a>
-            </div>
-            <div class="menu_gov">
-              <a href="#" class="menu_govlink">Farm</a>
-            </div>
-            <div class="menu_gov">
-              <a href="#" class="menu_govlink">Rewards</a>
-            </div>
-          </div>
-          <div class="menu_container mobilenav">
-            <div class="menu_titlecont">
               <div class="menu_title">Resources</div>
             </div>
             <div class="menu_gov">
@@ -335,10 +369,13 @@ label {
               <a href="#" class="menu_govlink">Blog</a>
             </div>
             <div class="menu_gov">
-              <a href="methodologist.html" class="menu_govlink">Methodologist</a>
+              <a href="methodologist.html" class="menu_govlink">Methodologists</a>
             </div>
             <div class="menu_gov">
               <a href="institution.html" aria-current="page" class="menu_govlink w--current">Institutions</a>
+            </div>
+            <div class="menu_gov">
+              <a href="contributor.html" class="menu_govlink">Contributors</a>
             </div>
           </div>
           <div class="menu_container mobilenav">
@@ -387,9 +424,6 @@ label {
             </div>
           </div>
           <div class="div-block-93">
-            <a href="index.html" class="link-block nav-link w-inline-block">
-              <div>Home</div>
-            </a>
             <div data-delay="3" data-hover="false" class="w-dropdown">
               <div class="dropdown-nav nav-link w-dropdown-toggle">
                 <div>Products</div>
@@ -410,8 +444,9 @@ label {
               <nav class="dropdown-list-2 w-dropdown-list">
                 <a href="https://docs.indexcoop.com/" class="dropdown-text w-dropdown-link">Gitbook</a>
                 <a href="#" class="dropdown-text w-dropdown-link">Blog</a>
-                <a href="methodologist.html" class="dropdown-text w-dropdown-link">Methodologist</a>
+                <a href="methodologist.html" class="dropdown-text w-dropdown-link">Methodologists</a>
                 <a href="institution.html" aria-current="page" class="dropdown-text w-dropdown-link w--current">Institutions</a>
+                <a href="contributor.html" class="dropdown-text w-dropdown-link">Contributors</a>
               </nav>
             </div>
             <div data-delay="3" data-hover="false" class="w-dropdown">
@@ -461,25 +496,23 @@ label {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2.4rem;
     border-radius: 8rem;
-    width: 2.4rem;
-    padding: .2rem;
+    height: 100%;
+    width: 100%;
 }
 .toggleTheme:before {
     position: absolute;
     content: '';
     height: 2rem;
     width: 2rem;
-    border-radius: 4rem;
-		background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
+		background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
 }
 input[type="checkbox"] {
 	display: none;
 }
 input[type="checkbox"]:checked+.toggleTheme:before {
     content: '';
-    background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
+    background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
 }
 </style>
                 </div>
@@ -495,10 +528,9 @@ input[type="checkbox"]:checked+.toggleTheme:before {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2rem;
+    height: 100%;
     border-radius: 8rem;
-    width: 2rem;
-    padding: .2rem;
+    width: 100%;
 }
 .toggleThemefooter:before {
     position: absolute;
@@ -561,15 +593,9 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
     <div class="products-section wf-section">
       <div class="maincontainer w-container">
         <div class="w-layout-grid product_grid institution">
-          <div id="w-node-_51da97f8-aeec-8903-5c0e-82fdd864b18d-087f2037" class="product institution-page">
+          <div id="w-node-_51da97f8-aeec-8903-5c0e-82fdd864b18d-e62dc509" class="product institution-page">
             <div class="logo_title">
-              <div class="html-embed-11 w-embed"><svg width="100%" height="100%" viewbox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100Z" fill="#8150E6"></path>
-                  <path d="M97.8633 63.5L62.6133 28.75L42.6133 25L30.8633 69.5L60.3633 98.75C78.6133 94.75 92.8633 81.25 97.8633 63.5Z" fill="#3C176B"></path>
-                  <path d="M45.8633 65.5005V38.0005H52.8633C55.1133 38.0005 57.3633 38.2505 59.3633 39.0005C61.3633 39.5005 63.1133 40.5005 64.3633 41.7505C64.6133 42.0005 64.8633 42.0005 64.8633 42.2505C64.8633 38.5005 63.6133 34.7505 61.6133 31.5005C59.6133 31.0005 57.3633 30.5005 55.1133 30.5005H38.3633V65.5005C40.8633 65.5005 43.3633 65.7505 45.8633 65.5005Z" fill="#6B42BD"></path>
-                  <path d="M75.1133 43.5004C73.8633 40.5004 72.3633 38.2504 70.3633 36.2504C68.3633 34.2504 66.1133 33.0004 63.3633 32.0004C62.8633 31.7504 62.3633 31.7504 61.8633 31.5004C63.8633 34.7504 65.1133 38.5004 65.1133 42.2504C66.3633 43.5004 67.1133 48.0004 67.6133 49.7504L46.1133 69.5004V65.5004C43.6133 65.7504 41.1133 65.5004 38.6133 65.5004V77.0004H54.6133C57.1133 77.0004 59.8633 76.5004 62.3633 75.5004C65.1133 74.5004 67.3633 73.2504 69.6133 71.2504C71.8633 69.2504 73.6133 67.0004 74.8633 64.0004C76.3633 61.0004 76.8633 57.5004 76.8633 53.5004C76.8633 49.5004 76.1133 46.2504 75.1133 43.5004Z" fill="#9B74EC"></path>
-                  <path d="M43.8633 61.7505C46.1133 61.7505 48.3633 61.5005 50.6133 60.7505C52.6133 60.2505 54.6133 59.2505 56.1133 58.0005C57.6133 56.7505 58.8633 55.0005 59.8633 53.0005C60.8633 51.0005 61.1133 48.5005 61.1133 45.7505C61.1133 43.0005 60.6133 40.7505 59.8633 38.7505C59.1133 36.7505 57.8633 35.0005 56.6133 33.7505C55.1133 32.5005 53.6133 31.5005 51.6133 31.0005C49.6133 30.5005 47.6133 30.0005 45.1133 30.0005H38.1133V61.5005H43.8633V61.7505ZM30.6133 23.0005H47.3633C50.1133 23.0005 52.8633 23.5005 55.6133 24.5005C58.1133 25.5005 60.6133 27.0005 62.6133 28.7505C64.6133 30.7505 66.1133 33.0005 67.3633 36.0005C68.6133 39.0005 69.1133 42.2505 69.1133 46.0005C69.1133 50.0005 68.3633 53.5005 67.1133 56.5005C65.6133 59.5005 63.8633 61.7505 61.8633 63.7505C59.6133 65.7505 57.3633 67.0005 54.6133 68.0005C51.8633 69.0005 49.3633 69.5005 46.8633 69.5005H30.8633V23.0005H30.6133Z" fill="white"></path>
-                </svg></div>
+              <div class="product_image_container"><img src="images/DPI_token_logo-1.svg" loading="lazy" alt="" class="product_image"></div>
               <div class="product_title institution">DeFi Pulse Index</div>
             </div>
             <p class="allparagraph2 products">A capitalization-weighted index that tracks the performance of decentralized financial assets across the market.</p>
@@ -583,21 +609,9 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
               </a>
             </div>
           </div>
-          <div id="w-node-_0a4aed3d-1557-60c6-daee-41a151c96fea-087f2037" class="product institution-page">
+          <div id="w-node-_0a4aed3d-1557-60c6-daee-41a151c96fea-e62dc509" class="product institution-page">
             <div class="logo_title">
-              <div class="html-embed-11 w-embed"><svg width="100%" height="100%" viewbox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 50C0 22.3733 22.3733 0 50 0C77.6267 0 100 22.3733 100 50C100 77.6267 77.6267 100 50 100C22.3733 100 0 77.6267 0 50Z" fill="url(#paint0_linear)"></path>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19.0938 47.6801C19.0938 47.6801 19.0938 55.4401 50.0004 55.4401C80.9071 55.4401 80.9071 47.6801 80.9071 47.6801C80.9071 55.4401 73.6004 71.7601 69.0938 74.5601C64.5871 77.3334 66.2938 65.2534 61.7871 65.5467C57.2804 65.8401 54.4804 83.6001 49.9738 83.6001C45.4671 83.6001 42.6671 65.2801 38.1604 65.5734C33.6538 65.8667 35.3871 77.3867 30.8538 74.5867C26.4004 71.7867 19.0938 55.4667 19.0938 47.6801Z" fill="white"></path>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M26.4004 47.6799C26.4004 45.1732 36.9604 43.1199 50.0004 43.1199C63.0404 43.1199 73.6004 45.1732 73.6004 47.6799C73.6004 50.1865 61.7871 52.2399 50.0004 52.2399C38.1871 52.2399 26.4004 50.2132 26.4004 47.6799Z" fill="white"></path>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M61.8125 25.8934C61.8125 22.6134 64.4525 19.9734 67.7325 19.9734C71.0125 19.9734 73.6525 22.6134 73.6525 25.8934C73.6525 29.1734 71.0125 31.8134 67.7325 31.8134C64.4525 31.8134 61.8125 29.1467 61.8125 25.8934Z" fill="white"></path>
-                  <defs>
-                    <lineargradient id="paint0_linear" x1="5.96046e-06" y1="100" x2="100" y2="-5.96046e-06" gradientunits="userSpaceOnUse">
-                      <stop offset="0.1408" stop-color="#FF59DC"></stop>
-                      <stop offset="0.8592" stop-color="#35FFE7"></stop>
-                      <stop offset="1" stop-color="#FFFD00" stop-opacity="0.8967"></stop>
-                    </lineargradient>
-                  </defs>
-                </svg></div>
+              <div class="product_image_container"><img src="images/MVI_token_logo-1.svg" loading="lazy" alt="" class="product_image"></div>
               <div class="product_title institution">Metaverse Index</div>
             </div>
             <p class="allparagraph2 products">Designed to capture the trend of entertainment, sports and business shifting to take place in virtual environments.</p>
@@ -611,8 +625,9 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
               </a>
             </div>
           </div>
-          <div id="w-node-_62712984-b336-6fa1-d311-1e2936b11456-087f2037" class="product institution-page">
-            <div class="logo_title"><img src="images/Group-155.png" loading="lazy" height="" sizes="(max-width: 767px) 78.08333587646484px, 156.1875px" srcset="images/Group-155-p-500.png 500w, images/Group-155.png 692w" alt="" class="image-47">
+          <div id="w-node-_62712984-b336-6fa1-d311-1e2936b11456-e62dc509" class="product institution-page">
+            <div class="logo_title">
+              <div class="product_image_container"><img src="images/Group-155.png" loading="lazy" height="" sizes="(max-width: 479px) 20vw, (max-width: 767px) 78.09375px, 156.203125px" srcset="images/Group-155-p-500.png 500w, images/Group-155.png 692w" alt="" class="product_image"></div>
               <div class="product_title">FLI Series</div>
             </div>
             <p class="allparagraph2 products">Lets you leverage a collateralized debt position in a safe and efficient way, by abstracting its management into a simple index.</p>
@@ -632,36 +647,17 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
     <div class="investors-section gray_bg wf-section">
       <div class="maincontainer w-container">
         <div class="head_cont institution-page">
-          <h1 class="allh1">Investors</h1>
+          <h2 class="allh2 investors_head">Investors</h2>
         </div>
         <div class="line_cont investors">
           <div class="heroline"></div>
         </div>
-        <div class="w-layout-grid investors_grid">
-          <div id="w-node-ed7f4094-afae-a83b-7b53-98a3d1885574-087f2037" class="investors_logo">
-            <div class="light_mode_investico w-embed"><svg width="100%" height="100%" viewbox="0 0 182 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <rect y="0.23999" width="181.045" height="45.06" fill="url(#pattern0)"></rect>
-                <defs>
-                  <pattern id="pattern0" patterncontentunits="objectBoundingBox" width="1" height="1">
-                    <use xlink:href="#image0" transform="scale(0.00222222 0.00892857)"></use>
-                  </pattern>
-                  <image id="image0" width="450" height="112" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcIAAABwCAYAAACNbXCPAAAACXBIWXMAAAsTAAALEwEAmpwYAAAF92lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDYgNzkuMTY0NzUzLCAyMDIxLzAyLzE1LTExOjUyOjEzICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMyAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMjEtMDctMTFUMTM6MjM6MjErMDI6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDIxLTA3LTExVDEzOjI3OjIyKzAyOjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDIxLTA3LTExVDEzOjI3OjIyKzAyOjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjUyZmRkN2M4LTE3NTItNDFjYi05MzNjLWM0ZWVkMGQ5ODQ0OCIgeG1wTU06RG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOmU5YTljMDkwLTc3OGQtNjE0Ni05YTBmLTUzY2YwMWIzZGU5OCIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjQ3MjUxMGFhLTJkNDctNGU3OS05ZDVjLTg1ODEwZDMwM2IwZSI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6NDcyNTEwYWEtMmQ0Ny00ZTc5LTlkNWMtODU4MTBkMzAzYjBlIiBzdEV2dDp3aGVuPSIyMDIxLTA3LTExVDEzOjIzOjIxKzAyOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjIuMyAoTWFjaW50b3NoKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6NTJmZGQ3YzgtMTc1Mi00MWNiLTkzM2MtYzRlZWQwZDk4NDQ4IiBzdEV2dDp3aGVuPSIyMDIxLTA3LTExVDEzOjI3OjIyKzAyOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjIuMyAoTWFjaW50b3NoKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7gWQMWAAATAklEQVR4nO2dbawdx1nHf9f34sSu0+alkU9EQ4Di3iRIvBWJNLkmNGkjlAK1hQIklVDqAIUgIaDUDoKmKEBpY4SACqOgJlVFafiCYoIoosUFEqdJv9AgIC8tRSkp2FEcSmsTO76+Pnx4zundu96dl93Zl3P2/5OO7j1ndmeenZ2ZZ16eeWYBWAPGGAu5/5l8z/8+/Z/cteTCfPfl03HFlb+nTIaye4ruK3vGousXctcVpVcUf1l6ZdeE8DrgaOQ9QgghClgCNnUthBBC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">
-                </image></defs>
-              </svg></div><img src="images/1confirmation_alt_white.png" loading="lazy" sizes="100vw" srcset="images/1confirmation_alt_white-p-500.png 500w, images/1confirmation_alt_white.png 724w" alt="" class="dark_mode_investico">
-          </div>
-          <div><img src="images/galaxy_digital_Logo-White-1_1.svg" loading="lazy" alt="" class="light_mode_investico"><img src="images/galaxy_digital_Logo-White-1.png" loading="lazy" sizes="100vw" srcset="images/galaxy_digital_Logo-White-1-p-500.png 500w, images/galaxy_digital_Logo-White-1.png 720w" alt="" class="dark_mode_investico"></div>
-          <div id="w-node-bc9c8dc8-e114-2e48-703d-833c194b2468-087f2037" class="_1kx-logo">
-            <div class="light_mode_investico _1kx w-embed"><svg width="100%" height="100%" viewbox="0 0 104 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M43.9405 51.6339C43.9405 35.7222 43.9405 20.1396 43.9405 4.2542C43.1545 4.2542 42.4275 4.26231 41.7007 4.25221C40.7184 4.23858 39.7346 4.24079 38.7544 4.1811C37.7405 4.11935 37.1247 3.52721 37.1239 2.42797C37.1232 1.42254 37.6905 0.755157 38.6174 0.736697C41.4903 0.679551 44.3649 0.715808 47.4131 0.715808C47.4131 11.8321 47.4131 22.797 47.4131 33.7619C47.5385 33.8468 47.6638 33.9316 47.7891 34.0165C52.3991 29.9161 57.0092 25.8157 61.8817 21.4818C61.1359 21.3945 60.7196 21.344 60.3029 21.2973C58.9252 21.1429 58.1558 20.4609 58.1506 19.3875C58.1453 18.2685 58.8516 17.6274 60.3375 17.6088C63.6909 17.5668 67.045 17.5907 70.3988 17.5911C72.1334 17.5913 73.8692 17.5586 75.6024 17.6154C76.9983 17.6611 77.6466 18.2324 77.7028 19.2887C77.7628 20.415 77.0612 21.1536 75.6476 21.2541C74.4448 21.3397 73.2324 21.2718 72.0242 21.2718C71.9486 21.403 71.8731 21.5342 71.7975 21.6654C75.4869 25.4399 79.1762 29.2143 82.9998 33.1261C86.8212 29.231 90.5056 25.4755 94.19 21.7201C94.1496 21.5784 94.1092 21.4367 94.0688 21.295C93.1814 21.295 92.294 21.3013 91.4067 21.2925C90.9449 21.2879 90.4756 21.3068 90.0233 21.2274C88.8983 21.0299 88.2053 20.2709 88.2293 19.3348C88.2541 18.3698 88.9211 17.6619 90.1488 17.6386C93.5012 17.575 96.8554 17.5917 100.208 17.6222C101.22 17.6314 102.034 18.078 102.155 19.2934C102.248 20.2303 101.559 20.975 100.424 21.2192C100.03 21.3039 99.6254 21.3294 99.1365 21.3936C94.6221 26.0465 90.0698 30.7383 85.4047 35.5465C90.6211 40.9227 95.7523 46.2111 100.913 51.5296C101.431 51.5765 101.943 51.623 102.455 51.6693C103.439 51.758 103.899 52.4332 103.958 53.3753C104.02 54.3659 103.485 54.9936 102.579 55.203C102.188 55.2933 101.775 55.2989 101.372 55.2997C97.9025 55.3064 94.433 55.304 90.9635 55.3012C90.6749 55.301 90.3826 55.3041 90.0982 55.2606C88.9826 55.0898 88.2891 54.3449 88.3799 53.3485C88.4789 52.2622 89.1299 51.6979 90.1199 51.6676C91.7375 51.618 93.3572 51.6443 94.9758 51.6283C95.2442 51.6257 95.5121 51.5708 96.1879 51.4934C91.6939 46.882 87.441 42.5178 83.0113 37.9723C78.7356 42.3272 74.5547 46.5857 70.0398 51.1843C70.9613 51.3983 71.4626 51.5951 71.9707 51.6169C73.2409 51.6713 74.516 51.6029 75.7855 51.666C76.9252 51.7227 77.6182 52.4334 77.6387 53.4184C77.659 54.3935 76.951 55.2398 75.8582 55.2527C71.6957 55.3017 67.5321 55.3023 63.3696 55.258C62.2198 55.2458 61.522 54.4986 61.4781 53.5251C61.4305 52.4659 62.1315 51.7906 63.4026 51.6421C64.0528 51.5661 64.6992 51.4536 65.3473 51.3576C65.4046 51.207 65.462 51.0564 65.5193 50.9058C60.8722 45.8348 56.225 40.7638 51.4173 35.5177C50.0834 36.6932 48.8163 37.8096 47.4624 39.0027C47.4624 44.3373 47.4624 49.661 47.4624 55.1875C46.7126 55.2318 46.1047 55.2956 45.4966 55.2985C43.415 55.3084 41.3326 55.3304 39.2518 55.2818C37.8544 55.2492 37.1083 54.5443 37.1173 53.4223C37.1263 52.2964 37.8373 51.6821 39.302 51.6429C40.7919 51.6028 42.2834 51.6339 43.9405 51.6339ZM80.6032 35.5437C75.9801 30.834 71.5319 26.3026 66.9851 21.6706C62.6071 25.56 58.3335 29.3565 53.9698 33.2331C58.7019 38.363 63.291 43.3378 67.9643 48.404C72.2118 44.0821 76.3344 39.8873 80.6032 35.5437Z" fill="black"></path>
-                <path d="M17.5048 51.6344C21.4258 51.6344 24.9994 51.6308 28.573 51.638C29.1492 51.6391 29.7368 51.6216 30.2989 51.7307C31.1382 51.8936 31.6042 52.4961 31.6206 53.4092C31.6369 54.3176 31.2007 54.9478 30.375 55.164C29.8787 55.2939 29.345 55.2982 28.8281 55.2986C20.103 55.3062 11.378 55.3042 2.65295 55.3038C2.42188 55.3038 2.18964 55.312 1.95997 55.2912C0.686258 55.1758 -0.010159 54.5141 0.000112009 53.4399C0.0105218 52.3498 0.690768 51.6677 1.98984 51.6522C5.34076 51.612 8.69233 51.6357 12.0437 51.6339C12.6639 51.6336 13.2842 51.6339 14.0085 51.6339C14.0085 36.0623 14.0085 20.6918 14.0085 5.08577C13.3159 5.27306 12.7154 5.4046 12.1333 5.59807C9.21307 6.56858 6.29766 7.55536 3.38049 8.53611C3.05095 8.6469 2.72713 8.79104 2.38982 8.85887C1.18392 9.10138 0.315251 8.60073 0.0686082 7.55053C-0.149547 6.62163 0.359422 5.71237 1.4436 5.32063C3.13652 4.70892 4.85479 4.17662 6.56079 3.60563C9.86305 2.50035 13.1639 1.39054 16.4665 0.286178C16.7304 0.197933 17.0025 0.137396 17.5047 0C17.5048 17.2294 17.5048 34.3014 17.5048 51.6344Z" fill="black"></path>
-              </svg></div>
-            <div class="dark_mode_investico w-embed"><svg width="105" height="53" viewbox="0 0 105 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M44.8443 48.6278C44.8443 33.6428 44.8443 18.9678 44.8443 4.00755C44.0584 4.00755 43.3313 4.01518 42.6045 4.00567C41.6222 3.99283 40.6384 3.99492 39.6582 3.9387C38.6443 3.88055 38.0285 3.32289 38.0277 2.28767C38.027 1.3408 38.5943 0.712288 39.5212 0.694903C42.3941 0.641085 45.2687 0.675231 48.3169 0.675231C48.3169 11.1441 48.3169 21.4704 48.3169 31.7967C48.4423 31.8766 48.5676 31.9566 48.6929 32.0365C53.3029 28.1749 57.913 24.3133 62.7855 20.2318C62.0397 20.1496 61.6234 20.102 61.2067 20.058C59.829 19.9127 59.0596 19.2704 59.0544 18.2595C59.0491 17.2057 59.7554 16.6019 61.2413 16.5844C64.5947 16.5448 67.9488 16.5673 71.3026 16.5677C73.0372 16.5679 74.773 16.5371 76.5061 16.5906C77.9021 16.6336 78.5503 17.1717 78.6066 18.1664C78.6666 19.2271 77.965 19.9228 76.5514 20.0174C75.3486 20.098 74.1362 20.0341 72.928 20.0341C72.8524 20.1576 72.7769 20.2812 72.7013 20.4047C76.3907 23.9594 80.08 27.514 83.9036 31.198C87.725 27.5297 91.4094 23.993 95.0938 20.4562C95.0533 20.3228 95.0129 20.1894 94.9726 20.0559C94.0852 20.0559 93.1978 20.0618 92.3105 20.0535C91.8487 20.0492 91.3794 20.067 90.9271 19.9922C89.802 19.8062 89.1091 19.0914 89.1331 18.2099C89.1579 17.301 89.8249 16.6344 91.0526 16.6125C94.4049 16.5525 97.7592 16.5683 101.112 16.597C102.124 16.6057 102.938 17.0262 103.059 18.1708C103.152 19.0532 102.463 19.7545 101.328 19.9845C100.934 20.0643 100.529 20.0883 100.04 20.1488C95.5259 24.5306 90.9736 28.9492 86.3085 33.4774C91.5249 38.5405 96.6561 43.5209 101.816 48.5296C102.334 48.5738 102.846 48.6176 103.359 48.6612C104.342 48.7448 104.803 49.3806 104.862 50.2679C104.924 51.2007 104.389 51.7919 103.482 51.9891C103.092 52.0741 102.679 52.0794 102.276 52.0801C98.8063 52.0864 95.3368 52.0842 91.8673 52.0816C91.5786 52.0814 91.2864 52.0843 91.002 52.0434C89.8864 51.8825 89.1929 51.1809 89.2837 50.2426C89.3827 49.2195 90.0336 48.6881 91.0237 48.6596C92.6413 48.6129 94.2609 48.6377 95.8796 48.6226C96.148 48.6201 96.4158 48.5684 97.0916 48.4955C92.5977 44.1527 88.3448 40.0427 83.915 35.7619C79.6394 39.8632 75.4585 43.8736 70.9436 48.2044C71.8651 48.406 72.3664 48.5914 72.8745 48.6119C74.1447 48.6631 75.4198 48.5987 76.6893 48.6581C77.8289 48.7115 78.522 49.3808 78.5425 50.3084C78.5628 51.2267 77.8548 52.0238 76.762 52.0359C72.5995 52.082 68.4359 52.0826 64.2734 52.0409C63.1236 52.0294 62.4258 51.3257 62.3819 50.4089C62.3343 49.4114 63.0353 48.7754 64.3064 48.6356C64.9566 48.564 65.603 48.4581 66.2511 48.3677C66.3084 48.2258 66.3658 48.084 66.4231 47.9422C61.7759 43.1665 57.1288 38.3909 52.3211 33.4503C50.9872 34.5573 49.7201 35.6087 48.3662 36.7323C48.3662 41.7563 48.3662 46.7699 48.3662 51.9745C47.6164 52.0162 47.0085 52.0763 46.4004 52.079C44.3188 52.0883 42.2364 52.1091 40.1556 52.0633C38.7582 52.0326 38.0121 51.3688 38.0211 50.3121C38.0301 49.2517 38.7411 48.6733 40.2059 48.6363C41.6957 48.5985 43.1872 48.6278 44.8443 48.6278ZM81.507 33.4748C76.8839 29.0394 72.4357 24.7718 67.8889 20.4096C63.5108 24.0725 59.2373 27.6479 54.8736 31.2987C59.6057 36.1299 64.1948 40.815 68.8681 45.5861C73.1156 41.5159 77.2382 37.5654 81.507 33.4748Z" fill="#F7F6F2"></path>
-                <path d="M18.4091 48.6273C22.3301 48.6273 25.9037 48.6239 29.4773 48.6307C30.0535 48.6317 30.6411 48.6153 31.2032 48.718C32.0425 48.8714 32.5085 49.4388 32.5249 50.2987C32.5412 51.1543 32.105 51.7478 31.2793 51.9514C30.783 52.0737 30.2493 52.0777 29.7324 52.0781C21.0073 52.0852 12.2823 52.0834 3.55724 52.083C3.32618 52.083 3.09394 52.0907 2.86426 52.0711C1.59055 51.9624 0.894138 51.3393 0.904409 50.3277C0.914819 49.301 1.59506 48.6587 2.89414 48.644C6.24506 48.6062 9.59663 48.6285 12.948 48.6268C13.5682 48.6265 14.1885 48.6268 14.9128 48.6268C14.9128 33.9621 14.9128 19.4867 14.9128 4.78959C14.2202 4.96596 13.6197 5.08984 13.0376 5.27205C10.1174 6.18603 7.20196 7.11535 4.28479 8.03898C3.95525 8.14332 3.63143 8.27906 3.29412 8.34294C2.08821 8.57133 1.21955 8.09984 0.972905 7.1108C0.75475 6.236 1.26372 5.37969 2.3479 5.01076C4.04081 4.43468 5.75909 3.93338 7.46509 3.39564C10.7674 2.35473 14.0682 1.30956 17.3708 0.269511C17.6347 0.186406 17.9068 0.129394 18.409 0C18.4091 16.226 18.4091 32.3038 18.4091 48.6273Z" fill="#F7F6F2"></path>
-              </svg></div>
-          </div>
-          <div><img src="images/defiance-capital-logo_black_1.svg" loading="lazy" alt="" class="light_mode_investico"><img src="images/defiance-capital-logo_white-2.png" loading="lazy" sizes="100vw" srcset="images/defiance-capital-logo_white-2-p-500.png 500w, images/defiance-capital-logo_white-2.png 684w" alt="" class="dark_mode_investico"></div>
-          <div id="w-node-eb24d545-1fed-6531-b82a-989fe7df1000-087f2037" class="wintermute_logo"><img src="images/witnermute-1_1.svg" loading="lazy" alt="" class="light_mode_investico"><img src="images/witnermute-1.png" loading="lazy" sizes="100vw" srcset="images/witnermute-1-p-500.png 500w, images/witnermute-1.png 796w" alt="" class="dark_mode_investico"></div>
+        <div class="w-layout-grid companies investors_grid">
+          <div id="w-node-ed7f4094-afae-a83b-7b53-98a3d1885574-e62dc509" class="investors_logo"><img src="images/1confirmation_alt_black.svg" loading="lazy" alt="" class="investors_icons"></div>
+          <div class="investors_logo"><img src="images/galaxy_digital_Logo-White-1_1.svg" loading="lazy" alt="" class="investors_icons"></div>
+          <div id="w-node-bc9c8dc8-e114-2e48-703d-833c194b2468-e62dc509" class="investors_logo"><img src="images/1kx_network-1_1.svg" loading="lazy" alt="" class="investors_icons"></div>
+          <div class="investors_logo"><img src="images/defiance-capital-logo_black_1.svg" loading="lazy" alt="" class="investors_icons"></div>
+          <div id="w-node-eb24d545-1fed-6531-b82a-989fe7df1000-e62dc509" class="investors_logo"><img src="images/witnermute-1_1.svg" loading="lazy" alt="" class="investors_icons"></div>
         </div>
       </div>
     </div>
@@ -768,14 +764,14 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
     <div class="in-the-media gray_bg wf-section">
       <div class="maincontainer w-container">
         <div class="head_cont institution-page">
-          <h1 class="allh2">In the Media</h1>
+          <h1 class="allh2 investors_head">In the Media</h1>
         </div>
         <div class="line_cont investors">
           <div class="heroline"></div>
         </div>
-        <div class="w-layout-grid inthemedia_grid">
-          <div id="w-node-c4164308-04a7-d78c-e6e2-0aa146588fa3-087f2037" class="in-media-logo">
-            <div class="light_mode_investico w-embed"><svg width="100%" height="100%" viewbox="0 0 147 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="w-layout-grid companies investors_grid">
+          <div id="w-node-c4164308-04a7-d78c-e6e2-0aa146588fa3-e62dc509" class="investors_logo">
+            <div class="investors_icons w-embed"><svg width="100%" height="100%" viewbox="0 0 147 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M0 29.5049H144.717V33.5004H0V29.5049Z" fill="black"></path>
                   <path d="M16.0583 15.5807C16.0583 17.6559 15.3391 19.1744 13.9006 20.1363C12.4621 21.0982 10.4651 21.577 7.90957 21.5726H0.0625V0.878418H7.4393C10.1152 0.878418 12.0314 1.26491 13.1879 2.03789C14.3445 2.81087 14.9232 4.03475 14.9241 5.70954C14.9241 6.99523 14.6097 8.03719 13.9809 8.83541C13.3522 9.63363 12.3686 10.1672 11.0302 10.4362C12.7813 10.6756 14.0547 11.224 14.8504 12.0814C15.646 12.9388 16.0486 14.1052 16.0583 15.5807ZM10.6258 6.63659C10.6258 5.85317 10.3338 5.30738 9.74982 4.99924C9.16583 4.69109 8.26041 4.53919 7.03358 4.54354H4.31865V8.98295H6.91371C8.1704 8.98295 9.10348 8.80886 9.71294 8.46067C10.3224 8.11248 10.6267 7.50315 10.6258 6.63268V6.63659ZM11.7126 15.2073C11.7126 14.2802 11.3956 13.6247 10.7615 13.2409C10.1274 12.857 8.94189 12.665 7.20483 12.665H4.31865V17.8396H6.47637C8.13615 17.8396 9.28043 17.7599 9.90921 17.6006C10.538 17.4413 10.9955 17.1719 11.2818 16.7924C11.569 16.4155 11.7126 15.8871 11.7126 15.2073Z" fill="black"></path>
@@ -793,43 +789,19 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
                   </clippath>
                 </defs>
               </svg></div>
-            <div class="dark_mode_investico w-embed"><svg width="100%" height="100%" viewbox="0 0 147 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0)">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 29.5049H144.717V33.5004H0V29.5049Z" fill="white"></path>
-                  <path d="M16.0583 15.5807C16.0583 17.6559 15.3391 19.1744 13.9006 20.1363C12.4621 21.0982 10.4651 21.577 7.90957 21.5726H0.0625V0.878418H7.4393C10.1152 0.878418 12.0314 1.26491 13.1879 2.03789C14.3445 2.81087 14.9232 4.03475 14.9241 5.70954C14.9241 6.99523 14.6097 8.03719 13.9809 8.83541C13.3522 9.63363 12.3686 10.1672 11.0302 10.4362C12.7813 10.6756 14.0547 11.224 14.8504 12.0814C15.646 12.9388 16.0486 14.1052 16.0583 15.5807ZM10.6258 6.63659C10.6258 5.85317 10.3338 5.30738 9.74982 4.99924C9.16583 4.69109 8.26041 4.53919 7.03358 4.54354H4.31865V8.98295H6.91371C8.1704 8.98295 9.10348 8.80886 9.71294 8.46067C10.3224 8.11248 10.6267 7.50315 10.6258 6.63268V6.63659ZM11.7126 15.2073C11.7126 14.2802 11.3956 13.6247 10.7615 13.2409C10.1274 12.857 8.94189 12.665 7.20483 12.665H4.31865V17.8396H6.47637C8.13615 17.8396 9.28043 17.7599 9.90921 17.6006C10.538 17.4413 10.9955 17.1719 11.2818 16.7924C11.569 16.4155 11.7126 15.8871 11.7126 15.2073Z" fill="white"></path>
-                  <path d="M17.7949 21.5791L24.7054 0.878418H30.238L37.1696 21.5791H32.8094L31.4209 17.376H23.3776L22.0195 21.5791H17.7949ZM24.5855 13.6822H30.2143L27.4072 5.12719L24.5855 13.6822Z" fill="white"></path>
-                  <path d="M51.5929 21.5791L43.9882 6.78675V21.5791H39.8203V0.878418H45.3529L52.4294 14.8338V0.878418H56.6025V21.5791H51.5929Z" fill="white"></path>
-                  <path d="M72.4168 21.5791L66.6379 12.934L65.3759 14.3847V21.5791H61.1211V0.878418H65.3759V8.95553L72.2113 0.878418H77.1762L69.3897 9.79249L77.7294 21.5791H72.4168Z" fill="white"></path>
-                  <path d="M80.4297 21.5791V0.878418H84.6845V17.7221H93.4669V21.5791H80.4297Z" fill="white"></path>
-                  <path d="M96.0918 21.5791V0.878418H109.66V4.60491H100.348V9.0182H108.194V12.7578H100.348V17.7194H109.659V21.5791H96.0918Z" fill="white"></path>
-                  <path d="M128.445 15.5808C128.445 17.6561 127.758 19.2468 126.385 20.3532C125.011 21.4596 122.985 22.0128 120.307 22.0128C118.457 22.0128 116.85 21.7081 115.486 21.0988C114.122 20.4894 113.013 19.5076 112.158 18.1531L115.433 15.6722C115.817 16.2419 116.279 16.7557 116.806 17.1986C117.267 17.5521 117.788 17.8206 118.345 17.9912C119.011 18.1908 119.703 18.2864 120.398 18.2745C121.554 18.2745 122.457 18.0778 123.106 17.6843C123.755 17.2909 124.08 16.6903 124.08 15.8825C124.094 15.4723 123.975 15.0684 123.74 14.7308C123.47 14.387 123.121 14.1125 122.722 13.9304C122.268 13.7058 121.484 13.4491 120.368 13.1601C119.281 12.8702 118.257 12.5786 117.296 12.2852C116.413 12.0272 115.574 11.6413 114.806 11.1401C114.123 10.6891 113.557 10.0848 113.154 9.37612C112.752 8.66755 112.551 7.77489 112.551 6.69811C112.551 4.73433 113.219 3.20142 114.557 2.0994C115.894 0.997381 117.811 0.445939 120.307 0.445068C123.918 0.445068 126.473 1.67156 127.972 4.12456L124.728 6.63674C124.155 5.7593 123.511 5.13126 122.797 4.7526C122.082 4.37395 121.232 4.18462 120.246 4.18462C119.259 4.18462 118.457 4.36133 117.84 4.71474C117.222 5.06815 116.915 5.62438 116.918 6.38343C116.918 7.05108 117.239 7.56205 117.883 7.91633C118.527 8.27062 119.649 8.62708 121.249 8.98571C122.134 9.21551 123.009 9.46229 123.874 9.72604C124.699 9.97152 125.481 10.3424 126.191 10.8255C126.877 11.3009 127.437 11.9316 127.827 12.6652C128.24 13.4225 128.446 14.3944 128.445 15.5808Z" fill="white"></path>
-                  <path d="M146.991 15.581C146.991 17.6562 146.305 19.247 144.932 20.3534C143.56 21.4598 141.535 22.0129 138.858 22.0129C137.007 22.0129 135.4 21.7083 134.037 21.0989C132.674 20.4896 131.567 19.5082 130.715 18.1546L133.99 15.6737C134.373 16.2438 134.836 16.7576 135.364 17.2001C135.824 17.5536 136.345 17.8221 136.902 17.9927C137.567 18.1922 138.26 18.2878 138.954 18.276C140.111 18.276 141.014 18.0793 141.663 17.6858C142.312 17.2924 142.636 16.6917 142.636 15.8839C142.651 15.4738 142.532 15.0699 142.296 14.7323C142.027 14.3881 141.678 14.1136 141.278 13.9319C140.825 13.7073 140.04 13.4505 138.924 13.1615C137.838 12.8717 136.814 12.5801 135.854 12.2867C134.971 12.0293 134.132 11.6433 133.364 11.1416C132.68 10.691 132.114 10.0866 131.711 9.37759C131.31 8.66903 131.11 7.77462 131.11 6.69436C131.11 4.73058 131.779 3.19768 133.118 2.09566C134.456 0.993641 136.372 0.442627 138.866 0.442627C142.478 0.442627 145.033 1.66912 146.531 4.12211L143.287 6.6343C142.714 5.75686 142.07 5.12882 141.356 4.75016C140.642 4.3715 139.792 4.18218 138.806 4.18218C137.82 4.18218 137.018 4.35889 136.399 4.7123C135.78 5.06571 135.472 5.62194 135.477 6.38099C135.477 7.04864 135.799 7.55962 136.442 7.9139C137.086 8.26818 138.208 8.62464 139.807 8.98328C140.692 9.21308 141.567 9.45986 142.433 9.72361C143.258 9.96909 144.039 10.34 144.749 10.823C145.437 11.2997 145.999 11.9322 146.39 12.668C146.792 13.4236 146.992 14.3946 146.991 15.581Z" fill="white"></path>
-                </g>
-                <defs>
-                  <clippath id="clip0">
-                    <rect width="146.991" height="33.0553" fill="white" transform="translate(0 0.445068)"></rect>
-                  </clippath>
-                </defs>
-              </svg></div>
           </div>
-          <div class="in-media-logo"><img src="images/Frame_1.svg" loading="lazy" alt="" class="light_mode_investico"><img src="images/Group-227.png" loading="lazy" sizes="100vw" srcset="images/Group-227-p-500.png 500w, images/Group-227.png 750w" alt="" class="dark_mode_investico"></div>
-          <div class="in-media-logo"><img src="images/DeFi_Pulse_logo-2.svg" loading="lazy" alt="" class="light_mode_investico"><img src="images/Purple-else.png" loading="lazy" sizes="100vw" srcset="images/Purple-else-p-500.png 500w, images/Purple-else.png 753w" alt="" class="dark_mode_investico"></div>
-          <div class="in-media-logo">
-            <div class="light_mode_investico messari w-embed"><svg width="100%" height="100%" viewbox="0 0 210 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div class="investors_logo"><img src="images/Frame_1.svg" loading="lazy" alt="" class="investors_icons"></div>
+          <div class="investors_logo"><img src="images/DeFi_Pulse_logo-2.svg" loading="lazy" alt="" class="investors_icons"></div>
+          <div class="investors_logo">
+            <div class="investors_icons w-embed"><svg width="100%" height="100%" viewbox="0 0 210 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M17.2637 6.48496L23.0315 0.475342V17.8994L17.2637 23.1497V6.48496Z" fill="black"></path>
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.79102 9.53495L11.5715 11.8127L14.5589 9.1875V17.8995L8.79102 23.1499V9.53495Z" fill="black"></path>
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M6.07643 6.48496L0.308594 0.475342V23.2141L6.07643 18.324V6.48496Z" fill="black"></path>
                 <path d="M34.4258 20.1773H38.0339V9.36769L42.7025 16.4197H42.793L47.5133 9.30335V20.1901H51.1732V3.5125H47.203L42.806 10.5645L38.4089 3.5125H34.4387V20.1773H34.4258ZM66.4722 20.1773H79.2235V16.9087H70.132V13.4084H78.0337V10.1527H70.132V6.76824H79.1071V3.5125H66.4722V20.1773ZM99.7471 20.4218C103.355 20.4218 105.903 18.5687 105.903 15.2486V15.1971C105.903 12.2889 103.989 11.0792 100.588 10.1913C97.6909 9.45777 96.9796 9.09745 96.9796 8.00362V7.95215C96.9796 7.14143 97.7167 6.498 99.1393 6.498C100.549 6.498 102.01 7.11569 103.498 8.14518L105.411 5.37844C103.717 4.02724 101.635 3.25513 99.191 3.25513C95.764 3.25513 93.3327 5.24975 93.3327 8.27386V8.32534C93.3327 11.6326 95.5053 12.5591 98.8807 13.4213C101.674 14.1419 102.256 14.6181 102.256 15.5446V15.5961C102.256 16.5741 101.351 17.166 99.8376 17.166C97.9237 17.166 96.3459 16.3811 94.8328 15.1457L92.6473 17.7451C94.6518 19.5338 97.2124 20.4218 99.7471 20.4218ZM126.103 20.4218C129.711 20.4218 132.259 18.5687 132.259 15.2486V15.1971C132.259 12.2889 130.345 11.0792 126.944 10.1913C124.047 9.45777 123.336 9.09745 123.336 8.00362V7.95215C123.336 7.14143 124.073 6.498 125.495 6.498C126.905 6.498 128.366 7.11569 129.854 8.14518L131.768 5.37844C130.073 4.02724 127.991 3.25513 125.547 3.25513C122.12 3.25513 119.689 5.24975 119.689 8.27386V8.32534C119.689 11.6326 121.861 12.5591 125.237 13.4213C128.03 14.1419 128.612 14.6181 128.612 15.5446V15.5961C128.612 16.5741 127.707 17.166 126.194 17.166C124.28 17.166 122.702 16.3811 121.189 15.1457L119.016 17.7451C121.008 19.5338 123.569 20.4218 126.103 20.4218ZM144.959 20.1773H148.709L150.235 16.4325H157.322L158.848 20.1773H162.702L155.524 3.39668H152.136L144.959 20.1773ZM151.554 13.2025L153.779 7.79773L156.003 13.2025H151.554ZM176.578 20.1773H180.264V14.8497H183.161L186.756 20.1773H191.062L186.976 14.2191C189.11 13.4342 190.571 11.7484 190.571 9.04598V9.00737C190.571 7.43741 190.067 6.12482 189.136 5.19828C188.036 4.10445 186.381 3.5125 184.26 3.5125H176.578V20.1773ZM180.264 11.6068V6.81972H183.924C185.721 6.81972 186.821 7.63044 186.821 9.2004V9.25187C186.821 10.6545 185.786 11.6068 184.001 11.6068H180.264ZM205.327 20.1773H209.013V3.5125H205.327V20.1773Z" fill="black"></path>
               </svg></div>
-            <div class="dark_mode_investico messari w-embed"><svg width="100%" height="100%" viewbox="0 0 210 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.2637 6.48496L23.0315 0.475342V17.8994L17.2637 23.1497V6.48496Z" fill="white"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.79102 9.53495L11.5715 11.8127L14.5589 9.1875V17.8995L8.79102 23.1499V9.53495Z" fill="white"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.07643 6.48496L0.308594 0.475342V23.2141L6.07643 18.324V6.48496Z" fill="white"></path>
-                <path d="M34.4258 20.1773H38.0339V9.36769L42.7025 16.4197H42.793L47.5133 9.30335V20.1901H51.1732V3.5125H47.203L42.806 10.5645L38.4089 3.5125H34.4387V20.1773H34.4258ZM66.4722 20.1773H79.2235V16.9087H70.132V13.4084H78.0337V10.1527H70.132V6.76824H79.1071V3.5125H66.4722V20.1773ZM99.7471 20.4218C103.355 20.4218 105.903 18.5687 105.903 15.2486V15.1971C105.903 12.2889 103.989 11.0792 100.588 10.1913C97.6909 9.45777 96.9796 9.09745 96.9796 8.00362V7.95215C96.9796 7.14143 97.7167 6.498 99.1393 6.498C100.549 6.498 102.01 7.11569 103.498 8.14518L105.411 5.37844C103.717 4.02724 101.635 3.25513 99.191 3.25513C95.764 3.25513 93.3327 5.24975 93.3327 8.27386V8.32534C93.3327 11.6326 95.5053 12.5591 98.8807 13.4213C101.674 14.1419 102.256 14.6181 102.256 15.5446V15.5961C102.256 16.5741 101.351 17.166 99.8376 17.166C97.9237 17.166 96.3459 16.3811 94.8328 15.1457L92.6473 17.7451C94.6518 19.5338 97.2124 20.4218 99.7471 20.4218ZM126.103 20.4218C129.711 20.4218 132.259 18.5687 132.259 15.2486V15.1971C132.259 12.2889 130.345 11.0792 126.944 10.1913C124.047 9.45777 123.336 9.09745 123.336 8.00362V7.95215C123.336 7.14143 124.073 6.498 125.495 6.498C126.905 6.498 128.366 7.11569 129.854 8.14518L131.768 5.37844C130.073 4.02724 127.991 3.25513 125.547 3.25513C122.12 3.25513 119.689 5.24975 119.689 8.27386V8.32534C119.689 11.6326 121.861 12.5591 125.237 13.4213C128.03 14.1419 128.612 14.6181 128.612 15.5446V15.5961C128.612 16.5741 127.707 17.166 126.194 17.166C124.28 17.166 122.702 16.3811 121.189 15.1457L119.016 17.7451C121.008 19.5338 123.569 20.4218 126.103 20.4218ZM144.959 20.1773H148.709L150.235 16.4325H157.322L158.848 20.1773H162.702L155.524 3.39668H152.136L144.959 20.1773ZM151.554 13.2025L153.779 7.79773L156.003 13.2025H151.554ZM176.578 20.1773H180.264V14.8497H183.161L186.756 20.1773H191.062L186.976 14.2191C189.11 13.4342 190.571 11.7484 190.571 9.04598V9.00737C190.571 7.43741 190.067 6.12482 189.136 5.19828C188.036 4.10445 186.381 3.5125 184.26 3.5125H176.578V20.1773ZM180.264 11.6068V6.81972H183.924C185.721 6.81972 186.821 7.63044 186.821 9.2004V9.25187C186.821 10.6545 185.786 11.6068 184.001 11.6068H180.264ZM205.327 20.1773H209.013V3.5125H205.327V20.1773Z" fill="white"></path>
-              </svg></div>
           </div>
-          <div id="w-node-fc43b818-2604-396b-77fb-ca4859192cfd-087f2037" class="in-media-logo yahoo">
-            <div class="light_mode_investico yahoo w-embed"><svg width="100%" height="100%" viewbox="0 0 139 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div id="w-node-fc43b818-2604-396b-77fb-ca4859192cfd-e62dc509" class="investors_logo">
+            <div class="investors_icons w-embed"><svg width="100%" height="100%" viewbox="0 0 139 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.380859 9.22534H8.62782L13.4299 21.3364L18.2944 9.22534H26.3241L14.2331 37.8961H6.15242L9.46215 30.2988L0.380859 9.22534Z" fill="black"></path>
                 <path d="M34.6877 8.74316C28.4914 8.74316 24.5742 14.2213 24.5742 19.6766C24.5742 25.8155 28.8689 30.6825 34.5701 30.6825C38.8231 30.6825 40.4266 28.1282 40.4266 28.1282V30.118H47.6196V9.22542H40.4266V11.1247C40.4266 11.1247 38.6376 8.74316 34.6877 8.74316ZM36.2177 15.4572C39.0767 15.4572 40.5521 17.6873 40.5521 19.6996C40.5521 21.8664 38.9714 23.9929 36.2177 23.9929C33.9354 23.9929 31.8729 22.1542 31.8729 19.7918C31.8729 17.396 33.5319 15.4572 36.2177 15.4572Z" fill="black"></path>
                 <path d="M50.0996 30.1179V0H57.623V11.1971C57.623 11.1971 59.41 8.74574 63.1526 8.74574C67.7305 8.74574 70.4127 12.1082 70.4127 16.913V30.1179H62.9444V18.7219C62.9444 17.0959 62.1587 15.525 60.3789 15.525C58.5672 15.525 57.623 17.1197 57.623 18.7219V30.1179H50.0996Z" fill="black"></path>
@@ -837,15 +809,6 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
                 <path d="M107.124 8.74561C100.028 8.74561 95.8027 14.0647 95.8027 19.7635C95.8027 26.2489 100.919 30.6825 107.151 30.6825C113.191 30.6825 118.477 26.4501 118.477 19.8723C118.477 12.675 112.943 8.74561 107.124 8.74561ZM107.192 15.5187C109.698 15.5187 111.433 17.5767 111.433 19.7713C111.433 21.6431 109.817 23.9519 107.192 23.9519C104.787 23.9519 102.982 22.05 102.982 19.7508C102.982 17.5359 104.482 15.5187 107.192 15.5187Z" fill="black"></path>
                 <path d="M124.414 30.5612C127.173 30.5612 129.41 28.3563 129.41 25.6364C129.41 22.9166 127.173 20.7117 124.414 20.7117C121.655 20.7117 119.418 22.9166 119.418 25.6364C119.418 28.3563 121.655 30.5612 124.414 30.5612Z" fill="black"></path>
                 <path d="M131.052 18.9028H122.059L130.041 0H139.001L131.052 18.9028Z" fill="black"></path>
-              </svg></div>
-            <div class="dark_mode_investico yahoo w-embed"><svg width="100%" height="100%" viewbox="0 0 139 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0.380859 9.22534H8.62782L13.4299 21.3364L18.2944 9.22534H26.3241L14.2331 37.8961H6.15242L9.46215 30.2988L0.380859 9.22534Z" fill="white"></path>
-                <path d="M34.6877 8.74316C28.4914 8.74316 24.5742 14.2213 24.5742 19.6766C24.5742 25.8155 28.8689 30.6825 34.5701 30.6825C38.8231 30.6825 40.4266 28.1282 40.4266 28.1282V30.118H47.6196V9.22542H40.4266V11.1247C40.4266 11.1247 38.6376 8.74316 34.6877 8.74316ZM36.2177 15.4572C39.0767 15.4572 40.5521 17.6873 40.5521 19.6996C40.5521 21.8664 38.9714 23.9929 36.2177 23.9929C33.9354 23.9929 31.8729 22.1542 31.8729 19.7918C31.8729 17.396 33.5319 15.4572 36.2177 15.4572Z" fill="white"></path>
-                <path d="M50.0996 30.1179V0H57.623V11.1971C57.623 11.1971 59.41 8.74574 63.1526 8.74574C67.7305 8.74574 70.4127 12.1082 70.4127 16.913V30.1179H62.9444V18.7219C62.9444 17.0959 62.1587 15.525 60.3789 15.525C58.5672 15.525 57.623 17.1197 57.623 18.7219V30.1179H50.0996Z" fill="white"></path>
-                <path d="M83.2392 8.74561C76.1433 8.74561 71.918 14.0647 71.918 19.7635C71.918 26.2489 77.0339 30.6825 83.2661 30.6825C89.3067 30.6825 94.5924 26.4501 94.5924 19.8723C94.5924 12.675 89.0581 8.74561 83.2392 8.74561ZM83.307 15.5187C85.8135 15.5187 87.5478 17.5767 87.5478 19.7713C87.5478 21.6431 85.9318 23.9519 83.307 23.9519C80.9019 23.9519 79.097 22.05 79.097 19.7508C79.097 17.5359 80.5976 15.5187 83.307 15.5187Z" fill="white"></path>
-                <path d="M107.124 8.74561C100.028 8.74561 95.8027 14.0647 95.8027 19.7635C95.8027 26.2489 100.919 30.6825 107.151 30.6825C113.191 30.6825 118.477 26.4501 118.477 19.8723C118.477 12.675 112.943 8.74561 107.124 8.74561ZM107.192 15.5187C109.698 15.5187 111.433 17.5767 111.433 19.7713C111.433 21.6431 109.817 23.9519 107.192 23.9519C104.787 23.9519 102.982 22.05 102.982 19.7508C102.982 17.5359 104.482 15.5187 107.192 15.5187Z" fill="white"></path>
-                <path d="M124.414 30.5612C127.173 30.5612 129.41 28.3563 129.41 25.6364C129.41 22.9166 127.173 20.7117 124.414 20.7117C121.655 20.7117 119.418 22.9166 119.418 25.6364C119.418 28.3563 121.655 30.5612 124.414 30.5612Z" fill="white"></path>
-                <path d="M131.052 18.9028H122.059L130.041 0H139.001L131.052 18.9028Z" fill="white"></path>
               </svg></div>
           </div>
         </div>
@@ -894,12 +857,10 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         <div class="form_container">
           <div class="form-block-3 w-form">
             <form id="email-form" name="email-form" data-name="Email Form" method="post" action="https://app.getresponse.com/add_subscriber.html" class="form-3">
-              <div id="w-node-_31ef5fb0-9058-b2a3-a6e5-2ab81921d059-087f2037" class="fieldtitle_cont"><label for="name" class="fieldtitle">Name</label></div><input type="text" class="inputfield w-node-_450596c2-78fa-2da7-1362-c3193b1728cb-087f2037 w-input" maxlength="256" name="name-2" data-name="Name 2" id="name-2" required="">
-              <div id="w-node-_6b340339-0805-68d8-9045-0b1fa3657b89-087f2037" class="fieldtitle_cont"><label for="email" class="fieldtitle">Email Address</label></div><input type="email" class="inputfield w-input" maxlength="256" name="email-2" data-name="Email 2" id="email-2" required="">
-              <div id="w-node-edbe4746-72a7-e0cb-64fb-189749b9b6aa-087f2037" class="fieldtitle_cont"><label for="email-3" class="fieldtitle">Company Name</label></div><input type="text" maxlength="256" name="Custom-Company" data-name="Custom Company" id="Custom-Company-2" class="inputfield w-input">
-              <div id="w-node-ee2ece88-c458-0e9a-e09c-ec662178160c-087f2037" class="fieldtitle_cont"><label for="email-3" class="fieldtitle">Institution Type</label></div><select id="Custom-Institution-Type-2" name="Custom-Institution-Type" data-name="Custom Institution Type" class="inputfield w-select">
-                <option value=""></option>
-                <option value="">Institution Type</option>
+              <div id="w-node-_31ef5fb0-9058-b2a3-a6e5-2ab81921d059-e62dc509" class="fieldtitle_cont"><label for="name" class="fieldtitle">Name</label></div><input type="text" class="inputfield w-node-_450596c2-78fa-2da7-1362-c3193b1728cb-e62dc509 w-input" maxlength="256" name="Name" data-name="Name" placeholder="Name" id="Name-3" required="">
+              <div id="w-node-_6b340339-0805-68d8-9045-0b1fa3657b89-e62dc509" class="fieldtitle_cont"><label for="email" class="fieldtitle">Email Address</label></div><input type="email" class="inputfield w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email Address" id="Email-3" required="">
+              <div id="w-node-edbe4746-72a7-e0cb-64fb-189749b9b6aa-e62dc509" class="fieldtitle_cont"><label for="email-3" class="fieldtitle">Company Name</label></div><input type="text" class="inputfield w-input" maxlength="256" name="Company-Name" data-name="Company Name" placeholder="Company Name" id="Company-Name">
+              <div id="w-node-ee2ece88-c458-0e9a-e09c-ec662178160c-e62dc509" class="fieldtitle_cont"><label for="email-3" class="fieldtitle">Institution Type</label></div><select id="Custom-Institution-Type-2" name="Custom-Institution-Type" data-name="Custom Institution Type" class="inputfield w-select">
                 <option value="Crypto Service Provider">Crypto Service Provider</option>
                 <option value="Family Office">Family Office</option>
                 <option value="Hedge Fund">Hedge Fund</option>
@@ -908,7 +869,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
                 <option value="Venture Capital Fund">Venture Capital Fund</option>
                 <option value="Other">Other</option>
               </select>
-              <div id="w-node-_3b232f07-7f58-b209-acc6-4c1afe849278-087f2037" class="fieldtitle_cont"><label for="email-3" class="fieldtitle">Inquiry</label></div><textarea name="field-2" maxlength="5000" class="inputfield textarea w-input"></textarea>
+              <div id="w-node-_3b232f07-7f58-b209-acc6-4c1afe849278-e62dc509" class="fieldtitle_cont"><label for="email-3" class="fieldtitle">Inquiry</label></div><textarea name="Inquiry" maxlength="5000" id="Inquiry" data-name="Inquiry" placeholder="Inquiry" class="inputfield textarea w-input"></textarea>
               <div class="w-embed">
                 <!--  Get the token at: https://app.getresponse.com/campaign_list.html  -->
                 <input type="hidden" name="campaign_token" value="obfrA">
@@ -916,7 +877,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
                 <input type="hidden" name="start_day" value="0">
                 <!--  Thank you page (optional)  -->
                 <input type="hidden" name="thankyou_url" value="https://institutions.indexcoop.com/thankyou">
-              </div><input type="submit" value="Submit" data-wait="Please wait..." id="w-node-_450596c2-78fa-2da7-1362-c3193b1728cf-087f2037" class="green_btn submit institution_page w-button">
+              </div><input type="submit" value="Submit" data-wait="Please wait..." id="w-node-_450596c2-78fa-2da7-1362-c3193b1728cf-e62dc509" class="green_btn submit institution_page w-button">
             </form>
             <div class="w-form-done">
               <div>Thank you! Your submission has been received!</div>
@@ -960,12 +921,14 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
               <a href="mvi.html" class="footitem footlink">Metaverse Index</a>
               <a href="eth-2x-fli.html" class="footitem footlink">ETH2x-FLI</a>
               <a href="btc-2x-fli.html" class="footitem footlink">BTC2x-FLI</a>
+              <a href="bankless-bed-index.html" class="footitem footlink">BED Index</a>
               <a href="index-coop-data-index.html" class="footitem footlink">DATA Index</a>
             </div>
             <div class="resourcesfooter">
               <div class="footlinktitle">Resources</div>
-              <a href="institution.html" aria-current="page" class="footitem footlink _1st w--current">For institutions</a>
-              <a href="methodologist.html" class="footitem footlink">For methodologists</a>
+              <a href="methodologist.html" class="footitem footlink _1st">For methodologists</a>
+              <a href="institution.html" aria-current="page" class="footitem footlink w--current">For institutions</a>
+              <a href="contributor.html" class="footitem footlink">For contributors</a>
               <a href="https://www.indexcoop.com/news" class="footitem footlink">News</a>
               <a href="https://docs.indexcoop.com/" target="_blank" class="footitem footlink">Docs &amp; Guides</a>
             </div>
@@ -978,8 +941,8 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
             </div>
           </div>
           <div class="div-block-16">
-            <div class="div-block-78"><img src="images/Group.svg" loading="lazy" width="116" alt=""></div>
-            <div class="div-block-79">
+            <div class="index-logo-cont"><img src="images/Group.svg" loading="lazy" width="116" alt=""></div>
+            <div class="icon_wrapper">
               <div class="toggle">
                 <div class="togglethemefooter footer w-embed"><label for="toggleTheme" title="Toggle theme">
                     <input id="toggleTheme" name="theme" type="checkbox">
@@ -993,25 +956,24 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2.4rem;
+    height: 100%;
     border-radius: 8rem;
-    width: 2.4rem;
-    padding: .2rem;
+    width: 100%;
+    padding: 0;
 }
 .toggleThemefooter:before {
     position: absolute;
     content: '';
     height: 2rem;
     width: 2rem;
-    border-radius: 4rem;
-		background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
+		background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
 }
 input[type="checkbox"] {
 	display: none;
 }
 input[type="checkbox"]:checked+.toggleThemefooter:before {
     content: '';
-    background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
+    background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
 }
 </style>
                 </div>

@@ -1,6 +1,6 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Oct 28 2021 22:04:12 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="6108c4981c303c0dcc7f2032" data-wf-site="60d237b6ea65be721ff4bbfa">
+<!--  Last Published: Sun Nov 07 2021 17:41:28 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="6187d6120f73f566e72dc501" data-wf-site="60d237b6ea65be721ff4bbfa">
 <head>
   <meta charset="utf-8">
   <title>Index Coop | DeFi Pulse Index</title>
@@ -20,181 +20,68 @@
   <script type="text/javascript">WebFont.load({  google: {    families: ["IBM Plex Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic:cyrillic,cyrillic-ext,greek,latin,latin-ext,vietnamese","IBM Plex Mono:regular,500,600"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.ico" rel="apple-touch-icon">
   <style>
-  .mainnavbar {
-  backdrop-filter: blur(5px);
-  }
-  #content.dark-mode .mainnavbar{
-    background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(5px);
-	}
-  #content.dark-mode .nav-link {
-	color: #F7F6F2;
-  }
-  #content.dark-mode .nav-link:hover{
-    border-bottom: 2px solid #F7F6F2;
-  }
-  #content.dark-mode .dropdown-text:hover {
-    border-bottom: 1px solid #F7F6F2;
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-  #content.dark-mode .dropdown-list-2.w--open {
-    background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(5px);
-  }
-  #content.dark-mode .longline {
-    border-buttom: 1px solid #ffffff;
-}
-  #content.dark-mode .indexcooplinks {
-    color: #7289da;
-}
-.indexcooplinks {
-color: #433BCE
-}
-#content.dark-mode a.sell-button.buttons.w-button {
-    color: #09AA74;
-}
- #content.dark-mode a.buy-button.buttons.w-button {
-    color: black;
-  }
- #content.dark-mode .view_link{
-	color:#B9B6FC;
-  }
- #content.dark-mode {
-    background-color: #0F0E0B;
-    color: #F7F6F2;
-}
- #content.dark-mode .allh1, #content.dark-mode .allh2, #content.dark-mode .allh3{
-  color: #F7F6F2;
-}
- #content.dark-mode .prodh3, #content.dark-mode .grid_heading, #content.dark-mode .listtextblock, #content.dark-mode .slider_description{
-  color: #F7F6F2;
-}
- #content.dark-mode a {
-  color: #F7F6F2;
-}
-#content.dark-mode .accordion_header, #content.dark-mode .allparagraph2 {
-  color: #F7F1E4
-  }
-</style>
-  <style>
-.w-slider-dot {
-  background: #C4C4C4;
-}
-.w-slider-dot.w-active {
-  background: #327EE8;
-}
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}  
+.mainnavbar	{
+  	backdrop-filter: blur(5px);
 }
-#content.light-mode {
-  background-color: #ffffff;
-  color: #171717;
+.no-scroll {
+	overflow:hidden;  
 }
-#content.light-mode > .gray_bg{
-  background-color: #f8f8f8;
+input.inputfield::placeholder,
+textarea.inputfield::placeholder{
+	opacity: 0%;  
+}  
+/* 	Light Mode Styles	*/
+/*	Global Light Mode	*/  
+/* 	Dark Mode Styles	*/
+/*	Global Dark Mode	*/
+#content.dark-mode .nav-link {
+	color: #F7F6F2;
 }
-#contant.light-mode a {
-  color: #171717;
-}
-#content.light-mode > .svg_icon path {
-  fill: #327EE8;
+#content.dark-mode .nav-link:hover {
+	border-bottom: 2px solid #F7F6F2;
 }
 #content.dark-mode{
-  background-color: #0F0E0B;
-  color: #F7F6F2;
+    background-color: #0F0E0B;
+    color: #F7F6F2;
 }
-#content.dark-mode .allh1, #content.dark-mode .allh2, #content.dark-mode .allh3{
-  color: #F7F6F2;
+#content.dark-mode .accordion_header, #content.dark-mode .allparagraph2 {
+    color: #F7F1E4;
 }
-#content.dark-mode .prodh3, #content.dark-mode .grid_heading, #content.dark-mode .listtextblock, #content.dark-mode .slider_description{
-  color: #F7F6F2;
+#content.dark-mode .mainnavbar{
+	background-color: rgba(15, 14, 11, 0.8);
+}
+#content.dark-mode .allh1,
+#content.dark-mode .allh2,
+#content.dark-mode .allh3{
+  	color: #F7F6F2;
 }
 #content.dark-mode a {
-  color: #F7F6F2;
+  	color: #B9B6FC;
 }
-#content.dark-mode > .gray_bg{
-  background-color: #1D1B16;
-}
-#content.dark-mode a.w--current {
- color: #707AFF;
-}
-#content.dark-mode > .svg_icon path {
-  fill: #327EE8;
-}
-#content.dark-mode .heroline {
-  border-top: 3px solid #ffffff;
-}
-#content.dark-mode .trigger, .longline {
-  border-top: 1px solid #ffffff;
-}
-#content.dark-mode .index_logo path {
-  fill: #ffffff;
+#content.dark-mode .gray_bg{
+  	background-color: #1D1B16;
 }
 #content.dark-mode .app-button {
-  border: 2px solid #fff;
-  background-color: transparent;
+  	border: 2px solid #fff;
+  	background-color: transparent;
+  	color: #F7F6F2;
 }
-#content.dark-mode .nav-link:hover{
-	border-bottom: 1px solid #fff;
-}
-#content.dark-mode .eco-grid {
-	background-color: #0F0E0B;
-  border: 1px solid white;
-} 
-#content.dark-mode .dark_mode_investico{
-	display: block;
-}
-#content.dark-mode .light_mode_investico{
-	display: none;
-}
-#content.dark-mode .prod_subtitle{
-	color: #fff;
-}
-#content.dark-mode .dpi-formula {
-    position: relative;
-    z-index: 0;
-}
-.w-input::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #000000;
-    opacity: .5;
-}
-.w-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #000000;
-    opacity: .5;
-}
-.w-input::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #000000;
-    opacity: .5;
-}
-.w-input:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #000000;
-    opacity: .5;
-}
-.no-scroll {overflow:hidden;}
-.w-nav-button.w--open{
-	background-color: transparent;
-}
-#content.dark-mode .w-nav-button.w--open{
-	background-color: black;
-}
-#content.dark-mode .close{
-	color: white;
-}
-#content.dark-mode .menu{
-	color: white;
-}
-#content.dark-mode .nav-menu-2{
-	background-color: black;
+#content.dark-mode .app-button:hover {
+	background-color: #F7F6F2;
+  	color: #000000;
 }
 #content.dark-mode .menu_title .menu_gov{
-	color: white;
+	color: #F7F6F2;
 }
 #content.dark-mode .menu_titlecont{
-  border-bottom: 2px solid #ffffff;
+  	border-bottom: 2px solid #F7F6F2;
 }
 #content.dark-mode .language_icon.black{
 	display: none;
@@ -208,29 +95,202 @@ color: #433BCE
 #content.dark-mode .togglethemefooter {
 	display: block;
 }
-@media screen and (max-width: 991px){
-	#content.dark-mode .stickytoggles {
-		background-color: white;
-	}
-  #content.dark-mode .app-button {
-  	border: 2px solid black;
-    color: black;
-  }
-  #content.dark-mode .toggle-theme2{
-		display: block;
-	}
-	#content.dark-mode .togglethemefooter {
-		display: none;
-	}
-  #content.dark-mode .language_icon.black{
-		display: block;
-	}
-	#content.dark-mode .language_icon.white{
-		display: none;
-	}
+#content.dark-mode .heroline {
+  	border-top: 3px solid #F7F6F2;
 }
-label {
-	margin-bottom: 0px;
+#content.dark-mode .index_logo path {
+  	fill: #F7F6F2;
+}
+#content.dark-mode .dropdown-text:hover {
+    border-bottom: 1px solid #F7F6F2;
+}
+#content.dark-mode .dropdown-list-2.w-dropdown-list.w--open {
+    background: rgba(15, 14, 11, 0.95);
+  	border: 1px solid rgba(247, 246, 242, 0.12);
+}
+#content.dark-mode .eco-grid {
+	background-color: #0F0E0B;
+}
+#content.dark-mode .investors_icons {
+	filter: invert();
+}
+#content.dark-mode .accordion_maincontainer.trigger {
+	border-bottom: 1px solid #F7F6F2;
+  	border-top: 1px solid #F7F6F2;	
+}
+#content.dark-mode .prod_subtitle {
+  	color: #F7F6F2;
+}
+#content.dark-mode a.dropdown-text {
+	color: #F7F6F2;
+}
+#content.dark-mode .view_link {
+	color: #B9B6FC;  
+}
+#content.dark-mode  a.footitem.footlink {
+	color:  #F7F6F2; 
+}
+@media only screen and (max-width: 991px){
+  #content.dark-mode .nav-menu-2{
+      background-color: #0F0E0B;  
+  }
+  #content.dark-mode .close,
+  #content.dark-mode .menu,
+  #content.dark-mode .menu_prods a,
+  #content.dark-mode .menu_gov a{
+      color: #F7F6F2;
+  }
+  #content.dark-mode .stickytoggles {
+      filter: invert();
+  }
+}  
+/*	Home Page	*/
+#content.dark-mode .slider_description {
+  	color: #F7F6F2;
+}
+#content.dark-mode .w-slider-dot.w-active {
+  	background-color: #327EE8;
+}
+#content.dark-mode .prodh3,
+#content.dark-mode .listtextblock,
+#content.dark-mode .grid_heading{
+  	color: #F7F6F2;
+}
+#content.dark-mode .listico._3rd path,
+#content.dark-mode .listico._3rd circle {
+	stroke: #B9B6FC;  
+}
+#content.dark-mode .listico._2nd path,
+#content.dark-mode .listico._2nd circle {
+	stroke: #699BF7;  
+}  
+#content.dark-mode .listico._3rdtrinity path {
+	fill: #B9B6FC;  
+}
+#content.dark-mode .listico.lightmode {
+	display: none;  
+}
+#content.dark-mode .listico.darkmode {
+	display: block;  
+}  
+#content.dark-mode a.social_box.w-button {
+	color: #0F0E0B;  
+}
+/*	About Page	*/
+#content.dark-mode .dark_mode_tria {
+	display: block;  
+}
+#content.dark-mode .lightmode_triangle {
+	display: none;  
+}
+#content.dark-mode .social_box.aboutpage {
+	color: #00b9ff;  
+}
+#content.dark-mode .social_box.discord.aboutpage {
+	color: #7289da;  
+}
+#content.dark-mode .trinity_svg.darkmode {
+    display: block;
+}
+#content.dark-mode .trinity_svg.lightmode {
+    display: none;
+}
+/*	Partners Page	*/
+#content.dark-mode img.ecoprodimg.indexcoop {
+	filter:invert();  
+}
+/*	Institutions Page	*/
+input[type="text"].inputfield::-webkit-input-placeholder {
+	color: #737373;  
+}
+#content.dark-mode .sub_h2,
+#content.dark-mode .eventtable_header,
+#content.dark-mode .fieldtitle {
+	color: #F7F6F2;
+}
+#content.dark-mode .event_line {
+	border-top: 3px solid #F7F6F2;  
+}
+#content.dark-mode .inputfield{
+    background: rgba(221, 221, 221, 0.12);
+    border: none;
+    border-bottom: 3px solid #ffff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+#content.dark-mode .inputfield:hover {
+    border-style: none none solid;
+    border-width: 1px 1px 3px;
+    border-color: #000 #000 #327ee8;
+    background-color: rgba(50, 121, 232, 0.13);
+}
+#content.dark-mode .inputfield:focus {
+    border-style: none none solid;
+    border-width: 0px 0px 3px;
+    border-color: #000 #000 #fabf00;
+    background-color: rgba(250, 191, 0, 0.09);
+}
+#content.dark-mode .inputfield{
+	color: #F7F6F2;  
+}
+@media only screen and (max-width: 991px){
+    input.inputfield::placeholder,
+    textarea.inputfield::placeholder{
+        color: #rgba(0, 0, 0, 0.5) !important;
+        opacity: 100%;  
+    }
+  	#content.dark-mode input.inputfield::placeholder,
+    #content.dark-mode textarea.inputfield::placeholder{
+        color: rgba(247, 246, 242, 0.5) !important;
+        opacity: 100%;  
+    }
+}  
+/*	Methodologist Page	*/
+#content.dark-mode .link_underline {
+  	color: #B9B6FC;
+}
+#content.dark-mode .forum_box {
+	border: 3px solid #F7F6F2;  
+}
+#content.dark-mode .forum_box a {
+  	color: #F7F6F2;
+}
+#content.dark-mode .steps {
+	color: #000000;  
+}
+/*	Products Pages	*/
+#content.dark-mode .prod_icon.index path {
+  	fill: #F7F6F2;
+}
+#content.dark-mode .buy-button.buttons {
+	color: #F7F6F2;
+}
+#content.dark-mode .sell-button.buttons {
+	color: #09AA74;
+}
+#content.dark-mode .token_icon.lightdark {
+	filter: invert();  
+}
+#content.dark-mode .dpi-formula {
+  	filter: invert();
+}
+#content.dark-mode .bg-grey.lightdark,
+#content.dark-mode .allparagraph.quote,
+#content.dark-mode .allparagraph.quote.fli{
+	background-color: #0F0E0B;
+  	color: #F7F6F2;
+}
+/*	Contributors Page	*/  
+#content.dark-mode .flowchart {
+	filter: invert();  
+}
+/*	StyleGuide Page	*/   
+#content.dark-mode .token_textblock {
+	color:  #F7F6F2;
+}
+#content.dark-mode  .index_icon.w-embed path {
+	filter: invert();  
 }
 </style>
 </head>
@@ -283,23 +343,6 @@ label {
           </div>
           <div class="menu_container mobilenav">
             <div class="menu_titlecont">
-              <div class="menu_title">Governance</div>
-            </div>
-            <div class="menu_gov">
-              <a href="index-token.html" class="menu_govlink">INDEX Token</a>
-            </div>
-            <div class="menu_gov">
-              <a href="https://snapshot.org/#/index-coop.eth" class="menu_govlink">Voting Portal <span class="text-span-27">snapshot</span></a>
-            </div>
-            <div class="menu_gov">
-              <a href="#" class="menu_govlink">Farm</a>
-            </div>
-            <div class="menu_gov">
-              <a href="#" class="menu_govlink">Rewards</a>
-            </div>
-          </div>
-          <div class="menu_container mobilenav">
-            <div class="menu_titlecont">
               <div class="menu_title">Resources</div>
             </div>
             <div class="menu_gov">
@@ -309,10 +352,13 @@ label {
               <a href="#" class="menu_govlink">Blog</a>
             </div>
             <div class="menu_gov">
-              <a href="methodologist.html" class="menu_govlink">Methodologist</a>
+              <a href="methodologist.html" class="menu_govlink">Methodologists</a>
             </div>
             <div class="menu_gov">
               <a href="institution.html" class="menu_govlink">Institutions</a>
+            </div>
+            <div class="menu_gov">
+              <a href="contributor.html" class="menu_govlink">Contributors</a>
             </div>
           </div>
           <div class="menu_container mobilenav">
@@ -361,9 +407,6 @@ label {
             </div>
           </div>
           <div class="div-block-93">
-            <a href="index.html" class="link-block nav-link w-inline-block">
-              <div>Home</div>
-            </a>
             <div data-delay="3" data-hover="false" class="w-dropdown">
               <div class="dropdown-nav nav-link w-dropdown-toggle">
                 <div>Products</div>
@@ -384,8 +427,9 @@ label {
               <nav class="dropdown-list-2 w-dropdown-list">
                 <a href="https://docs.indexcoop.com/" class="dropdown-text w-dropdown-link">Gitbook</a>
                 <a href="#" class="dropdown-text w-dropdown-link">Blog</a>
-                <a href="methodologist.html" class="dropdown-text w-dropdown-link">Methodologist</a>
+                <a href="methodologist.html" class="dropdown-text w-dropdown-link">Methodologists</a>
                 <a href="institution.html" class="dropdown-text w-dropdown-link">Institutions</a>
+                <a href="contributor.html" class="dropdown-text w-dropdown-link">Contributors</a>
               </nav>
             </div>
             <div data-delay="3" data-hover="false" class="w-dropdown">
@@ -435,25 +479,23 @@ label {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2.4rem;
     border-radius: 8rem;
-    width: 2.4rem;
-    padding: .2rem;
+    height: 100%;
+    width: 100%;
 }
 .toggleTheme:before {
     position: absolute;
     content: '';
     height: 2rem;
     width: 2rem;
-    border-radius: 4rem;
-		background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
+		background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
 }
 input[type="checkbox"] {
 	display: none;
 }
 input[type="checkbox"]:checked+.toggleTheme:before {
     content: '';
-    background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
+    background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
 }
 </style>
                 </div>
@@ -469,10 +511,9 @@ input[type="checkbox"]:checked+.toggleTheme:before {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2rem;
+    height: 100%;
     border-radius: 8rem;
-    width: 2rem;
-    padding: .2rem;
+    width: 100%;
 }
 .toggleThemefooter:before {
     position: absolute;
@@ -522,16 +563,18 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
     <div class="hero-section wf-section">
       <div class="maincontainer product dpi w-container">
         <div class="head_cont product dpi">
-          <div class="prod_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100Z" fill="#8150E6"></path>
-              <path d="M97.8624 63.5L62.6124 28.75L42.6124 25L30.8624 69.5L60.3624 98.75C78.6124 94.75 92.8624 81.25 97.8624 63.5Z" fill="#3C176B"></path>
-              <path d="M45.8625 65.5004V38.0004H52.8625C55.1125 38.0004 57.3625 38.2504 59.3625 39.0004C61.3625 39.5004 63.1125 40.5004 64.3625 41.7504C64.6125 42.0004 64.8625 42.0004 64.8625 42.2504C64.8625 38.5004 63.6125 34.7504 61.6125 31.5004C59.6125 31.0004 57.3625 30.5004 55.1125 30.5004H38.3625V65.5004C40.8625 65.5004 43.3626 65.7504 45.8625 65.5004Z" fill="#6B42BD"></path>
-              <path d="M75.1126 43.5002C73.8626 40.5002 72.3626 38.2502 70.3626 36.2502C68.3626 34.2502 66.1126 33.0002 63.3626 32.0002C62.8626 31.7502 62.3626 31.7502 61.8626 31.5002C63.8626 34.7502 65.1126 38.5002 65.1126 42.2502C66.3626 43.5002 67.1126 48.0002 67.6126 49.7502L46.1125 69.5002V65.5002C43.6125 65.7502 41.1125 65.5002 38.6125 65.5002V77.0002H54.6126C57.1126 77.0002 59.8626 76.5002 62.3626 75.5002C65.1126 74.5002 67.3626 73.2502 69.6126 71.2502C71.8626 69.2502 73.6126 67.0002 74.8626 64.0002C76.3626 61.0002 76.8626 57.5002 76.8626 53.5002C76.8626 49.5002 76.1126 46.2502 75.1126 43.5002Z" fill="#9B74EC"></path>
-              <path d="M43.8624 61.7504C46.1124 61.7504 48.3624 61.5004 50.6124 60.7504C52.6124 60.2504 54.6124 59.2504 56.1124 58.0004C57.6124 56.7504 58.8624 55.0004 59.8624 53.0004C60.8624 51.0004 61.1124 48.5004 61.1124 45.7504C61.1124 43.0004 60.6124 40.7504 59.8624 38.7504C59.1124 36.7504 57.8624 35.0004 56.6124 33.7504C55.1124 32.5004 53.6124 31.5004 51.6124 31.0004C49.6124 30.5004 47.6124 30.0004 45.1124 30.0004H38.1124V61.5004H43.8624V61.7504ZM30.6124 23.0004H47.3624C50.1124 23.0004 52.8624 23.5004 55.6124 24.5004C58.1124 25.5004 60.6124 27.0004 62.6124 28.7504C64.6124 30.7504 66.1124 33.0004 67.3624 36.0004C68.6124 39.0004 69.1124 42.2504 69.1124 46.0004C69.1124 50.0004 68.3624 53.5004 67.1124 56.5004C65.6124 59.5004 63.8624 61.7504 61.8624 63.7504C59.6124 65.7504 57.3624 67.0004 54.6124 68.0004C51.8624 69.0004 49.3624 69.5004 46.8624 69.5004H30.8624V23.0004H30.6124Z" fill="white"></path>
-            </svg></div>
+          <div class="prod_icon_cont">
+            <div class="prod_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100Z" fill="#8150E6"></path>
+                <path d="M97.8624 63.5L62.6124 28.75L42.6124 25L30.8624 69.5L60.3624 98.75C78.6124 94.75 92.8624 81.25 97.8624 63.5Z" fill="#3C176B"></path>
+                <path d="M45.8625 65.5004V38.0004H52.8625C55.1125 38.0004 57.3625 38.2504 59.3625 39.0004C61.3625 39.5004 63.1125 40.5004 64.3625 41.7504C64.6125 42.0004 64.8625 42.0004 64.8625 42.2504C64.8625 38.5004 63.6125 34.7504 61.6125 31.5004C59.6125 31.0004 57.3625 30.5004 55.1125 30.5004H38.3625V65.5004C40.8625 65.5004 43.3626 65.7504 45.8625 65.5004Z" fill="#6B42BD"></path>
+                <path d="M75.1126 43.5002C73.8626 40.5002 72.3626 38.2502 70.3626 36.2502C68.3626 34.2502 66.1126 33.0002 63.3626 32.0002C62.8626 31.7502 62.3626 31.7502 61.8626 31.5002C63.8626 34.7502 65.1126 38.5002 65.1126 42.2502C66.3626 43.5002 67.1126 48.0002 67.6126 49.7502L46.1125 69.5002V65.5002C43.6125 65.7502 41.1125 65.5002 38.6125 65.5002V77.0002H54.6126C57.1126 77.0002 59.8626 76.5002 62.3626 75.5002C65.1126 74.5002 67.3626 73.2502 69.6126 71.2502C71.8626 69.2502 73.6126 67.0002 74.8626 64.0002C76.3626 61.0002 76.8626 57.5002 76.8626 53.5002C76.8626 49.5002 76.1126 46.2502 75.1126 43.5002Z" fill="#9B74EC"></path>
+                <path d="M43.8624 61.7504C46.1124 61.7504 48.3624 61.5004 50.6124 60.7504C52.6124 60.2504 54.6124 59.2504 56.1124 58.0004C57.6124 56.7504 58.8624 55.0004 59.8624 53.0004C60.8624 51.0004 61.1124 48.5004 61.1124 45.7504C61.1124 43.0004 60.6124 40.7504 59.8624 38.7504C59.1124 36.7504 57.8624 35.0004 56.6124 33.7504C55.1124 32.5004 53.6124 31.5004 51.6124 31.0004C49.6124 30.5004 47.6124 30.0004 45.1124 30.0004H38.1124V61.5004H43.8624V61.7504ZM30.6124 23.0004H47.3624C50.1124 23.0004 52.8624 23.5004 55.6124 24.5004C58.1124 25.5004 60.6124 27.0004 62.6124 28.7504C64.6124 30.7504 66.1124 33.0004 67.3624 36.0004C68.6124 39.0004 69.1124 42.2504 69.1124 46.0004C69.1124 50.0004 68.3624 53.5004 67.1124 56.5004C65.6124 59.5004 63.8624 61.7504 61.8624 63.7504C59.6124 65.7504 57.3624 67.0004 54.6124 68.0004C51.8624 69.0004 49.3624 69.5004 46.8624 69.5004H30.8624V23.0004H30.6124Z" fill="white"></path>
+              </svg></div>
+          </div>
           <h1 class="allh1 product">Defi Pulse Index</h1>
         </div>
-        <div class="current_change_cont producthero">
+        <div class="current_change_cont producthero dpi">
           <div class="btn_buysell mobile">
             <a href="#" class="buy-button buttons w-button">Buy</a>
             <a href="#" class="sell-button buttons w-button">Sell</a>
@@ -581,212 +624,236 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         <div class="head_cont prod_stat underlying-tokens">
           <h2 class="allh2 product">Underlying Tokens</h2>
         </div>
-        <div class="w-layout-grid allproducts">
-          <div class="token_cont">
-            <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <mask id="mask0" mask-type="alpha" maskunits="userSpaceOnUse" x="0" y="0" width="64" height="64">
-                  <path d="M64 0H0V64H64V0Z" fill="white"></path>
-                </mask>
-                <g mask="url(#mask0)">
-                  <path d="M32.0005 63.04C49.1434 63.04 63.0405 49.1429 63.0405 32C63.0405 14.8571 49.1434 0.960022 32.0005 0.960022C14.8575 0.960022 0.960449 14.8571 0.960449 32C0.960449 49.1429 14.8575 63.04 32.0005 63.04Z" fill="url(#paint0_linear)"></path>
-                  <path d="M45.5838 44.3665L35.0852 18.9938C34.4919 17.6827 33.6148 17.04 32.454 17.04H31.5255C30.3647 17.04 29.4876 17.6827 28.8944 18.9938L24.3289 30.048H20.872C19.8362 30.052 18.9965 30.8889 18.989 31.9247V31.9504C18.9965 32.9862 19.8362 33.823 20.872 33.827H22.7289L18.3699 44.3665C18.2874 44.5977 18.2438 44.841 18.2409 45.0865C18.2409 45.6778 18.4215 46.1405 18.7568 46.5004C19.0922 46.8604 19.5564 47.0401 20.1498 47.0401C20.5393 47.0348 20.9177 46.909 21.2329 46.68C21.5683 46.4487 21.8004 46.1145 21.981 45.7289L26.7789 33.8266H30.1065C31.1423 33.8226 31.982 32.9858 31.9896 31.95V31.8985C31.982 30.8627 31.1423 30.0259 30.1065 30.0219H28.3268L31.9897 20.896L41.9725 45.729C42.1531 46.1146 42.3852 46.449 42.7206 46.6801C43.0359 46.9092 43.4144 47.0349 43.804 47.0401C44.3973 47.0401 44.8616 46.8602 45.197 46.5003C45.5324 46.1403 45.7129 45.6776 45.7129 45.0864C45.7226 44.8399 45.6786 44.5942 45.5838 44.3665Z" fill="white"></path>
-                </g>
-                <defs>
-                  <lineargradient id="paint0_linear" x1="57.267" y1="15.0522" x2="11.0795" y2="53.9143" gradientunits="userSpaceOnUse">
-                    <stop stop-color="#B6509E"></stop>
-                    <stop offset="1" stop-color="#2EBAC6"></stop>
-                  </lineargradient>
-                </defs>
-              </svg></div>
+        <div class="w-layout-grid allproducts dataindex">
+          <div id="w-node-_5672e89c-13c3-7d08-9187-dace4c33c413-e72dc501" class="token_cont product">
+            <div class="token_icon_cont">
+              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <mask id="mask0" mask-type="alpha" maskunits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+                    <path d="M64 0H0V64H64V0Z" fill="white"></path>
+                  </mask>
+                  <g mask="url(#mask0)">
+                    <path d="M32.0005 63.04C49.1434 63.04 63.0405 49.1429 63.0405 32C63.0405 14.8571 49.1434 0.960022 32.0005 0.960022C14.8575 0.960022 0.960449 14.8571 0.960449 32C0.960449 49.1429 14.8575 63.04 32.0005 63.04Z" fill="url(#paint0_linear)"></path>
+                    <path d="M45.5838 44.3665L35.0852 18.9938C34.4919 17.6827 33.6148 17.04 32.454 17.04H31.5255C30.3647 17.04 29.4876 17.6827 28.8944 18.9938L24.3289 30.048H20.872C19.8362 30.052 18.9965 30.8889 18.989 31.9247V31.9504C18.9965 32.9862 19.8362 33.823 20.872 33.827H22.7289L18.3699 44.3665C18.2874 44.5977 18.2438 44.841 18.2409 45.0865C18.2409 45.6778 18.4215 46.1405 18.7568 46.5004C19.0922 46.8604 19.5564 47.0401 20.1498 47.0401C20.5393 47.0348 20.9177 46.909 21.2329 46.68C21.5683 46.4487 21.8004 46.1145 21.981 45.7289L26.7789 33.8266H30.1065C31.1423 33.8226 31.982 32.9858 31.9896 31.95V31.8985C31.982 30.8627 31.1423 30.0259 30.1065 30.0219H28.3268L31.9897 20.896L41.9725 45.729C42.1531 46.1146 42.3852 46.449 42.7206 46.6801C43.0359 46.9092 43.4144 47.0349 43.804 47.0401C44.3973 47.0401 44.8616 46.8602 45.197 46.5003C45.5324 46.1403 45.7129 45.6776 45.7129 45.0864C45.7226 44.8399 45.6786 44.5942 45.5838 44.3665Z" fill="white"></path>
+                  </g>
+                  <defs>
+                    <lineargradient id="paint0_linear" x1="57.267" y1="15.0522" x2="11.0795" y2="53.9143" gradientunits="userSpaceOnUse">
+                      <stop stop-color="#B6509E"></stop>
+                      <stop offset="1" stop-color="#2EBAC6"></stop>
+                    </lineargradient>
+                  </defs>
+                </svg></div>
+            </div>
             <div class="token_name">Aave</div>
           </div>
-          <div id="w-node-_8be72fe0-2ee0-7dd8-9043-60682b9e6f96-cc7f2032" class="token_cont">
-            <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M33.0009 63.6C50.4531 63.6 64.6009 49.4522 64.6009 32C64.6009 14.5478 50.4531 0.400024 33.0009 0.400024C15.5487 0.400024 1.40088 14.5478 1.40088 32C1.40088 49.4522 15.5487 63.6 33.0009 63.6Z" fill="white" stroke="#E0DCF4" stroke-width="0.3"></path>
-                <path d="M33.0011 32.835C22.0542 32.835 13.1611 35.9111 13.1611 40.2208C13.1611 44.5306 22.0542 47.6067 33.0011 47.6067C43.948 47.6067 52.8411 44.5306 52.8411 40.2208C52.8411 35.9111 43.948 32.835 33.0011 32.835ZM33.0011 33.635C43.5166 33.635 52.0411 36.5836 52.0411 40.2208C52.0411 43.8581 43.5166 46.8067 33.0011 46.8067C22.4856 46.8067 13.9611 43.8581 13.9611 40.2208C13.9611 36.5836 22.4856 33.635 33.0011 33.635Z" fill="white"></path>
-                <path d="M33.0002 47.2067C43.7366 47.2067 52.4401 44.0791 52.4401 40.2209C52.4401 36.3627 43.7366 33.235 33.0002 33.235C22.2638 33.235 13.5602 36.3627 13.5602 40.2209C13.5602 44.0791 22.2638 47.2067 33.0002 47.2067Z" fill="black" stroke="white" stroke-width="0.3"></path>
-                <path d="M33.0011 34.4114C41.6026 34.4114 48.5755 31.8824 48.5755 28.7627C48.5755 25.6429 41.6026 23.1139 33.0011 23.1139C24.3996 23.1139 17.4268 25.6429 17.4268 28.7627C17.4268 31.8824 24.3996 34.4114 33.0011 34.4114Z" fill="black" stroke="white" stroke-width="0.3"></path>
-                <path d="M33.0005 22.7139C24.1885 22.7139 17.0261 25.1913 17.0261 28.7626C17.0261 32.334 24.1885 34.8114 33.0005 34.8114C41.8125 34.8114 48.9749 32.334 48.9749 28.7626C48.9749 25.1913 41.8125 22.7139 33.0005 22.7139ZM33.0005 23.5139C41.3811 23.5139 48.1749 25.8638 48.1749 28.7626C48.1749 31.6615 41.3811 34.0114 33.0005 34.0114C24.6199 34.0114 17.8261 31.6615 17.8261 28.7626C17.8261 25.8638 24.6199 23.5139 33.0005 23.5139Z" fill="white"></path>
-                <path d="M33.0012 23.7447C39.6883 23.7447 45.1094 21.7524 45.1094 19.2948C45.1094 16.8372 39.6883 14.845 33.0012 14.845C26.314 14.845 20.8929 16.8372 20.8929 19.2948C20.8929 21.7524 26.314 23.7447 33.0012 23.7447Z" fill="black" stroke="white" stroke-width="0.3"></path>
-                <path d="M33.0005 14.4449C26.1028 14.4449 20.4922 16.3856 20.4922 19.2948C20.4922 22.204 26.1028 24.1446 33.0005 24.1446C39.8981 24.1446 45.5087 22.204 45.5087 19.2948C45.5087 16.3856 39.8981 14.4449 33.0005 14.4449ZM33.0005 15.2449C39.4667 15.2449 44.7087 17.0581 44.7087 19.2948C44.7087 21.5315 39.4667 23.3446 33.0005 23.3446C26.5342 23.3446 21.2922 21.5315 21.2922 19.2948C21.2922 17.0581 26.5342 15.2449 33.0005 15.2449Z" fill="white"></path>
-                <circle cx="32" cy="32" r="31.5" stroke="black" stroke-opacity="0.5"></circle>
-              </svg></div>
+          <div id="w-node-_8be72fe0-2ee0-7dd8-9043-60682b9e6f96-e72dc501" class="token_cont product">
+            <div class="token_icon_cont">
+              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M33.0009 63.6C50.4531 63.6 64.6009 49.4522 64.6009 32C64.6009 14.5478 50.4531 0.400024 33.0009 0.400024C15.5487 0.400024 1.40088 14.5478 1.40088 32C1.40088 49.4522 15.5487 63.6 33.0009 63.6Z" fill="white" stroke="#E0DCF4" stroke-width="0.3"></path>
+                  <path d="M33.0011 32.835C22.0542 32.835 13.1611 35.9111 13.1611 40.2208C13.1611 44.5306 22.0542 47.6067 33.0011 47.6067C43.948 47.6067 52.8411 44.5306 52.8411 40.2208C52.8411 35.9111 43.948 32.835 33.0011 32.835ZM33.0011 33.635C43.5166 33.635 52.0411 36.5836 52.0411 40.2208C52.0411 43.8581 43.5166 46.8067 33.0011 46.8067C22.4856 46.8067 13.9611 43.8581 13.9611 40.2208C13.9611 36.5836 22.4856 33.635 33.0011 33.635Z" fill="white"></path>
+                  <path d="M33.0002 47.2067C43.7366 47.2067 52.4401 44.0791 52.4401 40.2209C52.4401 36.3627 43.7366 33.235 33.0002 33.235C22.2638 33.235 13.5602 36.3627 13.5602 40.2209C13.5602 44.0791 22.2638 47.2067 33.0002 47.2067Z" fill="black" stroke="white" stroke-width="0.3"></path>
+                  <path d="M33.0011 34.4114C41.6026 34.4114 48.5755 31.8824 48.5755 28.7627C48.5755 25.6429 41.6026 23.1139 33.0011 23.1139C24.3996 23.1139 17.4268 25.6429 17.4268 28.7627C17.4268 31.8824 24.3996 34.4114 33.0011 34.4114Z" fill="black" stroke="white" stroke-width="0.3"></path>
+                  <path d="M33.0005 22.7139C24.1885 22.7139 17.0261 25.1913 17.0261 28.7626C17.0261 32.334 24.1885 34.8114 33.0005 34.8114C41.8125 34.8114 48.9749 32.334 48.9749 28.7626C48.9749 25.1913 41.8125 22.7139 33.0005 22.7139ZM33.0005 23.5139C41.3811 23.5139 48.1749 25.8638 48.1749 28.7626C48.1749 31.6615 41.3811 34.0114 33.0005 34.0114C24.6199 34.0114 17.8261 31.6615 17.8261 28.7626C17.8261 25.8638 24.6199 23.5139 33.0005 23.5139Z" fill="white"></path>
+                  <path d="M33.0012 23.7447C39.6883 23.7447 45.1094 21.7524 45.1094 19.2948C45.1094 16.8372 39.6883 14.845 33.0012 14.845C26.314 14.845 20.8929 16.8372 20.8929 19.2948C20.8929 21.7524 26.314 23.7447 33.0012 23.7447Z" fill="black" stroke="white" stroke-width="0.3"></path>
+                  <path d="M33.0005 14.4449C26.1028 14.4449 20.4922 16.3856 20.4922 19.2948C20.4922 22.204 26.1028 24.1446 33.0005 24.1446C39.8981 24.1446 45.5087 22.204 45.5087 19.2948C45.5087 16.3856 39.8981 14.4449 33.0005 14.4449ZM33.0005 15.2449C39.4667 15.2449 44.7087 17.0581 44.7087 19.2948C44.7087 21.5315 39.4667 23.3446 33.0005 23.3446C26.5342 23.3446 21.2922 21.5315 21.2922 19.2948C21.2922 17.0581 26.5342 15.2449 33.0005 15.2449Z" fill="white"></path>
+                  <circle cx="32" cy="32" r="31.5" stroke="black" stroke-opacity="0.5"></circle>
+                </svg></div>
+            </div>
             <div class="token_name">Balancer</div>
           </div>
-          <div class="token_cont">
-            <div class="token_icon w-embed"><svg viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M32 64C49.6731 64 64 49.6731 64 32C64 14.3269 49.6731 0 32 0C14.3269 0 0 14.3269 0 32C0 49.6731 14.3269 64 32 64Z" fill="#070A0F"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.5381 43.3951C17.5837 42.8011 17 41.7432 17 40.6073V34.2642C17 34.0214 17.0639 33.7872 17.1832 33.5791C17.5539 32.9288 18.3762 32.7076 19.0153 33.0892L33.0844 41.4354C33.9067 41.9253 34.4137 42.8185 34.4137 43.7897V50.3626C34.4137 50.6617 34.3328 50.9609 34.1794 51.2167C33.715 51.9885 32.7265 52.2312 31.968 51.7587L18.5381 43.3951ZM39.5096 31.3506C40.3319 31.8405 40.8389 32.7337 40.8389 33.7049V47.0414C40.8389 47.436 40.6302 47.8002 40.2936 47.9909L37.213 49.7556C37.1747 49.7772 37.1321 49.7946 37.0895 49.8076V42.4022C37.0895 41.4441 36.5952 40.5552 35.7857 40.061L23.4295 32.5386V24.1793C23.4295 23.9365 23.4934 23.7024 23.6127 23.4943C23.9834 22.844 24.8057 22.6228 25.4448 23.0044L39.5096 31.3506ZM45.6664 21.4999C46.493 21.9855 47 22.8873 47 23.8585V43.3388C47 43.7376 46.7827 44.1062 46.4376 44.2969L43.519 45.9011V32.3391C43.519 31.3809 43.0247 30.4964 42.2194 30.0022L29.5905 22.2933V14.3633C29.5905 14.1205 29.6545 13.8864 29.7695 13.6783C30.1402 13.028 30.9625 12.8068 31.6016 13.184L45.6664 21.4999Z" fill="#00D395"></path>
-              </svg></div>
+          <div id="w-node-_716d9602-6eba-72c2-56aa-e51b55ec3f0e-e72dc501" class="token_cont product">
+            <div class="token_icon_cont">
+              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M32 64C49.6731 64 64 49.6731 64 32C64 14.3269 49.6731 0 32 0C14.3269 0 0 14.3269 0 32C0 49.6731 14.3269 64 32 64Z" fill="#070A0F"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M18.5381 43.3951C17.5837 42.8011 17 41.7432 17 40.6073V34.2642C17 34.0214 17.0639 33.7872 17.1832 33.5791C17.5539 32.9288 18.3762 32.7076 19.0153 33.0892L33.0844 41.4354C33.9067 41.9253 34.4137 42.8185 34.4137 43.7897V50.3626C34.4137 50.6617 34.3328 50.9609 34.1794 51.2167C33.715 51.9885 32.7265 52.2312 31.968 51.7587L18.5381 43.3951ZM39.5096 31.3506C40.3319 31.8405 40.8389 32.7337 40.8389 33.7049V47.0414C40.8389 47.436 40.6302 47.8002 40.2936 47.9909L37.213 49.7556C37.1747 49.7772 37.1321 49.7946 37.0895 49.8076V42.4022C37.0895 41.4441 36.5952 40.5552 35.7857 40.061L23.4295 32.5386V24.1793C23.4295 23.9365 23.4934 23.7024 23.6127 23.4943C23.9834 22.844 24.8057 22.6228 25.4448 23.0044L39.5096 31.3506ZM45.6664 21.4999C46.493 21.9855 47 22.8873 47 23.8585V43.3388C47 43.7376 46.7827 44.1062 46.4376 44.2969L43.519 45.9011V32.3391C43.519 31.3809 43.0247 30.4964 42.2194 30.0022L29.5905 22.2933V14.3633C29.5905 14.1205 29.6545 13.8864 29.7695 13.6783C30.1402 13.028 30.9625 12.8068 31.6016 13.184L45.6664 21.4999Z" fill="#00D395"></path>
+                </svg></div>
+            </div>
             <div class="token_name">Compound</div>
           </div>
-          <div id="w-node-_0795fdf8-c7c1-ae63-1555-f1e537ac2d00-cc7f2032" class="token_cont">
-            <div class="token_icon w-embed"><svg viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M34.5771 33.5104L45.7984 44.7317C46.013 44.9474 46.1791 45.2064 46.2857 45.4913C46.3924 45.7763 46.4371 46.0807 46.4169 46.3842C46.3967 46.6878 46.3121 46.9836 46.1687 47.2519C46.0252 47.5202 45.8263 47.7549 45.5851 47.9403C42.5904 50.2923 38.994 51.7536 35.2074 52.1566C31.4209 52.5596 27.5974 51.8882 24.1748 50.2192C20.7521 48.5502 17.8687 45.9511 15.8546 42.7194C13.8405 39.4878 12.7771 35.7543 12.7863 31.9464C12.7955 28.1385 13.8768 24.4101 15.9065 21.1882C17.9362 17.9664 20.8322 15.3812 24.2628 13.7287C27.6935 12.0762 31.5202 11.4233 35.3047 11.8446C39.0892 12.2659 42.6786 13.7444 45.6619 16.1109C45.8917 16.2996 46.0792 16.5347 46.2121 16.8007C46.345 17.0667 46.4204 17.3578 46.4332 17.6548C46.4461 17.9519 46.3962 18.2484 46.2869 18.5249C46.1775 18.8015 46.011 19.0518 45.7984 19.2597L34.5685 30.4896C34.3711 30.6876 34.2146 30.9224 34.1077 31.1808C33.9991 31.4521 33.944 31.7419 33.9456 32.0341C33.9423 32.3274 34.0004 32.6181 34.1163 32.8875C34.2211 33.1469 34.3779 33.3822 34.5771 33.5787V33.5104ZM32 0C25.671 0 19.4841 1.87677 14.2218 5.39297C8.95939 8.90918 4.85787 13.9069 2.43587 19.7541C0.0138652 25.6014 -0.619842 32.0355 0.614885 38.2429C1.84961 44.4503 4.89732 50.1521 9.3726 54.6274C13.8479 59.1027 19.5497 62.1504 25.7571 63.3851C31.9645 64.6199 38.3986 63.9862 44.2459 61.5641C50.0931 59.1421 55.0908 55.0406 58.607 49.7783C62.1232 44.5159 64 38.329 64 32C64 23.5131 60.6286 15.3737 54.6274 9.37258C48.6263 3.37142 40.4869 0 32 0V0Z" fill="#69E2DC"></path>
-              </svg></div>
+          <div id="w-node-_0795fdf8-c7c1-ae63-1555-f1e537ac2d00-e72dc501" class="token_cont product">
+            <div class="token_icon_cont">
+              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M34.5771 33.5104L45.7984 44.7317C46.013 44.9474 46.1791 45.2064 46.2857 45.4913C46.3924 45.7763 46.4371 46.0807 46.4169 46.3842C46.3967 46.6878 46.3121 46.9836 46.1687 47.2519C46.0252 47.5202 45.8263 47.7549 45.5851 47.9403C42.5904 50.2923 38.994 51.7536 35.2074 52.1566C31.4209 52.5596 27.5974 51.8882 24.1748 50.2192C20.7521 48.5502 17.8687 45.9511 15.8546 42.7194C13.8405 39.4878 12.7771 35.7543 12.7863 31.9464C12.7955 28.1385 13.8768 24.4101 15.9065 21.1882C17.9362 17.9664 20.8322 15.3812 24.2628 13.7287C27.6935 12.0762 31.5202 11.4233 35.3047 11.8446C39.0892 12.2659 42.6786 13.7444 45.6619 16.1109C45.8917 16.2996 46.0792 16.5347 46.2121 16.8007C46.345 17.0667 46.4204 17.3578 46.4332 17.6548C46.4461 17.9519 46.3962 18.2484 46.2869 18.5249C46.1775 18.8015 46.011 19.0518 45.7984 19.2597L34.5685 30.4896C34.3711 30.6876 34.2146 30.9224 34.1077 31.1808C33.9991 31.4521 33.944 31.7419 33.9456 32.0341C33.9423 32.3274 34.0004 32.6181 34.1163 32.8875C34.2211 33.1469 34.3779 33.3822 34.5771 33.5787V33.5104ZM32 0C25.671 0 19.4841 1.87677 14.2218 5.39297C8.95939 8.90918 4.85787 13.9069 2.43587 19.7541C0.0138652 25.6014 -0.619842 32.0355 0.614885 38.2429C1.84961 44.4503 4.89732 50.1521 9.3726 54.6274C13.8479 59.1027 19.5497 62.1504 25.7571 63.3851C31.9645 64.6199 38.3986 63.9862 44.2459 61.5641C50.0931 59.1421 55.0908 55.0406 58.607 49.7783C62.1232 44.5159 64 38.329 64 32C64 23.5131 60.6286 15.3737 54.6274 9.37258C48.6263 3.37142 40.4869 0 32 0V0Z" fill="#69E2DC"></path>
+                </svg></div>
+            </div>
             <div class="token_name">Cream</div>
           </div>
-          <div id="w-node-_7c61f085-1077-d4cd-d5d2-5e1a0ca1da56-cc7f2032" class="token_cont"><img src="images/Mask-Group.svg" loading="lazy" alt="" class="token_icon">
+          <div id="w-node-_7c61f085-1077-d4cd-d5d2-5e1a0ca1da56-e72dc501" class="token_cont product">
+            <div class="token_icon_cont"><img src="images/Mask-Group.svg" loading="lazy" alt="" class="token_icon"></div>
             <div class="token_name">Farm</div>
           </div>
-          <div id="w-node-ee6fc8fa-52aa-2181-70bc-f84f8dda56bf-cc7f2032" class="token_cont">
-            <div class="token_icon w-embed"><svg viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0)">
-                  <path d="M29.6738 31.9961L49.266 43.1019C49.4234 43.1955 49.6032 43.246 49.7869 43.2481C49.9706 43.2502 50.1516 43.2039 50.3112 43.1138C50.4708 43.0238 50.6033 42.8933 50.695 42.7359C50.7868 42.5784 50.8345 42.3995 50.8333 42.2177V21.759C50.8357 21.5769 50.7885 21.3975 50.6967 21.2397C50.605 21.0818 50.472 20.9512 50.3118 20.8616C50.1516 20.7721 49.97 20.7267 49.786 20.7304C49.602 20.7341 49.4224 20.7867 49.266 20.8826L29.6738 31.9961Z" fill="#31CB9E"></path>
-                  <path d="M48.8506 15.9657L35.4574 6.21713C35.3187 6.11178 35.156 6.0418 34.9835 6.01336C34.8111 5.98493 34.6342 5.99892 34.4685 6.05409C34.3028 6.10926 34.1533 6.20392 34.0333 6.32973C33.9133 6.45554 33.8264 6.60864 33.7803 6.77552L28.8901 28.4907L48.7331 17.6331C48.884 17.5562 49.0124 17.4421 49.1059 17.3018C49.1993 17.1615 49.2546 16.9998 49.2664 16.8322C49.2782 16.6645 49.2462 16.4967 49.1733 16.345C49.1005 16.1932 48.9893 16.0625 48.8506 15.9657Z" fill="#31CB9E"></path>
-                  <path d="M35.4417 57.7673L48.8506 48.0188C48.9912 47.921 49.1041 47.7891 49.1783 47.6357C49.2526 47.4824 49.2859 47.3127 49.2749 47.143C49.2638 46.9733 49.209 46.8092 49.1154 46.6665C49.0219 46.5238 48.893 46.4073 48.7409 46.3281L28.8901 35.4705L33.7803 57.1857C33.8209 57.3544 33.9031 57.5105 34.0197 57.6399C34.1363 57.7694 34.2836 57.8682 34.4484 57.9274C34.6131 57.9866 34.7901 58.0044 34.9635 57.9791C35.1368 57.9539 35.3012 57.8864 35.4417 57.7828" fill="#31CB9E"></path>
-                  <path d="M24.5797 31.5929L29.6737 8.01645C29.7126 7.82108 29.6917 7.61866 29.6137 7.43511C29.5356 7.25156 29.404 7.09522 29.2357 6.98612C29.0674 6.87701 28.87 6.82009 28.6688 6.82265C28.4676 6.82521 28.2717 6.88714 28.1063 7.00049L15.0579 16.9041C14.7275 17.155 14.4601 17.478 14.2766 17.8479C14.0931 18.2179 13.9984 18.6248 13.9999 19.0369V44.1644C13.9935 44.5817 14.0858 44.9948 14.2695 45.3705C14.4532 45.7462 14.7232 46.0741 15.0579 46.3282L28.0436 56.2008C28.209 56.3141 28.4049 56.3761 28.6061 56.3786C28.8073 56.3812 29.0047 56.3243 29.173 56.2152C29.3414 56.1061 29.4729 55.9497 29.551 55.7662C29.629 55.5826 29.6499 55.3802 29.611 55.1848L24.5797 31.5929Z" fill="#31CB9E"></path>
-                </g>
-                <circle cx="32" cy="32" r="31.5" stroke="black" stroke-opacity="0.5"></circle>
-                <defs>
-                  <clippath id="clip0">
-                    <rect width="36.8333" height="52" fill="white" transform="translate(14 6)"></rect>
-                  </clippath>
-                </defs>
-              </svg></div>
+          <div id="w-node-ee6fc8fa-52aa-2181-70bc-f84f8dda56bf-e72dc501" class="token_cont product">
+            <div class="token_icon_cont">
+              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0)">
+                    <path d="M29.6738 31.9961L49.266 43.1019C49.4234 43.1955 49.6032 43.246 49.7869 43.2481C49.9706 43.2502 50.1516 43.2039 50.3112 43.1138C50.4708 43.0238 50.6033 42.8933 50.695 42.7359C50.7868 42.5784 50.8345 42.3995 50.8333 42.2177V21.759C50.8357 21.5769 50.7885 21.3975 50.6967 21.2397C50.605 21.0818 50.472 20.9512 50.3118 20.8616C50.1516 20.7721 49.97 20.7267 49.786 20.7304C49.602 20.7341 49.4224 20.7867 49.266 20.8826L29.6738 31.9961Z" fill="#31CB9E"></path>
+                    <path d="M48.8506 15.9657L35.4574 6.21713C35.3187 6.11178 35.156 6.0418 34.9835 6.01336C34.8111 5.98493 34.6342 5.99892 34.4685 6.05409C34.3028 6.10926 34.1533 6.20392 34.0333 6.32973C33.9133 6.45554 33.8264 6.60864 33.7803 6.77552L28.8901 28.4907L48.7331 17.6331C48.884 17.5562 49.0124 17.4421 49.1059 17.3018C49.1993 17.1615 49.2546 16.9998 49.2664 16.8322C49.2782 16.6645 49.2462 16.4967 49.1733 16.345C49.1005 16.1932 48.9893 16.0625 48.8506 15.9657Z" fill="#31CB9E"></path>
+                    <path d="M35.4417 57.7673L48.8506 48.0188C48.9912 47.921 49.1041 47.7891 49.1783 47.6357C49.2526 47.4824 49.2859 47.3127 49.2749 47.143C49.2638 46.9733 49.209 46.8092 49.1154 46.6665C49.0219 46.5238 48.893 46.4073 48.7409 46.3281L28.8901 35.4705L33.7803 57.1857C33.8209 57.3544 33.9031 57.5105 34.0197 57.6399C34.1363 57.7694 34.2836 57.8682 34.4484 57.9274C34.6131 57.9866 34.7901 58.0044 34.9635 57.9791C35.1368 57.9539 35.3012 57.8864 35.4417 57.7828" fill="#31CB9E"></path>
+                    <path d="M24.5797 31.5929L29.6737 8.01645C29.7126 7.82108 29.6917 7.61866 29.6137 7.43511C29.5356 7.25156 29.404 7.09522 29.2357 6.98612C29.0674 6.87701 28.87 6.82009 28.6688 6.82265C28.4676 6.82521 28.2717 6.88714 28.1063 7.00049L15.0579 16.9041C14.7275 17.155 14.4601 17.478 14.2766 17.8479C14.0931 18.2179 13.9984 18.6248 13.9999 19.0369V44.1644C13.9935 44.5817 14.0858 44.9948 14.2695 45.3705C14.4532 45.7462 14.7232 46.0741 15.0579 46.3282L28.0436 56.2008C28.209 56.3141 28.4049 56.3761 28.6061 56.3786C28.8073 56.3812 29.0047 56.3243 29.173 56.2152C29.3414 56.1061 29.4729 55.9497 29.551 55.7662C29.629 55.5826 29.6499 55.3802 29.611 55.1848L24.5797 31.5929Z" fill="#31CB9E"></path>
+                  </g>
+                  <circle cx="32" cy="32" r="31.5" stroke="black" stroke-opacity="0.5"></circle>
+                  <defs>
+                    <clippath id="clip0">
+                      <rect width="36.8333" height="52" fill="white" transform="translate(14 6)"></rect>
+                    </clippath>
+                  </defs>
+                </svg></div>
+            </div>
             <div class="token_name">KNC</div>
           </div>
-          <div id="w-node-_14d992c2-c8a3-ec82-f5d3-981c39e9b4a8-cc7f2032" class="token_cont">
-            <div class="token_icon w-embed"><svg viewbox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M32.6 64.2C50.0522 64.2 64.2 50.0522 64.2 32.6C64.2 15.1478 50.0522 1 32.6 1C15.1478 1 1 15.1478 1 32.6C1 50.0522 15.1478 64.2 32.6 64.2Z" fill="white" stroke="#E0DCF4" stroke-width="0.3"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M41.7423 31.8971H62.7038L32.5994 50.1721L41.7423 31.8971Z" fill="#155AFF"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M32.5996 14.3984V50.1719L17.7059 38.1682L32.5996 14.3984Z" fill="#155AFF"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M32.6007 14.3984V50.1719L47.4944 38.1682L32.6007 14.3984Z" fill="white"></path>
-                <circle cx="33" cy="32" r="31.5" stroke="black" stroke-opacity="0.5"></circle>
-              </svg></div>
+          <div id="w-node-_14d992c2-c8a3-ec82-f5d3-981c39e9b4a8-e72dc501" class="token_cont product">
+            <div class="token_icon_cont">
+              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M32.6 64.2C50.0522 64.2 64.2 50.0522 64.2 32.6C64.2 15.1478 50.0522 1 32.6 1C15.1478 1 1 15.1478 1 32.6C1 50.0522 15.1478 64.2 32.6 64.2Z" fill="white" stroke="#E0DCF4" stroke-width="0.3"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M41.7423 31.8971H62.7038L32.5994 50.1721L41.7423 31.8971Z" fill="#155AFF"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M32.5996 14.3984V50.1719L17.7059 38.1682L32.5996 14.3984Z" fill="#155AFF"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M32.6007 14.3984V50.1719L47.4944 38.1682L32.6007 14.3984Z" fill="white"></path>
+                  <circle cx="33" cy="32" r="31.5" stroke="black" stroke-opacity="0.5"></circle>
+                </svg></div>
+            </div>
             <div class="token_name">Loopring</div>
           </div>
-          <div id="w-node-_7ccaf277-e237-8a7e-61c4-4cc768830294-cc7f2032" class="token_cont">
-            <div class="token_icon w-embed"><svg viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M32 64C49.6731 64 64 49.6731 64 32C64 14.3269 49.6731 0 32 0C14.3269 0 0 14.3269 0 32C0 49.6731 14.3269 64 32 64Z" fill="#1ABC9C"></path>
-                <path d="M15.676 24.112V45H12V17L31.416 31.054V45H27.74V32.846L15.676 24.112ZM36.26 32.846V45H32.584V31.054L52 17V45H48.324V24.112L36.26 32.846Z" fill="white"></path>
-              </svg></div>
+          <div id="w-node-_7ccaf277-e237-8a7e-61c4-4cc768830294-e72dc501" class="token_cont product">
+            <div class="token_icon_cont">
+              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M32 64C49.6731 64 64 49.6731 64 32C64 14.3269 49.6731 0 32 0C14.3269 0 0 14.3269 0 32C0 49.6731 14.3269 64 32 64Z" fill="#1ABC9C"></path>
+                  <path d="M15.676 24.112V45H12V17L31.416 31.054V45H27.74V32.846L15.676 24.112ZM36.26 32.846V45H32.584V31.054L52 17V45H48.324V24.112L36.26 32.846Z" fill="white"></path>
+                </svg></div>
+            </div>
             <div class="token_name">Maker</div>
           </div>
-          <div id="w-node-_0c3fd7ca-0869-2748-eb27-733c951009a6-cc7f2032" class="token_cont">
-            <div class="token_icon w-embed"><svg viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M31.9466 63.8932C49.5902 63.8932 63.8932 49.5902 63.8932 31.9466C63.8932 14.303 49.5902 0 31.9466 0C14.303 0 0 14.303 0 31.9466C0 49.5902 14.303 63.8932 31.9466 63.8932Z" fill="black"></path>
-                <path d="M16.5604 21.3981C16.5604 20.1577 16.4847 18.9546 16.3712 17.7126H21.7757L21.9634 20.2355C22.5642 19.381 24.0309 17.2861 27.8427 17.2861C32.2206 17.2861 33.4649 20.0426 33.8355 20.9716C35.4125 17.8293 37.9863 17.325 39.9497 17.325C43.7977 17.325 45.3448 19.6923 45.7596 20.4674C46.7784 22.1747 46.7058 24.5404 46.7058 26.2478V36.9784H41.0868V25.7905C41.0868 23.6956 40.7856 21.3673 37.8806 21.3673C34.5215 21.3673 34.4458 24.5875 34.4458 27.4979V36.9784H28.8236V25.6657C28.8236 24.1529 28.7858 21.3592 25.6915 21.3592C22.1826 21.3592 22.1826 24.4642 22.1826 25.7905V36.9784H16.5604V21.3981Z" fill="white"></path>
-                <path d="M16.3712 41.2881H46.7105V46.0584H16.3712V41.2881Z" fill="white"></path>
-              </svg></div>
+          <div id="w-node-_0c3fd7ca-0869-2748-eb27-733c951009a6-e72dc501" class="token_cont product">
+            <div class="token_icon_cont">
+              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M31.9466 63.8932C49.5902 63.8932 63.8932 49.5902 63.8932 31.9466C63.8932 14.303 49.5902 0 31.9466 0C14.303 0 0 14.303 0 31.9466C0 49.5902 14.303 63.8932 31.9466 63.8932Z" fill="black"></path>
+                  <path d="M16.5604 21.3981C16.5604 20.1577 16.4847 18.9546 16.3712 17.7126H21.7757L21.9634 20.2355C22.5642 19.381 24.0309 17.2861 27.8427 17.2861C32.2206 17.2861 33.4649 20.0426 33.8355 20.9716C35.4125 17.8293 37.9863 17.325 39.9497 17.325C43.7977 17.325 45.3448 19.6923 45.7596 20.4674C46.7784 22.1747 46.7058 24.5404 46.7058 26.2478V36.9784H41.0868V25.7905C41.0868 23.6956 40.7856 21.3673 37.8806 21.3673C34.5215 21.3673 34.4458 24.5875 34.4458 27.4979V36.9784H28.8236V25.6657C28.8236 24.1529 28.7858 21.3592 25.6915 21.3592C22.1826 21.3592 22.1826 24.4642 22.1826 25.7905V36.9784H16.5604V21.3981Z" fill="white"></path>
+                  <path d="M16.3712 41.2881H46.7105V46.0584H16.3712V41.2881Z" fill="white"></path>
+                </svg></div>
+            </div>
             <div class="token_name">meta</div>
           </div>
-          <div id="w-node-_0c3fd7ca-0869-2748-eb27-733c951009aa-cc7f2032" class="token_cont">
-            <div class="token_icon w-embed"><svg viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M32 64C49.6731 64 64 49.6731 64 32C64 14.3269 49.6731 0 32 0C14.3269 0 0 14.3269 0 32C0 49.6731 14.3269 64 32 64Z" fill="white"></path>
-                <path d="M63.5 32C63.5 49.397 49.397 63.5 32 63.5C14.603 63.5 0.5 49.397 0.5 32C0.5 14.603 14.603 0.5 32 0.5C49.397 0.5 63.5 14.603 63.5 32Z" stroke="black" stroke-opacity="0.5"></path>
-                <path d="M19.1694 18.6678L22.2998 16.8637L22.7435 17.5902L34.353 10.8858L33.4997 10.3787L32.6416 9.90577L32.232 9.65222L13.2842 20.5987V21.0716L18.7257 17.9413L19.1694 18.6678Z" fill="url(#paint0_linear)"></path>
-                <path d="M19.1694 25.5626L28.2776 20.3112L28.6872 21.0426L40.3309 14.3333L39.4776 13.8262L38.6243 13.3533L38.2099 13.0997L13.2842 27.4593V27.9664L18.7257 24.8361L19.1694 25.5626Z" fill="url(#paint1_linear)"></path>
-                <path d="M19.1694 29.0098L31.2519 22.0226L31.6615 22.7491L43.3052 16.0448L42.4519 15.5669L41.5938 15.0598L41.1842 14.8063L13.2842 30.9114V31.4136L18.7257 28.2541L19.1694 29.0098Z" fill="url(#paint2_linear)"></path>
-                <path d="M19.1694 32.4277L34.3189 23.695L34.7333 24.4264L46.2795 17.7512L45.4213 17.2734L44.5681 16.7712L44.1585 16.5469L13.2842 34.3586V34.8316L18.7257 31.7012L19.1694 32.4277Z" fill="url(#paint3_linear)"></path>
-                <path d="M19.1694 35.875L37.2932 25.4064L37.7077 26.167L49.2538 19.4919L48.3957 18.9848L47.5765 18.507L47.1328 18.2583L13.2842 37.8059V38.2788L18.7257 35.1485L19.1694 35.875Z" fill="url(#paint4_linear)"></path>
-                <path d="M50.5459 20.2184L50.1071 19.9648L13.2842 41.2531V41.7261L18.7257 38.5957L19.1694 39.3222L37.2932 28.8536L37.7077 29.5802L51.1798 21.8323V20.8523V20.5987L50.5459 20.2184Z" fill="url(#paint5_linear)"></path>
-                <path d="M15.6242 43.8177L18.6619 42.077L19.1056 42.8035L37.2001 32.3349L37.6389 33.0907L51.1794 25.2453V24.2653V23.2852V22.8123L15.2146 43.5642L15.6242 43.8177Z" fill="url(#paint6_linear)"></path>
-                <path d="M37.2005 35.7823L37.6394 36.543L51.1798 28.6976V27.7127V26.7326V26.2596L18.1893 45.305L18.5989 45.5585L21.7 43.7544L22.1388 44.4809" fill="url(#paint7_linear)"></path>
-                <path d="M21.573 47.265L24.7034 45.461L25.1129 46.2216L37.2003 39.2295L37.6392 39.956L51.1796 32.1448V31.1648V30.1798V29.6776L21.1586 47.0115L21.573 47.265Z" fill="url(#paint8_linear)"></path>
-                <path d="M24.5769 48.9717L27.678 47.2018L28.0875 47.9283L37.2006 42.6769L37.6395 43.4034L51.1799 35.5922V34.6122V33.6321V33.125L24.1332 48.7523L24.5769 48.9717Z" fill="url(#paint9_linear)"></path>
-                <path d="M27.1079 50.4588L27.5516 50.7123L30.6527 48.9082L31.0623 49.6689L37.2011 46.1241L37.6399 46.8555L51.1803 39.0394V38.0593V37.0451V36.5721L27.1079 50.4588Z" fill="url(#paint10_linear)"></path>
-                <path d="M30.5247 52.419L33.6258 50.649L34.0646 51.3755L37.1998 49.5422L37.6386 50.3028L51.1791 42.4867V41.4774V40.4974V40.0195L30.1102 52.1996L30.5247 52.419Z" fill="url(#paint11_linear)"></path>
-                <path d="M37.3566 12.5925L36.5033 12.1195L35.65 11.6124L35.2063 11.3589L13.2842 24.046V24.519L18.7257 21.3886L19.1694 22.1152L25.3033 18.5752L25.7178 19.3018L37.3566 12.5925Z" fill="url(#paint12_linear)"></path>
-                <defs>
-                  <lineargradient id="paint0_linear" x1="13.2842" y1="15.3619" x2="34.353" y2="15.3619" gradientunits="userSpaceOnUse">
-                    <stop stop-color="#001C3A"></stop>
-                    <stop offset="0.57" stop-color="#001E3D"></stop>
-                    <stop offset="0.69" stop-color="#001F3F"></stop>
-                    <stop offset="1" stop-color="#002042"></stop>
-                  </lineargradient>
-                  <lineargradient id="paint1_linear" x1="13.2842" y1="20.5355" x2="40.3309" y2="20.5355" gradientunits="userSpaceOnUse">
-                    <stop stop-color="#001C3A"></stop>
-                    <stop offset="0.57" stop-color="#001E3D"></stop>
-                    <stop offset="0.69" stop-color="#001F3F"></stop>
-                    <stop offset="1" stop-color="#002042"></stop>
-                  </lineargradient>
-                  <lineargradient id="paint2_linear" x1="13.2842" y1="23.11" x2="43.3052" y2="23.11" gradientunits="userSpaceOnUse">
-                    <stop stop-color="#001C3A"></stop>
-                    <stop offset="0.57" stop-color="#001E3D"></stop>
-                    <stop offset="0.69" stop-color="#001F3F"></stop>
-                    <stop offset="1" stop-color="#002042"></stop>
-                  </lineargradient>
-                  <lineargradient id="paint3_linear" x1="13.2842" y1="25.6892" x2="46.2795" y2="25.6892" gradientunits="userSpaceOnUse">
-                    <stop stop-color="#001C3A"></stop>
-                    <stop offset="0.57" stop-color="#001E3D"></stop>
-                    <stop offset="0.69" stop-color="#001F3F"></stop>
-                    <stop offset="1" stop-color="#002042"></stop>
-                  </lineargradient>
-                  <lineargradient id="paint4_linear" x1="13.2842" y1="28.2686" x2="49.249" y2="28.2686" gradientunits="userSpaceOnUse">
-                    <stop stop-color="#001C3A"></stop>
-                    <stop offset="0.57" stop-color="#001E3D"></stop>
-                    <stop offset="0.69" stop-color="#001F3F"></stop>
-                    <stop offset="1" stop-color="#002042"></stop>
-                  </lineargradient>
-                  <lineargradient id="paint5_linear" x1="13.2842" y1="30.8479" x2="51.1798" y2="30.8479" gradientunits="userSpaceOnUse">
-                    <stop stop-color="#001C3A"></stop>
-                    <stop offset="0.57" stop-color="#001E3D"></stop>
-                    <stop offset="0.69" stop-color="#001F3F"></stop>
-                    <stop offset="1" stop-color="#002042"></stop>
-                  </lineargradient>
-                  <lineargradient id="paint6_linear" x1="15.2146" y1="33.315" x2="51.1794" y2="33.315" gradientunits="userSpaceOnUse">
-                    <stop stop-color="#001C3A"></stop>
-                    <stop offset="0.57" stop-color="#001E3D"></stop>
-                    <stop offset="0.69" stop-color="#001F3F"></stop>
-                    <stop offset="1" stop-color="#002042"></stop>
-                  </lineargradient>
-                  <lineargradient id="paint7_linear" x1="18.1893" y1="35.9091" x2="51.1798" y2="35.9091" gradientunits="userSpaceOnUse">
-                    <stop stop-color="#001C3A"></stop>
-                    <stop offset="0.57" stop-color="#001E3D"></stop>
-                    <stop offset="0.69" stop-color="#001F3F"></stop>
-                    <stop offset="1" stop-color="#002042"></stop>
-                  </lineargradient>
-                  <lineargradient id="paint8_linear" x1="21.1586" y1="38.4689" x2="51.1796" y2="38.4689" gradientunits="userSpaceOnUse">
-                    <stop stop-color="#001C3A"></stop>
-                    <stop offset="0.57" stop-color="#001E3D"></stop>
-                    <stop offset="0.69" stop-color="#001F3F"></stop>
-                    <stop offset="1" stop-color="#002042"></stop>
-                  </lineargradient>
-                  <lineargradient id="paint9_linear" x1="24.1332" y1="41.0484" x2="51.1799" y2="41.0484" gradientunits="userSpaceOnUse">
-                    <stop stop-color="#001C3A"></stop>
-                    <stop offset="0.57" stop-color="#001E3D"></stop>
-                    <stop offset="0.69" stop-color="#001F3F"></stop>
-                    <stop offset="1" stop-color="#002042"></stop>
-                  </lineargradient>
-                  <lineargradient id="paint10_linear" x1="27.1079" y1="43.6422" x2="51.1803" y2="43.6422" gradientunits="userSpaceOnUse">
-                    <stop stop-color="#001C3A"></stop>
-                    <stop offset="0.57" stop-color="#001E3D"></stop>
-                    <stop offset="0.69" stop-color="#001F3F"></stop>
-                    <stop offset="1" stop-color="#002042"></stop>
-                  </lineargradient>
-                  <lineargradient id="paint11_linear" x1="30.1102" y1="46.2217" x2="51.1791" y2="46.2217" gradientunits="userSpaceOnUse">
-                    <stop stop-color="#001C3A"></stop>
-                    <stop offset="0.57" stop-color="#001E3D"></stop>
-                    <stop offset="0.69" stop-color="#001F3F"></stop>
-                    <stop offset="1" stop-color="#002042"></stop>
-                  </lineargradient>
-                  <lineargradient id="paint12_linear" x1="13.2842" y1="17.9414" x2="37.3566" y2="17.9414" gradientunits="userSpaceOnUse">
-                    <stop stop-color="#001C3A"></stop>
-                    <stop offset="0.57" stop-color="#001E3D"></stop>
-                    <stop offset="0.69" stop-color="#001F3F"></stop>
-                    <stop offset="1" stop-color="#002042"></stop>
-                  </lineargradient>
-                </defs>
-              </svg></div>
+          <div id="w-node-_0c3fd7ca-0869-2748-eb27-733c951009aa-e72dc501" class="token_cont product">
+            <div class="token_icon_cont">
+              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M32 64C49.6731 64 64 49.6731 64 32C64 14.3269 49.6731 0 32 0C14.3269 0 0 14.3269 0 32C0 49.6731 14.3269 64 32 64Z" fill="white"></path>
+                  <path d="M63.5 32C63.5 49.397 49.397 63.5 32 63.5C14.603 63.5 0.5 49.397 0.5 32C0.5 14.603 14.603 0.5 32 0.5C49.397 0.5 63.5 14.603 63.5 32Z" stroke="black" stroke-opacity="0.5"></path>
+                  <path d="M19.1694 18.6678L22.2998 16.8637L22.7435 17.5902L34.353 10.8858L33.4997 10.3787L32.6416 9.90577L32.232 9.65222L13.2842 20.5987V21.0716L18.7257 17.9413L19.1694 18.6678Z" fill="url(#paint0_linear)"></path>
+                  <path d="M19.1694 25.5626L28.2776 20.3112L28.6872 21.0426L40.3309 14.3333L39.4776 13.8262L38.6243 13.3533L38.2099 13.0997L13.2842 27.4593V27.9664L18.7257 24.8361L19.1694 25.5626Z" fill="url(#paint1_linear)"></path>
+                  <path d="M19.1694 29.0098L31.2519 22.0226L31.6615 22.7491L43.3052 16.0448L42.4519 15.5669L41.5938 15.0598L41.1842 14.8063L13.2842 30.9114V31.4136L18.7257 28.2541L19.1694 29.0098Z" fill="url(#paint2_linear)"></path>
+                  <path d="M19.1694 32.4277L34.3189 23.695L34.7333 24.4264L46.2795 17.7512L45.4213 17.2734L44.5681 16.7712L44.1585 16.5469L13.2842 34.3586V34.8316L18.7257 31.7012L19.1694 32.4277Z" fill="url(#paint3_linear)"></path>
+                  <path d="M19.1694 35.875L37.2932 25.4064L37.7077 26.167L49.2538 19.4919L48.3957 18.9848L47.5765 18.507L47.1328 18.2583L13.2842 37.8059V38.2788L18.7257 35.1485L19.1694 35.875Z" fill="url(#paint4_linear)"></path>
+                  <path d="M50.5459 20.2184L50.1071 19.9648L13.2842 41.2531V41.7261L18.7257 38.5957L19.1694 39.3222L37.2932 28.8536L37.7077 29.5802L51.1798 21.8323V20.8523V20.5987L50.5459 20.2184Z" fill="url(#paint5_linear)"></path>
+                  <path d="M15.6242 43.8177L18.6619 42.077L19.1056 42.8035L37.2001 32.3349L37.6389 33.0907L51.1794 25.2453V24.2653V23.2852V22.8123L15.2146 43.5642L15.6242 43.8177Z" fill="url(#paint6_linear)"></path>
+                  <path d="M37.2005 35.7823L37.6394 36.543L51.1798 28.6976V27.7127V26.7326V26.2596L18.1893 45.305L18.5989 45.5585L21.7 43.7544L22.1388 44.4809" fill="url(#paint7_linear)"></path>
+                  <path d="M21.573 47.265L24.7034 45.461L25.1129 46.2216L37.2003 39.2295L37.6392 39.956L51.1796 32.1448V31.1648V30.1798V29.6776L21.1586 47.0115L21.573 47.265Z" fill="url(#paint8_linear)"></path>
+                  <path d="M24.5769 48.9717L27.678 47.2018L28.0875 47.9283L37.2006 42.6769L37.6395 43.4034L51.1799 35.5922V34.6122V33.6321V33.125L24.1332 48.7523L24.5769 48.9717Z" fill="url(#paint9_linear)"></path>
+                  <path d="M27.1079 50.4588L27.5516 50.7123L30.6527 48.9082L31.0623 49.6689L37.2011 46.1241L37.6399 46.8555L51.1803 39.0394V38.0593V37.0451V36.5721L27.1079 50.4588Z" fill="url(#paint10_linear)"></path>
+                  <path d="M30.5247 52.419L33.6258 50.649L34.0646 51.3755L37.1998 49.5422L37.6386 50.3028L51.1791 42.4867V41.4774V40.4974V40.0195L30.1102 52.1996L30.5247 52.419Z" fill="url(#paint11_linear)"></path>
+                  <path d="M37.3566 12.5925L36.5033 12.1195L35.65 11.6124L35.2063 11.3589L13.2842 24.046V24.519L18.7257 21.3886L19.1694 22.1152L25.3033 18.5752L25.7178 19.3018L37.3566 12.5925Z" fill="url(#paint12_linear)"></path>
+                  <defs>
+                    <lineargradient id="paint0_linear" x1="13.2842" y1="15.3619" x2="34.353" y2="15.3619" gradientunits="userSpaceOnUse">
+                      <stop stop-color="#001C3A"></stop>
+                      <stop offset="0.57" stop-color="#001E3D"></stop>
+                      <stop offset="0.69" stop-color="#001F3F"></stop>
+                      <stop offset="1" stop-color="#002042"></stop>
+                    </lineargradient>
+                    <lineargradient id="paint1_linear" x1="13.2842" y1="20.5355" x2="40.3309" y2="20.5355" gradientunits="userSpaceOnUse">
+                      <stop stop-color="#001C3A"></stop>
+                      <stop offset="0.57" stop-color="#001E3D"></stop>
+                      <stop offset="0.69" stop-color="#001F3F"></stop>
+                      <stop offset="1" stop-color="#002042"></stop>
+                    </lineargradient>
+                    <lineargradient id="paint2_linear" x1="13.2842" y1="23.11" x2="43.3052" y2="23.11" gradientunits="userSpaceOnUse">
+                      <stop stop-color="#001C3A"></stop>
+                      <stop offset="0.57" stop-color="#001E3D"></stop>
+                      <stop offset="0.69" stop-color="#001F3F"></stop>
+                      <stop offset="1" stop-color="#002042"></stop>
+                    </lineargradient>
+                    <lineargradient id="paint3_linear" x1="13.2842" y1="25.6892" x2="46.2795" y2="25.6892" gradientunits="userSpaceOnUse">
+                      <stop stop-color="#001C3A"></stop>
+                      <stop offset="0.57" stop-color="#001E3D"></stop>
+                      <stop offset="0.69" stop-color="#001F3F"></stop>
+                      <stop offset="1" stop-color="#002042"></stop>
+                    </lineargradient>
+                    <lineargradient id="paint4_linear" x1="13.2842" y1="28.2686" x2="49.249" y2="28.2686" gradientunits="userSpaceOnUse">
+                      <stop stop-color="#001C3A"></stop>
+                      <stop offset="0.57" stop-color="#001E3D"></stop>
+                      <stop offset="0.69" stop-color="#001F3F"></stop>
+                      <stop offset="1" stop-color="#002042"></stop>
+                    </lineargradient>
+                    <lineargradient id="paint5_linear" x1="13.2842" y1="30.8479" x2="51.1798" y2="30.8479" gradientunits="userSpaceOnUse">
+                      <stop stop-color="#001C3A"></stop>
+                      <stop offset="0.57" stop-color="#001E3D"></stop>
+                      <stop offset="0.69" stop-color="#001F3F"></stop>
+                      <stop offset="1" stop-color="#002042"></stop>
+                    </lineargradient>
+                    <lineargradient id="paint6_linear" x1="15.2146" y1="33.315" x2="51.1794" y2="33.315" gradientunits="userSpaceOnUse">
+                      <stop stop-color="#001C3A"></stop>
+                      <stop offset="0.57" stop-color="#001E3D"></stop>
+                      <stop offset="0.69" stop-color="#001F3F"></stop>
+                      <stop offset="1" stop-color="#002042"></stop>
+                    </lineargradient>
+                    <lineargradient id="paint7_linear" x1="18.1893" y1="35.9091" x2="51.1798" y2="35.9091" gradientunits="userSpaceOnUse">
+                      <stop stop-color="#001C3A"></stop>
+                      <stop offset="0.57" stop-color="#001E3D"></stop>
+                      <stop offset="0.69" stop-color="#001F3F"></stop>
+                      <stop offset="1" stop-color="#002042"></stop>
+                    </lineargradient>
+                    <lineargradient id="paint8_linear" x1="21.1586" y1="38.4689" x2="51.1796" y2="38.4689" gradientunits="userSpaceOnUse">
+                      <stop stop-color="#001C3A"></stop>
+                      <stop offset="0.57" stop-color="#001E3D"></stop>
+                      <stop offset="0.69" stop-color="#001F3F"></stop>
+                      <stop offset="1" stop-color="#002042"></stop>
+                    </lineargradient>
+                    <lineargradient id="paint9_linear" x1="24.1332" y1="41.0484" x2="51.1799" y2="41.0484" gradientunits="userSpaceOnUse">
+                      <stop stop-color="#001C3A"></stop>
+                      <stop offset="0.57" stop-color="#001E3D"></stop>
+                      <stop offset="0.69" stop-color="#001F3F"></stop>
+                      <stop offset="1" stop-color="#002042"></stop>
+                    </lineargradient>
+                    <lineargradient id="paint10_linear" x1="27.1079" y1="43.6422" x2="51.1803" y2="43.6422" gradientunits="userSpaceOnUse">
+                      <stop stop-color="#001C3A"></stop>
+                      <stop offset="0.57" stop-color="#001E3D"></stop>
+                      <stop offset="0.69" stop-color="#001F3F"></stop>
+                      <stop offset="1" stop-color="#002042"></stop>
+                    </lineargradient>
+                    <lineargradient id="paint11_linear" x1="30.1102" y1="46.2217" x2="51.1791" y2="46.2217" gradientunits="userSpaceOnUse">
+                      <stop stop-color="#001C3A"></stop>
+                      <stop offset="0.57" stop-color="#001E3D"></stop>
+                      <stop offset="0.69" stop-color="#001F3F"></stop>
+                      <stop offset="1" stop-color="#002042"></stop>
+                    </lineargradient>
+                    <lineargradient id="paint12_linear" x1="13.2842" y1="17.9414" x2="37.3566" y2="17.9414" gradientunits="userSpaceOnUse">
+                      <stop stop-color="#001C3A"></stop>
+                      <stop offset="0.57" stop-color="#001E3D"></stop>
+                      <stop offset="0.69" stop-color="#001F3F"></stop>
+                      <stop offset="1" stop-color="#002042"></stop>
+                    </lineargradient>
+                  </defs>
+                </svg></div>
+            </div>
             <div class="token_name">REN</div>
           </div>
-          <div id="w-node-_0c3fd7ca-0869-2748-eb27-733c951009ae-cc7f2032" class="token_cont"><img src="images/sushiswap-sushi-logo-1.svg" loading="lazy" alt="" class="token_icon">
+          <div id="w-node-_0c3fd7ca-0869-2748-eb27-733c951009ae-e72dc501" class="token_cont product">
+            <div class="token_icon_cont"><img src="images/sushiswap-sushi-logo-1.svg" loading="lazy" alt="" class="token_icon"></div>
             <div class="token_name">Sushi</div>
           </div>
-          <div id="w-node-_0c3fd7ca-0869-2748-eb27-733c951009b2-cc7f2032" class="token_cont"><img src="images/synthetix-network-token-snx-logo-1.svg" loading="lazy" alt="" class="token_icon">
+          <div id="w-node-_0c3fd7ca-0869-2748-eb27-733c951009b2-e72dc501" class="token_cont product">
+            <div class="token_icon_cont"><img src="images/synthetix-network-token-snx-logo-1.svg" loading="lazy" alt="" class="token_icon"></div>
             <div class="token_name">Sythetix</div>
           </div>
-          <div id="w-node-_0c3fd7ca-0869-2748-eb27-733c951009b6-cc7f2032" class="token_cont"><img src="images/uni-1.svg" loading="lazy" alt="" class="token_icon">
+          <div id="w-node-_0c3fd7ca-0869-2748-eb27-733c951009b6-e72dc501" class="token_cont product">
+            <div class="token_icon_cont"><img src="images/uni-1.svg" loading="lazy" alt="" class="token_icon"></div>
             <div class="token_name">Uniswap</div>
           </div>
-          <div id="w-node-_0c3fd7ca-0869-2748-eb27-733c951009ba-cc7f2032" class="token_cont">
-            <div class="token_icon w-embed"><svg viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M32 0C49.6704 0 64 14.3296 64 32C64 49.6704 49.6704 64 32 64C14.3296 64 0 49.6704 0 32C0 14.3296 14.3296 0 32 0Z" fill="#006AE3"></path>
-                <path d="M30.6812 45.4912V18.8672H33.5804V45.4912H30.6812Z" fill="white"></path>
-                <path d="M45.4403 27.7376L36.4867 30.112L34.4899 20.8192L37.1523 20.2176L38.2019 24.6208C38.2019 24.6208 40.6211 20.6528 37.3955 16.544C35.4947 14.432 34.5923 14.3424 32.4611 14.0096C30.5859 13.7408 26.2275 14.3744 24.9283 19.4624C24.3779 22.7392 24.9987 25.1648 29.2227 28.3392L28.9859 31.872C28.9859 31.872 24.2691 28.5504 23.0531 26.2208C22.1123 24.3776 20.4995 20.736 23.4115 15.6672C24.9795 13.1328 28.0707 10.7008 33.5171 10.9568C36.2563 11.072 42.9443 14.4192 41.9075 22.24C41.7283 23.7056 40.9667 25.6576 40.9667 25.6576L44.6403 24.8384L45.4403 27.7376Z" fill="white"></path>
-                <path d="M40.3264 48.5695C38.688 51.0591 35.5328 53.4079 30.0992 53.0111C27.36 52.8255 20.768 49.2991 22.0096 41.5103C22.2272 40.0511 23.04 38.1247 23.04 38.1247L19.3472 38.8415L18.624 35.9295L27.6416 33.7919L29.3952 43.1359L26.7136 43.6671L25.7792 39.2319C25.7792 39.2319 23.2576 43.1295 26.368 47.3279C28.2112 49.4911 29.1072 49.5999 31.2384 49.9903C33.1008 50.3103 37.4784 49.7855 38.912 44.7359C39.5456 41.4783 38.9888 39.0335 34.8544 35.7439L35.1872 32.2175C35.1872 32.2175 39.8144 35.6607 40.9664 38.0223C41.8496 39.8975 43.3664 43.5839 40.3264 48.5695Z" fill="white"></path>
-              </svg></div>
+          <div id="w-node-_0c3fd7ca-0869-2748-eb27-733c951009ba-e72dc501" class="token_cont product">
+            <div class="token_icon_cont">
+              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M32 0C49.6704 0 64 14.3296 64 32C64 49.6704 49.6704 64 32 64C14.3296 64 0 49.6704 0 32C0 14.3296 14.3296 0 32 0Z" fill="#006AE3"></path>
+                  <path d="M30.6812 45.4912V18.8672H33.5804V45.4912H30.6812Z" fill="white"></path>
+                  <path d="M45.4403 27.7376L36.4867 30.112L34.4899 20.8192L37.1523 20.2176L38.2019 24.6208C38.2019 24.6208 40.6211 20.6528 37.3955 16.544C35.4947 14.432 34.5923 14.3424 32.4611 14.0096C30.5859 13.7408 26.2275 14.3744 24.9283 19.4624C24.3779 22.7392 24.9987 25.1648 29.2227 28.3392L28.9859 31.872C28.9859 31.872 24.2691 28.5504 23.0531 26.2208C22.1123 24.3776 20.4995 20.736 23.4115 15.6672C24.9795 13.1328 28.0707 10.7008 33.5171 10.9568C36.2563 11.072 42.9443 14.4192 41.9075 22.24C41.7283 23.7056 40.9667 25.6576 40.9667 25.6576L44.6403 24.8384L45.4403 27.7376Z" fill="white"></path>
+                  <path d="M40.3264 48.5695C38.688 51.0591 35.5328 53.4079 30.0992 53.0111C27.36 52.8255 20.768 49.2991 22.0096 41.5103C22.2272 40.0511 23.04 38.1247 23.04 38.1247L19.3472 38.8415L18.624 35.9295L27.6416 33.7919L29.3952 43.1359L26.7136 43.6671L25.7792 39.2319C25.7792 39.2319 23.2576 43.1295 26.368 47.3279C28.2112 49.4911 29.1072 49.5999 31.2384 49.9903C33.1008 50.3103 37.4784 49.7855 38.912 44.7359C39.5456 41.4783 38.9888 39.0335 34.8544 35.7439L35.1872 32.2175C35.1872 32.2175 39.8144 35.6607 40.9664 38.0223C41.8496 39.8975 43.3664 43.5839 40.3264 48.5695Z" fill="white"></path>
+                </svg></div>
+            </div>
             <div class="token_name">Yearn</div>
           </div>
         </div>
@@ -811,7 +878,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
             </div>
             <div style="display:block" class="accordion_content">
               <p class="allparagraph2">The DeFi Pulse Index is a digital asset index designed to track tokens’ performance within the Decentralized Finance industry. The index is weighted based on the value of each token’s circulating supply. The DeFi Pulse Index aims to track projects in Decentralized Finance that have significant usage and show a commitment to ongoing maintenance and development.<br><br>
-                <a href="#"><span class="view_link">View the official methodology here.</span></a>
+                <a href="https://pulse.inc/" target="_blank"><span class="view_link">View the official methodology here.</span></a>
               </p>
             </div>
           </div>
@@ -841,21 +908,21 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
                     </svg></div>
                 </div>
                 <div class="allparagraph2">The token must be available on the Ethereum blockchain.</div>
-                <div id="w-node-_024aaad9-45b8-c502-7ed0-994d5cd9b821-cc7f2032" class="grid_icon">
+                <div id="w-node-_024aaad9-45b8-c502-7ed0-994d5cd9b821-e72dc501" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                     </svg></div>
                 </div>
                 <div class="allparagraph2">The token must be associated with a decentralized finance protocol or dapp listed on DeFi Pulse.</div>
-                <div id="w-node-_36ee49bb-87f7-0e04-66a7-334d6f84ea63-cc7f2032" class="grid_icon">
+                <div id="w-node-_36ee49bb-87f7-0e04-66a7-334d6f84ea63-e72dc501" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                     </svg></div>
                 </div>
                 <div class="allparagraph2">The token must not be considered a security by the corresponding authorities across different jurisdictions.</div>
-                <div id="w-node-_43b7e9fc-0987-605c-412c-7610fbb853af-cc7f2032" class="grid_icon">
+                <div id="w-node-_43b7e9fc-0987-605c-412c-7610fbb853af-e72dc501" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
@@ -871,28 +938,28 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
                 <h4 class="prod_subtitle">Project’s Traction Characteristics</h4>
               </div>
               <div class="w-layout-grid prodcont_grid2">
-                <div id="w-node-_8251b170-08f1-44e1-a074-871e6cb6d345-cc7f2032" class="grid_icon">
+                <div id="w-node-_8251b170-08f1-44e1-a074-871e6cb6d345-e72dc501" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                     </svg></div>
                 </div>
                 <div class="allparagraph2">The project must be widely considered to be building a useful protocol or product. Projects focused on competitive trading/holding, having Ponzi characteristics, or projects that exist primarily for entertainment, will not be included.</div>
-                <div id="w-node-d07213f3-481b-e3fc-8eab-980117e506fa-cc7f2032" class="grid_icon">
+                <div id="w-node-d07213f3-481b-e3fc-8eab-980117e506fa-e72dc501" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                     </svg></div>
                 </div>
                 <div class="allparagraph2">The project’s protocol must have significant usage.</div>
-                <div id="w-node-_90e6c8c2-74e0-76ab-68ad-5f1ac66d61f8-cc7f2032" class="grid_icon">
+                <div id="w-node-_90e6c8c2-74e0-76ab-68ad-5f1ac66d61f8-e72dc501" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                     </svg></div>
                 </div>
                 <div class="allparagraph2">The protocol or product must have been launched at least 180 days before being able to qualify to be included in the index.</div>
-                <div id="w-node-cc292ae7-b775-836a-4993-d8409c52e29d-cc7f2032" class="grid_icon">
+                <div id="w-node-cc292ae7-b775-836a-4993-d8409c52e29d-e72dc501" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
@@ -904,21 +971,21 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
                 <h4 class="prod_subtitle">Protocol’s User Safety Characteristics</h4>
               </div>
               <div class="w-layout-grid prodcont_grid3">
-                <div id="w-node-_64ad45bc-d172-1e05-1a45-d4410929d947-cc7f2032" class="grid_icon">
+                <div id="w-node-_64ad45bc-d172-1e05-1a45-d4410929d947-e72dc501" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                     </svg></div>
                 </div>
                 <div class="allparagraph2">Security professionals must have reviewed the protocol to determine that security best practices have been followed to maintain user assets safe under different circumstances. Alternatively, the protocol must have been operating long enough to create a consensus about its safety in the decentralized finance community.</div>
-                <div id="w-node-fb525323-30d6-9f43-ff1f-133e683e7d55-cc7f2032" class="grid_icon">
+                <div id="w-node-fb525323-30d6-9f43-ff1f-133e683e7d55-e72dc501" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                     </svg></div>
                 </div>
                 <div class="allparagraph2">In the event of a safety incident, the team must have responded promptly and addressed the incident responsibly in the aftermath, providing users of the protocol with a reliable solution and the decentralized finance community with adequate documentation to provide transparency about the incident.</div>
-                <div id="w-node-_9014cc2e-b12a-317a-6872-37e559c890c8-cc7f2032" class="grid_icon">
+                <div id="w-node-_9014cc2e-b12a-317a-6872-37e559c890c8-e72dc501" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
@@ -942,23 +1009,23 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
               </div>
             </div>
             <div style="height:0px;opacity:0;display:none" class="accordion_content">
-              <p class="allparagraph2">The Index value is the spot value of the index.</p><img src="images/Formula-removebg-preview.png" loading="lazy" width="490" sizes="(max-width: 479px) 63vw, (max-width: 767px) 65vw, 490px" srcset="images/Formula-removebg-preview-p-500.png 500w, images/Formula-removebg-preview.png 716w" alt="" class="dpi-formula light_mode_investico"><img src="images/Formula-removebg-preview.png" loading="lazy" width="487" sizes="100vw" srcset="images/Formula-removebg-preview-p-500.png 500w, images/Formula-removebg-preview.png 716w" alt="" class="dark_mode_investico dpi-formula">
+              <p class="allparagraph2">The Index value is the spot value of the index.</p><img src="images/Formula-removebg-preview.png" loading="lazy" width="490" sizes="(max-width: 479px) 78vw, (max-width: 767px) 73vw, 490px" srcset="images/Formula-removebg-preview-p-500.png 500w, images/Formula-removebg-preview.png 716w" alt="" class="dpi-formula">
               <div class="w-layout-grid prodcont_grid3">
-                <div id="w-node-_3ef0d487-9a3f-c573-f6f9-72f87107db06-cc7f2032" class="grid_icon">
+                <div id="w-node-_3ef0d487-9a3f-c573-f6f9-72f87107db06-e72dc501" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                     </svg></div>
                 </div>
                 <div class="allparagraph2"><span class="text-span-3">Circulating Supply</span> is the number of tokens circulating the last time circulating supply was determined. The first circulating supply was determined on September 8, 2020, using CoinGecko as a reference source.</div>
-                <div id="w-node-fb0767b2-45a3-9130-97d5-8ddc3f95c3f6-cc7f2032" class="grid_icon">
+                <div id="w-node-fb0767b2-45a3-9130-97d5-8ddc3f95c3f6-e72dc501" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                     </svg></div>
                 </div>
                 <div class="allparagraph2"><span class="text-span-4">Price</span> is the market price of the token in USD.</div>
-                <div id="w-node-_125baad4-f659-1eb8-a2e0-11952d83fdea-cc7f2032" class="grid_icon">
+                <div id="w-node-_125baad4-f659-1eb8-a2e0-11952d83fdea-e72dc501" class="grid_icon">
                   <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
@@ -1031,12 +1098,14 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
               <a href="mvi.html" class="footitem footlink">Metaverse Index</a>
               <a href="eth-2x-fli.html" class="footitem footlink">ETH2x-FLI</a>
               <a href="btc-2x-fli.html" class="footitem footlink">BTC2x-FLI</a>
+              <a href="bankless-bed-index.html" class="footitem footlink">BED Index</a>
               <a href="index-coop-data-index.html" class="footitem footlink">DATA Index</a>
             </div>
             <div class="resourcesfooter">
               <div class="footlinktitle">Resources</div>
-              <a href="institution.html" class="footitem footlink _1st">For institutions</a>
-              <a href="methodologist.html" class="footitem footlink">For methodologists</a>
+              <a href="methodologist.html" class="footitem footlink _1st">For methodologists</a>
+              <a href="institution.html" class="footitem footlink">For institutions</a>
+              <a href="contributor.html" class="footitem footlink">For contributors</a>
               <a href="https://www.indexcoop.com/news" class="footitem footlink">News</a>
               <a href="https://docs.indexcoop.com/" target="_blank" class="footitem footlink">Docs &amp; Guides</a>
             </div>
@@ -1049,8 +1118,8 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
             </div>
           </div>
           <div class="div-block-16">
-            <div class="div-block-78"><img src="images/Group.svg" loading="lazy" width="116" alt=""></div>
-            <div class="div-block-79">
+            <div class="index-logo-cont"><img src="images/Group.svg" loading="lazy" width="116" alt=""></div>
+            <div class="icon_wrapper">
               <div class="toggle">
                 <div class="togglethemefooter footer w-embed"><label for="toggleTheme" title="Toggle theme">
                     <input id="toggleTheme" name="theme" type="checkbox">
@@ -1064,25 +1133,24 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2.4rem;
+    height: 100%;
     border-radius: 8rem;
-    width: 2.4rem;
-    padding: .2rem;
+    width: 100%;
+    padding: 0;
 }
 .toggleThemefooter:before {
     position: absolute;
     content: '';
     height: 2rem;
     width: 2rem;
-    border-radius: 4rem;
-		background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
+		background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
 }
 input[type="checkbox"] {
 	display: none;
 }
 input[type="checkbox"]:checked+.toggleThemefooter:before {
     content: '';
-    background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
+    background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
 }
 </style>
                 </div>
@@ -1103,32 +1171,6 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script>
-//DPE
-fetch('https://api.coingecko.com/api/v3/coins/defipulse-index')
-.then(response => response.json())
-.then(data => {
-  console.log(data) // Prints result from `response.json()` in getRequest
-  var currentpricenow = "$"+data.market_data.current_price.usd;
-  var pricechange = data.market_data.price_change_percentage_24h;
-  var marketcap = "$"+ Math.fround(data.market_data.market_cap.usd/1000000).toFixed(2)+"M";
-  var volume = Math.fround(data.market_data.total_volume.usd/1000000).toFixed(2)+"M";
-  var currentsupply = Math.floor(data.market_data.circulating_supply).toLocaleString('en');
-  $(".currentpricenow").append(currentpricenow);
- // $(".pricechange").append(pricechange);
-  $(".marketcap").append(marketcap);
-  $(".volume").append(volume);
-  $(".currentsupply").append(currentsupply);
-  if (pricechange >= 0) {
-    $(".pricechange").append((pricechange).toFixed(2)+"%");
-    $(".pricechange").css({'color':'#09AA74'});
- }
- else {
-    $(".pricechange").append((pricechange).toFixed(2)+"%");
-    $(".pricechange").css({'color':'#C32238'});
- }
-})
-.catch(error => console.error(error))
-//END
 function setThemeFromCookie() {
  const themeState = document.getElementById('content');
  themeState.className = isThemeSelected() ? 'dark-mode' : 'light-mode';
@@ -1157,6 +1199,34 @@ $('.menu').on('click', function(){
 $('.close').on('click', function(){
   $('body').removeClass('no-scroll');
 });
+</script>
+  <script>
+//DPE
+fetch('https://api.coingecko.com/api/v3/coins/defipulse-index')
+.then(response => response.json())
+.then(data => {
+  console.log(data) // Prints result from `response.json()` in getRequest
+  var currentpricenow = "$"+data.market_data.current_price.usd;
+  var pricechange = data.market_data.price_change_percentage_24h;
+  var marketcap = "$"+ Math.fround(data.market_data.market_cap.usd/1000000).toFixed(2)+"M";
+  var volume = Math.fround(data.market_data.total_volume.usd/1000000).toFixed(2)+"M";
+  var currentsupply = Math.floor(data.market_data.circulating_supply).toLocaleString('en');
+  $(".currentpricenow").append(currentpricenow);
+ // $(".pricechange").append(pricechange);
+  $(".marketcap").append(marketcap);
+  $(".volume").append(volume);
+  $(".currentsupply").append(currentsupply);
+  if (pricechange >= 0) {
+    $(".pricechange").append((pricechange).toFixed(2)+"%");
+    $(".pricechange").css({'color':'#09AA74'});
+ }
+ else {
+    $(".pricechange").append((pricechange).toFixed(2)+"%");
+    $(".pricechange").css({'color':'#C32238'});
+ }
+})
+.catch(error => console.error(error))
+//END
 </script>
 </body>
 </html>

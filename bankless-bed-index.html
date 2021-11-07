@@ -1,6 +1,6 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Oct 28 2021 22:04:12 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="6108c4981c303c2c507f202e" data-wf-site="60d237b6ea65be721ff4bbfa">
+<!--  Last Published: Sun Nov 07 2021 17:41:28 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="6187d6120f73f57b022dc4fc" data-wf-site="60d237b6ea65be721ff4bbfa">
 <head>
   <meta charset="utf-8">
   <title>Index Coop | Bankless BED Index</title>
@@ -20,167 +20,68 @@
   <script type="text/javascript">WebFont.load({  google: {    families: ["IBM Plex Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic:cyrillic,cyrillic-ext,greek,latin,latin-ext,vietnamese","IBM Plex Mono:regular,500,600"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.ico" rel="apple-touch-icon">
   <style>
-  .mainnavbar {
-  backdrop-filter: blur(5px);
-  }
-  #content.dark-mode .mainnavbar{
-    background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(5px);
-	}
-  #content.dark-mode .nav-link {
-	color: #F7F6F2;
-  }
-  #content.dark-mode .nav-link:hover{
-    border-bottom: 2px solid #F7F6F2;
-  }
-  #content.dark-mode .dropdown-text:hover {
-    border-bottom: 1px solid #F7F6F2;
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-  #content.dark-mode .dropdown-list-2.w--open {
-    background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(5px);
-  }
-  #content.dark-mode .longline {
-    border-buttom: 1px solid #ffffff;
-}
-  #content.dark-mode .indexcooplinks {
-    color: #7289da;
-}
-.indexcooplinks {
-color: #433BCE
-}
-#content.dark-mode a.sell-button.buttons.w-button {
-    color: #09AA74;
-}
- #content.dark-mode a.buy-button.buttons.w-button {
-    color: black;
-  }
- #content.dark-mode .view_link{
-	color:#B9B6FC;
-  }
- #content.dark-mode {
-    background-color: #0F0E0B;
-    color: #F7F6F2;
-}
- #content.dark-mode .allh1, #content.dark-mode .allh2, #content.dark-mode .allh3{
-  color: #F7F6F2;
-}
- #content.dark-mode .prodh3, #content.dark-mode .grid_heading, #content.dark-mode .listtextblock, #content.dark-mode .slider_description{
-  color: #F7F6F2;
-}
- #content.dark-mode a {
-  color: #F7F6F2;
-}
-#content.dark-mode .accordion_header, #content.dark-mode .allparagraph2 {
-  color: #F7F1E4
-  }
-</style>
-  <style>
-.w-slider-dot {
-  background: #C4C4C4;
-}
-.w-slider-dot.w-active {
-  background: #327EE8;
-}
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}  
+.mainnavbar	{
+  	backdrop-filter: blur(5px);
 }
-#content.light-mode {
-  background-color: #ffffff;
-  color: #171717;
+.no-scroll {
+	overflow:hidden;  
 }
-#content.light-mode > .gray_bg{
-  background-color: #f8f8f8;
+input.inputfield::placeholder,
+textarea.inputfield::placeholder{
+	opacity: 0%;  
+}  
+/* 	Light Mode Styles	*/
+/*	Global Light Mode	*/  
+/* 	Dark Mode Styles	*/
+/*	Global Dark Mode	*/
+#content.dark-mode .nav-link {
+	color: #F7F6F2;
 }
-#contant.light-mode a {
-  color: #171717;
+#content.dark-mode .nav-link:hover {
+	border-bottom: 2px solid #F7F6F2;
 }
-#content.light-mode > .svg_icon path {
-  fill: #327EE8;
+#content.dark-mode{
+    background-color: #0F0E0B;
+    color: #F7F6F2;
 }
-#content.dark-mode > .gray_bg{
-  background-color: #1D1B16;
-}
-#content.dark-mode a.w--current {
- color: #707AFF;
-}
-#content.dark-mode > .svg_icon path {
-  fill: #327EE8;
-}
-#content.dark-mode .heroline {
-  border-top: 3px solid #ffffff;
-}
-#content.dark-mode .trigger, .longline {
-  border-top: 1px solid #ffffff;
-}
-#content.dark-mode .index_logo path {
-  fill: #ffffff;
-}
-#content.dark-mode .app-button {
-  border: 2px solid #fff;
-  background-color: transparent;
-}
-#content.dark-mode .nav-link:hover{
-	border-bottom: 1px solid #fff;
-}
-#content.dark-mode .eco-grid {
-	background-color: #0F0E0B;
-  border: 1px solid white;
-} 
-#content.dark-mode .dark_mode_investico{
-	display: block;
-}
-#content.dark-mode .light_mode_investico{
-	display: none;
+#content.dark-mode .accordion_header, #content.dark-mode .allparagraph2 {
+    color: #F7F1E4;
 }
 #content.dark-mode .mainnavbar{
-	background-color: rgba(0,0,0,.8);
+	background-color: rgba(15, 14, 11, 0.8);
 }
-#content.dark-mode .prod_subtitle{
-	color: #fff;
+#content.dark-mode .allh1,
+#content.dark-mode .allh2,
+#content.dark-mode .allh3{
+  	color: #F7F6F2;
 }
-.w-input::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #000000;
-    opacity: .5;
+#content.dark-mode a {
+  	color: #B9B6FC;
 }
-.w-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #000000;
-    opacity: .5;
+#content.dark-mode .gray_bg{
+  	background-color: #1D1B16;
 }
-.w-input::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #000000;
-    opacity: .5;
+#content.dark-mode .app-button {
+  	border: 2px solid #fff;
+  	background-color: transparent;
+  	color: #F7F6F2;
 }
-.w-input:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #000000;
-    opacity: .5;
-}
-.no-scroll {overflow:hidden;}
-.w-nav-button.w--open{
-	background-color: transparent;
-}
-#content.dark-mode .w-nav-button.w--open{
-	background-color: black;
-}
-#content.dark-mode .close{
-	color: white;
-}
-#content.dark-mode .menu{
-	color: white;
-}
-#content.dark-mode .nav-menu-2{
-	background-color: black;
+#content.dark-mode .app-button:hover {
+	background-color: #F7F6F2;
+  	color: #000000;
 }
 #content.dark-mode .menu_title .menu_gov{
-	color: white;
+	color: #F7F6F2;
 }
 #content.dark-mode .menu_titlecont{
-  border-bottom: 2px solid #ffffff;
+  	border-bottom: 2px solid #F7F6F2;
 }
 #content.dark-mode .language_icon.black{
 	display: none;
@@ -194,29 +95,202 @@ color: #433BCE
 #content.dark-mode .togglethemefooter {
 	display: block;
 }
-@media screen and (max-width: 991px){
-	#content.dark-mode .stickytoggles {
-		background-color: white;
-	}
-  #content.dark-mode .app-button {
-  	border: 2px solid black;
-    color: black;
-  }
-  #content.dark-mode .toggle-theme2{
-		display: block;
-	}
-	#content.dark-mode .togglethemefooter {
-		display: none;
-	}
-  #content.dark-mode .language_icon.black{
-		display: block;
-	}
-	#content.dark-mode .language_icon.white{
-		display: none;
-	}
+#content.dark-mode .heroline {
+  	border-top: 3px solid #F7F6F2;
 }
-label {
-	margin-bottom: 0px;
+#content.dark-mode .index_logo path {
+  	fill: #F7F6F2;
+}
+#content.dark-mode .dropdown-text:hover {
+    border-bottom: 1px solid #F7F6F2;
+}
+#content.dark-mode .dropdown-list-2.w-dropdown-list.w--open {
+    background: rgba(15, 14, 11, 0.95);
+  	border: 1px solid rgba(247, 246, 242, 0.12);
+}
+#content.dark-mode .eco-grid {
+	background-color: #0F0E0B;
+}
+#content.dark-mode .investors_icons {
+	filter: invert();
+}
+#content.dark-mode .accordion_maincontainer.trigger {
+	border-bottom: 1px solid #F7F6F2;
+  	border-top: 1px solid #F7F6F2;	
+}
+#content.dark-mode .prod_subtitle {
+  	color: #F7F6F2;
+}
+#content.dark-mode a.dropdown-text {
+	color: #F7F6F2;
+}
+#content.dark-mode .view_link {
+	color: #B9B6FC;  
+}
+#content.dark-mode  a.footitem.footlink {
+	color:  #F7F6F2; 
+}
+@media only screen and (max-width: 991px){
+  #content.dark-mode .nav-menu-2{
+      background-color: #0F0E0B;  
+  }
+  #content.dark-mode .close,
+  #content.dark-mode .menu,
+  #content.dark-mode .menu_prods a,
+  #content.dark-mode .menu_gov a{
+      color: #F7F6F2;
+  }
+  #content.dark-mode .stickytoggles {
+      filter: invert();
+  }
+}  
+/*	Home Page	*/
+#content.dark-mode .slider_description {
+  	color: #F7F6F2;
+}
+#content.dark-mode .w-slider-dot.w-active {
+  	background-color: #327EE8;
+}
+#content.dark-mode .prodh3,
+#content.dark-mode .listtextblock,
+#content.dark-mode .grid_heading{
+  	color: #F7F6F2;
+}
+#content.dark-mode .listico._3rd path,
+#content.dark-mode .listico._3rd circle {
+	stroke: #B9B6FC;  
+}
+#content.dark-mode .listico._2nd path,
+#content.dark-mode .listico._2nd circle {
+	stroke: #699BF7;  
+}  
+#content.dark-mode .listico._3rdtrinity path {
+	fill: #B9B6FC;  
+}
+#content.dark-mode .listico.lightmode {
+	display: none;  
+}
+#content.dark-mode .listico.darkmode {
+	display: block;  
+}  
+#content.dark-mode a.social_box.w-button {
+	color: #0F0E0B;  
+}
+/*	About Page	*/
+#content.dark-mode .dark_mode_tria {
+	display: block;  
+}
+#content.dark-mode .lightmode_triangle {
+	display: none;  
+}
+#content.dark-mode .social_box.aboutpage {
+	color: #00b9ff;  
+}
+#content.dark-mode .social_box.discord.aboutpage {
+	color: #7289da;  
+}
+#content.dark-mode .trinity_svg.darkmode {
+    display: block;
+}
+#content.dark-mode .trinity_svg.lightmode {
+    display: none;
+}
+/*	Partners Page	*/
+#content.dark-mode img.ecoprodimg.indexcoop {
+	filter:invert();  
+}
+/*	Institutions Page	*/
+input[type="text"].inputfield::-webkit-input-placeholder {
+	color: #737373;  
+}
+#content.dark-mode .sub_h2,
+#content.dark-mode .eventtable_header,
+#content.dark-mode .fieldtitle {
+	color: #F7F6F2;
+}
+#content.dark-mode .event_line {
+	border-top: 3px solid #F7F6F2;  
+}
+#content.dark-mode .inputfield{
+    background: rgba(221, 221, 221, 0.12);
+    border: none;
+    border-bottom: 3px solid #ffff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+#content.dark-mode .inputfield:hover {
+    border-style: none none solid;
+    border-width: 1px 1px 3px;
+    border-color: #000 #000 #327ee8;
+    background-color: rgba(50, 121, 232, 0.13);
+}
+#content.dark-mode .inputfield:focus {
+    border-style: none none solid;
+    border-width: 0px 0px 3px;
+    border-color: #000 #000 #fabf00;
+    background-color: rgba(250, 191, 0, 0.09);
+}
+#content.dark-mode .inputfield{
+	color: #F7F6F2;  
+}
+@media only screen and (max-width: 991px){
+    input.inputfield::placeholder,
+    textarea.inputfield::placeholder{
+        color: #rgba(0, 0, 0, 0.5) !important;
+        opacity: 100%;  
+    }
+  	#content.dark-mode input.inputfield::placeholder,
+    #content.dark-mode textarea.inputfield::placeholder{
+        color: rgba(247, 246, 242, 0.5) !important;
+        opacity: 100%;  
+    }
+}  
+/*	Methodologist Page	*/
+#content.dark-mode .link_underline {
+  	color: #B9B6FC;
+}
+#content.dark-mode .forum_box {
+	border: 3px solid #F7F6F2;  
+}
+#content.dark-mode .forum_box a {
+  	color: #F7F6F2;
+}
+#content.dark-mode .steps {
+	color: #000000;  
+}
+/*	Products Pages	*/
+#content.dark-mode .prod_icon.index path {
+  	fill: #F7F6F2;
+}
+#content.dark-mode .buy-button.buttons {
+	color: #F7F6F2;
+}
+#content.dark-mode .sell-button.buttons {
+	color: #09AA74;
+}
+#content.dark-mode .token_icon.lightdark {
+	filter: invert();  
+}
+#content.dark-mode .dpi-formula {
+  	filter: invert();
+}
+#content.dark-mode .bg-grey.lightdark,
+#content.dark-mode .allparagraph.quote,
+#content.dark-mode .allparagraph.quote.fli{
+	background-color: #0F0E0B;
+  	color: #F7F6F2;
+}
+/*	Contributors Page	*/  
+#content.dark-mode .flowchart {
+	filter: invert();  
+}
+/*	StyleGuide Page	*/   
+#content.dark-mode .token_textblock {
+	color:  #F7F6F2;
+}
+#content.dark-mode  .index_icon.w-embed path {
+	filter: invert();  
 }
 </style>
 </head>
@@ -269,23 +343,6 @@ label {
           </div>
           <div class="menu_container mobilenav">
             <div class="menu_titlecont">
-              <div class="menu_title">Governance</div>
-            </div>
-            <div class="menu_gov">
-              <a href="index-token.html" class="menu_govlink">INDEX Token</a>
-            </div>
-            <div class="menu_gov">
-              <a href="https://snapshot.org/#/index-coop.eth" class="menu_govlink">Voting Portal <span class="text-span-27">snapshot</span></a>
-            </div>
-            <div class="menu_gov">
-              <a href="#" class="menu_govlink">Farm</a>
-            </div>
-            <div class="menu_gov">
-              <a href="#" class="menu_govlink">Rewards</a>
-            </div>
-          </div>
-          <div class="menu_container mobilenav">
-            <div class="menu_titlecont">
               <div class="menu_title">Resources</div>
             </div>
             <div class="menu_gov">
@@ -295,10 +352,13 @@ label {
               <a href="#" class="menu_govlink">Blog</a>
             </div>
             <div class="menu_gov">
-              <a href="methodologist.html" class="menu_govlink">Methodologist</a>
+              <a href="methodologist.html" class="menu_govlink">Methodologists</a>
             </div>
             <div class="menu_gov">
               <a href="institution.html" class="menu_govlink">Institutions</a>
+            </div>
+            <div class="menu_gov">
+              <a href="contributor.html" class="menu_govlink">Contributors</a>
             </div>
           </div>
           <div class="menu_container mobilenav">
@@ -347,9 +407,6 @@ label {
             </div>
           </div>
           <div class="div-block-93">
-            <a href="index.html" class="link-block nav-link w-inline-block">
-              <div>Home</div>
-            </a>
             <div data-delay="3" data-hover="false" class="w-dropdown">
               <div class="dropdown-nav nav-link w-dropdown-toggle">
                 <div>Products</div>
@@ -370,8 +427,9 @@ label {
               <nav class="dropdown-list-2 w-dropdown-list">
                 <a href="https://docs.indexcoop.com/" class="dropdown-text w-dropdown-link">Gitbook</a>
                 <a href="#" class="dropdown-text w-dropdown-link">Blog</a>
-                <a href="methodologist.html" class="dropdown-text w-dropdown-link">Methodologist</a>
+                <a href="methodologist.html" class="dropdown-text w-dropdown-link">Methodologists</a>
                 <a href="institution.html" class="dropdown-text w-dropdown-link">Institutions</a>
+                <a href="contributor.html" class="dropdown-text w-dropdown-link">Contributors</a>
               </nav>
             </div>
             <div data-delay="3" data-hover="false" class="w-dropdown">
@@ -421,25 +479,23 @@ label {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2.4rem;
     border-radius: 8rem;
-    width: 2.4rem;
-    padding: .2rem;
+    height: 100%;
+    width: 100%;
 }
 .toggleTheme:before {
     position: absolute;
     content: '';
     height: 2rem;
     width: 2rem;
-    border-radius: 4rem;
-		background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
+		background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
 }
 input[type="checkbox"] {
 	display: none;
 }
 input[type="checkbox"]:checked+.toggleTheme:before {
     content: '';
-    background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
+    background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
 }
 </style>
                 </div>
@@ -455,10 +511,9 @@ input[type="checkbox"]:checked+.toggleTheme:before {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2rem;
+    height: 100%;
     border-radius: 8rem;
-    width: 2rem;
-    padding: .2rem;
+    width: 100%;
 }
 .toggleThemefooter:before {
     position: absolute;
@@ -508,20 +563,22 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
     <div class="hero-section wf-section">
       <div class="maincontainer product w-container">
         <div class="head_cont bankless-heading">
-          <div id="BED-logo" class="prod_icon w-embed"><svg viewbox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M49.9997 98.1481C76.5912 98.1481 98.1479 76.5915 98.1479 50C98.1479 23.4085 76.5912 1.85185 49.9997 1.85185C23.4082 1.85185 1.85156 23.4085 1.85156 50C1.85156 76.5915 23.4082 98.1481 49.9997 98.1481Z" fill="#181818" stroke="#DADADA" stroke-width="2"></path>
-              <path d="M50.093 96.4815C75.7129 96.4815 96.4819 75.7125 96.4819 50.0926C96.4819 24.4727 75.7129 3.7037 50.093 3.7037C24.4731 3.7037 3.7041 24.4727 3.7041 50.0926C3.7041 75.7125 24.4731 96.4815 50.093 96.4815Z" fill="url(#paint0_linear)"></path>
-              <path d="M17.7773 65.1852H82.407V70.3704H17.7773V65.1852Z" fill="#F3342F"></path>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M21.7863 34.0741H25.49V36.6667H28.0826V34.0741H31.7863V36.892C35.3646 37.5187 37.2039 39.4044 37.2039 41.9594C37.2039 44.3504 35.3392 46.0159 32.684 46.4961V46.7005C35.6107 46.813 38.1479 48.7133 38.1479 51.7378C38.1479 54.66 35.8574 56.9033 31.7863 57.4594V60H28.0826V57.5926H25.49V60H21.7863V57.5926H18.8887V36.6667H21.7863V34.0741ZM24.7302 53.5157V48.5294H28.4476C30.6779 48.5294 32.0468 49.5513 32.0468 51.1554C32.0468 52.637 30.8666 53.5157 28.3413 53.5157H24.7302ZM24.7302 45.27V40.6822H28.0581C30.0052 40.6822 31.2444 41.5507 31.2444 42.9404C31.2444 44.4117 29.8753 45.27 27.9637 45.27H24.7302Z" fill="white"></path>
-              <path d="M40.3701 58.1482H57.4001V53.7037H40.3701V58.1482ZM41.1109 40.3704H56.662V36.1111H41.1109V40.3704ZM42.5923 48.7037H55.1849V45H42.5923V48.7037Z" fill="white"></path>
-              <path d="M70.0711 58.1482C77.4567 58.1482 82.0373 54.0054 82.0373 47.1189C82.0373 40.243 77.4567 36.1111 70.0593 36.1111H61.1113V58.1482H70.0711ZM66.97 53.6074V40.652H69.7634C73.9297 40.652 76.1667 42.3735 76.1667 47.1189C76.1667 51.8857 73.9297 53.6074 69.8463 53.6074H66.97Z" fill="white"></path>
-              <defs>
-                <lineargradient id="paint0_linear" x1="19.9078" y1="13.2407" x2="85.7411" y2="83.9815" gradientunits="userSpaceOnUse">
-                  <stop></stop>
-                  <stop offset="1" stop-color="#181818"></stop>
-                </lineargradient>
-              </defs>
-            </svg></div>
+          <div class="prod_icon_cont">
+            <div id="BED-logo" class="prod_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M49.9997 98.1481C76.5912 98.1481 98.1479 76.5915 98.1479 50C98.1479 23.4085 76.5912 1.85185 49.9997 1.85185C23.4082 1.85185 1.85156 23.4085 1.85156 50C1.85156 76.5915 23.4082 98.1481 49.9997 98.1481Z" fill="#181818" stroke="#DADADA" stroke-width="2"></path>
+                <path d="M50.093 96.4815C75.7129 96.4815 96.4819 75.7125 96.4819 50.0926C96.4819 24.4727 75.7129 3.7037 50.093 3.7037C24.4731 3.7037 3.7041 24.4727 3.7041 50.0926C3.7041 75.7125 24.4731 96.4815 50.093 96.4815Z" fill="url(#paint0_linear)"></path>
+                <path d="M17.7773 65.1852H82.407V70.3704H17.7773V65.1852Z" fill="#F3342F"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.7863 34.0741H25.49V36.6667H28.0826V34.0741H31.7863V36.892C35.3646 37.5187 37.2039 39.4044 37.2039 41.9594C37.2039 44.3504 35.3392 46.0159 32.684 46.4961V46.7005C35.6107 46.813 38.1479 48.7133 38.1479 51.7378C38.1479 54.66 35.8574 56.9033 31.7863 57.4594V60H28.0826V57.5926H25.49V60H21.7863V57.5926H18.8887V36.6667H21.7863V34.0741ZM24.7302 53.5157V48.5294H28.4476C30.6779 48.5294 32.0468 49.5513 32.0468 51.1554C32.0468 52.637 30.8666 53.5157 28.3413 53.5157H24.7302ZM24.7302 45.27V40.6822H28.0581C30.0052 40.6822 31.2444 41.5507 31.2444 42.9404C31.2444 44.4117 29.8753 45.27 27.9637 45.27H24.7302Z" fill="white"></path>
+                <path d="M40.3701 58.1482H57.4001V53.7037H40.3701V58.1482ZM41.1109 40.3704H56.662V36.1111H41.1109V40.3704ZM42.5923 48.7037H55.1849V45H42.5923V48.7037Z" fill="white"></path>
+                <path d="M70.0711 58.1482C77.4567 58.1482 82.0373 54.0054 82.0373 47.1189C82.0373 40.243 77.4567 36.1111 70.0593 36.1111H61.1113V58.1482H70.0711ZM66.97 53.6074V40.652H69.7634C73.9297 40.652 76.1667 42.3735 76.1667 47.1189C76.1667 51.8857 73.9297 53.6074 69.8463 53.6074H66.97Z" fill="white"></path>
+                <defs>
+                  <lineargradient id="paint0_linear" x1="19.9078" y1="13.2407" x2="85.7411" y2="83.9815" gradientunits="userSpaceOnUse">
+                    <stop></stop>
+                    <stop offset="1" stop-color="#181818"></stop>
+                  </lineargradient>
+                </defs>
+              </svg></div>
+          </div>
           <h1 class="allh1 product">Bankless BED Index</h1>
         </div>
         <div class="current_change_cont">
@@ -549,7 +606,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
     </div>
     <div class="stats-section bed wf-section">
       <div class="maincontainer product bed w-container">
-        <div class="head_cont prod_stat">
+        <div class="head_cont prod_stat bed">
           <h2 class="allh2 product">Stats</h2>
         </div>
         <div class="w-layout-grid stat_grid bed">
@@ -577,46 +634,17 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         <div class="head_cont bed">
           <h2 class="allh2 product">Underlying Tokens</h2>
         </div>
-        <div class="w-layout-grid allproducts3">
-          <div id="w-node-_3d5bd089-5b32-24bd-4e50-4a5125edd12f-507f202e" class="token_cont">
-            <div class="token_icon w-embed"><svg width="100$" height="100$" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0)">
-                  <path d="M52.185 13.4315L50.4277 15.1888C54.6209 19.7743 56.9462 25.763 56.9462 31.9766C56.9462 38.1903 54.6209 44.179 50.4277 48.7645L52.185 50.5218C56.8482 45.4636 59.4372 38.8358 59.4372 31.9561C59.4372 25.0764 56.8482 18.4486 52.185 13.3905V13.4315Z" fill="#5A5564"></path>
-                  <path d="M15.2299 13.5837C19.8154 9.39055 25.8041 7.06523 32.0178 7.06523C38.2314 7.06523 44.2201 9.39055 48.8056 13.5837L50.5629 11.8264C45.5047 7.1632 38.877 4.57422 31.9973 4.57422C25.1176 4.57422 18.4898 7.1632 13.4316 11.8264L15.2299 13.5837Z" fill="#5A5564"></path>
-                  <path d="M13.5837 48.7819C9.39552 44.1975 7.07326 38.2124 7.07326 32.0029C7.07326 25.7934 9.39552 19.8083 13.5837 15.2238L11.8264 13.4666C7.1632 18.5247 4.57422 25.1525 4.57422 32.0322C4.57422 38.9119 7.1632 45.5397 11.8264 50.5978L13.5837 48.7819Z" fill="#5A5564"></path>
-                  <path d="M48.7822 50.4045C44.1967 54.5977 38.208 56.923 31.9943 56.923C25.7807 56.923 19.792 54.5977 15.2065 50.4045L13.4492 52.1618C18.5074 56.825 25.1351 59.414 32.0148 59.414C38.8945 59.414 45.5223 56.825 50.5805 52.1618L48.7822 50.4045Z" fill="#5A5564"></path>
-                  <path d="M43.0947 26.1365C42.7433 22.4696 39.5802 21.2396 35.5794 20.8647V15.8154H32.4866V20.7709C31.6724 20.7709 30.8406 20.7709 30.0147 20.7709V15.8154H26.9454V20.8998H20.6719V24.2094C20.6719 24.2094 22.9563 24.1684 22.9212 24.2094C23.3331 24.164 23.7465 24.2804 24.0743 24.5339C24.4021 24.7874 24.6187 25.1583 24.6785 25.5683V39.4859C24.6697 39.6306 24.632 39.7719 24.5676 39.9017C24.5032 40.0315 24.4134 40.1471 24.3036 40.2416C24.1958 40.3379 24.0697 40.4114 23.9328 40.4577C23.7959 40.504 23.651 40.5221 23.5069 40.511C23.548 40.5462 21.2576 40.511 21.2576 40.511L20.6719 44.2072H26.8868V49.3736H29.9796V44.2833H32.4515V49.3501H35.5501V44.2423C40.7751 43.926 44.4185 42.6373 44.8754 37.7462C45.2445 33.8099 43.3935 32.0527 40.4354 31.3439C42.2337 30.4594 43.3466 28.8193 43.0947 26.1365ZM38.7601 37.137C38.7601 40.9796 32.1762 40.5403 30.0792 40.5403V33.7221C32.1762 33.7279 38.7601 33.1246 38.7601 37.137ZM37.325 27.5306C37.325 31.0452 31.8306 30.6176 30.085 30.6176V24.4202C31.8306 24.4202 37.325 23.8696 37.325 27.5306Z" fill="#F09242"></path>
-                  <path d="M31.9942 64C25.6657 63.9989 19.4796 62.1213 14.2181 58.6046C8.95664 55.088 4.85603 50.0902 2.43475 44.2432C0.0134704 38.3962 -0.619743 31.9625 0.615171 25.7557C1.85009 19.5488 4.89767 13.8475 9.3726 9.3726C13.8475 4.89767 19.5488 1.85009 25.7557 0.615171C31.9625 -0.619743 38.3962 0.0134704 44.2432 2.43475C50.0902 4.85603 55.088 8.95664 58.6046 14.2181C62.1213 19.4796 63.9989 25.6657 64 31.9942C64.0008 36.1974 63.1735 40.3597 61.5653 44.2432C59.9571 48.1267 57.5996 51.6553 54.6274 54.6274C51.6553 57.5996 48.1267 59.9571 44.2432 61.5653C40.3597 63.1735 36.1974 64.0008 31.9942 64ZM31.9942 2.49535C26.1637 2.49998 20.4654 4.23301 15.6196 7.47539C10.7738 10.7178 6.99803 15.324 4.76946 20.7117C2.5409 26.0995 1.95962 32.0271 3.09908 37.7451C4.23854 43.4632 7.0476 48.7151 11.1712 52.8371C15.2948 56.9591 20.5478 59.766 26.2664 60.9032C31.9849 62.0404 37.9122 61.4568 43.2991 59.2261C48.686 56.9954 53.2907 53.2178 56.5311 48.3707C59.7716 43.5236 61.5024 37.8247 61.5047 31.9942C61.5062 28.1189 60.7439 24.2813 59.2612 20.7009C57.7786 17.1205 55.6047 13.8674 52.864 11.1278C50.1232 8.38809 46.8693 6.21553 43.2883 4.73431C39.7073 3.25309 35.8694 2.49227 31.9942 2.49535Z" fill="#282138"></path>
-                </g>
-                <defs>
-                  <clippath id="clip0">
-                    <rect width="64" height="64" fill="white"></rect>
-                  </clippath>
-                </defs>
-              </svg></div>
+        <div class="w-layout-grid allproducts3 bed">
+          <div id="w-node-_3d5bd089-5b32-24bd-4e50-4a5125edd12f-022dc4fc" class="token_cont product">
+            <div class="token_icon_cont"><img src="images/wrapped-bitcoin-wbtc-logo-1.svg" loading="lazy" alt="" class="token_icon"></div>
             <div class="token_name">Wrapped BTC</div>
           </div>
-          <div id="w-node-_3d5bd089-5b32-24bd-4e50-4a5125edd133-507f202e" class="token_cont">
-            <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M17.9421 63.4754C34.0286 63.4754 34.0286 63.2359 36.7562 62.4263C40.3207 61.3681 26.6922 51.9344 17.9421 51.9344C9.192 51.9344 2.09863 54.518 2.09863 57.7049C2.09863 60.8919 9.19235 63.4754 17.9421 63.4754Z" fill="black"></path>
-                <path d="M54.4697 14.4045L55.2097 15.2019L54.5628 16.0765C33.583 44.4427 21.4973 57.2862 16.3695 55.5636C13.2461 54.5144 10.1138 51.3589 6.98142 46.7769C5.88041 45.1664 4.84651 43.4704 3.90619 41.7827C3.28001 40.6589 2.75002 39.6339 2.47483 39.0565C2.1238 38.3201 1.97559 37.8664 1.85801 37.2706C1.85084 37.2341 1.85084 37.2341 1.84402 37.199C1.79495 36.9461 1.77797 36.8661 1.74128 36.7279C1.10999 34.3486 0.787109 31.8835 0.787109 29.377C0.787109 13.5871 13.5874 0.786865 29.3773 0.786865C34.3241 0.786865 39.0911 2.04584 43.3158 4.40914L43.4249 4.47739C46.8838 6.88555 50.563 10.1946 54.4697 14.4045ZM41.9793 6.66703C38.1573 4.54138 33.8509 3.40982 29.3773 3.40982C15.036 3.40982 3.41006 15.0357 3.41006 29.377C3.41006 31.656 3.70333 33.8949 4.27651 36.0552C4.33319 36.2688 4.35883 36.3895 4.41896 36.6994C4.42527 36.7319 4.42527 36.7319 4.43134 36.7628C4.50722 37.1473 4.58728 37.3924 4.84256 37.928C5.0936 38.4546 5.59808 39.4303 6.19749 40.5061C7.10126 42.1282 8.09443 43.7573 9.14676 45.2966C11.9768 49.4364 14.7835 52.2639 17.2047 53.0772C20.434 54.1621 32.591 41.293 51.8032 15.3953C48.3152 11.7136 45.0386 8.80417 41.9793 6.66703Z" fill="black"></path>
-                <path d="M41.9794 6.667C38.1574 4.54135 33.851 3.40979 29.3774 3.40979C15.0361 3.40979 3.41016 15.0357 3.41016 29.377C3.41016 31.6559 3.70343 33.8949 4.27661 36.0552C4.33329 36.2688 4.35892 36.3895 4.41905 36.6994C4.42536 36.7319 4.42536 36.7319 4.43143 36.7627C4.50732 37.1473 4.58738 37.3924 4.84266 37.9279C5.0937 38.4546 5.59818 39.4303 6.19759 40.5061C7.10136 42.1282 8.09453 43.7573 9.14685 45.2966C11.9769 49.4364 14.7836 52.2639 17.2048 53.0772C20.4341 54.162 32.5911 41.293 51.8033 15.3953C48.3153 11.7136 45.0387 8.80415 41.9794 6.667Z" fill="#EC1C79"></path>
-                <path d="M34.6234 63.213C18.8335 63.213 6.0332 50.4128 6.0332 34.6229C6.0332 18.833 18.8335 6.03271 34.6234 6.03271C50.4133 6.03271 63.2135 18.833 63.2135 34.6229C63.2135 50.4128 50.4133 63.213 34.6234 63.213ZM34.6234 60.5901C48.9647 60.5901 60.5906 48.9642 60.5906 34.6229C60.5906 20.2816 48.9647 8.65567 34.6234 8.65567C20.2821 8.65567 8.65615 20.2816 8.65615 34.6229C8.65615 48.9642 20.2821 60.5901 34.6234 60.5901Z" fill="black"></path>
-                <path d="M34.6235 60.5902C48.9648 60.5902 60.5907 48.9643 60.5907 34.623C60.5907 20.2817 48.9648 8.65576 34.6235 8.65576C20.2822 8.65576 8.65625 20.2817 8.65625 34.623C8.65625 48.9643 20.2822 60.5902 34.6235 60.5902Z" fill="white"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.1988 39.9423L11.7617 29.5869H14.7729L16.5649 35.5357L18.5478 29.5575H21.0008L22.9838 35.5357L24.7758 29.5869H27.7281L24.291 39.9423H21.8087L19.7376 34.0228L17.6812 39.9423H15.1988ZM28.8592 39.8688V29.5869H37.1288V32.0105H31.6794V33.5675H36.6147V35.8148H31.6794V37.4452H37.2022V39.8688H28.8592ZM41.1681 39.8688V32.0839H38.0836V29.5869H47.1023V32.0839H44.0177V39.8688H41.1681ZM48.3508 39.8688V29.5869H51.2004V33.4353H54.8578V29.5869H57.7074V39.8688H54.8578V35.9617H51.2004V39.8688H48.3508Z" fill="black"></path>
-                <path d="M2.49099 26.4941C1.76541 26.1313 1.47131 25.249 1.8341 24.5235C2.19689 23.7979 3.07919 23.5038 3.80478 23.8666L8.0015 25.9649C8.72708 26.3277 9.02118 27.21 8.65839 27.9356C8.2956 28.6612 7.4133 28.9553 6.68772 28.5925L2.49099 26.4941Z" fill="black"></path>
-                <path d="M2.008 33.4527C1.27143 33.1127 0.949898 32.2401 1.28983 31.5035C1.62977 30.7669 2.50244 30.4454 3.23901 30.7853L7.43573 32.7222C8.1723 33.0621 8.49383 33.9348 8.1539 34.6713C7.81396 35.4079 6.94129 35.7294 6.20472 35.3895L2.008 33.4527Z" fill="black"></path>
-              </svg></div>
+          <div id="w-node-_3d5bd089-5b32-24bd-4e50-4a5125edd133-022dc4fc" class="token_cont product">
+            <div class="token_icon_cont"><img src="images/weth-1.svg" loading="lazy" alt="" class="token_icon"></div>
             <div class="token_name">Wrapped ETH</div>
           </div>
-          <div id="w-node-_3d5bd089-5b32-24bd-4e50-4a5125edd137-507f202e" class="token_cont">
-            <div class="token_icon w-embed"><svg viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M31.9887 63.9774C49.6556 63.9774 63.9774 49.6556 63.9774 31.9887C63.9774 14.3218 49.6556 0 31.9887 0C14.3218 0 0 14.3218 0 31.9887C0 49.6556 14.3218 63.9774 31.9887 63.9774Z" fill="#8150E6"></path>
-                <path d="M62.6556 40.6349L40.0806 18.3308L27.2129 15.9153L19.6729 44.3597L38.681 63.1421C50.2168 60.704 59.4725 51.9449 62.6556 40.6349Z" fill="#3C176B"></path>
-                <path d="M29.38 41.8765V24.2906H33.8047C35.2946 24.2906 36.6717 24.4712 37.9133 24.855C39.1549 25.2388 40.2385 25.8257 41.1415 26.6159C41.277 26.7287 41.3899 26.8416 41.5027 26.9545C41.5253 24.5615 40.6675 22.1912 39.4484 20.0465C38.0939 19.6628 36.6943 19.4596 35.272 19.4596H24.5264V41.8314C26.1518 41.8765 27.7546 42.012 29.38 41.8765Z" fill="#6B42BD"></path>
-                <path d="M47.9819 27.8123C47.2143 25.9386 46.1759 24.3809 44.8891 23.1619C43.6023 21.9202 42.1349 20.9947 40.4644 20.4077C40.1258 20.2948 39.7872 20.182 39.4485 20.0691C40.6676 22.2137 41.5254 24.6067 41.5028 26.977C42.2478 27.722 42.7219 30.6342 43.1508 31.7403L29.3575 44.3823V41.8991C27.7321 42.0345 26.1293 41.8991 24.5039 41.8765V49.1908H34.6852C36.3332 49.1908 38.0037 48.8973 39.7194 48.2878C41.4351 47.6783 42.9928 46.7753 44.3924 45.5562C45.7921 44.3372 46.9434 42.7795 47.8238 40.9284C48.7043 39.0546 49.1558 36.8423 49.1558 34.2913C49.1332 31.7178 48.7494 29.6634 47.9819 27.8123Z" fill="#9B74EC"></path>
-                <path d="M28.1385 39.5513C29.651 39.5513 31.0958 39.3707 32.4277 38.9869C33.7822 38.6032 34.9561 38.0162 35.9494 37.2261C36.9427 36.436 37.7328 35.3749 38.3198 34.1107C38.9067 32.824 39.1776 31.2889 39.1776 29.4603C39.1776 27.6543 38.9293 26.2547 38.4101 24.9679C37.8908 23.6811 37.191 22.6201 36.2654 21.83C35.3624 21.0398 34.2788 20.4303 33.0372 20.0691C31.7956 19.6853 30.4185 19.5047 28.9286 19.5047H24.5039V39.5964H28.1385V39.5513ZM19.6729 14.6511H30.4185C32.2245 14.6511 33.9402 14.9446 35.6108 15.5541C37.2813 16.1636 38.7487 17.0892 40.0355 18.3083C41.3222 19.5499 42.3381 21.1076 43.1282 22.9587C43.8958 24.8324 44.2796 26.8868 44.2796 29.4151C44.2796 31.9661 43.8281 34.1785 42.9476 36.0522C42.0672 37.9259 40.9159 39.461 39.5162 40.68C38.1166 41.8991 36.5589 42.8247 34.8432 43.4116C33.1275 44.0211 31.457 44.3146 29.809 44.3146H19.6729V14.6511Z" fill="white"></path>
-              </svg></div>
+          <div class="token_cont product">
+            <div class="token_icon_cont"><img src="images/DPI_token_logo-1.svg" loading="lazy" alt="" class="token_icon"></div>
             <div class="token_name">DPI</div>
           </div>
         </div>
@@ -630,32 +658,32 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         <div class="accordion_maincontainer trigger">
           <div data-w-id="6e826baa-422c-688e-d4d1-6c8353315e9e" class="accordion_container bed">
             <div data-w-id="2ea5f7f9-a09c-2442-73bc-1a203a16ebc7" class="accordion_trigger">
-              <div class="accordion_title">
+              <div class="accordion_title bed">
                 <h3 class="accordion_header">Methodology</h3>
-                <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="accordion_chevron">
+                <div class="accordion_chevron">
                   <div class="chevron w-embed"><svg viewbox="0 0 37 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M1.00909 0.999859L18.3066 17.9704L35.6042 0.99986" stroke="#433BCE" stroke-width="2"></path>
                     </svg></div>
                 </div>
               </div>
-              <div style="height:0px;opacity:0;display:none" class="accordion_content">
+              <div style="display:block" class="accordion_content">
                 <p class="allparagraph2">The BED index is meant to track crypto’s top 3 investable assets.<br></p>
                 <div class="w-layout-grid prodcont_grid3">
-                  <div id="w-node-_1a665236-8d3b-9961-cf8d-34a34d1f4492-507f202e" class="grid_icon">
+                  <div id="w-node-_1a665236-8d3b-9961-cf8d-34a34d1f4492-022dc4fc" class="grid_icon">
                     <div class="check_icon w-embed"><svg viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M14.1667 27V25.224H18.8467V11.736H18.6787L14.4547 15.672L13.2787 14.4L17.7187 10.248H20.8627V25.224H25.1827V27H14.1667Z" fill="#09AA74"></path>
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       </svg></div>
                   </div>
                   <div class="allparagraph2"><span class="text-span">Scope: </span>The index includes the top 3 investable assets with real usage and large capitalizations around the theme of blockchain: BTC, ETH, DeFi (DPI).</div>
-                  <div id="w-node-f40941b5-a44d-866e-5151-667a70b56e31-507f202e" class="grid_icon">
+                  <div id="w-node-f40941b5-a44d-866e-5151-667a70b56e31-022dc4fc" class="grid_icon">
                     <div class="check_icon w-embed"><svg viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M24.8467 27H13.8547V24.936L19.3267 19.896C20.1107 19.176 20.7667 18.416 21.2947 17.616C21.8227 16.8 22.0867 15.984 22.0867 15.168V14.88C22.0867 13.952 21.8307 13.2 21.3187 12.624C20.8067 12.048 20.0307 11.76 18.9907 11.76C18.4787 11.76 18.0307 11.832 17.6467 11.976C17.2627 12.12 16.9267 12.32 16.6387 12.576C16.3667 12.832 16.1347 13.136 15.9427 13.488C15.7667 13.824 15.6227 14.192 15.5107 14.592L13.7107 13.896C13.8707 13.4 14.0867 12.92 14.3587 12.456C14.6467 11.976 14.9987 11.552 15.4147 11.184C15.8467 10.816 16.3587 10.52 16.9507 10.296C17.5587 10.072 18.2707 9.96 19.0867 9.96C19.9027 9.96 20.6307 10.08 21.2707 10.32C21.9107 10.56 22.4467 10.896 22.8787 11.328C23.3107 11.76 23.6387 12.272 23.8627 12.864C24.1027 13.456 24.2227 14.112 24.2227 14.832C24.2227 15.488 24.1267 16.096 23.9347 16.656C23.7587 17.216 23.5107 17.752 23.1907 18.264C22.8707 18.76 22.4787 19.248 22.0147 19.728C21.5667 20.208 21.0787 20.688 20.5507 21.168L16.0387 25.224H24.8467V27Z" fill="#09AA74"></path>
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                       </svg></div>
                   </div>
                   <div class="allparagraph2"><span class="text-span">Weighting: </span>Neutral construction, equal weight</div>
-                  <div id="w-node-a2c5bdf6-18d8-6da3-1e0b-48b5ff311abb-507f202e" class="grid_icon">
+                  <div id="w-node-a2c5bdf6-18d8-6da3-1e0b-48b5ff311abb-022dc4fc" class="grid_icon">
                     <div class="check_icon w-embed"><svg viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M18.3187 17.352C19.4547 17.352 20.3027 17.096 20.8627 16.584C21.4387 16.056 21.7267 15.384 21.7267 14.568V14.4C21.7267 13.52 21.4467 12.864 20.8867 12.432C20.3427 11.984 19.6227 11.76 18.7267 11.76C17.8627 11.76 17.1587 11.952 16.6147 12.336C16.0707 12.704 15.6227 13.208 15.2707 13.848L13.7827 12.696C13.9907 12.36 14.2387 12.032 14.5267 11.712C14.8307 11.376 15.1827 11.08 15.5827 10.824C15.9827 10.568 16.4467 10.36 16.9747 10.2C17.5027 10.04 18.1027 9.96 18.7747 9.96C19.4787 9.96 20.1427 10.056 20.7667 10.248C21.3907 10.424 21.9267 10.696 22.3747 11.064C22.8387 11.416 23.1987 11.856 23.4547 12.384C23.7267 12.912 23.8627 13.512 23.8627 14.184C23.8627 14.728 23.7747 15.216 23.5987 15.648C23.4387 16.08 23.2147 16.456 22.9267 16.776C22.6387 17.096 22.2947 17.368 21.8947 17.592C21.5107 17.816 21.0947 17.984 20.6467 18.096V18.192C21.0947 18.288 21.5267 18.448 21.9427 18.672C22.3747 18.88 22.7507 19.16 23.0707 19.512C23.4067 19.848 23.6707 20.264 23.8627 20.76C24.0707 21.24 24.1747 21.792 24.1747 22.416C24.1747 23.136 24.0387 23.8 23.7667 24.408C23.4947 25 23.1107 25.512 22.6147 25.944C22.1187 26.36 21.5187 26.688 20.8147 26.928C20.1107 27.168 19.3347 27.288 18.4867 27.288C17.7667 27.288 17.1267 27.208 16.5667 27.048C16.0067 26.888 15.5107 26.672 15.0787 26.4C14.6467 26.128 14.2627 25.824 13.9267 25.488C13.6067 25.152 13.3187 24.8 13.0627 24.432L14.5747 23.28C14.7827 23.616 15.0067 23.92 15.2467 24.192C15.5027 24.464 15.7827 24.696 16.0867 24.888C16.3907 25.08 16.7347 25.232 17.1187 25.344C17.5027 25.44 17.9507 25.488 18.4627 25.488C19.6467 25.488 20.5427 25.224 21.1507 24.696C21.7587 24.152 22.0627 23.384 22.0627 22.392V22.2C22.0627 21.208 21.7587 20.448 21.1507 19.92C20.5427 19.376 19.6467 19.104 18.4627 19.104H16.4947V17.352H18.3187Z" fill="#09AA74"></path>
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
@@ -665,21 +693,21 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
                 </div>
                 <p class="allparagraph2">The composition is:<br></p>
                 <div class="w-layout-grid prodcont_grid3">
-                  <div id="w-node-_6cc4884d-2adb-0a16-53c5-5b753eeae3ac-507f202e" class="grid_icon">
+                  <div id="w-node-_6cc4884d-2adb-0a16-53c5-5b753eeae3ac-022dc4fc" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">33.3% Bitcoin</div>
-                  <div id="w-node-_5e32ad4d-6259-83fb-fbec-7e50a1b92f6c-507f202e" class="grid_icon">
+                  <div id="w-node-_5e32ad4d-6259-83fb-fbec-7e50a1b92f6c-022dc4fc" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">33.3% Ether</div>
-                  <div id="w-node-a736b3a9-654c-10b4-38c6-f9a316572b42-507f202e" class="grid_icon">
+                  <div id="w-node-a736b3a9-654c-10b4-38c6-f9a316572b42-022dc4fc" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
@@ -695,7 +723,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         <div class="accordion_maincontainer trigger">
           <div data-w-id="6297e0c0-8a66-0209-9951-9c7404dae610" style="display:block" class="accordion_container">
             <div class="accordion_trigger">
-              <div class="accordion_title">
+              <div class="accordion_title bed">
                 <h1 class="accordion_header">Component Selection</h1>
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="accordion_chevron">
                   <div class="chevron w-embed"><svg viewbox="0 0 37 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -706,21 +734,21 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
               <div style="height:0px;opacity:0;display:none" class="accordion_content">
                 <h4 class="prod_subtitle">Market Requirements<br></h4>
                 <div class="w-layout-grid prodcont_grid3">
-                  <div id="w-node-ede9071e-e7db-2d95-43db-6cb6764ab46d-507f202e" class="grid_icon">
+                  <div id="w-node-ede9071e-e7db-2d95-43db-6cb6764ab46d-022dc4fc" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">The components must have a Large cap valuation $25b+ [If an Index, the corresponding token market caps must have a sum of &gt;$25b].</div>
-                  <div id="w-node-_24e2d068-f719-5532-85eb-67c0f78c6290-507f202e" class="grid_icon">
+                  <div id="w-node-_24e2d068-f719-5532-85eb-67c0f78c6290-022dc4fc" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">The components must show signs of heavy usage either as a network (btc, eth) or smart contract theme (DeFi).</div>
-                  <div id="w-node-_5138236c-930c-8a18-cf79-41621b1da206-507f202e" class="grid_icon">
+                  <div id="w-node-_5138236c-930c-8a18-cf79-41621b1da206-022dc4fc" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
@@ -730,14 +758,14 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
                 </div>
                 <h4 class="prod_subtitle">Safety Requirements<br></h4>
                 <div class="w-layout-grid prodcont_grid2">
-                  <div id="w-node-bf9612bb-d5b3-43a0-7cdd-3a3ea2e818bc-507f202e" class="grid_icon">
+                  <div id="w-node-bf9612bb-d5b3-43a0-7cdd-3a3ea2e818bc-022dc4fc" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
                   <div class="allparagraph2">Assets and themes within the Bankless BED Index should have vast, well-established safety guarantees.<br></div>
-                  <div id="w-node-_0afe609c-305f-50a7-818a-8d0c3503822d-507f202e" class="grid_icon">
+                  <div id="w-node-_0afe609c-305f-50a7-818a-8d0c3503822d-022dc4fc" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
@@ -752,7 +780,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         <div class="accordion_maincontainer trigger bottom">
           <div data-w-id="74e6bd0e-9887-7973-b61d-a73f3e81c831" style="display:block" class="accordion_container">
             <div data-w-id="12e3fc56-d060-89a3-fbb1-f2045bc2c100" class="accordion_trigger">
-              <div class="accordion_title">
+              <div class="accordion_title bed">
                 <h3 class="accordion_header">Index Maintenance</h3>
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="accordion_chevron">
                   <div class="chevron w-embed"><svg viewbox="0 0 37 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -807,12 +835,14 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
               <a href="mvi.html" class="footitem footlink">Metaverse Index</a>
               <a href="eth-2x-fli.html" class="footitem footlink">ETH2x-FLI</a>
               <a href="btc-2x-fli.html" class="footitem footlink">BTC2x-FLI</a>
+              <a href="bankless-bed-index.html" aria-current="page" class="footitem footlink w--current">BED Index</a>
               <a href="index-coop-data-index.html" class="footitem footlink">DATA Index</a>
             </div>
             <div class="resourcesfooter">
               <div class="footlinktitle">Resources</div>
-              <a href="institution.html" class="footitem footlink _1st">For institutions</a>
-              <a href="methodologist.html" class="footitem footlink">For methodologists</a>
+              <a href="methodologist.html" class="footitem footlink _1st">For methodologists</a>
+              <a href="institution.html" class="footitem footlink">For institutions</a>
+              <a href="contributor.html" class="footitem footlink">For contributors</a>
               <a href="https://www.indexcoop.com/news" class="footitem footlink">News</a>
               <a href="https://docs.indexcoop.com/" target="_blank" class="footitem footlink">Docs &amp; Guides</a>
             </div>
@@ -825,8 +855,8 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
             </div>
           </div>
           <div class="div-block-16">
-            <div class="div-block-78"><img src="images/Group.svg" loading="lazy" width="116" alt=""></div>
-            <div class="div-block-79">
+            <div class="index-logo-cont"><img src="images/Group.svg" loading="lazy" width="116" alt=""></div>
+            <div class="icon_wrapper">
               <div class="toggle">
                 <div class="togglethemefooter footer w-embed"><label for="toggleTheme" title="Toggle theme">
                     <input id="toggleTheme" name="theme" type="checkbox">
@@ -840,25 +870,24 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2.4rem;
+    height: 100%;
     border-radius: 8rem;
-    width: 2.4rem;
-    padding: .2rem;
+    width: 100%;
+    padding: 0;
 }
 .toggleThemefooter:before {
     position: absolute;
     content: '';
     height: 2rem;
     width: 2rem;
-    border-radius: 4rem;
-		background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
+		background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
 }
 input[type="checkbox"] {
 	display: none;
 }
 input[type="checkbox"]:checked+.toggleThemefooter:before {
     content: '';
-    background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
+    background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
 }
 </style>
                 </div>
@@ -879,32 +908,6 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script>
-//Start BED DPE API
-fetch('https://api.coingecko.com/api/v3/coins/bankless-bed-index')
-.then(response => response.json())
-.then(data => {
-  console.log(data) // Prints result from `response.json()` in getRequest
-  var currentpricenow = "$"+data.market_data.current_price.usd;
-  var pricechange = data.market_data.price_change_percentage_24h;
-  var marketcap = "$"+ Math.fround(data.market_data.market_cap.usd/1000000).toFixed(2)+"M";
-  var volume = Math.fround(data.market_data.total_volume.usd/1000000).toFixed(2)+"M";
-  var currentsupply = Math.floor(data.market_data.circulating_supply).toLocaleString('en');
-  $(".currentpricenow").append(currentpricenow);
- // $(".pricechange").append(pricechange);
-  $(".marketcap").append(marketcap);
-  $(".volume").append(volume);
-  $(".currentsupply").append(currentsupply);
-  if (pricechange >= 0) {
-    $(".pricechange").append((pricechange).toFixed(2)+"%");
-    $(".pricechange").css({'color':'#09AA74'});
- }
- else {
-    $(".pricechange").append((pricechange).toFixed(2)+"%");
-    $(".pricechange").css({'color':'#C32238'});
- }
-})
-.catch(error => console.error(error))
-//END BED DPE API
 function setThemeFromCookie() {
  const themeState = document.getElementById('content');
  themeState.className = isThemeSelected() ? 'dark-mode' : 'light-mode';
@@ -933,6 +936,32 @@ $('.menu').on('click', function(){
 $('.close').on('click', function(){
   $('body').removeClass('no-scroll');
 });
+</script>
+  <script>
+fetch('https://api.coingecko.com/api/v3/coins/bankless-bed-index')
+.then(response => response.json())
+.then(data => {
+  console.log(data) // Prints result from `response.json()` in getRequest
+  var currentpricenow = "$"+data.market_data.current_price.usd;
+  var pricechange = data.market_data.price_change_percentage_24h;
+  var marketcap = "$"+ Math.fround(data.market_data.market_cap.usd/1000000).toFixed(2)+"M";
+  var volume = Math.fround(data.market_data.total_volume.usd/1000000).toFixed(2)+"M";
+  var currentsupply = Math.floor(data.market_data.circulating_supply).toLocaleString('en');
+  $(".currentpricenow").append(currentpricenow);
+ // $(".pricechange").append(pricechange);
+  $(".marketcap").append(marketcap);
+  $(".volume").append(volume);
+  $(".currentsupply").append(currentsupply);
+  if (pricechange >= 0) {
+    $(".pricechange").append((pricechange).toFixed(2)+"%");
+    $(".pricechange").css({'color':'#09AA74'});
+ }
+ else {
+    $(".pricechange").append((pricechange).toFixed(2)+"%");
+    $(".pricechange").css({'color':'#C32238'});
+ }
+})
+.catch(error => console.error(error))
 </script>
 </body>
 </html>
