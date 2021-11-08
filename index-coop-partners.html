@@ -1,6 +1,6 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Oct 28 2021 22:04:12 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="6142172faa2c1600732e5b4d" data-wf-site="60d237b6ea65be721ff4bbfa">
+<!--  Last Published: Sun Nov 07 2021 17:41:28 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="6187d6120f73f515a42dc506" data-wf-site="60d237b6ea65be721ff4bbfa">
 <head>
   <meta charset="utf-8">
   <title>Index Coop | Partners</title>
@@ -15,163 +15,68 @@
   <script type="text/javascript">WebFont.load({  google: {    families: ["IBM Plex Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic:cyrillic,cyrillic-ext,greek,latin,latin-ext,vietnamese","IBM Plex Mono:regular,500,600"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.ico" rel="apple-touch-icon">
   <style>
-  .mainnavbar {
-  backdrop-filter: blur(5px);
-  }
-  #content.dark-mode .mainnavbar{
-    background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(5px);
-	}
-  #content.dark-mode .nav-link {
-	color: #F7F6F2;
-  }
-  #content.dark-mode .nav-link:hover{
-    border-bottom: 2px solid #F7F6F2;
-  }
-  #content.dark-mode .dropdown-text:hover {
-    border-bottom: 1px solid #F7F6F2;
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-  #content.dark-mode .dropdown-list-2.w--open {
-    background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(5px);
-  }
-  #content.dark-mode .longline {
-    border-buttom: 1px solid #ffffff;
-}
-  #content.dark-mode .indexcooplinks {
-    color: #7289da;
-}
-.indexcooplinks {
-color: #433BCE
-}
-#content.dark-mode a.sell-button.buttons.w-button {
-    color: #09AA74;
-}
- #content.dark-mode a.buy-button.buttons.w-button {
-    color: black;
-  }
- #content.dark-mode .view_link{
-	color:#B9B6FC;
-  }
- #content.dark-mode {
-    background-color: #0F0E0B;
-    color: #F7F6F2;
-}
- #content.dark-mode .allh1, #content.dark-mode .allh2, #content.dark-mode .allh3{
-  color: #F7F6F2;
-}
- #content.dark-mode .prodh3, #content.dark-mode .grid_heading, #content.dark-mode .listtextblock, #content.dark-mode .slider_description{
-  color: #F7F6F2;
-}
- #content.dark-mode a {
-  color: #F7F6F2;
-}
-#content.dark-mode .accordion_header, #content.dark-mode .allparagraph2 {
-  color: #F7F1E4
-  }
-</style>
-  <style>
-.w-slider-dot {
-  background: #C4C4C4;
-}
-.w-slider-dot.w-active {
-  background: #327EE8;
-}
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}  
+.mainnavbar	{
+  	backdrop-filter: blur(5px);
 }
-#content.light-mode {
-  background-color: #ffffff;
-  color: #171717;
+.no-scroll {
+	overflow:hidden;  
 }
-#content.light-mode > .gray_bg{
-  background-color: #f8f8f8;
+input.inputfield::placeholder,
+textarea.inputfield::placeholder{
+	opacity: 0%;  
+}  
+/* 	Light Mode Styles	*/
+/*	Global Light Mode	*/  
+/* 	Dark Mode Styles	*/
+/*	Global Dark Mode	*/
+#content.dark-mode .nav-link {
+	color: #F7F6F2;
 }
-#contant.light-mode a {
-  color: #171717;
+#content.dark-mode .nav-link:hover {
+	border-bottom: 2px solid #F7F6F2;
 }
-#content.light-mode > .svg_icon path {
-  fill: #327EE8;
+#content.dark-mode{
+    background-color: #0F0E0B;
+    color: #F7F6F2;
 }
-#content.dark-mode > .gray_bg{
-  background-color: #1D1B16;
-}
-#content.dark-mode a.w--current {
- color: #707AFF;
-}
-#content.dark-mode > .svg_icon path {
-  fill: #327EE8;
-}
-#content.dark-mode .heroline {
-  border-top: 3px solid #ffffff;
-}
-#content.dark-mode .trigger, .longline {
-  border-top: 1px solid #ffffff;
-}
-#content.dark-mode .index_logo path {
-  fill: #ffffff;
-}
-#content.dark-mode .app-button {
-  border: 2px solid #fff;
-  background-color: transparent;
-}
-#content.dark-mode .nav-link:hover{
-	border-bottom: 1px solid #fff;
-}
-#content.dark-mode .eco-grid {
-	background-color: #0F0E0B;
-} 
-#content.dark-mode .dark_mode_investico{
-	display: block;
-}
-#content.dark-mode .light_mode_investico{
-	display: none;
+#content.dark-mode .accordion_header, #content.dark-mode .allparagraph2 {
+    color: #F7F1E4;
 }
 #content.dark-mode .mainnavbar{
-	background-color: rgba(0,0,0,.8);
+	background-color: rgba(15, 14, 11, 0.8);
 }
-.w-input::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #000000;
-    opacity: .5;
+#content.dark-mode .allh1,
+#content.dark-mode .allh2,
+#content.dark-mode .allh3{
+  	color: #F7F6F2;
 }
-.w-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #000000;
-    opacity: .5;
+#content.dark-mode a {
+  	color: #B9B6FC;
 }
-.w-input::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #000000;
-    opacity: .5;
+#content.dark-mode .gray_bg{
+  	background-color: #1D1B16;
 }
-.w-input:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #000000;
-    opacity: .5;
+#content.dark-mode .app-button {
+  	border: 2px solid #fff;
+  	background-color: transparent;
+  	color: #F7F6F2;
 }
-.no-scroll {overflow:hidden;}
-.w-nav-button.w--open{
-	background-color: transparent;
-}
-#content.dark-mode .w-nav-button.w--open{
-	background-color: black;
-}
-#content.dark-mode .close{
-	color: white;
-}
-#content.dark-mode .menu{
-	color: white;
-}
-#content.dark-mode .nav-menu-2{
-	background-color: black;
+#content.dark-mode .app-button:hover {
+	background-color: #F7F6F2;
+  	color: #000000;
 }
 #content.dark-mode .menu_title .menu_gov{
-	color: white;
+	color: #F7F6F2;
 }
 #content.dark-mode .menu_titlecont{
-  border-bottom: 2px solid #ffffff;
+  	border-bottom: 2px solid #F7F6F2;
 }
 #content.dark-mode .language_icon.black{
 	display: none;
@@ -185,33 +90,206 @@ color: #433BCE
 #content.dark-mode .togglethemefooter {
 	display: block;
 }
-@media screen and (max-width: 991px){
-	#content.dark-mode .stickytoggles {
-		background-color: white;
-	}
-  #content.dark-mode .app-button {
-  	border: 2px solid black;
-    color: black;
-  }
-  #content.dark-mode .toggle-theme2{
-		display: block;
-	}
-	#content.dark-mode .togglethemefooter {
-		display: none;
-	}
-  #content.dark-mode .language_icon.black{
-		display: block;
-	}
-	#content.dark-mode .language_icon.white{
-		display: none;
-	}
+#content.dark-mode .heroline {
+  	border-top: 3px solid #F7F6F2;
 }
-label {
-	margin-bottom: 0px;
+#content.dark-mode .index_logo path {
+  	fill: #F7F6F2;
+}
+#content.dark-mode .dropdown-text:hover {
+    border-bottom: 1px solid #F7F6F2;
+}
+#content.dark-mode .dropdown-list-2.w-dropdown-list.w--open {
+    background: rgba(15, 14, 11, 0.95);
+  	border: 1px solid rgba(247, 246, 242, 0.12);
+}
+#content.dark-mode .eco-grid {
+	background-color: #0F0E0B;
+}
+#content.dark-mode .investors_icons {
+	filter: invert();
+}
+#content.dark-mode .accordion_maincontainer.trigger {
+	border-bottom: 1px solid #F7F6F2;
+  	border-top: 1px solid #F7F6F2;	
+}
+#content.dark-mode .prod_subtitle {
+  	color: #F7F6F2;
+}
+#content.dark-mode a.dropdown-text {
+	color: #F7F6F2;
+}
+#content.dark-mode .view_link {
+	color: #B9B6FC;  
+}
+#content.dark-mode  a.footitem.footlink {
+	color:  #F7F6F2; 
+}
+@media only screen and (max-width: 991px){
+  #content.dark-mode .nav-menu-2{
+      background-color: #0F0E0B;  
+  }
+  #content.dark-mode .close,
+  #content.dark-mode .menu,
+  #content.dark-mode .menu_prods a,
+  #content.dark-mode .menu_gov a{
+      color: #F7F6F2;
+  }
+  #content.dark-mode .stickytoggles {
+      filter: invert();
+  }
+}  
+/*	Home Page	*/
+#content.dark-mode .slider_description {
+  	color: #F7F6F2;
+}
+#content.dark-mode .w-slider-dot.w-active {
+  	background-color: #327EE8;
+}
+#content.dark-mode .prodh3,
+#content.dark-mode .listtextblock,
+#content.dark-mode .grid_heading{
+  	color: #F7F6F2;
+}
+#content.dark-mode .listico._3rd path,
+#content.dark-mode .listico._3rd circle {
+	stroke: #B9B6FC;  
+}
+#content.dark-mode .listico._2nd path,
+#content.dark-mode .listico._2nd circle {
+	stroke: #699BF7;  
+}  
+#content.dark-mode .listico._3rdtrinity path {
+	fill: #B9B6FC;  
+}
+#content.dark-mode .listico.lightmode {
+	display: none;  
+}
+#content.dark-mode .listico.darkmode {
+	display: block;  
+}  
+#content.dark-mode a.social_box.w-button {
+	color: #0F0E0B;  
+}
+/*	About Page	*/
+#content.dark-mode .dark_mode_tria {
+	display: block;  
+}
+#content.dark-mode .lightmode_triangle {
+	display: none;  
+}
+#content.dark-mode .social_box.aboutpage {
+	color: #00b9ff;  
+}
+#content.dark-mode .social_box.discord.aboutpage {
+	color: #7289da;  
+}
+#content.dark-mode .trinity_svg.darkmode {
+    display: block;
+}
+#content.dark-mode .trinity_svg.lightmode {
+    display: none;
+}
+/*	Partners Page	*/
+#content.dark-mode img.ecoprodimg.indexcoop {
+	filter:invert();  
+}
+/*	Institutions Page	*/
+input[type="text"].inputfield::-webkit-input-placeholder {
+	color: #737373;  
+}
+#content.dark-mode .sub_h2,
+#content.dark-mode .eventtable_header,
+#content.dark-mode .fieldtitle {
+	color: #F7F6F2;
+}
+#content.dark-mode .event_line {
+	border-top: 3px solid #F7F6F2;  
+}
+#content.dark-mode .inputfield{
+    background: rgba(221, 221, 221, 0.12);
+    border: none;
+    border-bottom: 3px solid #ffff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+#content.dark-mode .inputfield:hover {
+    border-style: none none solid;
+    border-width: 1px 1px 3px;
+    border-color: #000 #000 #327ee8;
+    background-color: rgba(50, 121, 232, 0.13);
+}
+#content.dark-mode .inputfield:focus {
+    border-style: none none solid;
+    border-width: 0px 0px 3px;
+    border-color: #000 #000 #fabf00;
+    background-color: rgba(250, 191, 0, 0.09);
+}
+#content.dark-mode .inputfield{
+	color: #F7F6F2;  
+}
+@media only screen and (max-width: 991px){
+    input.inputfield::placeholder,
+    textarea.inputfield::placeholder{
+        color: #rgba(0, 0, 0, 0.5) !important;
+        opacity: 100%;  
+    }
+  	#content.dark-mode input.inputfield::placeholder,
+    #content.dark-mode textarea.inputfield::placeholder{
+        color: rgba(247, 246, 242, 0.5) !important;
+        opacity: 100%;  
+    }
+}  
+/*	Methodologist Page	*/
+#content.dark-mode .link_underline {
+  	color: #B9B6FC;
+}
+#content.dark-mode .forum_box {
+	border: 3px solid #F7F6F2;  
+}
+#content.dark-mode .forum_box a {
+  	color: #F7F6F2;
+}
+#content.dark-mode .steps {
+	color: #000000;  
+}
+/*	Products Pages	*/
+#content.dark-mode .prod_icon.index path {
+  	fill: #F7F6F2;
+}
+#content.dark-mode .buy-button.buttons {
+	color: #F7F6F2;
+}
+#content.dark-mode .sell-button.buttons {
+	color: #09AA74;
+}
+#content.dark-mode .token_icon.lightdark {
+	filter: invert();  
+}
+#content.dark-mode .dpi-formula {
+  	filter: invert();
+}
+#content.dark-mode .bg-grey.lightdark,
+#content.dark-mode .allparagraph.quote,
+#content.dark-mode .allparagraph.quote.fli{
+	background-color: #0F0E0B;
+  	color: #F7F6F2;
+}
+/*	Contributors Page	*/  
+#content.dark-mode .flowchart {
+	filter: invert();  
+}
+/*	StyleGuide Page	*/   
+#content.dark-mode .token_textblock {
+	color:  #F7F6F2;
+}
+#content.dark-mode  .index_icon.w-embed path {
+	filter: invert();  
 }
 </style>
 </head>
-<body class="body">
+<body>
   <div id="content" class="light-mode">
     <div data-collapse="medium" data-animation="default" data-duration="600" data-easing="ease" data-easing2="ease" data-doc-height="1" role="banner" class="mainnavbar w-nav">
       <div class="maincontainer nav w-container">
@@ -260,23 +338,6 @@ label {
           </div>
           <div class="menu_container mobilenav">
             <div class="menu_titlecont">
-              <div class="menu_title">Governance</div>
-            </div>
-            <div class="menu_gov">
-              <a href="index-token.html" class="menu_govlink">INDEX Token</a>
-            </div>
-            <div class="menu_gov">
-              <a href="https://snapshot.org/#/index-coop.eth" class="menu_govlink">Voting Portal <span class="text-span-27">snapshot</span></a>
-            </div>
-            <div class="menu_gov">
-              <a href="#" class="menu_govlink">Farm</a>
-            </div>
-            <div class="menu_gov">
-              <a href="#" class="menu_govlink">Rewards</a>
-            </div>
-          </div>
-          <div class="menu_container mobilenav">
-            <div class="menu_titlecont">
               <div class="menu_title">Resources</div>
             </div>
             <div class="menu_gov">
@@ -286,10 +347,13 @@ label {
               <a href="#" class="menu_govlink">Blog</a>
             </div>
             <div class="menu_gov">
-              <a href="methodologist.html" class="menu_govlink">Methodologist</a>
+              <a href="methodologist.html" class="menu_govlink">Methodologists</a>
             </div>
             <div class="menu_gov">
               <a href="institution.html" class="menu_govlink">Institutions</a>
+            </div>
+            <div class="menu_gov">
+              <a href="contributor.html" class="menu_govlink">Contributors</a>
             </div>
           </div>
           <div class="menu_container mobilenav">
@@ -338,9 +402,6 @@ label {
             </div>
           </div>
           <div class="div-block-93">
-            <a href="index.html" class="link-block nav-link w-inline-block">
-              <div>Home</div>
-            </a>
             <div data-delay="3" data-hover="false" class="w-dropdown">
               <div class="dropdown-nav nav-link w-dropdown-toggle">
                 <div>Products</div>
@@ -361,8 +422,9 @@ label {
               <nav class="dropdown-list-2 w-dropdown-list">
                 <a href="https://docs.indexcoop.com/" class="dropdown-text w-dropdown-link">Gitbook</a>
                 <a href="#" class="dropdown-text w-dropdown-link">Blog</a>
-                <a href="methodologist.html" class="dropdown-text w-dropdown-link">Methodologist</a>
+                <a href="methodologist.html" class="dropdown-text w-dropdown-link">Methodologists</a>
                 <a href="institution.html" class="dropdown-text w-dropdown-link">Institutions</a>
+                <a href="contributor.html" class="dropdown-text w-dropdown-link">Contributors</a>
               </nav>
             </div>
             <div data-delay="3" data-hover="false" class="w-dropdown">
@@ -412,25 +474,23 @@ label {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2.4rem;
     border-radius: 8rem;
-    width: 2.4rem;
-    padding: .2rem;
+    height: 100%;
+    width: 100%;
 }
 .toggleTheme:before {
     position: absolute;
     content: '';
     height: 2rem;
     width: 2rem;
-    border-radius: 4rem;
-		background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
+		background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
 }
 input[type="checkbox"] {
 	display: none;
 }
 input[type="checkbox"]:checked+.toggleTheme:before {
     content: '';
-    background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
+    background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="black"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="black"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="black"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="black"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="black"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="black"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="black"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="black"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="black"/%3E%3C/svg%3E%0A');
 }
 </style>
                 </div>
@@ -446,10 +506,9 @@ input[type="checkbox"]:checked+.toggleTheme:before {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2rem;
+    height: 100%;
     border-radius: 8rem;
-    width: 2rem;
-    padding: .2rem;
+    width: 100%;
 }
 .toggleThemefooter:before {
     position: absolute;
@@ -513,138 +572,168 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
       <div class="maincontainer w-container">
         <h3 class="allh3 patners">Decentralized Exhanges</h3>
         <div class="w-layout-grid maingrid dex">
-          <div class="eco-grid uniswap">
-            <div class="product-title"><img src="images/uni-1.svg" loading="lazy" width="64" alt="" class="ecoprodimg">
-              <h3 class="prodh3">Uniswap</h3>
+          <div id="w-node-_83c2c822-3471-87a8-3516-36be226e7440-a42dc506" class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/uni-1.svg" loading="lazy" alt="" class="ecoprodimg">
+                <h3 class="prodh3">Uniswap</h3>
+              </div>
+              <p class="allparagraph grid">Trade DeFi Pulse Index and the Index Coop governance token on crypto&#x27;s biggest DEX.</p>
+              <a href="https://app.uniswap.org/" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Website</div>
+              </a>
             </div>
-            <p class="allparagraph">Trade DeFi Pulse Index and the Index Coop governance token on crypto&#x27;s biggest DEX.</p>
-            <a href="https://app.uniswap.org/" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Website</div>
-            </a>
+            <div class="bottom_box"></div>
           </div>
-          <div class="eco-grid _1inch">
-            <div class="product-title"><img src="images/1inch-seeklogo.com.svg" loading="lazy" width="64" alt="" class="ecoprodimg">
-              <h3 class="prodh3">1inch</h3>
+          <div class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/1inch-seeklogo.com.svg" loading="lazy" alt="" class="ecoprodimg">
+                <h3 class="prodh3">1inch</h3>
+              </div>
+              <p class="allparagraph grid">Trade the DeFi Pulse Index and Index Coop governance token on the 1inch DEX aggregator.</p>
+              <a href="https://app.1inch.io/#/1/swap/ETH/INDEX" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">View the Pool</div>
+              </a>
             </div>
-            <p class="allparagraph">Trade the DeFi Pulse Index and Index Coop governance token on the 1inch DEX aggregator.</p>
-            <a href="https://app.1inch.io/#/1/swap/ETH/INDEX" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">View the Pool</div>
-            </a>
+            <div class="bottom_box _29b1fe"></div>
           </div>
-          <div class="eco-grid sushiswap">
-            <div class="product-title"><img src="images/sushiswap-sushi-logo-1.svg" loading="lazy" width="64" alt="" class="ecoprodimg">
-              <h3 class="prodh3">SushiSwap</h3>
+          <div class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/sushiswap-sushi-logo-1.svg" loading="lazy" alt="" class="ecoprodimg">
+                <h3 class="prodh3">SushiSwap</h3>
+              </div>
+              <p class="allparagraph grid">Trade DeFi Pulse Index and the Index Coop governance token on one of crypto&#x27;s leading DEXs.</p>
+              <a href="https://app.sushi.com/" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">View the Pool</div>
+              </a>
             </div>
-            <p class="allparagraph">Trade DeFi Pulse Index and the Index Coop governance token on one of crypto&#x27;s leading DEXs.</p>
-            <a href="https://app.sushi.com/" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">View the Pool</div>
-            </a>
+            <div class="bottom_box f9c73f"></div>
           </div>
         </div>
         <h3 class="allh3 patners">Wallets</h3>
         <div class="w-layout-grid maingrid">
-          <div class="eco-grid wallets zerion margin_partners">
-            <div class="product-title"><img src="images/Zerion.svg" loading="lazy" width="45" alt="" class="ecoprodimg">
-              <h3 class="prodh3">Zerion</h3>
+          <div class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/Zerion.svg" loading="lazy" alt="" class="ecoprodimg">
+                <h3 class="prodh3">Zerion</h3>
+              </div>
+              <p class="allparagraph grid">Track your portfolio performance and buy DeFi Pulse Index in the Zerion app for Desktop, Android &amp; iOS.</p>
+              <a href="https://app.zerion.io/" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore Zerion</div>
+              </a>
             </div>
-            <p class="allparagraph">Track your portfolio performance and buy DeFi Pulse Index in the Zerion app for Desktop, Android &amp; iOS.</p>
-            <a href="https://app.zerion.io/" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore Zerion</div>
-            </a>
+            <div class="bottom_box _343992"></div>
           </div>
-          <div class="eco-grid wallets argent margin_partners">
-            <div class="product-title"><img src="images/Argent.svg" loading="lazy" width="45" alt="" class="ecoprodimg">
-              <h3 class="prodh3">Argent</h3>
+          <div class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/Argent.svg" loading="lazy" alt="" class="ecoprodimg">
+                <h3 class="prodh3">Argent</h3>
+              </div>
+              <p class="allparagraph grid">Buy &amp; Sell the DeFi Pulse Index natively in the Argent wallet app for Android &amp; iOS.</p>
+              <a href="https://www.argent.xyz/" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore Argent</div>
+              </a>
             </div>
-            <p class="allparagraph">Buy &amp; Sell the DeFi Pulse Index natively in the Argent wallet app for Android &amp; iOS.</p>
-            <a href="https://www.argent.xyz/" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore Argent</div>
-            </a>
+            <div class="bottom_box ff8054"></div>
           </div>
-          <div class="eco-grid wallets dharma margin_partners">
-            <div class="product-title"><img src="images/Dharma.svg" loading="lazy" width="45" alt="" class="ecoprodimg">
-              <h3 class="prodh3">Dharma</h3>
+          <div class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/Dharma.svg" loading="lazy" alt="" class="ecoprodimg">
+                <h3 class="prodh3">Dharma</h3>
+              </div>
+              <p class="allparagraph grid">Get exposure to DeFi Pulse Index with this easy to use crypto wallet for Android &amp; iOS.</p>
+              <a href="https://www.dharma.io/" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore Dharma</div>
+              </a>
             </div>
-            <p class="allparagraph">Get exposure to DeFi Pulse Index with this easy to use crypto wallet for Android &amp; iOS.</p>
-            <a href="https://www.dharma.io/" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore Dharma</div>
-            </a>
+            <div class="bottom_box c2b1d2"></div>
           </div>
-          <div class="eco-grid wallets metamask">
-            <div class="product-title"><img src="images/image-100.svg" loading="lazy" width="55" alt="" class="ecoprodimg">
-              <h3 class="prodh3">MetaMask</h3>
+          <div class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/image-100.svg" loading="lazy" alt="" class="ecoprodimg">
+                <h3 class="prodh3">MetaMask</h3>
+              </div>
+              <p class="allparagraph grid">A crypto wallet &amp; gateway to blockchain apps</p>
+              <a href="https://metamask.io/" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore MetaMask</div>
+              </a>
             </div>
-            <p class="allparagraph">A crypto wallet &amp; gateway to blockchain apps</p>
-            <a href="https://metamask.io/" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore MetaMask</div>
-            </a>
+            <div class="bottom_box da7e30"></div>
           </div>
-          <div class="eco-grid wallets trust-wallet">
-            <div class="product-title"><img src="images/image-101.svg" loading="lazy" width="45" alt="" class="ecoprodimg">
-              <h3 class="prodh3">Trust Wallet</h3>
+          <div class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/image-101.svg" loading="lazy" alt="" class="ecoprodimg">
+                <h3 class="prodh3">Trust Wallet</h3>
+              </div>
+              <p class="allparagraph grid">Buy, store, collect NFTs, exchange &amp; earn crypto. Join 10 million+ people using Trust Wallet.</p>
+              <a href="https://trustwallet.com/" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore Trust Wallet</div>
+              </a>
             </div>
-            <p class="allparagraph">Buy, store, collect NFTs, exchange &amp; earn crypto. Join 10 million+ people using Trust Wallet.</p>
-            <a href="https://trustwallet.com/" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore Trust Wallet</div>
-            </a>
+            <div class="bottom_box _3375bb"></div>
           </div>
-          <div id="w-node-_269694d3-3888-3dc2-81f0-e0f48897e567-732e5b4d" class="eco-grid wallets dharma margin_partners">
-            <div id="w-node-_269694d3-3888-3dc2-81f0-e0f48897e568-732e5b4d" class="product-title rainbow"><img src="images/image-103.svg" loading="lazy" width="96" alt="" class="ecoprodimg rainbow">
-              <h3 class="prodh3 rainbow">Rainbow</h3>
+          <div id="w-node-_269694d3-3888-3dc2-81f0-e0f48897e567-a42dc506" class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title rainbow"><img src="images/rainbow-logo.9852e0a7.png" loading="lazy" alt="" class="ecoprodimg rainbow">
+                <h3 class="prodh3 rainbow">Rainbow</h3>
+              </div>
+              <p class="allparagraph grid">Explore the new world of Ethereum 🪐 🖼 ✨</p>
+              <a href="https://rainbow.me/" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore Rainbow</div>
+              </a>
             </div>
-            <p class="allparagraph rainbow">Explore the new world of Ethereum 🪐 🖼 ✨</p>
-            <a href="https://rainbow.me/" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore Rainbow</div>
-            </a>
+            <div class="bottom_box _133c8e"></div>
           </div>
-          <div class="eco-grid wallets status">
-            <div class="product-title"><img src="images/status-snt-logo.svg" loading="lazy" width="54" alt="" class="ecoprodimg">
-              <h3 class="prodh3">Status</h3>
+          <div class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/status-snt-logo.svg" loading="lazy" alt="" class="ecoprodimg">
+                <h3 class="prodh3">Status</h3>
+              </div>
+              <p class="allparagraph grid">Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology.</p>
+              <a href="https://status.im/" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore Status</div>
+              </a>
             </div>
-            <p class="allparagraph">Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology.</p>
-            <a href="https://status.im/" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore Status</div>
-            </a>
+            <div class="bottom_box _7086e4"></div>
           </div>
         </div>
       </div>
@@ -653,9 +742,9 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
       <div class="maincontainer w-container">
         <h2 class="allh2 investors_head">Methodologists</h2>
         <div class="companies partners">
-          <div class="partner-logos"><img src="images/image-80.svg" loading="lazy" width="226" alt="" class="light_mode_investico"><img src="images/Group-185.png" loading="lazy" width="226" alt="" class="dark_mode_investico"></div>
-          <div class="partner-logos"><img src="images/DeFi_Pulse_logo-1.svg" loading="lazy" width="226" alt="" class="light_mode_investico"><img src="images/Defi-Pulse-Logo---White.png" loading="lazy" width="226" alt="" class="dark_mode_investico"></div>
-          <div class="partner-logos"><img src="images/Vector.svg" loading="lazy" width="227" alt="" class="light_mode_investico"><img src="images/Coinshares-white.png" loading="lazy" width="227" alt="" class="dark_mode_investico"></div>
+          <div class="investors_logo"><img src="images/image-80.svg" loading="lazy" alt="" class="investors_icons"></div>
+          <div class="investors_logo"><img src="images/DeFi_Pulse_logo-1.svg" loading="lazy" alt="" class="investors_icons"></div>
+          <div id="w-node-a6999b73-77a4-728b-c9c8-274b90c176bb-a42dc506" class="investors_logo"><img src="images/Vector.svg" loading="lazy" alt="" class="investors_icons"></div>
         </div>
       </div>
     </div>
@@ -663,57 +752,69 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
       <div class="maincontainer w-container">
         <h3 class="allh3 patners">Yield and Lending</h3>
         <div class="w-layout-grid maingrid dex">
-          <div class="eco-grid compound">
-            <div class="product-title"><img src="images/compound-comp-logo.svg" loading="lazy" width="64" alt="" class="ecoprodimg">
-              <h3 class="prodh3">Compound</h3>
+          <div class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/compound-comp-logo.svg" loading="lazy" width="64" alt="" class="ecoprodimg">
+                <h3 class="prodh3">Compound</h3>
+              </div>
+              <p class="allparagraph grid">Compound is an algorithmic, autonomous interest rate protocol built for developers, to unlock a universe of open financial applications.</p>
+              <a href="https://compound.finance/" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore Compound</div>
+              </a>
             </div>
-            <p class="allparagraph">Compound is an algorithmic, autonomous interest rate protocol built for developers, to unlock a universe of open financial applications.</p>
-            <a href="https://compound.finance/" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore Compound</div>
-            </a>
+            <div class="bottom_box _3fdbad"></div>
           </div>
-          <div class="eco-grid cream">
-            <div class="product-title"><img src="images/cream-finance-cream-logo-1.svg" loading="lazy" width="64" alt="" class="ecoprodimg">
-              <h3 class="prodh3">Cream</h3>
+          <div class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/cream-finance-cream-logo-1.svg" loading="lazy" width="64" alt="" class="ecoprodimg">
+                <h3 class="prodh3">Cream</h3>
+              </div>
+              <p class="allparagraph grid">Trade the DeFi Pulse Index and Index Coop governance token on the 1inch DEX aggregator.</p>
+              <a href="https://app.cream.finance/" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore Cream</div>
+              </a>
             </div>
-            <p class="allparagraph">Trade the DeFi Pulse Index and Index Coop governance token on the 1inch DEX aggregator.</p>
-            <a href="https://app.cream.finance/" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore Cream</div>
-            </a>
+            <div class="bottom_box _47e8e2"></div>
           </div>
-          <div id="w-node-_0e019a8c-8bc2-4784-5e2b-2b3c863339e9-732e5b4d" class="eco-grid alpha margin_partners">
-            <div class="product-title"><img src="images/image-23.svg" loading="lazy" width="54" alpha_homora="Alpha_Homora" alt="" class="ecoprodimg">
-              <h3 class="prodh3 alphahomora">Alpha Homora</h3>
+          <div id="w-node-_0e019a8c-8bc2-4784-5e2b-2b3c863339e9-a42dc506" class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/image-23.svg" loading="lazy" width="54" alpha_homora="Alpha_Homora" alt="" class="ecoprodimg">
+                <h3 class="prodh3 alphahomora">Alpha Homora</h3>
+              </div>
+              <p class="allparagraph grid">Earn leveraged yield in the ETH/DPI Pool by Alpha Homora.</p>
+              <a href="https://homora.alphafinance.io/" target="_blank" class="learnmore partners_btn w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore Alpha Homora</div>
+              </a>
             </div>
-            <p class="allparagraph">Earn leveraged yield in the ETH/DPI Pool by Alpha Homora.</p>
-            <a href="https://homora.alphafinance.io/" target="_blank" class="learnmore partners_btn w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore Alpha Homora</div>
-            </a>
+            <div class="bottom_box _29b2ff"></div>
           </div>
-          <div id="w-node-_0e019a8c-8bc2-4784-5e2b-2b3c863339f4-732e5b4d" class="eco-grid moon margin_partners">
-            <div class="product-title"><img src="images/moonswap-1.svg" loading="lazy" width="45" alt="" class="ecoprodimg">
-              <h3 class="prodh3">Moonswap</h3>
+          <div id="w-node-_0e019a8c-8bc2-4784-5e2b-2b3c863339f4-a42dc506" class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/moonswap-1.svg" loading="lazy" width="45" alt="" class="ecoprodimg">
+                <h3 class="prodh3">Moonswap</h3>
+              </div>
+              <p class="allparagraph grid">Earn yield by providing liquidity to the ETH/DPI Pool by Moonswap.</p>
+              <a href="https://farm.moonswap.fi/eth/farms/DPI-ETH%20UNI-V2%20LP" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore Moonswap</div>
+              </a>
             </div>
-            <p class="allparagraph moonswap">Earn yield by providing liquidity to the ETH/DPI Pool by Moonswap.</p>
-            <a href="https://farm.moonswap.fi/eth/farms/DPI-ETH%20UNI-V2%20LP" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore Moonswap</div>
-            </a>
+            <div class="bottom_box fbb700"></div>
           </div>
         </div>
       </div>
@@ -722,31 +823,37 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
       <div class="maincontainer w-container">
         <h3 class="allh3 patners">Governance</h3>
         <div class="w-layout-grid maingrid dex">
-          <div id="w-node-db4e6b7e-38f8-aebc-cc82-b26329814c64-732e5b4d" class="eco-grid snapshot">
-            <div class="product-title"><img src="images/snapshot-logo.jpeg" loading="lazy" width="54" alt="" class="ecoprodimg">
-              <h3 class="prodh3 snapshot">Snapshot</h3>
+          <div id="w-node-db4e6b7e-38f8-aebc-cc82-b26329814c64-a42dc506" class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/snapshot-logo.jpeg" loading="lazy" width="54" alt="" class="ecoprodimg">
+                <h3 class="prodh3 snapshot">Snapshot</h3>
+              </div>
+              <p class="allparagraph grid">Snapshot is a decentralized voting system. It provides flexibility on how voting power is calculated for vote.</p>
+              <a href="https://snapshot.org/#/index-coop.eth" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore Snapshot</div>
+              </a>
             </div>
-            <p class="allparagraph snapshot">Snapshot is a decentralized voting system. It provides flexibility on how voting power is calculated for vote.</p>
-            <a href="https://snapshot.org/#/index-coop.eth" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore Snapshot</div>
-            </a>
+            <div class="bottom_box fbbe64"></div>
           </div>
-          <div class="eco-grid index-forum">
-            <div class="product-title"><img src="images/Index-owl-Web.png" loading="lazy" width="64" alt="" class="ecoprodimg light_mode_investico"><img src="images/Index-coop-logo-web-light.png" loading="lazy" width="64" alt="" class="ecoprodimg dark_mode_investico">
-              <h3 class="prodh3">Index Forum</h3>
+          <div class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/Index-owl-Web.png" loading="lazy" alt="" class="ecoprodimg indexcoop">
+                <h3 class="prodh3">Index Forum</h3>
+              </div>
+              <p class="allparagraph grid">Discuss and update Index Coop culture, processes, &amp; meetings.</p>
+              <a href="https://gov.indexcoop.com/" class="learnmore partners_btn w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore Index Forum</div>
+              </a>
             </div>
-            <p class="allparagraph"><br>Discuss and update Index Coop culture, processes, &amp; meetings.</p>
-            <a href="https://gov.indexcoop.com/" class="learnmore partners_btn w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore Index Forum</div>
-            </a>
+            <div class="bottom_box"></div>
           </div>
         </div>
       </div>
@@ -754,27 +861,12 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
     <div class="investors gray_bg margin wf-section">
       <div class="maincontainer w-container">
         <h2 class="allh2 investors_head">Investors</h2>
-        <div class="companies partners partners-width">
-          <div class="partner-logos"><img src="images/1confirmation_alt_black.svg" loading="lazy" alt="" class="light_mode_investico">
-            <div class="dark_mode_investico w-embed"><svg width="182" height="46" viewbox="0 0 181 45" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <rect width="180.804" height="45" fill="url(#pattern0)"></rect>
-                <defs>
-                  <pattern id="pattern0" patterncontentunits="objectBoundingBox" width="1" height="1">
-                    <use xlink:href="#image0" transform="scale(0.00222222 0.00892857)"></use>
-                  </pattern>
-                  <image id="image0" width="450" height="112" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcIAAABwCAYAAACNbXCPAAAACXBIWXMAAAsTAAALEwEAmpwYAAAF92lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDYgNzkuMTY0NzUzLCAyMDIxLzAyLzE1LTExOjUyOjEzICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMyAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMjEtMDctMTFUMTM6MjM6MjErMDI6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDIxLTA3LTExVDEzOjI3OjQ0KzAyOjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDIxLTA3LTExVDEzOjI3OjQ0KzAyOjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmNlZTE4MjlkLTg1NjAtNDZjNi1iNjFiLWQxYzcxZDM1YTRkZiIgeG1wTU06RG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjgzN2FlNmE4LTVlZTEtNTc0YS05N2Y0LThjYjZiMzlhYWFlNyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjBlZTM5YjQ3LTI1YmQtNDk0NC05NmI2LWRhNzE3ZmJiZjUyYiI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6MGVlMzliNDctMjViZC00OTQ0LTk2YjYtZGE3MTdmYmJmNTJiIiBzdEV2dDp3aGVuPSIyMDIxLTA3LTExVDEzOjIzOjIxKzAyOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjIuMyAoTWFjaW50b3NoKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6Y2VlMTgyOWQtODU2MC00NmM2LWI2MWItZDFjNzFkMzVhNGRmIiBzdEV2dDp3aGVuPSIyMDIxLTA3LTExVDEzOjI3OjQ0KzAyOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjIuMyAoTWFjaW50b3NoKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7wT6z1AAATeklEQVR4nO2de6wdx13HP9f34sSuU/Jo8IlIKNC610klKBSJNLGBJm0K4RFbKIW4EkodSmkQCCi1XUFTFKA0MSoP0UJQ46pqSfgDiAmiiJaUNnXqVEIQBORJISUF38gOJcSNU9vXyx+/c3L37t3dmdmdfZyz3490dc85szvz29mZ+c3jN7+ZS5JkGUgw5jKfGX/P/j75TOZaMmGu+7LplMWVvadIhqJ78u4resa86+cy1+Wllxd/UXpF1/hwMbAUeI8QQogcFoB1XQsh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">
-                </image></defs>
-              </svg></div>
-          </div>
-          <div class="partner-logos"><img src="images/galaxy_digital_Logo-White-1.svg" loading="lazy" alt="" class="light_mode_investico"><img src="images/galaxy_digital_Logo-White-1.png" loading="lazy" sizes="100vw" srcset="images/galaxy_digital_Logo-White-1-p-500.png 500w, images/galaxy_digital_Logo-White-1.png 720w" alt="" class="dark_mode_investico"></div>
-          <div class="partner-logos"><img src="images/1kx_network-1.svg" loading="lazy" alt="" class="light_mode_investico">
-            <div class="dark_mode_investico w-embed"><svg width="105" height="53" viewbox="0 0 105 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M44.8443 48.6278C44.8443 33.6428 44.8443 18.9678 44.8443 4.00755C44.0584 4.00755 43.3313 4.01518 42.6045 4.00567C41.6222 3.99283 40.6384 3.99492 39.6582 3.9387C38.6443 3.88055 38.0285 3.32289 38.0277 2.28767C38.027 1.3408 38.5943 0.712288 39.5212 0.694903C42.3941 0.641085 45.2687 0.675231 48.3169 0.675231C48.3169 11.1441 48.3169 21.4704 48.3169 31.7967C48.4423 31.8766 48.5676 31.9566 48.6929 32.0365C53.3029 28.1749 57.913 24.3133 62.7855 20.2318C62.0397 20.1496 61.6234 20.102 61.2067 20.058C59.829 19.9127 59.0596 19.2704 59.0544 18.2595C59.0491 17.2057 59.7554 16.6019 61.2413 16.5844C64.5947 16.5448 67.9488 16.5673 71.3026 16.5677C73.0372 16.5679 74.773 16.5371 76.5061 16.5906C77.9021 16.6336 78.5503 17.1717 78.6066 18.1664C78.6666 19.2271 77.965 19.9228 76.5514 20.0174C75.3486 20.098 74.1362 20.0341 72.928 20.0341C72.8524 20.1576 72.7769 20.2812 72.7013 20.4047C76.3907 23.9594 80.08 27.514 83.9036 31.198C87.725 27.5297 91.4094 23.993 95.0938 20.4562C95.0533 20.3228 95.0129 20.1894 94.9726 20.0559C94.0852 20.0559 93.1978 20.0618 92.3105 20.0535C91.8487 20.0492 91.3794 20.067 90.9271 19.9922C89.802 19.8062 89.1091 19.0914 89.1331 18.2099C89.1579 17.301 89.8249 16.6344 91.0526 16.6125C94.4049 16.5525 97.7592 16.5683 101.112 16.597C102.124 16.6057 102.938 17.0262 103.059 18.1708C103.152 19.0532 102.463 19.7545 101.328 19.9845C100.934 20.0643 100.529 20.0883 100.04 20.1488C95.5259 24.5306 90.9736 28.9492 86.3085 33.4774C91.5249 38.5405 96.6561 43.5209 101.816 48.5296C102.334 48.5738 102.846 48.6176 103.359 48.6612C104.342 48.7448 104.803 49.3806 104.862 50.2679C104.924 51.2007 104.389 51.7919 103.482 51.9891C103.092 52.0741 102.679 52.0794 102.276 52.0801C98.8063 52.0864 95.3368 52.0842 91.8673 52.0816C91.5786 52.0814 91.2864 52.0843 91.002 52.0434C89.8864 51.8825 89.1929 51.1809 89.2837 50.2426C89.3827 49.2195 90.0336 48.6881 91.0237 48.6596C92.6413 48.6129 94.2609 48.6377 95.8796 48.6226C96.148 48.6201 96.4158 48.5684 97.0916 48.4955C92.5977 44.1527 88.3448 40.0427 83.915 35.7619C79.6394 39.8632 75.4585 43.8736 70.9436 48.2044C71.8651 48.406 72.3664 48.5914 72.8745 48.6119C74.1447 48.6631 75.4198 48.5987 76.6893 48.6581C77.8289 48.7115 78.522 49.3808 78.5425 50.3084C78.5628 51.2267 77.8548 52.0238 76.762 52.0359C72.5995 52.082 68.4359 52.0826 64.2734 52.0409C63.1236 52.0294 62.4258 51.3257 62.3819 50.4089C62.3343 49.4114 63.0353 48.7754 64.3064 48.6356C64.9566 48.564 65.603 48.4581 66.2511 48.3677C66.3084 48.2258 66.3658 48.084 66.4231 47.9422C61.7759 43.1665 57.1288 38.3909 52.3211 33.4503C50.9872 34.5573 49.7201 35.6087 48.3662 36.7323C48.3662 41.7563 48.3662 46.7699 48.3662 51.9745C47.6164 52.0162 47.0085 52.0763 46.4004 52.079C44.3188 52.0883 42.2364 52.1091 40.1556 52.0633C38.7582 52.0326 38.0121 51.3688 38.0211 50.3121C38.0301 49.2517 38.7411 48.6733 40.2059 48.6363C41.6957 48.5985 43.1872 48.6278 44.8443 48.6278ZM81.507 33.4748C76.8839 29.0394 72.4357 24.7718 67.8889 20.4096C63.5108 24.0725 59.2373 27.6479 54.8736 31.2987C59.6057 36.1299 64.1948 40.815 68.8681 45.5861C73.1156 41.5159 77.2382 37.5654 81.507 33.4748Z" fill="#F7F6F2"></path>
-                <path d="M18.4091 48.6273C22.3301 48.6273 25.9037 48.6239 29.4773 48.6307C30.0535 48.6317 30.6411 48.6153 31.2032 48.718C32.0425 48.8714 32.5085 49.4388 32.5249 50.2987C32.5412 51.1543 32.105 51.7478 31.2793 51.9514C30.783 52.0737 30.2493 52.0777 29.7324 52.0781C21.0073 52.0852 12.2823 52.0834 3.55724 52.083C3.32618 52.083 3.09394 52.0907 2.86426 52.0711C1.59055 51.9624 0.894138 51.3393 0.904409 50.3277C0.914819 49.301 1.59506 48.6587 2.89414 48.644C6.24506 48.6062 9.59663 48.6285 12.948 48.6268C13.5682 48.6265 14.1885 48.6268 14.9128 48.6268C14.9128 33.9621 14.9128 19.4867 14.9128 4.78959C14.2202 4.96596 13.6197 5.08984 13.0376 5.27205C10.1174 6.18603 7.20196 7.11535 4.28479 8.03898C3.95525 8.14332 3.63143 8.27906 3.29412 8.34294C2.08821 8.57133 1.21955 8.09984 0.972905 7.1108C0.75475 6.236 1.26372 5.37969 2.3479 5.01076C4.04081 4.43468 5.75909 3.93338 7.46509 3.39564C10.7674 2.35473 14.0682 1.30956 17.3708 0.269511C17.6347 0.186406 17.9068 0.129394 18.409 0C18.4091 16.226 18.4091 32.3038 18.4091 48.6273Z" fill="#F7F6F2"></path>
-              </svg></div>
-          </div>
-          <div class="partner-logos"><img src="images/defiance-capital-logo_black.svg" loading="lazy" alt="" class="light_mode_investico"><img src="images/defiance-capital-logo_white-2.png" loading="lazy" sizes="100vw" srcset="images/defiance-capital-logo_white-2-p-500.png 500w, images/defiance-capital-logo_white-2.png 684w" alt="" class="dark_mode_investico"></div>
-          <div class="partner-logos"><img src="images/witnermute-1.svg" loading="lazy" alt="" class="light_mode_investico"><img src="images/witnermute-1.png" loading="lazy" sizes="100vw" srcset="images/witnermute-1-p-500.png 500w, images/witnermute-1.png 796w" alt="" class="dark_mode_investico"></div>
+        <div class="companies investors_grid">
+          <div class="investors_logo"><img src="images/1confirmation_alt_black.svg" loading="lazy" alt="" class="investors_icons"></div>
+          <div class="investors_logo"><img src="images/galaxy_digital_Logo-White-1.svg" loading="lazy" alt="" class="investors_icons"></div>
+          <div class="investors_logo"><img src="images/1kx_network-1.svg" loading="lazy" alt="" class="investors_icons"></div>
+          <div class="investors_logo"><img src="images/defiance-capital-logo_black.svg" loading="lazy" alt="" class="investors_icons"></div>
+          <div class="investors_logo"><img src="images/witnermute-1.svg" loading="lazy" alt="" class="investors_icons"></div>
         </div>
       </div>
     </div>
@@ -782,31 +874,37 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
       <div class="maincontainer w-container">
         <h3 class="allh3 patners">Infrastructure</h3>
         <div class="w-layout-grid maingrid dex">
-          <div id="w-node-_537741e4-0afa-da38-d3a4-52be93212500-732e5b4d" class="eco-grid balancer">
-            <div class="product-title"><img src="images/balancer-bal-logo.svg" loading="lazy" width="54" alt="" class="ecoprodimg">
-              <h3 class="prodh3 snapshot">Balancer</h3>
+          <div id="w-node-_537741e4-0afa-da38-d3a4-52be93212500-a42dc506" class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/balancer-bal-logo.svg" loading="lazy" width="54" alt="" class="ecoprodimg">
+                <h3 class="prodh3 snapshot">Balancer</h3>
+              </div>
+              <p class="allparagraph grid">Trade the DeFi Pulse Index and the Index Coop governance token on multiple Balancer pools.</p>
+              <a href="https://pools.balancer.exchange/#/explore" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore Balancer</div>
+              </a>
             </div>
-            <p class="allparagraph snapshot">Trade the DeFi Pulse Index and the Index Coop governance token on multiple Balancer pools.</p>
-            <a href="https://pools.balancer.exchange/#/explore" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore Balancer</div>
-            </a>
+            <div class="bottom_box"></div>
           </div>
-          <div class="eco-grid tokensets">
-            <div class="product-title"><img src="images/set-logo-icon-color.svg" loading="lazy" width="64" alt="" class="ecoprodimg">
-              <h3 class="prodh3 tokensets">TokenSets</h3>
+          <div class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/set-logo-icon-color.svg" loading="lazy" width="64" alt="" class="ecoprodimg">
+                <h3 class="prodh3 tokensets">TokenSets</h3>
+              </div>
+              <p class="allparagraph grid">Use Set&#x27;s battle-tested asset management tools and infrastructure to easily manage your crypto portfolios.</p>
+              <a href="https://www.tokensets.com/" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore Token Sets</div>
+              </a>
             </div>
-            <p class="allparagraph">Use Set&#x27;s battle-tested asset management tools and infrastructure to easily manage your crypto portfolios.</p>
-            <a href="https://www.tokensets.com/" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore Token Sets</div>
-            </a>
+            <div class="bottom_box _876cfb"></div>
           </div>
         </div>
       </div>
@@ -815,44 +913,53 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
       <div class="maincontainer w-container">
         <h3 class="allh3 patners">Price &amp; Analytics</h3>
         <div class="w-layout-grid maingrid dex">
-          <div id="w-node-_81016414-cc7c-0f0d-4057-73d1424d39ab-732e5b4d" class="eco-grid dune-analytics">
-            <div class="product-title"><img src="images/dune-analytics.png" loading="lazy" width="54" alt="" class="ecoprodimg">
-              <h3 class="prodh3 snapshot">Dune Analytics</h3>
+          <div id="w-node-_81016414-cc7c-0f0d-4057-73d1424d39ab-a42dc506" class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/dune-analytics.png" loading="lazy" width="54" alt="" class="ecoprodimg">
+                <h3 class="prodh3 snapshot">Dune Analytics</h3>
+              </div>
+              <p class="allparagraph grid">View our dashboard tracking DPI distribution, DEX liquidity, total mint &amp; redeem volume, and more.</p>
+              <a href="https://dune.xyz/rlg195/index-coop-community" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore Dune</div>
+              </a>
             </div>
-            <p class="allparagraph snapshot">View our dashboard tracking DPI distribution, DEX liquidity, total mint &amp; redeem volume, and more.</p>
-            <a href="https://dune.xyz/rlg195/index-coop-community" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore Dune</div>
-            </a>
+            <div class="bottom_box ff532f"></div>
           </div>
-          <div class="eco-grid coingecko">
-            <div id="w-node-_81016414-cc7c-0f0d-4057-73d1424d39b7-732e5b4d" class="product-title"><img src="images/CoinGecko-Logo.svg" loading="lazy" width="64" alt="" class="ecoprodimg">
-              <h3 class="prodh3 coingecko">Coin Gecko</h3>
+          <div class="eco-grid">
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/CoinGecko-Logo.svg" loading="lazy" width="64" alt="" class="ecoprodimg">
+                <h3 class="prodh3 coingecko">Coin Gecko</h3>
+              </div>
+              <p class="allparagraph grid">Compare DeFi Pulse Index with the wider crypto market.</p>
+              <a href="https://www.coingecko.com/en/coins/index-cooperative" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore Coin Gecko</div>
+              </a>
             </div>
-            <p class="allparagraph">Compare DeFi Pulse Index with the wider crypto market.</p>
-            <a href="https://www.coingecko.com/en/coins/index-cooperative" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore Coin Gecko</div>
-            </a>
+            <div class="bottom_box _8cc63f"></div>
           </div>
           <div class="eco-grid coimarketcap">
-            <div id="w-node-_5ce14e7f-1fb1-22a2-355d-dc40e6770d3e-732e5b4d" class="product-title"><img src="images/coinmarketcap-1.svg" loading="lazy" width="64" alt="" class="ecoprodimg light_mode_investico"><img src="images/Coinmarketcap-light.png" loading="lazy" width="64" sizes="100vw" srcset="images/Coinmarketcap-light-p-500.png 500w, images/Coinmarketcap-light-p-800.png 800w, images/Coinmarketcap-light.png 820w" alt="" class="ecoprodimg dark_mode_investico">
-              <h3 class="prodh3 tokensets">CoinMarketCap</h3>
+            <div class="grid_content_container">
+              <div class="product-title"><img src="images/image-113.png" loading="lazy" alt="" class="ecoprodimg">
+                <h3 class="prodh3 tokensets">CoinMarketCap</h3>
+              </div>
+              <p class="allparagraph grid">Compare DeFi Pulse Index with the wider crypto market.</p>
+              <a href="https://coinmarketcap.com/currencies/index-cooperative/" target="_blank" class="learnmore w-inline-block">
+                <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
+                    <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
+                  </svg></div>
+                <div class="learn_more explore">Explore Coin Market Cap</div>
+              </a>
             </div>
-            <p class="allparagraph">Compare DeFi Pulse Index with the wider crypto market.</p>
-            <a href="https://coinmarketcap.com/currencies/index-cooperative/" target="_blank" class="learnmore w-inline-block">
-              <div class="arrow_learnmore w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.9999 5.57178L11.672 6.86528L16.8534 12.0718H5.57129V13.9289H16.8534L11.672 19.1038L12.9999 20.4289L20.4284 13.0003L12.9999 5.57178Z" fill="#09AA74"></path>
-                  <path d="M13 26C10.4288 26 7.91543 25.2376 5.77759 23.8091C3.63975 22.3807 1.97351 20.3503 0.989572 17.9749C0.00563268 15.5995 -0.251811 12.9856 0.249797 10.4638C0.751405 7.94208 1.98953 5.6257 3.80762 3.80762C5.6257 1.98953 7.94208 0.751405 10.4638 0.249797C12.9856 -0.251811 15.5995 0.00563268 17.9749 0.989572C20.3503 1.97351 22.3807 3.63975 23.8091 5.77759C25.2376 7.91543 26 10.4288 26 13C25.9961 16.4466 24.6252 19.751 22.1881 22.1881C19.751 24.6252 16.4466 25.9961 13 26ZM13 1.85715C10.7962 1.85715 8.6418 2.51067 6.80937 3.73506C4.97693 4.95945 3.54872 6.69973 2.70535 8.73582C1.86197 10.7719 1.64131 13.0124 2.07126 15.1739C2.50121 17.3354 3.56246 19.3208 5.12082 20.8792C6.67917 22.4376 8.66464 23.4988 10.8261 23.9288C12.9876 24.3587 15.2281 24.138 17.2642 23.2947C19.3003 22.4513 21.0406 21.0231 22.265 19.1906C23.4893 17.3582 24.1429 15.2039 24.1429 13C24.1395 10.0458 22.9644 7.2135 20.8755 5.12454C18.7865 3.03557 15.9542 1.86052 13 1.85715Z" fill="#09AA74"></path>
-                </svg></div>
-              <div class="learn_more explore">Explore Coin Market Cap</div>
-            </a>
+            <div class="bottom_box _29b2ff"></div>
           </div>
         </div>
       </div>
@@ -883,12 +990,14 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
               <a href="mvi.html" class="footitem footlink">Metaverse Index</a>
               <a href="eth-2x-fli.html" class="footitem footlink">ETH2x-FLI</a>
               <a href="btc-2x-fli.html" class="footitem footlink">BTC2x-FLI</a>
+              <a href="bankless-bed-index.html" class="footitem footlink">BED Index</a>
               <a href="index-coop-data-index.html" class="footitem footlink">DATA Index</a>
             </div>
             <div class="resourcesfooter">
               <div class="footlinktitle">Resources</div>
-              <a href="institution.html" class="footitem footlink _1st">For institutions</a>
-              <a href="methodologist.html" class="footitem footlink">For methodologists</a>
+              <a href="methodologist.html" class="footitem footlink _1st">For methodologists</a>
+              <a href="institution.html" class="footitem footlink">For institutions</a>
+              <a href="contributor.html" class="footitem footlink">For contributors</a>
               <a href="https://www.indexcoop.com/news" class="footitem footlink">News</a>
               <a href="https://docs.indexcoop.com/" target="_blank" class="footitem footlink">Docs &amp; Guides</a>
             </div>
@@ -901,8 +1010,8 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
             </div>
           </div>
           <div class="div-block-16">
-            <div class="div-block-78"><img src="images/Group.svg" loading="lazy" width="116" alt=""></div>
-            <div class="div-block-79">
+            <div class="index-logo-cont"><img src="images/Group.svg" loading="lazy" width="116" alt=""></div>
+            <div class="icon_wrapper">
               <div class="toggle">
                 <div class="togglethemefooter footer w-embed"><label for="toggleTheme" title="Toggle theme">
                     <input id="toggleTheme" name="theme" type="checkbox">
@@ -916,25 +1025,24 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    height: 2.4rem;
+    height: 100%;
     border-radius: 8rem;
-    width: 2.4rem;
-    padding: .2rem;
+    width: 100%;
+    padding: 0;
 }
 .toggleThemefooter:before {
     position: absolute;
     content: '';
     height: 2rem;
     width: 2rem;
-    border-radius: 4rem;
-		background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
+		background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
 }
 input[type="checkbox"] {
 	display: none;
 }
 input[type="checkbox"]:checked+.toggleThemefooter:before {
     content: '';
-    background-image: url('data:image/svg+xml,%0A%3Csvg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
+    background-image: url('data:image/svg+xml,%0A%3Csvg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M17.1431 0H14.8574V3.42857H17.1431V0Z" fill="white"/%3E%3Cpath d="M32.0008 14.8571H28.5723V17.1429H32.0008V14.8571Z" fill="white"/%3E%3Cpath d="M17.1431 28.5714H14.8574V32H17.1431V28.5714Z" fill="white"/%3E%3Cpath d="M3.42857 14.8571H0V17.1429H3.42857V14.8571Z" fill="white"/%3E%3Cpath d="M5.5596 3.96492L3.94336 5.58116L6.36772 8.00553L7.98397 6.38928L5.5596 3.96492Z" fill="white"/%3E%3Cpath d="M26.4244 3.95381L24 6.37817L25.6162 7.99442L28.0406 5.57005L26.4244 3.95381Z" fill="white"/%3E%3Cpath d="M25.6182 24.0025L24.002 25.6188L26.4263 28.0431L28.0426 26.4269L25.6182 24.0025Z" fill="white"/%3E%3Cpath d="M3.96484 26.4343L6.38764 24L7.99902 25.6229L5.57623 28.0457L3.96484 26.4343Z" fill="white"/%3E%3Cpath d="M16.0003 6.85715C14.192 6.85715 12.4243 7.39337 10.9208 8.398C9.41725 9.40263 8.24539 10.8305 7.55338 12.5012C6.86138 14.1718 6.68032 16.0101 7.0331 17.7837C7.38588 19.5572 8.25665 21.1863 9.53531 22.465C10.814 23.7436 12.4431 24.6144 14.2166 24.9672C15.9901 25.32 17.8285 25.1389 19.4991 24.4469C21.1697 23.7549 22.5977 22.583 23.6023 21.0795C24.6069 19.576 25.1431 17.8083 25.1431 16C25.1431 13.5752 24.1799 11.2496 22.4653 9.53503C20.7506 7.82041 18.4251 6.85715 16.0003 6.85715ZM16.0003 22.8571C14.1817 22.8571 12.4375 22.1347 11.1516 20.8487C9.86559 19.5628 9.14314 17.8186 9.14314 16C9.14314 14.1814 9.86559 12.4372 11.1516 11.1513C12.4375 9.86531 14.1817 9.14286 16.0003 9.14286V22.8571Z" fill="white"/%3E%3C/svg%3E%0A');
 }
 </style>
                 </div>
@@ -955,47 +1063,6 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script>
-// TVL DPE
-const fetch_dpi =  fetch('https://api.coingecko.com/api/v3/coins/defipulse-index');
-const fetch_mvi = fetch('https://api.coingecko.com/api/v3/coins/metaverse-index');
-const fetch_bed = fetch('https://api.coingecko.com/api/v3/coins/bankless-bed-index');
-const fetch_eth2xfli = fetch('https://api.coingecko.com/api/v3/coins/eth-2x-flexible-leverage-index');
-const fetch_btc2xfli = fetch('https://api.coingecko.com/api/v3/coins/btc-2x-flexible-leverage-index');
-Promise.all([fetch_dpi, fetch_mvi, fetch_bed, fetch_eth2xfli, fetch_btc2xfli]).then(values => {
-    return Promise.all(values.map(r => r.json()));
-    //console.log(values);
-}).then(([dpi, mvi, bed, eth2xfli, btc2xfli]) => {
-    console.log(dpi);
-    console.log(mvi);
-    console.log(bed);
-    console.log(eth2xfli);
-    console.log(btc2xfli);
-    var dpicurrentpricenow = Math.fround(dpi.market_data.market_cap.usd);
-    var mvicurrentpricenow = Math.fround(mvi.market_data.market_cap.usd);
-    var bedcurrentpricenow = Math.fround(bed.market_data.market_cap.usd);
-    var eth2xflicurrentpricenow = Math.fround(eth2xfli.market_data.market_cap.usd);
-    var btc2xflicurrentpricenow = Math.fround(btc2xfli.market_data.market_cap.usd);
-    $(".dpicurrentpricenow").append(dpicurrentpricenow);
-    $(".mvicurrentpricenow").append(mvicurrentpricenow);  
-    $(".totalvaluelocked").append("$"+ Math.fround(dpicurrentpricenow+mvicurrentpricenow+bedcurrentpricenow+eth2xflicurrentpricenow+btc2xflicurrentpricenow).toLocaleString('en'));
-}).catch(error => {console.error(error);
-});  
-// END DPE
-// Start Twitter DPE
-const twitter_follower =  fetch('https://api.coingecko.com/api/v3/coins/index-cooperative');
-const discord_member = fetch('https://api.coingecko.com/api/v3/coins/metaverse-index');
-Promise.all([twitter_follower, discord_member]).then(values => {
-    return Promise.all(values.map(r => r.json()));
-    //console.log(values);
-}).then(([twitter_follower, discord_member]) => {
-    console.log(twitter_follower);
-    console.log(discord_member);
-    var twitter_follower = Math.fround(twitter_follower.community_data.twitter_followers/1000)//.toFixed(2)+ "K";
-    var discord_member = Math.fround(discord_member.market_data.market_cap.usd);
-   $(".twitter_follower").append((twitter_follower).toFixed(2)+ "K");
-}).catch(error => {console.error(error);
-});  
-//END TWITTER DPE
 function setThemeFromCookie() {
  const themeState = document.getElementById('content');
  themeState.className = isThemeSelected() ? 'dark-mode' : 'light-mode';
