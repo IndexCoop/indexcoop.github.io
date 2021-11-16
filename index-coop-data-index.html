@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Nov 08 2021 22:19:51 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Nov 16 2021 22:44:54 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6187d6120f73f514ff2dc505" data-wf-site="60d237b6ea65be721ff4bbfa">
 <head>
   <meta charset="utf-8">
@@ -41,6 +41,12 @@ textarea.inputfield::placeholder{
 /*	Global Light Mode	*/  
 /* 	Dark Mode Styles	*/
 /*	Global Dark Mode	*/
+#content.dark-mode .close-text {
+        color: #F7F6F2;
+  }
+#content.dark-mode .bar-container {
+    border: 1px solid #F7F6F2;
+}
 #content.dark-mode .nav-link {
 	color: #F7F6F2;
 }
@@ -443,7 +449,7 @@ input[type="text"].inputfield::-webkit-input-placeholder {
               <nav class="dropdown-list-2 w-dropdown-list">
                 <a href="index-token.html" class="dropdown-text w-dropdown-link">$INDEX</a>
                 <a href="https://snapshot.org/#/index-coop.eth" target="_blank" class="dropdown-text w-dropdown-link">Vote</a>
-                <a href="https://www.indexcoop.com/liquidity-mining" class="dropdown-text w-dropdown-link">Liquidity Mining</a>
+                <a href="http://app.indexcoop.com/liquidity-mining" class="dropdown-text w-dropdown-link">Liquidity Mining</a>
               </nav>
             </div>
             <div data-delay="3" data-hover="false" class="w-dropdown">
@@ -574,8 +580,8 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         </div>
         <div class="current_change_cont">
           <div class="btn_buysell mobile">
-            <a href="#" class="buy-button buttons w-button">Buy</a>
-            <a href="#" class="sell-button buttons w-button">Sell</a>
+            <a href="https://app.indexcoop.com/data" class="buy-button buttons w-button">Buy</a>
+            <a href="https://app.indexcoop.com/data" class="sell-button buttons w-button">Sell</a>
           </div>
           <div class="curr_change_cont">
             <div class="currentprice">
@@ -588,11 +594,11 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
             </div>
           </div>
           <div class="btn_buysell">
-            <a href="#" class="buy-button buttons w-button">Buy</a>
-            <a href="#" class="sell-button buttons w-button">Sell</a>
+            <a href="https://app.indexcoop.com/data" class="buy-button buttons w-button">Buy</a>
+            <a href="https://app.indexcoop.com/data" class="sell-button buttons w-button">Sell</a>
           </div>
         </div>
-        <p class="allparagraph product"><span class="text-span">The Data Economy is an ecosystem of data-based products and services. </span> Whereas Decentralized Finance (aka DeFi) is disrupting traditional banking and financial services, the Data Economy is disrupting the data monopolies built in Big Tech over the past 20 years.</p>
+        <p class="allparagraph product data"><span class="text-span">The Data Economy is an ecosystem of data-based products and services. </span> Whereas Decentralized Finance (aka DeFi) is disrupting traditional banking and financial services, the Data Economy is disrupting the data monopolies built in Big Tech over the past 20 years.</p>
       </div>
     </div>
     <div class="stats-section wf-section">
@@ -679,27 +685,6 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
           <div id="w-node-_14d992c2-c8a3-ec82-f5d3-981c39e9b4a8-ff2dc505" class="token_cont product">
             <div class="token_icon_cont"><img src="images/Layer-3.png" loading="lazy" width="35" height="35" alt="" class="token_icon lightdark"></div>
             <div class="token_name double">Numeraire</div>
-          </div>
-          <div id="w-node-_7ccaf277-e237-8a7e-61c4-4cc768830294-ff2dc505" class="token_cont product">
-            <div class="token_icon_cont">
-              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 64 57" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M17.1106 5.46367C16.0898 7.18043 13.8691 7.74629 12.1508 6.72647C10.4324 5.70664 9.86604 3.48796 10.8868 1.7712C11.9076 0.0544406 14.1283 -0.511419 15.8466 0.508407C17.565 1.52823 18.1314 3.74691 17.1106 5.46367Z" fill="#5F45BA"></path>
-                  <path d="M4.75473 3.85912C4.03475 5.07077 2.4636 5.47039 1.25084 4.75107C0.0380842 4.03176 -0.361902 2.46526 0.358074 1.25042C1.07805 0.0355753 2.6492 -0.360846 3.86196 0.358467C5.07791 1.08098 5.4779 2.64748 4.75473 3.85912Z" fill="#5F45BA"></path>
-                  <path d="M39.147 56.1927C52.4074 54.6358 63.0726 43.8045 63.943 30.0193C64.9222 14.5077 53.1274 1.14125 37.6015 0.166178C35.7807 0.0510876 33.9536 0.115027 32.1457 0.351601C28.4146 0.655311 25.2627 2.07795 25.2627 2.07795C22.7092 3.32476 21.0612 5.40917 21.0612 8.19691C21.0612 11.8222 24.0019 14.7634 27.6306 14.7634C28.2386 14.7634 30.3377 14.0985 30.8369 13.9258C32.7441 13.2609 34.7664 12.9859 36.7823 13.117C42.1453 13.4559 46.6796 16.5377 49.1083 20.908C50.5163 23.44 51.1658 26.3204 50.9802 29.2104C50.4523 37.5705 43.2429 43.9228 34.872 43.3953C29.9281 43.082 25.6883 40.4381 23.1508 36.605V36.6082V36.605C20.1173 32.6408 20.8181 26.3012 20.8149 26.2213C20.6901 22.6951 17.8006 19.8754 14.2423 19.8754C11.2024 19.8754 8.65206 21.9374 7.89369 24.7347C7.74649 25.2846 7.66969 26.8959 7.69209 27.11C7.06491 42.3531 18.7413 55.3743 34.056 56.3365C35.7552 56.442 37.4575 56.3941 39.147 56.1927Z" fill="#5F45BA"></path>
-                  <path d="M13.3405 15.502C12.0157 17.7303 9.13582 18.4624 6.90869 17.1388C4.68157 15.8153 3.94559 12.9381 5.27035 10.713C6.59511 8.4879 9.47501 7.7526 11.7021 9.07614C13.9293 10.3997 14.662 13.2769 13.3405 15.502Z" fill="#5F45BA"></path>
-                </svg></div>
-            </div>
-            <div class="token_name double">Orchid Protocol</div>
-          </div>
-          <div id="w-node-_0c3fd7ca-0869-2748-eb27-733c951009a6-ff2dc505" class="token_cont product">
-            <div class="token_icon_cont">
-              <div class="token_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M32 64C49.6731 64 64 49.6731 64 32C64 14.3269 49.6731 0 32 0C14.3269 0 0 14.3269 0 32C0 49.6731 14.3269 64 32 64Z" fill="#0E0E21"></path>
-                  <path d="M49.8668 39.4667L46.0668 33C45.9334 32.7333 45.6001 32.6667 45.4001 32.8667L42.9334 34.4667C42.7334 34.6 42.6668 34.9333 42.8001 35.1333L45.0001 38.8C45.0668 38.9333 45.0001 39.0667 44.9334 39.1333L32.1334 47.4C32.0668 47.4667 31.9334 47.4667 31.8668 47.4L19.2001 39.1333C19.0668 39.0667 19.0668 38.9333 19.1334 38.8L21.3334 35.1333C21.4668 34.9333 21.4001 34.6 21.2001 34.4667L18.7334 32.8667C18.4668 32.7333 18.2001 32.8 18.0668 33L14.2668 39.4667C14.0001 39.9333 14.1334 40.5333 14.6001 40.8L31.6001 51.8667C31.9334 52.0667 32.3334 52.0667 32.6668 51.8667L49.6668 40.8C50.0001 40.4667 50.1334 39.8667 49.8668 39.4667Z" fill="white"></path>
-                  <path d="M20.6002 29.4L23.0668 31C23.3335 31.1333 23.6002 31.0667 23.7335 30.8667L31.7335 17.2667C31.8002 17.1333 32.0668 17.1333 32.1335 17.2667L40.1335 30.8667C40.2668 31.1333 40.6002 31.2 40.8002 31L43.2668 29.4C43.4668 29.2667 43.5335 28.9333 43.4002 28.7333L34.0002 12.4667C33.8002 12.1333 33.5335 12 33.1335 12H30.8668C30.5335 12 30.2002 12.2 30.0002 12.4667L20.4668 28.7333C20.3335 28.9333 20.4002 29.2667 20.6002 29.4Z" fill="#2AE7A8"></path>
-                </svg></div>
-            </div>
-            <div class="token_name">Augur</div>
           </div>
         </div>
       </div>
@@ -866,7 +851,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
               </div>
             </div>
             <div style="height:0px;opacity:0;display:none" class="accordion_content">
-              <p class="allparagraph2">DATA will use circulating market capitalization to determine the weight of each token included in the index.<br><br>The weight of each token within the index will be as follows:<br>‍</p><img src="images/image-114.png" loading="lazy" width="565" sizes="(max-width: 479px) 100vw, (max-width: 767px) 75vw, 565px" srcset="images/image-114-p-500.png 500w, images/image-114.png 509w" alt="" class="data_formula">
+              <p class="allparagraph2">DATA will use circulating market capitalization to determine the weight of each token included in the index.<br><br>The weight of each token within the index will be as follows:<br>‍</p><img src="images/image-114.png" loading="lazy" width="565" sizes="(max-width: 479px) 100vw, (max-width: 767px) 74vw, 565px" srcset="images/image-114-p-500.png 500w, images/image-114.png 509w" alt="" class="data_formula">
               <div class="allparagraph2"><br>The Data Economy Index caps each token’s respective weight at 25%. <br><br>Excess weight for a given token will be redistributed to the remaining components of the Data Economy Index on a weighted basis. <br><br>This same process will be repeated for every token exceeding the 25% allocation cap.</div>
             </div>
           </div>
@@ -898,12 +883,12 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         </div>
         <div class="longline"></div>
         <div class="btn_buysell">
-          <a href="#" class="buy-button buttons w-button">Buy</a>
-          <a href="#" class="sell-button buttons w-button">Sell</a>
+          <a href="https://app.indexcoop.com/data" class="buy-button buttons w-button">Buy</a>
+          <a href="https://app.indexcoop.com/data" class="sell-button buttons w-button">Sell</a>
         </div>
         <div class="btn_buysell mobile">
-          <a href="#" class="buy-button buttons w-button">Buy</a>
-          <a href="#" class="sell-button buttons w-button">Sell</a>
+          <a href="https://app.indexcoop.com/data" class="buy-button buttons w-button">Buy</a>
+          <a href="https://app.indexcoop.com/data" class="sell-button buttons w-button">Sell</a>
         </div>
       </div>
     </div>
@@ -941,7 +926,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
               <a href="methodologist.html" class="footitem footlink _1st">For methodologists</a>
               <a href="institution.html" class="footitem footlink">For institutions</a>
               <a href="contributor.html" class="footitem footlink">For contributors</a>
-              <a href="https://www.indexcoop.com/news" class="footitem footlink">News</a>
+              <a href="http://indexcoop.com/blog" class="footitem footlink">Blog</a>
               <a href="https://docs.indexcoop.com/" target="_blank" class="footitem footlink">Docs &amp; Guides</a>
             </div>
             <div class="connectfooter">
