@@ -1207,6 +1207,10 @@ a {
   line-height: 80px;
 }
 
+.allh1.product.ethfli.polygon {
+  font-size: 68px;
+}
+
 .allh1.partners-page {
   margin-left: 0px;
 }
@@ -1420,10 +1424,15 @@ a {
 
 .allparagraph.underh1.other.contributor {
   margin-bottom: 0px;
+  text-align: left;
 }
 
 .allparagraph.underh1.other.undertitle {
   padding-right: 70px;
+}
+
+.allparagraph.underh1.undergrid.contributor {
+  text-align: left;
 }
 
 .allparagraph.join_community {
@@ -1919,6 +1928,10 @@ a {
   align-items: center;
 }
 
+.learnmore.learn_center {
+  margin-top: 8px;
+}
+
 .image-34 {
   margin-left: 50px;
   text-align: left;
@@ -2371,6 +2384,10 @@ a {
   line-height: 23px;
 }
 
+.manage-text.eth-polygon {
+  padding-bottom: 15px;
+}
+
 .hero_italic {
   margin-top: 50px;
   margin-right: 0px;
@@ -2544,6 +2561,7 @@ a {
 }
 
 .contributor_grid {
+  margin-top: 15px;
   padding-right: 30px;
   padding-left: 30px;
   justify-items: stretch;
@@ -2606,10 +2624,14 @@ a {
 
 .longline {
   overflow: visible;
-  margin-bottom: 130px;
+  margin-bottom: 100px;
   border-style: solid none none;
   border-width: 1px;
   border-color: #000;
+}
+
+.longline.indexpage {
+  margin-bottom: 20px;
 }
 
 ._404h3 {
@@ -2728,7 +2750,7 @@ a {
   border-radius: 0px;
   background-color: hsla(0, 0%, 86.7%, 0.42);
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 14px;
+  font-size: 19px;
   font-weight: 700;
 }
 
@@ -2748,18 +2770,22 @@ a {
 
 .inputfield::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
+  font-size: 19px;
 }
 
 .inputfield:-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
+  font-size: 19px;
 }
 
 .inputfield::-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
+  font-size: 19px;
 }
 
 .inputfield::placeholder {
   color: rgba(0, 0, 0, 0.5);
+  font-size: 19px;
 }
 
 .inputfield.textarea {
@@ -3034,6 +3060,12 @@ a {
   grid-template-rows: auto;
 }
 
+.product_grid.institution {
+  grid-row-gap: 35px;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
 .allparagraph2 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 24px;
@@ -3117,6 +3149,10 @@ a {
 .product_image {
   height: 100px;
   margin-bottom: 40px;
+}
+
+.product_image.data {
+  border-radius: 0px;
 }
 
 .investors_grid {
@@ -3827,12 +3863,13 @@ a {
   padding: 30px;
   -ms-grid-columns: auto 1fr;
   grid-template-columns: auto 1fr;
-  -ms-grid-rows: auto auto auto auto;
-  grid-template-rows: auto auto auto auto;
+  -ms-grid-rows: auto auto auto;
+  grid-template-rows: auto auto auto;
 }
 
 .prodcont_grid6 {
   padding: 30px;
+  grid-row-gap: 16px;
   -ms-grid-columns: auto 1fr;
   grid-template-columns: auto 1fr;
   -ms-grid-rows: auto auto auto auto auto auto;
@@ -3849,8 +3886,14 @@ a {
 .html-embed-22 {
   width: 188px;
   max-width: 188px;
+  text-align: center;
   -o-object-fit: fill;
   object-fit: fill;
+}
+
+.html-embed-22.aavelogo {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .grid-34 {
@@ -3951,6 +3994,7 @@ a {
 }
 
 .dropdown-text {
+  background-color: #fff;
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 18px;
   line-height: 23.4px;
@@ -3959,7 +4003,7 @@ a {
 
 .dropdown-text:hover {
   border-bottom: 1px solid #000;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #fff;
 }
 
 .dropdown-list-2 {
@@ -5039,6 +5083,25 @@ a {
   text-align: center;
 }
 
+.image-60 {
+  width: 188px;
+}
+
+.debt-collateral-logo {
+  width: 188px;
+  height: 120px;
+  max-width: 188px;
+}
+
+.debt-collateral-logo.aave {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  margin-top: -15px;
+  -webkit-filter: grayscale(88%);
+  filter: grayscale(88%);
+}
+
 @media screen and (min-width: 1280px) {
   .nav-link {
     margin-left: 5px;
@@ -5560,6 +5623,10 @@ a {
   .allh1.product.ethfli {
     font-size: 50px;
     line-height: 50px;
+  }
+
+  .allh1.product.ethfli.polygon {
+    font-size: 41px;
   }
 
   .line_cont {
@@ -6623,6 +6690,7 @@ a {
   }
 
   .allproductseth {
+    grid-column-gap: 16px;
     grid-row-gap: 30px;
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -6653,6 +6721,19 @@ a {
   .notification-symbol {
     margin-right: 5px;
     margin-left: 5px;
+  }
+
+  .image-60 {
+    max-width: 188px;
+  }
+
+  .debt-collateral-logo {
+    width: 188px;
+    max-width: 188px;
+  }
+
+  .debt-collateral-logo.aave {
+    margin-top: 0px;
   }
 }
 
@@ -6988,6 +7069,10 @@ a {
   .allh1.product.ethfli {
     font-size: 30px;
     line-height: 30px;
+  }
+
+  .allh1.product.ethfli.polygon {
+    font-size: 30px;
   }
 
   .heroline {
@@ -7656,7 +7741,7 @@ a {
     width: 100%;
     padding-left: 12px;
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 14px;
+    font-size: 19px;
     line-height: 18px;
     font-weight: 600;
   }
@@ -8542,6 +8627,10 @@ a {
     width: auto;
     margin-top: 0px;
   }
+
+  .debt-collateral-logo {
+    width: 80px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -8998,6 +9087,11 @@ a {
   .allh1.product.ethfli {
     font-size: 25px;
     line-height: 30px;
+  }
+
+  .allh1.product.ethfli.polygon {
+    font-size: 16.4px;
+    line-height: 20px;
   }
 
   .allh1.center {
@@ -9741,7 +9835,24 @@ a {
 
   .inputfield {
     height: 42px;
+    font-size: 14px;
     cursor: text;
+  }
+
+  .inputfield::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+
+  .inputfield:-ms-input-placeholder {
+    font-size: 14px;
+  }
+
+  .inputfield::-ms-input-placeholder {
+    font-size: 14px;
+  }
+
+  .inputfield::placeholder {
+    font-size: 14px;
   }
 
   .methodh2 {
@@ -11710,6 +11821,20 @@ a {
   align-self: stretch;
 }
 
+#w-node-add031fa-9e4d-e38c-5181-10dabbd3af1b-eed0a2af {
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
+}
+
+#w-node-a127f7d2-7f8f-63be-b14e-8a9a64221f4b-eed0a2af {
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
+}
+
 #w-node-bc9c8dc8-e114-2e48-703d-833c194b2468-eed0a2af {
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
@@ -11826,6 +11951,140 @@ a {
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
   grid-column-end: span 1;
+}
+
+#w-node-b28d43b1-40b7-54f7-b56d-19432dc78d7f-7dab511d {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
+
+#w-node-_1857bb2e-0ff3-2e2f-0a08-54eec5b000b5-7dab511d {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_35e0ce63-d26c-ffdf-cd8e-613216b966c2-7dab511d {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-ea686c67-1c6f-8494-730a-bf062dddf0d4-7dab511d {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-b06d51b1-c69a-ab7e-9112-665615f824e6-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_889d2b5c-93e3-9321-ecb4-43e57d43dd8b-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-ec4bb6f5-41f0-0396-9cac-202a80f34916-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_3e1838a8-99cf-a48d-74d7-e641115d5fd3-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_3e1838a8-99cf-a48d-74d7-e641115d5fd7-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_3e1838a8-99cf-a48d-74d7-e641115d5fdb-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_4477281b-237f-ce9e-f5b5-d04162627d83-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-c9afce6f-0ae7-fa94-25fa-c88ca57e71fd-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_24b5b6bb-fa96-4ef3-dad2-7f10a8e87f63-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_13bcbf6b-da2d-7433-7a20-91ea5f258cc5-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_1e78a3af-3145-101a-f9b2-4ff2f05c0fda-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_759aa321-65ee-fc9f-7c53-92526b4e1d53-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-ca4c1e6e-60aa-c003-1e19-af275f7ec782-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_2913ea24-4c00-bccd-8529-cd66d5011bf1-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-ed244db4-c1d7-8328-126f-e553b1f4e02c-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_08046e75-ecb7-593b-3f7d-3e4afd35a968-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_9e14323b-a43c-57a4-91ab-bd17d2e1822a-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_46873c8b-ad90-1a7a-769c-958905bcf5aa-7dab511d {
+  -ms-grid-column-align: center;
+  justify-self: center;
 }
 
 @media screen and (min-width: 1280px) {
@@ -12078,6 +12337,17 @@ a {
     -ms-grid-column-align: center;
     justify-self: center;
   }
+
+  #w-node-ea686c67-1c6f-8494-730a-bf062dddf0d4-7dab511d {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -12182,6 +12452,17 @@ a {
     align-self: auto;
     -ms-grid-column-align: auto;
     justify-self: auto;
+  }
+
+  #w-node-ea686c67-1c6f-8494-730a-bf062dddf0d4-7dab511d {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
   }
 }
 
