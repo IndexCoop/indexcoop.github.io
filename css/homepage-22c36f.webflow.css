@@ -3648,6 +3648,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  border-radius: 0px;
   color: #000;
 }
 
@@ -4788,6 +4789,7 @@ a {
 .prod_icon_cont {
   width: 10%;
   height: 100%;
+  border-radius: 20px;
 }
 
 .prod_icon_cont.ethfli {
