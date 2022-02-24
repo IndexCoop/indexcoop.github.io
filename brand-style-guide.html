@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Feb 11 2022 13:55:14 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Feb 24 2022 18:14:47 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="619edc323bd61b9445d0a2ad" data-wf-site="60d237b6ea65be721ff4bbfa">
 <head>
   <meta charset="utf-8">
@@ -66,6 +66,9 @@ textarea.inputfield::placeholder{
 }
 #content.dark-mode{
     background-color: #0F0E0B;
+    color: #F7F6F2;
+}
+#content.dark-mode a.bloglink {
     color: #F7F6F2;
 }
 #content.dark-mode .accordion_header, #content.dark-mode .allparagraph2 {
@@ -440,6 +443,11 @@ input[type="text"].inputfield::-webkit-input-placeholder {
               <a href="brand-style-guide.html" aria-current="page" class="menu_govlink w--current">Brand Guidelines</a>
             </div>
           </div>
+          <div class="menu_container mobilenav">
+            <div class="menu_gov bloglink">
+              <a href="https://indexcoop.com/blog/" class="menu_govlink bloglink"><strong>Blog</strong></a>
+            </div>
+          </div>
           <div class="div-block-93">
             <div data-delay="3" data-hover="false" class="w-dropdown">
               <div class="dropdown-nav nav-link w-dropdown-toggle">
@@ -475,6 +483,7 @@ input[type="text"].inputfield::-webkit-input-placeholder {
                 <div>Community</div>
               </div>
               <nav class="dropdown-list-2 w-dropdown-list">
+                <a href="https://indexcoop.catapultlabs.xyz/" target="_blank" class="dropdown-text w-dropdown-link">Join us!</a>
                 <a href="https://gov.indexcoop.com/" target="_blank" class="dropdown-text w-dropdown-link">Forum</a>
                 <a href="https://twitter.com/indexcoop" target="_blank" class="dropdown-text w-dropdown-link">Twitter</a>
                 <a href="https://discord.gg/BcqYxdNC3R" target="_blank" class="dropdown-text w-dropdown-link">Discord</a>
@@ -498,6 +507,12 @@ input[type="text"].inputfield::-webkit-input-placeholder {
                 <a href="about-index-coop.html" class="dropdown-text w-dropdown-link">About Us</a>
                 <a href="brand-style-guide.html" aria-current="page" class="dropdown-text w-dropdown-link w--current">Brand Guidelines</a>
               </nav>
+            </div>
+            <div data-delay="3" data-hover="true" class="w-dropdown">
+              <div class="dropdown-nav nav-link w-dropdown-toggle">
+                <a href="https://indexcoop.com/blog/" class="bloglink">Blog</a>
+              </div>
+              <nav class="dropdown-list-2 bloglink w-dropdown-list"></nav>
             </div>
           </div>
           <div class="stickytoggles">
@@ -612,7 +627,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
           <h1 class="allh1">Tonality</h1>
         </div>
         <div class="tonality_image">
-          <div class="w-layout-grid grid-37"><img src="images/Group-252.png" loading="lazy" sizes="(max-width: 479px) 26vw, (max-width: 767px) 30vw, (max-width: 991px) 690px, (max-width: 1042px) 96vw, 1001px" srcset="images/Group-252-p-500.png 500w, images/Group-252.png 1001w" alt="" class="tonal_image"><img src="images/Group-253.png" loading="lazy" sizes="(max-width: 479px) 26vw, (max-width: 767px) 30vw, (max-width: 991px) 690px, 903px" srcset="images/Group-253-p-500.png 500w, images/Group-253-p-800.png 800w, images/Group-253.png 903w" alt="" class="tonal_image"><img src="images/Group-254.png" loading="lazy" sizes="(max-width: 479px) 26vw, (max-width: 767px) 30vw, (max-width: 991px) 690px, 817px" srcset="images/Group-254-p-500.png 500w, images/Group-254.png 817w" alt="" class="tonal_image"></div>
+          <div class="w-layout-grid grid-37"><img src="images/Group-252.png" loading="lazy" sizes="(max-width: 479px) 26vw, (max-width: 767px) 30vw, (max-width: 991px) 690px, (max-width: 1042px) 96vw, 1001px" srcset="images/Group-252-p-500.png 500w, images/Group-252.png 1001w" alt="Screenshots of dark tonality docs" class="tonal_image"><img src="images/Group-253.png" loading="lazy" sizes="(max-width: 479px) 26vw, (max-width: 767px) 30vw, (max-width: 991px) 690px, 903px" srcset="images/Group-253-p-500.png 500w, images/Group-253-p-800.png 800w, images/Group-253.png 903w" alt="Screenshots of general documents in white" class="tonal_image"><img src="images/Group-254.png" loading="lazy" sizes="(max-width: 479px) 26vw, (max-width: 767px) 30vw, (max-width: 991px) 690px, 817px" srcset="images/Group-254-p-500.png 500w, images/Group-254.png 817w" alt="Screenshots of colorful Index Coop banners" class="tonal_image"></div>
         </div>
         <div class="tonality_arrow">
           <div class="arrow2 w-embed"><svg viewbox="0 0 986 24" xmlns="http://www.w3.org/2000/svg">
@@ -632,10 +647,10 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         </div>
         <div class="green_btn_container">
           <div class="button_block">
-            <a href="https://www.notion.so/index-coop/279e52fd046d4ed2abb681d87d304e79?v=192b7a90ad2b4b2da09797539c3ec7e8" target="_blank" class="green_btn w-button"><strong class="greenbtn_text">Asset Download Section</strong></a>
+            <a rel="nofollow noopener" href="https://www.notion.so/index-coop/279e52fd046d4ed2abb681d87d304e79?v=192b7a90ad2b4b2da09797539c3ec7e8" target="_blank" class="green_btn w-button"><strong class="greenbtn_text">Asset Download Section</strong></a>
           </div>
           <div class="button_block">
-            <a href="https://www.figma.com/file/In9xiyZbo5F3MzNT7C3KwS/Index-Coop---Brand-Framework?node-id=0%3A1" target="_blank" class="green_btn w-button"><strong class="greenbtn_text">Figma Asset Library</strong></a>
+            <a rel="nofollow noopener" href="https://www.figma.com/file/In9xiyZbo5F3MzNT7C3KwS/Index-Coop---Brand-Framework?node-id=0%3A1" target="_blank" class="green_btn w-button"><strong class="greenbtn_text">Figma Asset Library</strong></a>
           </div>
         </div>
       </div>
@@ -645,13 +660,13 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         <div class="head_cont style_guide">
           <h1 class="allh1">Logo</h1>
         </div>
-        <div class="logo_image"><img src="images/logo.png" loading="lazy" sizes="(max-width: 479px) 76vw, (max-width: 767px) 88vw, (max-width: 991px) 640px, (max-width: 1279px) 91vw, 1072px" srcset="images/logo-p-500.png 500w, images/logo-p-800.png 800w, images/logo-p-1080.png 1080w, images/logo-p-1600.png 1600w, images/logo-p-2000.png 2000w, images/logo-p-2600.png 2600w, images/logo.png 4296w" alt="" class="logo"></div>
+        <div class="logo_image"><img src="images/logo.png" loading="lazy" sizes="(max-width: 479px) 76vw, (max-width: 767px) 88vw, (max-width: 991px) 640px, (max-width: 1279px) 91vw, 1072px" srcset="images/logo-p-500.png 500w, images/logo-p-800.png 800w, images/logo-p-1080.png 1080w, images/logo-p-1600.png 1600w, images/logo-p-2000.png 2000w, images/logo-p-2600.png 2600w, images/logo.png 4296w" alt="black an white  Index Coop logos" class="logo"></div>
         <div class="logo_desc">
           <p class="allparagraph2">Use black logo on white backgrounds and white logo on black backgrounds.<br><br>The Index logo is based on 2 parts - the stylized head of an owl and the word Index. It should always be clearly  and have enough space for other elements.</p>
         </div>
         <div class="green_btn_container">
           <div class="button_block">
-            <a href="https://drive.google.com/drive/folders/1Xf-ilCFAloTLoxrv2mAU8YIt5XEToRQ6?usp=sharing" class="green_btn w-button"><strong class="greenbtn_text">Download Logos Now</strong></a>
+            <a rel="nofollow noopener" href="https://drive.google.com/drive/folders/1Xf-ilCFAloTLoxrv2mAU8YIt5XEToRQ6?usp=sharing" class="green_btn w-button"><strong class="greenbtn_text">Download Logos Now</strong></a>
           </div>
         </div>
         <div class="accordion_maincontainer">
@@ -728,7 +743,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
                 <div class="div-block-87">
                   <div class="dos-2"></div>
                 </div>
-                <div class="div-block-85"><img src="images/dologo3.png" loading="lazy" sizes="(max-width: 479px) 46vw, (max-width: 767px) 74vw, 355px" srcset="images/dologo3-p-500.png 500w, images/dologo3-p-800.png 800w, images/dologo3-p-1080.png 1080w, images/dologo3.png 1416w" alt="" class="image-18">
+                <div class="div-block-85"><img src="images/dologo3.png" loading="lazy" sizes="(max-width: 479px) 46vw, (max-width: 767px) 73vw, 355px" srcset="images/dologo3-p-500.png 500w, images/dologo3-p-800.png 800w, images/dologo3-p-1080.png 1080w, images/dologo3.png 1416w" alt="White Index Coop logo and name on dark colorful background" class="image-18">
                   <div class="allparagraph3">Use logo with good contrast to background</div>
                 </div>
               </div>
@@ -754,25 +769,25 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
                 <div class="div-block-87">
                   <div class="donts"></div>
                 </div>
-                <div class="div-block-85"><img src="images/dontlogo4.png" loading="lazy" sizes="(max-width: 479px) 46vw, (max-width: 767px) 74vw, 355px" srcset="images/dontlogo4-p-500.png 500w, images/dontlogo4-p-800.png 800w, images/dontlogo4-p-1080.png 1080w, images/dontlogo4.png 1428w" alt="" class="image-58"></div>
+                <div class="div-block-85"><img src="images/dontlogo4.png" loading="lazy" sizes="(max-width: 479px) 46vw, (max-width: 767px) 73vw, 355px" srcset="images/dontlogo4-p-500.png 500w, images/dontlogo4-p-800.png 800w, images/dontlogo4-p-1080.png 1080w, images/dontlogo4.png 1428w" alt="Blurry Index Coop graphics" class="image-58"></div>
               </div>
               <div class="dont_section">
                 <div class="div-block-87">
                   <div class="donts"></div>
                 </div>
-                <div class="div-block-85"><img src="images/dontlogo5.png" loading="lazy" sizes="(max-width: 479px) 46vw, (max-width: 767px) 74vw, 355px" srcset="images/dontlogo5-p-500.png 500w, images/dontlogo5-p-800.png 800w, images/dontlogo5-p-1080.png 1080w, images/dontlogo5.png 1196w" alt="" class="image-18"></div>
+                <div class="div-block-85"><img src="images/dontlogo5.png" loading="lazy" sizes="(max-width: 479px) 46vw, (max-width: 767px) 73vw, 355px" srcset="images/dontlogo5-p-500.png 500w, images/dontlogo5-p-800.png 800w, images/dontlogo5-p-1080.png 1080w, images/dontlogo5.png 1196w" alt="Wrong logo with Index Coop name" class="image-18"></div>
               </div>
               <div class="dont_section">
                 <div class="div-block-87">
                   <div class="donts"></div>
                 </div>
-                <div class="div-block-85"><img src="images/dontlogo6.png" loading="lazy" sizes="(max-width: 479px) 46vw, (max-width: 767px) 74vw, 355px" srcset="images/dontlogo6-p-500.png 500w, images/dontlogo6-p-800.png 800w, images/dontlogo6-p-1080.png 1080w, images/dontlogo6.png 1428w" alt="" class="image-59"></div>
+                <div class="div-block-85"><img src="images/dontlogo6.png" loading="lazy" sizes="(max-width: 479px) 46vw, (max-width: 767px) 73vw, 355px" srcset="images/dontlogo6-p-500.png 500w, images/dontlogo6-p-800.png 800w, images/dontlogo6-p-1080.png 1080w, images/dontlogo6.png 1428w" alt="Low contrast old Index Coop logo and name" class="image-59"></div>
               </div>
               <div class="dont_section">
                 <div class="div-block-87">
                   <div class="donts"></div>
                 </div>
-                <div class="div-block-85"><img src="images/dontlogo7.png" loading="lazy" sizes="(max-width: 479px) 46vw, 191px" srcset="images/dontlogo7-p-500.png 500w, images/dontlogo7.png 764w" alt="" class="image-51"></div>
+                <div class="div-block-85"><img src="images/dontlogo7.png" loading="lazy" sizes="(max-width: 479px) 46vw, 191px" srcset="images/dontlogo7-p-500.png 500w, images/dontlogo7.png 764w" alt="Wrong logos with Index Coop products" class="image-51"></div>
               </div>
             </div>
           </div>
@@ -865,10 +880,10 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         <div class="tonality_image">
           <div class="w-layout-grid grid-37">
             <div class="div-block-89">
-              <p class="allparagraph4">less color, a lot of black, no mascot, only monochrome index logo</p><img src="images/Group-260.png" loading="lazy" sizes="(max-width: 479px) 90px, (max-width: 767px) 150px, 200px" srcset="images/Group-260-p-500.png 500w, images/Group-260.png 600w" alt="">
+              <p class="allparagraph4">less color, a lot of black, no mascot, only monochrome index logo</p><img src="images/Group-260.png" loading="lazy" sizes="(max-width: 479px) 90px, (max-width: 767px) 150px, 200px" srcset="images/Group-260-p-500.png 500w, images/Group-260.png 600w" alt="less color, a lot of black, no mascot, only monochrome index logo">
             </div>
             <div class="div-block-89">
-              <p class="allparagraph4">use colors where needed and if reasonable mascot, pictures, graphics, pictograms</p><img src="images/Group-258.png" loading="lazy" sizes="(max-width: 479px) 90px, (max-width: 767px) 150px, 200px" srcset="images/Group-258-p-500.png 500w, images/Group-258.png 600w" alt="">
+              <p class="allparagraph4">use colors where needed and if reasonable mascot, pictures, graphics, pictograms</p><img src="images/Group-258.png" loading="lazy" sizes="(max-width: 479px) 90px, (max-width: 767px) 150px, 200px" srcset="images/Group-258-p-500.png 500w, images/Group-258.png 600w" alt="use colors where needed and if reasonable mascot, pictures, graphics, pictograms">
             </div>
             <div class="div-block-89">
               <p class="allparagraph4">use colors and mascot, no big pictures, but graphics, icons etc.</p><img src="images/Group-259.png" loading="lazy" sizes="(max-width: 479px) 90px, (max-width: 767px) 150px, 200px" srcset="images/Group-259-p-500.png 500w, images/Group-259.png 600w" alt="">
@@ -933,7 +948,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
             </div>
             <p class="allparagraph2">But the most important thing is the look. IBM Plex tries to combine many features that we also share as a DAO. It tries to be a medium between people and machines, between the natural and the engineered. The emotional and rational. The classic and the cutting-edge. It has an outstanding functionality and a cultivated appearance.</p>
           </div>
-          <div class="div-block-91"><img src="images/image-18.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 71vw, (max-width: 991px) 288.03125px, (max-width: 1279px) 40vw, 468.359375px" srcset="images/image-18-p-500.png 500w, images/image-18-p-800.png 800w, images/image-18-p-1080.png 1080w, images/image-18-p-1600.png 1600w, images/image-18-p-2000.png 2000w, images/image-18.png 2284w" alt="" class="image-54"></div>
+          <div class="div-block-91"><img src="images/image-18.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 68vw, (max-width: 991px) 269.203125px, (max-width: 1279px) 37vw, 437.765625px" srcset="images/image-18-p-500.png 500w, images/image-18-p-800.png 800w, images/image-18-p-1080.png 1080w, images/image-18-p-1600.png 1600w, images/image-18-p-2000.png 2000w, images/image-18.png 2284w" alt="" class="image-54"></div>
         </div>
         <div class="head_cont style_guide">
           <h2 class="allh2">Text Formatting</h2>
@@ -941,21 +956,21 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         <div class="description_container">
           <p class="allparagraph2">Use the Sans as standard font style. Use weights like bold or italic to highlight.<br><br>For longer texts you can also use serif font style. It is better for reading like you know form books or magazines. You can also use Mono if quote code.</p>
         </div>
-        <div class="hero_journey"><img src="images/Group-18.png" loading="lazy" sizes="(max-width: 479px) 87vw, (max-width: 767px) 93vw, 632px" srcset="images/Group-18-p-500.png 500w, images/Group-18-p-800.png 800w, images/Group-18-p-1080.png 1080w, images/Group-18-p-1600.png 1600w, images/Group-18-p-2000.png 2000w, images/Group-18.png 2531w" alt="" class="image-55"></div>
+        <div class="hero_journey"><img src="images/Group-18.png" loading="lazy" sizes="(max-width: 479px) 87vw, (max-width: 767px) 93vw, 632px" srcset="images/Group-18-p-500.png 500w, images/Group-18-p-800.png 800w, images/Group-18-p-1080.png 1080w, images/Group-18-p-1600.png 1600w, images/Group-18-p-2000.png 2000w, images/Group-18.png 2531w" alt="Text formatting example" class="image-55"></div>
         <div class="head_cont style_guide">
           <h2 class="allh2">Writing &amp; Languages</h2>
         </div>
         <div class="description_container">
           <p class="allparagraph2">English is the second language for many international users. Therefore, there will probably be a stronger acclimation to US-American English. Therefore one should orient oneself by this. So our international users can find their way around equally well.<br><br><br>You can also download the Plex font for different writing systems.</p>
         </div>
-        <div class="diff_writing"><img src="images/Group-261.png" loading="lazy" sizes="(max-width: 479px) 87vw, (max-width: 767px) 95vw, (max-width: 991px) 690px, (max-width: 1279px) 96vw, 996px" srcset="images/Group-261-p-500.png 500w, images/Group-261-p-800.png 800w, images/Group-261-p-1080.png 1080w, images/Group-261-p-1600.png 1600w, images/Group-261-p-2000.png 2000w, images/Group-261-p-2600.png 2600w, images/Group-261-p-3200.png 3200w, images/Group-261.png 3984w" alt="" class="image-56"></div>
+        <div class="diff_writing"><img src="images/Group-261.png" loading="lazy" sizes="(max-width: 479px) 87vw, (max-width: 767px) 95vw, (max-width: 991px) 690px, (max-width: 1279px) 96vw, 996px" srcset="images/Group-261-p-500.png 500w, images/Group-261-p-800.png 800w, images/Group-261-p-1080.png 1080w, images/Group-261-p-1600.png 1600w, images/Group-261-p-2000.png 2000w, images/Group-261-p-2600.png 2600w, images/Group-261-p-3200.png 3200w, images/Group-261.png 3984w" alt="Different writing system examples" class="image-56"></div>
         <div class="description_container">
           <p class="allparagraph2">IBM Plex can be freely used for any purpose. It is already integrated in many systems. For example, in Google Workplace, Adobe Creative Suite, Figma or Canva.</p>
         </div>
-        <div class="ibm_plex"><img src="images/Group-262.png" loading="lazy" sizes="(max-width: 479px) 87vw, (max-width: 767px) 95vw, (max-width: 991px) 690px, 669.09375px" srcset="images/Group-262-p-500.png 500w, images/Group-262-p-800.png 800w, images/Group-262-p-1080.png 1080w, images/Group-262-p-1600.png 1600w, images/Group-262-p-2000.png 2000w, images/Group-262-p-2600.png 2600w, images/Group-262.png 2784w" alt="" class="image-57"></div>
+        <div class="ibm_plex"><img src="images/Group-262.png" loading="lazy" sizes="(max-width: 479px) 87vw, (max-width: 767px) 95vw, (max-width: 991px) 690px, 669.09375px" srcset="images/Group-262-p-500.png 500w, images/Group-262-p-800.png 800w, images/Group-262-p-1080.png 1080w, images/Group-262-p-1600.png 1600w, images/Group-262-p-2000.png 2000w, images/Group-262-p-2600.png 2600w, images/Group-262.png 2784w" alt="Font selection menus" class="image-57"></div>
         <div class="description_container">
           <p class="allparagraph2">You can also download the latest version at Github <br>
-            <a href="#" class="view_link">https://github.com/IBM/plex/releases/latest</a><br><br>It is also available on Adobe Fonts and Google Fonts.<br><br>For further information, please visit <a href="#" class="view_link">https://www.ibm.com/plex/concept/</a>
+            <a href="https://github.com/IBM/plex/releases/latest" rel="nofollow noopener" target="_blank" class="view_link">https://github.com/IBM/plex/releases/latest</a><br><br>It is also available on Adobe Fonts and Google Fonts.<br><br>For further information, please visit <a href="https://www.ibm.com/plex/concept/" rel="nofollow noopener" target="_blank" class="view_link">https://www.ibm.com/plex/concept/</a>
           </p>
         </div>
       </div>
@@ -1151,7 +1166,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
               <div class="token_desc">
                 <p class="token_textblock">Bankless DeFi Innovation Index</p>
                 <p class="allparagraph2">GMI</p>
-                <div class="tokens_icon"><img src="images/GMI_LOGO-07.png" loading="lazy" sizes="(max-width: 767px) 70px, 100px" srcset="images/GMI_LOGO-07-p-500.png 500w, images/GMI_LOGO-07-p-800.png 800w, images/GMI_LOGO-07.png 1001w" alt="" class="tokens_svg"></div>
+                <div class="tokens_icon"><img src="images/GMI_LOGO-07.png" loading="lazy" sizes="(max-width: 767px) 70px, 100px" srcset="images/GMI_LOGO-07-p-500.png 500w, images/GMI_LOGO-07-p-800.png 800w, images/GMI_LOGO-07.png 1001w" alt="GMI token logo" class="tokens_svg"></div>
               </div>
               <div class="hex_token ed1c24">
                 <div class="token_textblock hex">#ED1C24</div>
@@ -1164,7 +1179,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         </div>
         <div class="green_btn_container">
           <div class="button_block">
-            <a href="https://docs.indexcoop.com/our-products/defi-pulse-index" target="_blank" class="green_btn w-button"><strong class="greenbtn_text">Download Token Logos  Now</strong></a>
+            <a rel="nofollow noopener" href="https://docs.indexcoop.com/our-products/defi-pulse-index" target="_blank" class="green_btn w-button"><strong class="greenbtn_text">Download Token Logos  Now</strong></a>
           </div>
         </div>
       </div>
@@ -1174,7 +1189,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
         <div class="head_cont style_guide">
           <h1 class="allh1">Mascot</h1>
         </div>
-        <div class="mascot_image"><img src="images/image-97.png" loading="lazy" sizes="(max-width: 479px) 74vw, (max-width: 767px) 90vw, (max-width: 991px) 650px, 743px" srcset="images/image-97-p-500.png 500w, images/image-97-p-800.png 800w, images/image-97-p-1080.png 1080w, images/image-97-p-1600.png 1600w, images/image-97-p-2000.png 2000w, images/image-97-p-2600.png 2600w, images/image-97.png 2972w" alt="" class="mascot_img"></div>
+        <div class="mascot_image"><img src="images/image-97.png" loading="lazy" sizes="(max-width: 479px) 74vw, (max-width: 767px) 90vw, (max-width: 991px) 650px, 743px" srcset="images/image-97-p-500.png 500w, images/image-97-p-800.png 800w, images/image-97-p-1080.png 1080w, images/image-97-p-1600.png 1600w, images/image-97-p-2000.png 2000w, images/image-97-p-2600.png 2600w, images/image-97.png 2972w" alt="Cooper the Index Coop mascot stood next to 3D Index Coop logo and name" class="mascot_img"></div>
         <div class="description_container">
           <p class="allparagraph2">Cooper is our mascot and friendly, ever-present face to everything at The Index Coop. Warm and welcoming, he or she (we don’t know yet ;-) is the icon we rally behind, post all over the web, and - hopefully - feature in more and more brand content.<br><br>Watch out for a video featuring Cooper near you soon!</p>
         </div>
@@ -1186,14 +1201,14 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
           <h1 class="allh1">Consult Coop #design</h1>
         </div>
         <div class="description_container consult">
-          <p class="allparagraph2 consult">Lastly - this is a cooperative endeavor. We succeed together. <br><br>There’s a group of designers in Coop Discord #design who can help your index find or improve it’s visual face.<br><br>Reach out, we are here to help.</p>
+          <p class="allparagraph2 consult">Lastly, this is a cooperative endeavor. We succeed together. <br><br>There is a group of designers in our Discord channel #design that can help with your design request.<br><br>Reach out, we are here to help.</p>
         </div>
       </div>
     </div>
     <div class="sign-up-for-newsletter wf-section">
       <div class="maincontainer w-container">
         <div class="form-block w-form">
-          <form id="email-form" name="email-form" data-name="Email Form" method="post" action="https://app.getresponse.com/add_subscriber.html" class="form">
+          <form id="email-form" name="email-form" data-name="Email Form" method="post" class="form">
             <div class="form_title">Sign up for our newsletter</div>
             <div class="field_cont"><input type="email" class="form_field email_footer w-input" maxlength="256" name="email" data-name="email" placeholder="email" id="email-4" required=""><input type="submit" value="Subscribe" data-wait="Please wait..." class="submit-button email_footer w-button"></div>
             <div class="w-embed">
@@ -1238,14 +1253,14 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
               <a href="methodologist.html" class="footitem footlink _1st">For methodologists</a>
               <a href="institution.html" class="footitem footlink">For institutions</a>
               <a href="contributor.html" class="footitem footlink">For contributors</a>
-              <a href="https://docs.indexcoop.com/" target="_blank" class="footitem footlink">Docs &amp; Guides</a>
+              <a rel="nofollow noopener" href="https://docs.indexcoop.com/" target="_blank" class="footitem footlink">Docs &amp; Guides</a>
             </div>
             <div class="connectfooter">
               <div class="footlinktitle">Connect with us</div>
-              <a href="https://twitter.com/indexcoop" class="footitem footlink _1st"><span class="text-span-7"></span> Twitter</a>
-              <a href="https://www.youtube.com/channel/UCsNqHm_2LKh0E4A0vf25pIw" target="_blank" class="footitem footlink"><span class="text-span-8">youtube</span> YouTube</a>
-              <a href="https://www.instagram.com/indexcoop/" target="_blank" class="footitem footlink"><span class="text-span-8">instagram</span> Instagram</a>
-              <a href="https://discord.gg/BcqYxdNC3R" target="_blank" class="footitem footlink"><span class="text-span-9">discord</span> Discord</a>
+              <a rel="nofollow noopener" href="https://twitter.com/indexcoop" target="_blank" class="footitem footlink _1st"><span class="text-span-7"></span> Twitter</a>
+              <a rel="nofollow noopener" href="https://www.youtube.com/channel/UCsNqHm_2LKh0E4A0vf25pIw" target="_blank" class="footitem footlink"><span class="text-span-8">youtube</span> YouTube</a>
+              <a rel="nofollow noopener" href="https://www.instagram.com/indexcoop/" target="_blank" class="footitem footlink"><span class="text-span-8">instagram</span> Instagram</a>
+              <a rel="nofollow noopener" href="https://discord.gg/BcqYxdNC3R" target="_blank" class="footitem footlink"><span class="text-span-9">discord</span> Discord</a>
               <a href="mailto: institutions@indexcoop.com" class="footitem footlink"><span class="text-span-10">envelope </span>Email</a>
             </div>
           </div>
