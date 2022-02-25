@@ -3966,8 +3966,8 @@ a {
   grid-row-gap: 16px;
   -ms-grid-columns: auto 1fr;
   grid-template-columns: auto 1fr;
-  -ms-grid-rows: auto auto auto auto auto auto auto auto;
-  grid-template-rows: auto auto auto auto auto auto auto auto;
+  -ms-grid-rows: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
 }
 
 .acc_subheadtitle {
@@ -3980,7 +3980,11 @@ a {
 .html-embed-22 {
   width: 188px;
   max-width: 188px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
   text-align: center;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
   -o-object-fit: fill;
   object-fit: fill;
 }
@@ -4083,6 +4087,10 @@ a {
 .dropdown-nav.nav-link {
   padding-right: 10px;
   padding-left: 10px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
   font-family: 'IBM Plex Sans', sans-serif;
   color: #000;
 }
@@ -4114,6 +4122,10 @@ a {
   opacity: 1;
   background-clip: border-box;
   -webkit-text-fill-color: inherit;
+}
+
+.dropdown-list-2.bloglink {
+  display: none;
 }
 
 .price-and-analytics {
@@ -5256,6 +5268,14 @@ a {
 
 .image-61 {
   width: 100px;
+}
+
+.link-20 {
+  color: #000;
+}
+
+.bloglink {
+  color: #000;
 }
 
 @media screen and (min-width: 1280px) {
@@ -6758,6 +6778,10 @@ a {
   .menu_gov {
     margin-top: 15px;
     text-align: left;
+  }
+
+  .menu_gov.bloglink {
+    border-bottom: 2px solid #000;
   }
 
   .text-span-27 {
@@ -12733,6 +12757,276 @@ a {
   justify-self: center;
 }
 
+#w-node-_5ea0e0cb-59ac-457a-d48f-45316cb052bb-f9344cd7 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
+
+#w-node-_0f6ae48a-c43d-9bdf-7c5a-e0f9e7a4b908-f9344cd7 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_0f6ae48a-c43d-9bdf-7c5a-e0f9e7a4b90c-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
+
+#w-node-_1ddb193d-df07-b1c7-64e8-befed6c68182-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-b133d188-444c-2ae5-5ac8-a6322be5f0bf-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_8293ea70-3b56-37c6-92f1-8ed0a7ae2df4-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_4f9a31e3-68e0-d447-60af-977cbd5a05cf-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_4f9a31e3-68e0-d447-60af-977cbd5a05d3-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_4f9a31e3-68e0-d447-60af-977cbd5a05d7-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-c65a10cb-4fb6-55d9-bdf7-90711fad45a7-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-fa14bd8a-eba9-679f-c016-b4b80783b23a-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_2b963148-f74c-4ba1-cbf3-d17a925ae7e8-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_42e5f597-2f1b-217e-1c19-c0cf69aa9655-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_30ca42db-b599-a71c-41d5-c266c914b9b5-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_599ebafb-007c-da96-8c4d-cfc5d52ab894-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_9618d8c0-4743-225c-16b3-58a737a54417-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-a05e2c34-a515-8a65-f456-2a5ccc08318a-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_03711c76-1578-da4e-1952-fc762db623b7-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_995cc4dc-d917-c704-fd41-49518fa82c6b-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_618de6de-6d5f-5ee7-a873-65937fa588fd-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-f4f8eee3-4437-0b5b-3b9c-303f17b34720-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_58840a72-7013-7747-85c0-44b60632b0c7-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_4bd9e1fc-7e1a-dc7c-9e35-966f00a45ede-f9344cd7 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_5ea0e0cb-59ac-457a-d48f-45316cb052bb-faf2798c {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
+
+#w-node-_0f6ae48a-c43d-9bdf-7c5a-e0f9e7a4b908-faf2798c {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_0f6ae48a-c43d-9bdf-7c5a-e0f9e7a4b90c-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
+
+#w-node-_1ddb193d-df07-b1c7-64e8-befed6c68182-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-b133d188-444c-2ae5-5ac8-a6322be5f0bf-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_8293ea70-3b56-37c6-92f1-8ed0a7ae2df4-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_4f9a31e3-68e0-d447-60af-977cbd5a05cf-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_4f9a31e3-68e0-d447-60af-977cbd5a05d3-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_4f9a31e3-68e0-d447-60af-977cbd5a05d7-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-c65a10cb-4fb6-55d9-bdf7-90711fad45a7-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-fa14bd8a-eba9-679f-c016-b4b80783b23a-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_2b963148-f74c-4ba1-cbf3-d17a925ae7e8-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_42e5f597-2f1b-217e-1c19-c0cf69aa9655-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_30ca42db-b599-a71c-41d5-c266c914b9b5-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_599ebafb-007c-da96-8c4d-cfc5d52ab894-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_9618d8c0-4743-225c-16b3-58a737a54417-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-a05e2c34-a515-8a65-f456-2a5ccc08318a-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_03711c76-1578-da4e-1952-fc762db623b7-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_995cc4dc-d917-c704-fd41-49518fa82c6b-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_618de6de-6d5f-5ee7-a873-65937fa588fd-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-f4f8eee3-4437-0b5b-3b9c-303f17b34720-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_58840a72-7013-7747-85c0-44b60632b0c7-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_4bd9e1fc-7e1a-dc7c-9e35-966f00a45ede-faf2798c {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
 @media screen and (min-width: 1280px) {
   #w-node-_83c2c822-3471-87a8-3516-36be226e7440-7dd0a2ac {
     -ms-grid-row: span 1;
@@ -13119,6 +13413,36 @@ a {
     -ms-grid-column-span: 2;
     grid-column-end: span 2;
   }
+
+  #w-node-_0f6ae48a-c43d-9bdf-7c5a-e0f9e7a4b90c-f9344cd7 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+
+  #w-node-_0f6ae48a-c43d-9bdf-7c5a-e0f9e7a4b90c-faf2798c {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -13259,6 +13583,36 @@ a {
   }
 
   #w-node-ea686c67-1c6f-8494-730a-bf062dddf0d4-18e66e8e {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+
+  #w-node-_0f6ae48a-c43d-9bdf-7c5a-e0f9e7a4b90c-f9344cd7 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+
+  #w-node-_0f6ae48a-c43d-9bdf-7c5a-e0f9e7a4b90c-faf2798c {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;

@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Feb 11 2022 13:55:14 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Feb 24 2022 18:14:47 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6201c69db595645218e66e8e" data-wf-site="60d237b6ea65be721ff4bbfa">
 <head>
   <meta charset="utf-8">
@@ -66,6 +66,9 @@ textarea.inputfield::placeholder{
 }
 #content.dark-mode{
     background-color: #0F0E0B;
+    color: #F7F6F2;
+}
+#content.dark-mode a.bloglink {
     color: #F7F6F2;
 }
 #content.dark-mode .accordion_header, #content.dark-mode .allparagraph2 {
@@ -440,6 +443,11 @@ input[type="text"].inputfield::-webkit-input-placeholder {
               <a href="brand-style-guide.html" class="menu_govlink">Brand Guidelines</a>
             </div>
           </div>
+          <div class="menu_container mobilenav">
+            <div class="menu_gov bloglink">
+              <a href="https://indexcoop.com/blog/" class="menu_govlink bloglink"><strong>Blog</strong></a>
+            </div>
+          </div>
           <div class="div-block-93">
             <div data-delay="3" data-hover="false" class="w-dropdown">
               <div class="dropdown-nav nav-link w-dropdown-toggle">
@@ -475,6 +483,7 @@ input[type="text"].inputfield::-webkit-input-placeholder {
                 <div>Community</div>
               </div>
               <nav class="dropdown-list-2 w-dropdown-list">
+                <a href="https://indexcoop.catapultlabs.xyz/" target="_blank" class="dropdown-text w-dropdown-link">Join us!</a>
                 <a href="https://gov.indexcoop.com/" target="_blank" class="dropdown-text w-dropdown-link">Forum</a>
                 <a href="https://twitter.com/indexcoop" target="_blank" class="dropdown-text w-dropdown-link">Twitter</a>
                 <a href="https://discord.gg/BcqYxdNC3R" target="_blank" class="dropdown-text w-dropdown-link">Discord</a>
@@ -498,6 +507,12 @@ input[type="text"].inputfield::-webkit-input-placeholder {
                 <a href="about-index-coop.html" class="dropdown-text w-dropdown-link">About Us</a>
                 <a href="brand-style-guide.html" class="dropdown-text w-dropdown-link">Brand Guidelines</a>
               </nav>
+            </div>
+            <div data-delay="3" data-hover="true" class="w-dropdown">
+              <div class="dropdown-nav nav-link w-dropdown-toggle">
+                <a href="https://indexcoop.com/blog/" class="bloglink">Blog</a>
+              </div>
+              <nav class="dropdown-list-2 bloglink w-dropdown-list"></nav>
             </div>
           </div>
           <div class="stickytoggles">
@@ -596,7 +611,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
     <div class="hero-section wf-section">
       <div class="maincontainer product w-container">
         <div class="head_cont product ethfli">
-          <div class="prod_icon_cont ethfli"><img src="images/iMATIC-FLI-P-512-pulse-red.png" loading="lazy" sizes="(max-width: 479px) 21vw, (max-width: 767px) 13vw, 100px" srcset="images/iMATIC-FLI-P-512-pulse-red-p-500.png 500w, images/iMATIC-FLI-P-512-pulse-red.png 512w" alt="" class="prod_icon maticfli"></div>
+          <div class="prod_icon_cont ethfli"><img src="images/iMATIC-FLI-P-512-pulse-red.png" loading="lazy" sizes="(max-width: 479px) 21vw, (max-width: 767px) 40px, 100px" srcset="images/iMATIC-FLI-P-512-pulse-red-p-500.png 500w, images/iMATIC-FLI-P-512-pulse-red.png 512w" alt="iMATIC-FLI-Polygon token" class="prod_icon maticfli"></div>
           <h1 class="allh1 product maticfli polygon">Inverse MATIC Flexible Leverage Index (Polygon)<br></h1>
         </div>
         <div class="current_change_cont">
@@ -660,11 +675,11 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
       <div class="w-container">
         <div class="w-layout-grid allproductseth">
           <div id="w-node-_35e0ce63-d26c-ffdf-cd8e-613216b966c2-18e66e8e" class="token_cont">
-            <div class="token_icon_cont"><img src="images/usd-coin-usdc-logo-1.svg" loading="lazy" width="64" alt="" class="token_icon"></div>
+            <div class="token_icon_cont"><img src="images/usd-coin-usdc-logo-1.svg" loading="lazy" width="64" alt="USDC logo" class="token_icon"></div>
             <div class="token_name">USDC</div>
           </div>
           <div id="w-node-_1857bb2e-0ff3-2e2f-0a08-54eec5b000b5-18e66e8e" class="token_cont">
-            <div class="token_icon_cont"><img src="images/polygon-matic-logo.svg" loading="lazy" width="64" alt="" class="token_icon"></div>
+            <div class="token_icon_cont"><img src="images/polygon-matic-logo.svg" loading="lazy" width="64" alt="Polygon logo" class="token_icon"></div>
             <div class="token_name">MATIC</div>
           </div>
           <div id="w-node-ea686c67-1c6f-8494-730a-bf062dddf0d4-18e66e8e" class="token_cont debt">
@@ -917,7 +932,7 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
     <div class="sign-up-for-newsletter wf-section">
       <div class="maincontainer w-container">
         <div class="form-block w-form">
-          <form id="email-form" name="email-form" data-name="Email Form" method="post" action="https://app.getresponse.com/add_subscriber.html" class="form">
+          <form id="email-form" name="email-form" data-name="Email Form" method="post" class="form">
             <div class="form_title">Sign up for our newsletter</div>
             <div class="field_cont"><input type="email" class="form_field email_footer w-input" maxlength="256" name="email" data-name="email" placeholder="email" id="email-4" required=""><input type="submit" value="Subscribe" data-wait="Please wait..." class="submit-button email_footer w-button"></div>
             <div class="w-embed">
@@ -962,14 +977,14 @@ input[type="checkbox"]:checked+.toggleThemefooter:before {
               <a href="methodologist.html" class="footitem footlink _1st">For methodologists</a>
               <a href="institution.html" class="footitem footlink">For institutions</a>
               <a href="contributor.html" class="footitem footlink">For contributors</a>
-              <a href="https://docs.indexcoop.com/" target="_blank" class="footitem footlink">Docs &amp; Guides</a>
+              <a rel="nofollow noopener" href="https://docs.indexcoop.com/" target="_blank" class="footitem footlink">Docs &amp; Guides</a>
             </div>
             <div class="connectfooter">
               <div class="footlinktitle">Connect with us</div>
-              <a href="https://twitter.com/indexcoop" class="footitem footlink _1st"><span class="text-span-7"></span> Twitter</a>
-              <a href="https://www.youtube.com/channel/UCsNqHm_2LKh0E4A0vf25pIw" target="_blank" class="footitem footlink"><span class="text-span-8">youtube</span> YouTube</a>
-              <a href="https://www.instagram.com/indexcoop/" target="_blank" class="footitem footlink"><span class="text-span-8">instagram</span> Instagram</a>
-              <a href="https://discord.gg/BcqYxdNC3R" target="_blank" class="footitem footlink"><span class="text-span-9">discord</span> Discord</a>
+              <a rel="nofollow noopener" href="https://twitter.com/indexcoop" target="_blank" class="footitem footlink _1st"><span class="text-span-7"></span> Twitter</a>
+              <a rel="nofollow noopener" href="https://www.youtube.com/channel/UCsNqHm_2LKh0E4A0vf25pIw" target="_blank" class="footitem footlink"><span class="text-span-8">youtube</span> YouTube</a>
+              <a rel="nofollow noopener" href="https://www.instagram.com/indexcoop/" target="_blank" class="footitem footlink"><span class="text-span-8">instagram</span> Instagram</a>
+              <a rel="nofollow noopener" href="https://discord.gg/BcqYxdNC3R" target="_blank" class="footitem footlink"><span class="text-span-9">discord</span> Discord</a>
               <a href="mailto: institutions@indexcoop.com" class="footitem footlink"><span class="text-span-10">envelope </span>Email</a>
             </div>
           </div>
